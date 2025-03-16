@@ -1,0 +1,485 @@
+SHA,Message,Author,Date
+73486cb5f5862a443b42c2aff68b82320218cbcd,"chore: fix link broken (#13192)
+
+* chore: fix link broken
+
+Signed-off-by: snoppy <michaleli@foxmail.com>
+
+* Update packages/template-compiler/README.md [skip ci]
+
+---------
+
+Signed-off-by: snoppy <michaleli@foxmail.com>
+Co-authored-by: Eduardo San Martin Morote <posva@users.noreply.github.com>",Snoppy,2024-06-14T12:52:12Z
+e428d891456eeb6d34cfac070c423694dcda8806,"chore: browser compatibility table link (#13187)
+
+Updated Browser Compatibility reference. The previous currently returns HTTP 404.",Artfaith,2024-05-21T07:51:55Z
+bed04a77e575d6c4c1d903f60087dca874f7213e,chore: update issue form [ci skip],Evan You,2023-12-31T13:22:32Z
+0191d50c31404afb730cd2a60f4500c20771f32f,chore: eol readme (#13142),Evan You,2023-12-31T09:32:08Z
+cdcc4f0c667ca4166f87034c6105514ba7b004cc,chore: release name for 2.7.16 [ci skip],Evan You,2023-12-24T15:13:43Z
+13f4e7dc03e2caed900ac70ff8b8fe58dda45663,release: v2.7.16,Evan You,2023-12-24T15:02:07Z
+56ce7f8c573116ed6683149206cf35c987249d42,"fix(lifecycle): esnure component effect scopes are disconnected
+
+close #13134",Evan You,2023-12-24T14:40:05Z
+305e4ae9dce0a05a422b675ff555f17878e86063,release: v2.7.16-beta.2,Evan You,2023-12-14T01:28:08Z
+3e1037e4a0317fe78ae022e789afbbc9453b15eb,chore: bump vitest to 1.0.4,Evan You,2023-12-14T01:21:26Z
+db9c566032da0ec5cd758a3e8525e9733874c1e5,"fix: account for nested render calls
+
+close #13131",Evan You,2023-12-14T01:21:11Z
+895669ffa01f8075a326308caa8ad6a5f69a1919,"fix(types): export more types for v3 alignment (jsx / component options)
+
+close #13078
+close #13128",Evan You,2023-12-14T00:33:45Z
+73bdf14ef5c9979dcba18ede3410515cecbe2f2f,release: v2.7.16-beta.1,Evan You,2023-12-08T01:42:01Z
+e0747f40a879b4000a1959d21377b51d1f1ed988,fix(keep-alive): fix memory leak without breaking transition tests,Evan You,2023-12-07T09:07:15Z
+2632249925e632e56f6dfc8fdbcf682c82e4081b,"fix(keep-alive): fix keep-alive memory leak
+
+close #12827",Evan You,2023-12-07T08:12:36Z
+3650c12f7d3a20f3155bc1fd2b068e84289e0d33,"fix(types): provide types for built-in components
+
+close #13002",Evan You,2023-12-07T06:41:10Z
+83d95351a9f809311d624fc3398e7f6829b72447,"fix(compiler-sfc): check template `ref` usage,  (#12985)
+
+close #12984",lsdsjy,2023-12-07T06:14:27Z
+24fcf69624a633d43dfc0aa5fa6b93d11de7fad5,"fix(types): type VNodeChildren should allow type number  (#13067)
+
+close #12973",xonx,2023-12-07T05:59:43Z
+6d857f5bee275dc98106e3b2cbc7722f5ec0cfc0,"fix(watch): new property addition should trigger deep watcher with getter
+
+close #12967
+close #12972",Evan You,2023-12-06T16:13:31Z
+a174c29dab2cf655b06f7870e0ac5a78ef35ec8a,"fix(types): fix shallowRef's return type  (#12979)
+
+close #12978",Simon Lévesque,2023-12-06T15:51:56Z
+f5ef882a781b8a62c9ca00e95006d07636567c8e,"fix(style): always set new styles
+
+close #12901
+close #12946",Evan You,2023-12-06T15:17:02Z
+d6468c4c383184acd66f3c9091005e83836a43f3,chore(deps): bump esbuild,Evan You,2023-12-06T09:29:47Z
+25f97a5033187372e7b8c591c79336197ee5c833,"fix(compiler-sfc): fix rewriteDefault edge cases
+
+close #13060
+close #12892
+close #12906",Evan You,2023-12-06T09:25:12Z
+10c2a87c7038f2f80df23044c48a130bea253bf8,chore(deps): bump @babel/parser,Evan You,2023-12-06T08:48:30Z
+ae3e4b1c706b8d61a4a312ca5d23441df021b4b4,"fix(utils): unwrap refs when stringifying values in template
+
+close #12884
+close #12888",Evan You,2023-12-06T08:38:16Z
+de0b97b3eadae120eda505b45df2de2115dcb6f0,"fix(types): fix type augmentation and compiler-sfc types w/moduleResolution: bundler (#13107)
+
+close #13106",Adam Hines,2023-12-06T07:52:18Z
+45d6ad6645e960a3ee52ad9667520a1625f10dfd,"chore(compiler-sfc): specify prettier version (#13053)
+
+close: #13052",Grigorii K. Shartsev,2023-12-06T07:49:41Z
+0ad8e8d94f3a3bf4429f25850c85a6bbb2b81364,fix(shallowReactive): should track value if already reactive when set in shallowReactive,Evan You,2023-12-06T07:45:15Z
+d30f6fd25f90973a84fadb43eef75a54c4b42ea2,test: fix tests,Evan You,2023-12-06T07:21:00Z
+08382f008016c3b3b93f84594266f2e191fee91d,"fix(props): should not unwrap props that are raw refs
+
+close #12930",Evan You,2023-12-06T07:10:49Z
+947993f7e8e445b9032dd59d7f484593c3174452,chore: bump vitest to 1.0,Evan You,2023-12-06T07:08:23Z
+223a9e9f2ecf013e6ee5dbf98cbaa8cadf9daf50,chore: bust sponsor cache [ci skip],Evan You,2023-11-07T07:32:23Z
+81598ea2f3bdbc81ae50f2fa9b9e547efc6b6261,release: v2.7.15,Evan You,2023-10-23T07:55:40Z
+af9a10f3c1340b85f8d5aa300c478f2f1cdf5f1d,chore: update snapshots,Evan You,2023-10-23T07:15:18Z
+c22363425ae246ccbb8418342e94edfa270d93e5,fix(patch): clone insert hooks to avoid being mutated during iteration (#12905),xdm,2023-10-23T07:11:13Z
+51fef2ca69459c1175e105991f60511f1996e0c8,fix(compiler-sfc): add semicolon after `defineProps` statement (#12879),Liu Bo,2023-10-23T07:09:23Z
+b8c8b3fc7a211744fdabd237a1a986a1f80b7c43,fix(compiler-sfc): Resolve object expression parsing errors in `v-on` (#12862),webfansplz,2023-10-23T07:08:58Z
+d27c128b7cb1640f3aa185a5ecdea4ff35763794,fix(compiler-sfc): fix macro usage in multi-variable declaration (#12873),webfansplz,2023-10-23T07:08:34Z
+bb59751dd4e45afcaafd607f22505a724b1ef841,fix(compiler-sfc): Optimize the value of emitIdentifier (#12851),webfansplz,2023-10-23T07:08:17Z
+099401e227fd5ed496ff615528d1a9b3b64d4fbf,fix(types/sfc): improve the type inference using `withDefaults` (#12872),webfansplz,2023-10-23T07:06:28Z
+67c1d26cb0af3eb2db0a11fc7768a8299e7f7d58,"fix(types): correct serverPrefetch this type (#13068)
+
+close #12488",xonx,2023-10-23T06:58:47Z
+74ca5a13ba12a31580f1567e7c6d789e96730e46,fix(lifecycle): scope might changed when call hook (#13070),Red Huang,2023-10-22T02:52:10Z
+1399ee6aa0aa3e44a70780cfd0aca3d384c97fa4,test: pin esbuild to 0.16 for karma-esbuild compat,Evan You,2023-10-22T02:46:45Z
+78ef6271d237e83fbd647567f2b79a5786f09d3d,test: upgrade vitest + fix ssr tests for Node 18+,Evan You,2023-10-22T02:32:47Z
+6149048ce95bda9be7c14abed45859b743842ce7,chore: update node version task name,Evan You,2023-10-22T01:47:16Z
+18cc5479f6d654052ded0ab3ba755656f72747f0,chore: bump required node and pnpm versions for maintenance,Evan You,2023-10-22T01:40:18Z
+49b6bd4264c25ea41408f066a1835f38bf6fe9f1,refactor(shared): update `genStaticKeys` (#13010),mikoloism,2023-04-27T09:43:19Z
+a9ca2d85193e435e668ba25ace481bfb176b0c6e,chore: typos (#12949),rj1,2023-02-04T18:16:38Z
+d52fbff7a77d8d9c032a74a21c34e2c122add5d9,chore: fix typo in utils.ts (#12927) [skip ci],星宿君,2023-01-12T14:47:00Z
+0e8511a8becf627e00443bd799dd99e5fd1b8a35,chore: fix typo in apiAsyncComponent.ts (#12912),Vadim,2022-12-27T21:38:05Z
+34c6192f4a5d0471da5655ebcf111653fd920172,chore: update links (http=https) (#12911),Ihor Sychevskyi,2022-12-27T09:19:37Z
+2e570617666983ababcfd167dfa50208f5dfd45a,"chore: comment typos (#12878)
+
+Co-authored-by: 方恒 <fangheng@shwpg.com>",Caichong,2022-12-14T08:43:02Z
+ca11dc6a86f26accc893c1ce5b611dc84a2e7c2d,chore: fix typo (#12894),董雨航,2022-12-06T14:35:28Z
+9dd006b481b4299462e044741bac0861c0b1775c,release: v2.7.14,Evan You,2022-11-09T12:39:52Z
+29b5f588032600baae9854ac9a4105916a5aa648,"fix(reactivity): avoid using WeakMap for IE compatibility
+
+Using a WeakMap polyfill isn't ideal because the reason we tried to use
+WeakMap was to work with non-extensible objects. However, WeakMap
+polyfill for non-extensible objects are non-weak and could lead to
+memory leaks.
+
+The trade-off is that we remove support for `readonly()` on
+non-extensible objects, which seems reasonable.
+
+close #12837",Evan You,2022-11-09T12:33:05Z
+d1899caf688de961e63e7a0d56f806fc4a12efd9,"fix(provide/inject): do not mutate original provide options during merge
+
+fix #12854",Evan You,2022-11-09T12:04:25Z
+5e3d4e90cdf92ec0a72bbb2bd44125f1faafae1d,"fix(compiler-sfc): fix template usage check edge case for v-slot destructured default value (#12842)
+
+fix #12841",a161803398,2022-11-09T09:52:35Z
+5aed733ab6b6605314cc5f24cc1b1dd9aa4413c8,test: add test case for #12778,Evan You,2022-11-09T09:35:45Z
+f7db7f361b6356591781b9f33abbb0d5b7f9b97c,"fix(types): fix spreading VNodeData in tsx (#12789)
+
+fix #12778",k-furusho,2022-11-09T09:34:55Z
+0b3cf7dda9ac605b2b9f799acacd2793e974f225,"fix(types): stricter type condition for `EventHandlers` (#12840)
+
+fix #12832",webfansplz,2022-11-09T09:25:28Z
+a5afc4d0a4bfb9a777ac39b942edb932aad71097,chore: fix typo (#12863),webfansplz,2022-11-09T08:07:36Z
+6d9aac8bd38f6d30a6db70b51fa46f27cbeac559,chore: fix some broken links to v2 docs (#12839),Jinjiang,2022-10-19T04:45:59Z
+a7a71ad99071c8c48ae9c106a19f81e70ded4898,Update the dev to main in the PR template (#12834),Jinjiang,2022-10-16T12:13:22Z
+259c7060da72ea3040fc8c3de4ecb823ad5059f4,chore: fix changelog rendering [ci skip],Evan You,2022-10-15T09:39:04Z
+df281b0e4c400be18df8bcf4e83df8b25a81e21b,release: v2.7.13,Evan You,2022-10-14T03:41:56Z
+800207c473c7d6dfcdc883100a3d443fc5ad2e39,"fix(effectScope): calling off() of a detached scope should not break currentScope
+
+fix #12825",Evan You,2022-10-14T02:51:07Z
+5960f05c69099c174062b6672c7a21d717a3bccf,fix(watch): avoid traversing objects that are marked non-reactive (#12806),不见月,2022-10-12T13:25:26Z
+8e262618cdc3251ca9630b17de4a000567ffb007,"fix(types): style attribute svg (#12800)
+
+Set style attribute on svg to use `StyleValue`",Blake Newman,2022-10-12T13:24:26Z
+4cad41007174a7eeebf4472ddbd7b3b693db03f1,release: v2.7.12,Evan You,2022-10-12T13:41:36Z
+e80cd09fff570df57d608f8f5aaccee6d7f31917,"Revert ""fix(setup): setup hook should be called before beforeCreate""
+
+This reverts commit e1342df7847a51c75192fec74e94378178e046b0.
+
+reopen #12802
+close #12821
+close #12822",Evan You,2022-10-12T13:22:26Z
+c61395d3f1ed926d2783d8460970ed20ea01dc4f,release: v2.7.11,Evan You,2022-10-11T11:13:06Z
+8880b55d52f8d873f79ef67436217c8752cddef5,"perf: improve unsub perf for deps with massive amount of subs
+
+close #12696",Evan You,2022-10-11T11:02:47Z
+738f4b3c570dc3a1818924a203a9f8e4b1ec90f0,"fix(build): enforce LF line ending in built files
+
+fix #12819",Evan You,2022-10-11T09:51:46Z
+cc14d4452c66e90341b7f9a5cdd2b7acffa529e9,chore: bump build deps,Evan You,2022-10-11T09:39:59Z
+e1342df7847a51c75192fec74e94378178e046b0,"fix(setup): setup hook should be called before beforeCreate
+
+fix #12802
+
+Note this commit moves the initialization of injections and props to
+before the invocation of beforeCreate. This should not cause breakage
+because props and inject normalization has always been done before
+beforeCreate, so code that attempts to modifiy props/inject options
+inside beforeCreate should have never worked.",Evan You,2022-10-11T08:23:08Z
+0d6d972b32521fd18eb853b1073c0a19859a499a,"fix(compiler-sfc): export parseComponent for compat with fork-ts-checker-webpack-plugin
+
+fix #12719",Evan You,2022-10-11T06:58:24Z
+bc5b92adde147436f2adb25e457f0c967829467f,"fix(types): fix error with options watch (#12779)
+
+fix #12780",fukang wang,2022-10-11T06:43:33Z
+fb1393009660b38046b1f6dfb532b481cc53b3b7,"fix(sfc): prune returned bindings for non-TS as well
+
+In Vue 3, pruning is only done for TS to produce valid code and
+tree-shaking is done by inlining the template for production.
+In Vue 2 we do not inline the template in production, so return binding
+pruning is needed in all cases.
+
+fix #12765",Evan You,2022-10-11T06:09:10Z
+87f69aa26f195390b948fbb0ff62cf954b58c82c,"fix(types): support Ref and function types in tsx ref attribute (#12759)
+
+fix #12758",Shiluo34,2022-10-11T05:36:50Z
+5d26f815c643d41e6ca6f29329593223b981fc24,"fix(reactivity): check skip first before checking ref when creating observer (#12813)
+
+fix #12812",Xiersa,2022-10-11T05:26:20Z
+4a0d88e46e4180edc7f22e36c25df3f8ac5d60d2,"fix(reactivity): use WeakMap for proxy/raw checks, compat with non-extensible objects
+
+fix #12799
+close #12798",Evan You,2022-10-11T04:26:19Z
+27eed829ccf9978a63b8cd989ff4c03897276bc2,fix(types): vue 3 directive type compatibility (#12792),ZHAO Jinxiang,2022-10-11T03:51:05Z
+2f335b2f9d09b962f40e38740826d444e4fff073,fix(sfc): remove sfc scoped deep syntax deprecation warnings,Evan You,2022-10-11T03:41:31Z
+60d268c4261a0b9c5125f308468b31996a8145ad,chore: cache bust svg [ci skip],Evan You,2022-09-01T06:31:31Z
+d189b4beaa90b9fe58fd3f66ba9e09d340755196,chore: special sponsor [ci skip],Evan You,2022-09-01T06:30:09Z
+ee57d9fd1d51abe245c6c37e6f8f2d45977b929e,release: v2.7.10,Evan You,2022-08-23T01:29:42Z
+e0b26c483a1ba407a818b1fcba1a439df24e84a8,"fix: fix parent of multi-nested HOC $el not updating (#12757)
+
+fix #12589",不见月,2022-08-23T01:22:45Z
+46ca7bcddc06c50796ccff82d8c45693f1f14f47,"fix(compiler-sfc): avoid deindent when lang is jsx/tsx
+
+fix #12755",Evan You,2022-08-23T01:18:36Z
+810f6d12edea47cde7f39eaf7ec3ae1b7300d40c,fix(types): Add missing type parameter constraints (#12754),Nathan Shively-Sanders,2022-08-22T02:28:39Z
+15618888cb6aae2b6f0151b32c261b1fc19db1b8,release: v2.7.9,Evan You,2022-08-19T04:27:12Z
+8521f9d3f63d26bde99b747f0cb14d0ac5ba5971,"fix(types): fix missing error for accessing undefined instance properties
+
+fix #12718",Evan You,2022-08-19T04:22:51Z
+7161176cd0dff10d65ab58e266018aff2660610f,"fix: fix effect scope tracking for manually created instances
+
+fix #12705",Evan You,2022-08-18T10:14:50Z
+165a14a6c6c406176037465d2961259c5c980399,"fix(ssr): fix on-component directives rendering (#12661)
+
+fix #10733",Alexander Lichter,2022-08-18T08:22:55Z
+bba6b3d6b4e3e26d28abbf20e74ec2f3e64f1a92,feat(types): enhance type for onErrorCaptured (#12735),不见月,2022-08-18T08:20:27Z
+9eb8ea5b63eec2b09f268738e9d0e311d9eafb19,chore: fix some legacy doc urls in warnings and readme (#12725) [ci skip],GU Yiling,2022-08-18T08:12:20Z
+2263948c249e7486403bc5880712e6d9fd15c17f,"fix: directives shorthand normalize error (#12744)
+
+fix #12743",JuniorTour,2022-08-18T08:11:47Z
+5221d4d3b6049c87d196d99dbb64bcd3f3b07279,fix(compiler-sfc): rewriteDefault for class with decorators (#12747),林烁壕,2022-08-18T08:01:00Z
+89a6b5e8658a6e3ae2cf649829901784ac9deb3c,"feat(types): support mixins inference for new Vue() (#12737)
+
+close #12730",gu,2022-08-18T07:56:37Z
+b4bf4c52ad31e02307cfd4d643dc5610c893e3ba,"fix(types): allow attaching unknown options to defined component
+
+fix #12742",Evan You,2022-08-18T07:32:12Z
+80d1baf92050da411fb1bfe714401c498001dd36,"feat(types): export DefineComponent
+
+close #12748",Evan You,2022-08-18T07:23:47Z
+f0057b101e6451d5095cdb7fd6308fd31ac0450c,"fix(watch): avoid pre watcher firing on unmount
+
+fix #12703",Evan You,2022-08-15T11:06:38Z
+bd89ce53a9de417a9372630bb5d433a40acc1a53,"fix: ensure render watcher of manually created instance is correctly tracked in owner scope
+
+fix #12701",Evan You,2022-08-15T07:37:13Z
+4b37b568c7c3fd238aa61fcc956f882223f8e87f,"fix(types): fix options suggestions when using defineComponent
+
+functional component overloads should be moved last
+
+fix #12736",Evan You,2022-08-15T01:53:12Z
+5c742eb2e0d8dad268fb29ed4f92d286b5e0f4b5,"fix(compiler-sfc): allow full hostnames in asset url base (#12732)
+
+fix #12731",Jonas,2022-08-15T01:37:08Z
+00458cd38d209410d3c675729230a42a0a34a4b9,"fix(types): Make SetupBindings optional on ExtendedVue and CombinedVueInstance (#12727)
+
+fix #12726
+fix #12717",jf-paradis,2022-08-09T00:50:53Z
+1d8b892fcd9edcef1feeed74ad586beabb9f6df2,release: v2.7.8,Evan You,2022-07-22T03:24:39Z
+2af751b6efa0cd9cb817ed96af41948e92599837,"fix(reactivity): fix shallowReactive nested ref setting edge cases
+
+ref #12688",Evan You,2022-07-22T03:19:34Z
+ba7dd2c4ed62dba30bde7c1d521f7bfbab529102,fix(types): export `defineAsyncComponent` type (#12684),Daniel Roe,2022-07-22T02:18:52Z
+a695c5a6df415101a5f728e87dbe087b4fbb0b7b,"fix(sfc): align `<script setup>` component resolution edge case with v3 (#12687)
+
+fix #12685",edison,2022-07-22T02:18:27Z
+fabc1cf89f55dd7f3f95fa7890d2540f40e9f845,"fix(types): avoid circular type inference between v2 and v3 instance types
+
+fix #12683",Evan You,2022-07-22T02:06:43Z
+ce6fc149e3a60d811e19f7b100a5f80fed18018d,types: fix manual api types for useAttrs/useListeners,Evan You,2022-07-22T02:05:35Z
+adf3ac8adcf204dcc34b851da6ab4d914bd11cf9,"feat(setup): support listeners on setup context + `useListeners()` helper
+
+These are added because Vue 2 does not include listeners in
+`context.attrs` so there is no way to access the equivalent of
+`this.$listeners` in `setup()`.",Evan You,2022-07-20T04:13:04Z
+135d07442acd04f64fc470581a4e8b6feaba1f81,chore(sfc): remove useless vue-template-es2015-compiler (#12677),troy351,2022-07-20T03:16:01Z
+fc16281cf5bd1506e8cfe62eee1ef02dac82bad5,release: v2.7.7,Evan You,2022-07-16T14:45:31Z
+e8d3a7d7a17f9e66d592fb1ddc4a603af9958d36,"fix(codegen): script setup should not attempt to resolve native elements as component
+
+fix #12674",Evan You,2022-07-16T14:03:44Z
+67760f8d30778f58afeada3589d4ac4493329ad5,"fix(setup): ensure setup context slots can be accessed immediately
+
+fix #12672",Evan You,2022-07-16T13:45:03Z
+ea5d0f3fbfd983cb0275457cbcef344f926381ea,"fix(inject): fix edge case of provided with async-mutated getters
+
+fix #12667",Evan You,2022-07-16T13:33:48Z
+25ffdb62d22fe8688aca144d945671d5c82a8887,"fix(watch): fix queueing multiple post watchers
+
+fix #12664",Evan You,2022-07-16T12:46:39Z
+46ec64869479393f95b6abda7a4adecf19867d06,"fix(types): vue.d.ts should use relative import to v3-component-public-instance (#12668)
+
+fix #12666",Nathan Shively-Sanders,2022-07-16T12:21:07Z
+7d4a7722e3a8bc52a0a9b9660b75efa2ff479f39,release: v2.7.6,Evan You,2022-07-15T09:12:28Z
+9ed684785f868db5b154c4a09642b2b7d33dd6f3,test: add test for type casting $refs to defineComponent instance type,Evan You,2022-07-15T09:07:19Z
+fffbb9e856de5e4b3053a6b4d01d1404bfb6f85e,fix(types): $refs can also contain ComponentPublicInstance (#12659),Nikhil Verma,2022-07-15T09:05:04Z
+e0a9546ef32fa4bbfc4bede3002b2d6a5be8cf72,"fix(types): fix missing expose() type on setup context
+
+fix #12660",Evan You,2022-07-15T08:58:01Z
+52a59790a5b6e16c9f8cc737fcd784413dda282d,"fix(types): fix $children and $root instance types
+
+fix #12655",Evan You,2022-07-15T08:52:27Z
+cdd2df6171963096abb94600987f1706e40d2ab6,release: v2.7.5,Evan You,2022-07-13T03:08:37Z
+1a2c3c2d77ba96ef496f4c86329b7798026511ae,"fix(watch): fix deep watch for structures containing raw refs
+
+fix #12652",Evan You,2022-07-13T03:01:10Z
+005e52d0b6f1a5bf9679789c5c4b90afd442d86b,"fix(types): support Vue interface augmentations in defineComponent
+
+fix #12642",Evan You,2022-07-13T02:44:57Z
+08fb4a222c016c79af77ab96817d2ed9b7abbd80,fix: add missing export from `vue.runtime.mjs` (#12648),Daniel Roe,2022-07-13T01:47:38Z
+498dc1d89f14504c5e14b43a77c23039163e93a3,chore(changelog): fix dead link (#12646) [ci skip],Wang Weitao,2022-07-13T01:47:20Z
+0198f9f9eea728ceb45af92eb2952fa97c9abfe1,chore: document TS changes in changelog [ci skip],Evan You,2022-07-13T01:31:39Z
+a6e74985cf2eab6f16d03a8eda3bf3fc7950127c,fix: detect property add/deletion on reactive objects from setup when used in templates,Evan You,2022-07-12T10:59:26Z
+98fb01c79c41c3b9f9134f0abb77d233ce4e5b44,"fix(reactivity): fix watch behavior inconsistency + deep ref shallow check
+
+fix #12643",Evan You,2022-07-12T10:50:01Z
+0825d3087f9f39435838329c16adc2a7bfccd51d,"fix: do not set currentInstance in beforeCreate
+
+fix #12636",Evan You,2022-07-12T10:19:19Z
+04b4703de72b1c1e686a3aa81d5b5b56799dabab,"fix(sfc): fix sfc name inference type check
+
+fix #12637",Evan You,2022-07-12T09:39:45Z
+018d29af5fa171b2d2f4793c5d471f21bb7cd1e7,release: v2.7.4,Evan You,2022-07-08T07:46:21Z
+f8de4ca9d458a03378e848b1e62d6507f7124871,"fix(types): fix missing instance properties on defineComponent this
+
+ref https://github.com/vuejs/vue/issues/12628#issuecomment-1177258223",Evan You,2022-07-08T07:39:16Z
+d3add06e6e18a78a3745240632fecd076eb49d19,fix(types): fix this.$slots type for defineComponent,Evan You,2022-07-08T07:17:22Z
+1d5a411c1e3aa062aa5080432cf3f852f1583ed2,fix(types): fix type inference when using components option,Evan You,2022-07-08T07:15:22Z
+dc8a68e8c6c4e8ed4fdde094004fca272d71ef2e,"fix: pass element creation helper to static render fns for functional components
+
+fix #12625",Evan You,2022-07-08T07:03:09Z
+8904ca77c2d675707728e6a50decd3ef3370a428,"fix(watch): fix watchers triggered in mounted hook
+
+fix #12624",Evan You,2022-07-08T06:47:03Z
+012e10c9ca13fcbc9bf67bf2835883edcd4faace,"fix(build): fix mjs dual package hazard
+
+close #12626",Evan You,2022-07-08T03:42:36Z
+559600f13d312915c0a1b54ed4edd41327dbedd6,"feat: support functional components in defineComponent
+
+close #12619",Evan You,2022-07-08T03:18:36Z
+9d12106e211e0cbf33f9066606a8ff29f8cc8e8d,"feat: defineAsyncComponent
+
+close #12608",Evan You,2022-07-08T02:55:23Z
+26ff4bc0ed75d8bf7921523a2e546df24ec81d8f,"fix(types): global component registration type compat w/ defineComponent
+
+fix #12622",Evan You,2022-07-08T02:39:23Z
+b70a2585fcd102def2bb5a3b2b589edf5311122d,fix(compiler-sfc): use safer deindent default for compatibility with previous behavior,Evan You,2022-07-08T01:45:11Z
+ca7daefaa15a192046d22d060220cd595a6a275f,"fix(ssr/reactivity): fix array setting error at created in ssr [#12632] (#12633)
+
+fix #12632",blackie,2022-07-08T01:44:41Z
+15e6f1dee47ea38af0ad541014e91df0ad9b062f,release: v2.7.3,Evan You,2022-07-06T05:16:22Z
+6d1dbeee7ebd27a87c37393d8cabf2ef8253f3a4,fix: add renderTracked/Triggered merge strategy (#12616),Caleb Hearon,2022-07-06T04:59:30Z
+360272bde32e93b1a8d611e4b97af1300c38e7a3,"fix(ssr/reactivity): fix composition api behavior in SSR
+
+fix #12615",Evan You,2022-07-06T04:49:30Z
+94ccca207c9c5fc0fc8985e0c103d8a1c9cff412,"fix(types): allow slot attribute
+
+close #12617",Evan You,2022-07-06T03:17:33Z
+e244687135dcd0fd55ad0423d5d5fbf2ba389c4e,release: v2.7.2,Evan You,2022-07-05T02:54:47Z
+1294385300742acbea5f05c166685bd4a1fab35a,"fix(compiler-sfc): preserve old deindent behavior for pug
+
+fix #12611",Evan You,2022-07-05T02:32:56Z
+fb93c1be77f12ea1375c5e8b47d168e4d5ceb7be,feat(types): define component improvements (#12612),Evan You,2022-07-05T02:12:21Z
+d45bbeac2710a5cf9185377abc2342295f0bb4e2,feat: allow passing directive definition directly to h() (#12590),Kael,2022-07-04T04:08:41Z
+427028ad89a67b34006066c294ae0a3840a6403b,release: v2.7.1,Evan You,2022-07-04T10:38:35Z
+caceece8fa9b75c4832a91d3af0bc2958166d3f2,"fix(compiler-sfc): fix template usage check edge case for v-on statements
+
+fix #12591",Evan You,2022-07-04T03:38:36Z
+6f0d2e6985a332d75ce93d29dd7031496196c1ac,chore(compiler-sfc): replace `substr` with `slice` (#12564),webfansplz,2022-07-04T03:26:18Z
+ff2d52f7ac45da410e0872a36bee807515e5219c,chore(types): remove unnecessary type assertion (#12563),webfansplz,2022-07-04T03:25:59Z
+86fb6bd15174490509236eb85407125217569692,chore(benchmarks:ssr): createRenderer function path error (#12601),码农小余,2022-07-04T02:58:42Z
+e452e9d4368aaba173e8c942e5fd82f999cf65ae,"fix: export proxyRefs
+
+close #12600",Evan You,2022-07-04T02:56:33Z
+bcb62d1a001125bfac91c1dd4f8bd51ac42b5a0f,test: test case for #12597,Evan You,2022-07-04T02:39:36Z
+ff5acb12cfa64f975f216a55aafa976b07052665,"fix: fix NaN comparison on state change
+
+fix #12595",Evan You,2022-07-04T02:37:05Z
+15b9b9b19dd3ae7cce5dcd89739e5cf719523fc5,"fix(reactivity):  shallowReactive should not unwrap refs (#12605)
+
+fix #12597",Deft,2022-07-04T02:33:44Z
+8cdd0ac07e2222f344c2f0f4d7d2885b60435f7a,chore: update 2.7 changelog [ci skip],Evan You,2022-07-01T06:31:58Z
+89bd1c20562181a376b88c630c86b3a20307652c,chore: changelog [ci skip],Evan You,2022-07-01T04:26:41Z
+1e3a0ceb26025868fa8ea9347c897b09307f58c2,release: v2.7.0,Evan You,2022-07-01T04:22:26Z
+8dc1b31cb8e08edbd5498ef98e7c911e039bc822,chore: use v2-latest release tag,Evan You,2022-07-01T04:20:29Z
+326d24a4e42b4f4fd243b36037e88b71963d963d,fix(sfc): only include legacy decorator parser plugin when new plugin is not used,Evan You,2022-06-30T02:37:40Z
+0ea6c366f5770f016183513792fce8765df47739,release: v2.7.0-beta.8,Evan You,2022-06-28T02:00:08Z
+008d78bd7280716d2d70e150e3ed2ac5ee8497f2,"fix(compiler-sfc): should transform non relative paths when base option is present
+
+fix https://github.com/vitejs/vite-plugin-vue2/issues/14",Evan You,2022-06-28T01:57:19Z
+bf64c4da5ca516924d940bb29f3e59b0fa5863c9,release: v2.7.0-beta.7,Evan You,2022-06-27T07:00:30Z
+5b94562dcda45be330749400ab00e3037cc8d2a4,chore: create build target dir if does not exist (#12581),草鞋没号,2022-06-27T06:52:28Z
+11e4bfe806b574747495edfb9ba22f78676ceb7c,fix: types/v3-directive not published (#12571),lsdsjy,2022-06-27T06:50:41Z
+20e7e7e138070a2f0c85f64529c837f00255da1c,release: v2.7.0-beta.6,Evan You,2022-06-26T08:41:54Z
+089b27c30b470acd98286ffe072525beb2320dea,"fix(watch): template ref watcher should fire after owner instance mounted hook
+
+fix #12578",Evan You,2022-06-26T08:36:47Z
+44ab1cda746252a1a81f88e1a9658d33f484ed41,"fix(reactivity): readonly() compat with classes
+
+fix #12574",Evan You,2022-06-23T00:34:26Z
+530b56a36e4689249dce6eba6e5c50e3305346f4,release: v2.7.0-beta.5,Evan You,2022-06-22T02:22:49Z
+7a3aa3faac6b8eb066f32813788b4c1d16f34c6b,"fix(watch): fix pre watchers not flushed on mount for nested component
+
+fix #12569",Evan You,2022-06-22T02:20:02Z
+fb7f5f0b6741a33960946175c4d8d35e31eee9f6,"chore: remove unused code
+
+Vue 2 has no inline mode so template ref ref_key logic is unnecessary",Evan You,2022-06-22T02:12:52Z
+65531f580314d832f44ecd5c782f79da3e977da7,"fix(types): fix instance type inference for setup() with no return value
+
+fix #12568",Evan You,2022-06-22T01:44:41Z
+a122bd25c3c453c91a7f35b54b2c75df8b0b1f24,release: v2.7.0-beta.4,Evan You,2022-06-21T02:51:19Z
+9b9f2bf1c8429136e7122d146e0e39bdeada5d1d,"fix(compiler-sfc): properly handle shorthand property in template expressions
+
+fix #12566",Evan You,2022-06-21T01:41:30Z
+de03f69cd6780272e351efed743585ccf110be19,release: v2.7.0-beta.3,Evan You,2022-06-20T08:34:23Z
+c9d0e3aee1a4cf2f7bda7d69b66972084b74b737,ci: e2e test fix,Evan You,2022-06-20T08:22:54Z
+0f2cede3748eab94d1f14333c079c9886cc194e5,build: move cssVars logic into compiler-sfc entry,Evan You,2022-06-20T08:10:14Z
+d3916b69b491bb0964102b69a8bb2e9336f7677b,feat(sfc): parse needMap compat,Evan You,2022-06-20T07:48:54Z
+8ab0074bab83473fd025ae538a3455e3277320c4,feat(sfc): css v-bind,Evan You,2022-06-20T07:46:57Z
+2d676416566c06d7c789899c92bf0f6924ec284a,"fix: remove wrong observe toggle, properly disable tracking in setup()",Evan You,2022-06-20T06:32:50Z
+9d54f8bdfe9db75853befdc916bc85a18b337583,chore: remove .only from tests,Evan You,2022-06-20T06:14:37Z
+769c053cff57fa04f78fc0c8f5af6437c74a02d2,chore: remove code for non-supported :slotted feature,Evan You,2022-06-20T05:24:55Z
+52cf912d855a7fae8d8c89452f0d275846e26a87,"fix(setup): setup props should pass isReactive check
+
+close #12561",Evan You,2022-06-20T05:09:56Z
+2533a360a838c41238dc9b9b840932f2957c65d4,"fix(template-ref): preserve ref removal behavior in non-composition-api usage
+
+close #12554",Evan You,2022-06-20T04:42:32Z
+0fabda7a3b016c1c0cb5d92f5d8efc35f0dbde40,feat: useCssModules,Evan You,2022-06-18T08:09:08Z
+9b4e179873640389c1c3956d63f27b2f43ff9179,release: v2.7.0-beta.2,Evan You,2022-06-17T02:57:11Z
+328ebff04198143385371c857ad23f739be9509d,fix(compiler-sfc): do not transform external and data urls in templates,Evan You,2022-06-17T02:45:52Z
+b2332faf04dc3cabd8dee2fdc53ced99441b87ed,release: v2.7.0-beta.1,Evan You,2022-06-17T01:57:51Z
+efa8a749644cfd6a0d6e9e92a1f342e2eff77d5a,feat: warn top level await usage in `<script setup>`,Evan You,2022-06-17T01:39:52Z
+cdfc4c134ddadc33f3b50d53ec6316b0c96f4567,fix(compiler-sfc): expose src on custom blocks as well,Evan You,2022-06-17T01:36:34Z
+8f5817a7c9a0664438e4299f82ac41a67f156f89,feat(compiler-sfc): support includeAbsolute in transformAssetUrl,Evan You,2022-06-16T14:59:14Z
+96cd1d03fd8da5bcc975b82d39ce69383c1de0ab,release: v2.7.0-alpha.12,Evan You,2022-06-16T13:52:59Z
+8ce585d70c2e1adb04650801b03dcc9552cbaf95,feat: further align compiler-sfc api + expose rewriteDefault,Evan You,2022-06-16T13:28:02Z
+ac8882715cbdfd44c00066f65a2ff3557eb279f7,release: v2.7.0-alpha.11,Evan You,2022-06-16T09:53:41Z
+2726b6d9ff3030af63012a304c33781163461a23,fix: further align types with v3,Evan You,2022-06-16T09:45:33Z
+fa2115c0310037aa09d968de7f3bc604c53d343f,release: v2.7.0-alpha.10,Evan You,2022-06-16T09:18:28Z
+457fe6d222dbdefadfd996a2f964e4d8df013144,types: align compiler-sfc type exports with v3,Evan You,2022-06-16T09:16:33Z
+b3432ffa8f18134f9564da79ddd909c23d6a6ce8,chore: fix snapshot,Evan You,2022-06-16T06:17:30Z
+cdfd9f321e35981774785806bb1629a73ec58064,fix: avoid warning when accessing _setupProxy,Evan You,2022-06-16T06:16:36Z
+749b96d84e6551c5187694a93c5493702035a239,feat: export version as named export,Evan You,2022-06-16T03:17:09Z
+5a0cc58b91f64f8f2f6088a456f0cf3a0a8f0be2,release: v2.7.0-alpha.9,Evan You,2022-06-16T02:36:19Z
+7173ad42729fa0913c3e7de94d251341929ee7c6,feat: types for `<script setup>` macros,Evan You,2022-06-16T02:19:01Z
+3c2707b62e1a355f182c08f85cf7bc9bca1bb34e,feat: defineExpose() support,Evan You,2022-06-16T01:53:45Z
+bd8409bc9873943a4a8d3838ac945fdfff1f3a51,wip: fix component resolution check,Evan You,2022-06-15T13:38:05Z
+aa2b1f4d93bdd257ae26a73994168709369aa6a0,feat: directive resolution for `<script setup>`,Evan You,2022-06-15T13:21:59Z
+4b193390fbc203cc5bae46fe288b1c20c442cc03,feat: resolve components from `<script setup>`,Evan You,2022-06-15T02:39:45Z
+d4787e53ef0958f4d2c9531c6c7f0c31fa0499f4,test: test case for prefixIdentifiers w/ bindings,Evan You,2022-06-15T02:18:55Z
+452aa9d29c848530d5d441652ef5a838312ac379,wip: handle script analyzed bindings when prefixing identifiers,Evan You,2022-06-15T02:07:42Z
+903d9b2eb67b3353f31eb7d36947d7a3462d25f3,chore: changelog [ci skip],Evan You,2022-06-14T15:52:40Z
+b6b5239e6656f2dba386dcaf1c4a2543fc9962b6,release: v2.7.0-alpha.8,Evan You,2022-06-14T15:46:46Z
+cda5176e95de3e550803cba57292de69df2dfe2e,build: fix compiler build,Evan You,2022-06-14T15:43:57Z
+2ddd25926eb3abb2f70fad3e4d81348f63e15e74,release: v2.7.0-alpha.7,Evan You,2022-06-14T15:28:58Z
+4cb2b7bd33392933b8d8f767c75add4ef30446b0,wip: expose generateCodeFrame in compiler-sfc,Evan You,2022-06-14T14:17:10Z
+2bb3659c05aaec156e98be511a1891372efada64,wip: expose compileScript,Evan You,2022-06-14T13:48:06Z
+53a5ac96387b57f50bd6587e77b371827a30ee4d,chore: fix tests,Evan You,2022-06-14T07:35:30Z
+d6c0c2a9923ec0cfcfd3f202aca0050c8c6ce72b,wip: compileScript,Evan You,2022-06-14T07:26:57Z
+846e3165d85c968df3382dc0db6b0ec2c460b224,refactor: add types for html parser options,Evan You,2022-06-14T05:26:44Z
+ba08e968772f74d1d63411c02a38146e613301cc,wip: compileScript,Evan You,2022-06-10T15:46:47Z
+4306cc67b9bfc464918acb446f5a6d1ce0156da1,build: fix compiler-sfc build,Evan You,2022-06-10T14:51:41Z
+5bee34c6e1a215ae693351aad8f77b58e07b1d4f,chore: test pass,Evan You,2022-06-10T10:40:13Z
+22c457fe24f737505356edfb8696c7e50fd9d971,wip: strip with,Evan You,2022-06-10T10:38:09Z
+ed4bbed990364feafed79967e2e0cf5336ff67ce,refactor: use existing types,Evan You,2022-06-10T09:06:37Z
+06594f68b7e2d983d995dfd67c083f04dd0c2b7b,wip: port @vue/component-compiler-utils,Evan You,2022-06-10T08:35:46Z
+50f2870ff04e263ff8d252862087f165e7a01702,chore: changelog [ci skip],Evan You,2022-06-09T07:08:51Z
+5d4c59be11ecc1b1c1e4fe2bbf5c9ffb77da9960,release: v2.7.0-alpha.6,Evan You,2022-06-09T06:47:01Z
+c678e3134b927645f79270b52d4d660a7e3654ce,types: include jsx typing,Evan You,2022-06-09T06:39:18Z
+c43e64277f72d5e1b23ac483528cf78b02110e18,build: fix build script alias,Evan You,2022-06-06T07:34:55Z
+9ce105aa10be6288e6ce9d26c1a5a6d16fee733b,release: v2.7.0-alpha.5,Evan You,2022-06-06T07:33:20Z
+4f2a04e6a8e1fc71080eed49fd4059d6a53afc1c,fix: fix scopedSlots regression,Evan You,2022-06-06T07:25:29Z
+642e7aa03b1f6ca5e8ba6f7c7d702b6401b3ca9e,"chore: exclude trivial refactors from `git blame` results (#12550)
+
+See https://docs.github.com/en/repositories/working-with-files/using-files/viewing-a-file#ignore-commits-in-the-blame-view
+
+Ideally all style-only-commits should be put into this list.
+
+The ""move to typescript"" is not trivial by itself, but most of the
+additions / deletions are style changes. So I think it's safe and more
+reader-friendly to exclude it.",Haoqun Jiang,2022-06-06T02:51:18Z
+8be5a871d4f9dfc5c8f2c6014a158e8b9efc5bc8,chore: changelog [ci skip],Evan You,2022-06-01T14:26:15Z
+4dc0c6c4db6ccad28c414f165412b8e744a525bb,release: v2.7.0-alpha.4,Evan You,2022-06-01T14:19:32Z
+c319cc7a74a790414c33db74ad9f1070851de76b,fix: guard against non-object provide value,Evan You,2022-06-01T14:18:05Z
+a00c63beb4a9acb0495729e9aa148c5d08d30a37,chore: fix test alias,Evan You,2022-06-01T14:15:27Z
+ffaf81ba5f5d0cecb9eaa0b661685a13a20d0627,chore: fix type tests,Evan You,2022-06-01T14:12:02Z
+206f8a7f0949a50ae062d9d71061716ae3c3a749,wip: defineComponent,Evan You,2022-06-01T13:55:33Z
+09beea9ae76f6f0fb90c7b6ba2b4b67058a60107,chore: move sfc parser,Evan You,2022-06-01T13:32:13Z
+72194a45917115f82f83969ff2cdce811fb8bea2,build: use extended tsconfig,Evan You,2022-06-01T06:27:29Z
+5fbf2c99285664196694ecbcfd4db1f1e816813e,release: v2.7.0-alpha.3,Evan You,2022-06-01T03:13:29Z
+a9a2fae970b43150895677fbf3ea6017977164c8,build: fix mjs build publish,Evan You,2022-06-01T03:12:30Z
+bafb5d419d49ac60c431184160c8e74fe010fc25,chore: avoid generating unused dts,Evan You,2022-06-01T03:12:20Z
+7ec896827f82cfb410f79aa709e4186a911bf995,release: v2.7.0-alpha.2,Evan You,2022-06-01T02:37:17Z
+2b00084ee4562fd7b4d48bc01234b6b55571d9ef,chore: changelog [ci skip],Evan You,2022-06-01T02:25:22Z
+d3172377e0c2df9e84244ede6fc9a091344e6f1c,feat: add exports field + mjs build,Evan You,2022-06-01T02:11:19Z
+5673363eda9e6082a9ff0300b8c4e79c9388891b,feat: expose set/del as named exports,Evan You,2022-06-01T01:44:06Z
