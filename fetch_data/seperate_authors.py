@@ -50,7 +50,7 @@ def get_github_location(username):
             location = "User Not Found"
         elif response.status_code == 403:
             print("🚨 Rate limit exceeded! Pausing for 10 minutes...")
-            time.sleep(60)  
+            time.sleep(3600)  
             return get_github_location(username)  # Retry
         else:
             location = "Unknown"
@@ -100,6 +100,9 @@ if os.path.exists(input_file):
         time_frame = row["Time Frame"]
         username = row["Username"]
         location = user_locations.get(username, "Unknown")
+
+        if location is None:
+            location = "Unknown"
 
         if any(keyword in location for keyword in sweden_keywords):
             if repo not in sweden_authors:
