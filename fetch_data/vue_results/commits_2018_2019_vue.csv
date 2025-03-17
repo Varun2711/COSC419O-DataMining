@@ -1,0 +1,1184 @@
+SHA,Message,Author,Username,Date
+ec78fc8b6d03e59da669be1adf4b4b5abf670a34,build: release 2.6.11,Evan You,yyx990803,2019-12-13T19:58:40Z
+a98048fa67bb686eced6eacec156caccd33b8676,build: build 2.6.11,Evan You,yyx990803,2019-12-13T19:58:37Z
+fc41f913124b4c9cfdc9670392009774c7fc85ad,chore: update yarn.lock,Evan You,yyx990803,2019-12-13T19:51:41Z
+70429c3713a497c0659fb67d61b000a3125325d2,build(deps-dev): bump serialize-javascript from 1.3.0 to 2.1.2 (#10914),Mateus Velleda Vellar,mateusvelleda,2019-12-13T19:49:40Z
+9fbd416635eb3d7b32cd73b7c29f8377003c4dc8,chore: update sponsors [ci skip] (#10896),vue-bot,vue-bot,2019-12-08T15:57:51Z
+a9740225c85d8de7594a3dfcb8f18f573d4426e5,chore: update backers [ci skip] (#10895),vue-bot,vue-bot,2019-12-08T15:57:10Z
+6b4c0f9c89899f89a3ef258fb0599d78bef65664,chore: typo in comment,7006,7006,2019-12-05T13:39:22Z
+fd0eaf92948bb5a4882d538362091fb287d642e3,chore: update sponsors [ci skip] (#10841),vue-bot,vue-bot,2019-11-19T14:04:02Z
+2c6a827b39d824f87239dc124a0e3f0895d43247,chore: update sponsors [ci skip] (#10821),vue-bot,vue-bot,2019-11-12T17:01:39Z
+f796ab4983f3b4066ef9a49dc654f1ee66fc3d34,chore: update sponsors [ci skip] (#10800),vue-bot,vue-bot,2019-11-12T16:59:10Z
+276c0829c0daac8133751b32ba759070ff5555a8,chore: update backers [ci skip] (#10799),vue-bot,vue-bot,2019-11-12T16:58:55Z
+4821149b8bbd4650b1d9c9c3cfbb539ac1e24589,fix(types): fix prop constructor type inference (#10779),katashin,ktsn,2019-10-30T14:45:29Z
+9f5563c0e1a4f32188a293e72052bc48a340d4b1,chore: update sponsors [ci skip],Evan You,yyx990803,2019-10-28T15:38:36Z
+b805a1922c75ddee6192e4decdac10987263df9d,"build(deps-dev): bump lodash.template from 4.4.0 to 4.5.0 (#10636)
+
+Bumps [lodash.template](https://github.com/lodash/lodash) from 4.4.0 to 4.5.0.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.4.0...4.5.0)
+
+Signed-off-by: dependabot[bot] <support@github.com>",dependabot[bot],dependabot[bot],2019-10-28T15:31:47Z
+bd47e5b85d9afc6306dbd734bae67feea7818064,"build(deps-dev): bump lodash from 4.17.11 to 4.17.13 (#10635)
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.11 to 4.17.13.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.11...4.17.13)
+
+Signed-off-by: dependabot[bot] <support@github.com>",dependabot[bot],dependabot[bot],2019-10-28T15:31:33Z
+fd42082ae0fe156a2418b3f4c2a10900cf38b37c,"build(deps): bump ecstatic from 3.3.0 to 3.3.2 (#10634)
+
+Bumps [ecstatic](https://github.com/jfhbrook/node-ecstatic) from 3.3.0 to 3.3.2.
+- [Release notes](https://github.com/jfhbrook/node-ecstatic/releases)
+- [Changelog](https://github.com/jfhbrook/node-ecstatic/blob/3.3.2/CHANGELOG.md)
+- [Commits](https://github.com/jfhbrook/node-ecstatic/compare/3.3.0...3.3.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",dependabot[bot],dependabot[bot],2019-10-28T15:31:25Z
+fa55a20e196955ff9850838a45b67764c2789f11,"build(deps): bump handlebars from 4.0.12 to 4.4.3 (#10633)
+
+Bumps [handlebars](https://github.com/wycats/handlebars.js) from 4.0.12 to 4.4.3.
+- [Release notes](https://github.com/wycats/handlebars.js/releases)
+- [Changelog](https://github.com/wycats/handlebars.js/blob/master/release-notes.md)
+- [Commits](https://github.com/wycats/handlebars.js/compare/v4.0.12...v4.4.3)
+
+Signed-off-by: dependabot[bot] <support@github.com>",dependabot[bot],dependabot[bot],2019-10-28T15:31:15Z
+d1164f1a310444ea0b4efe53819f0054f0e2dab8,chore: Fastcoding Inc broken icon [ci skip] (#10638),Mattias Naarttijärvi,Naartti,2019-10-28T15:30:57Z
+3c90820e389620b1497e1602efb23439c61c8e67,"build(deps): bump js-yaml from 3.12.1 to 3.13.1 (#10632)
+
+Bumps [js-yaml](https://github.com/nodeca/js-yaml) from 3.12.1 to 3.13.1.
+- [Release notes](https://github.com/nodeca/js-yaml/releases)
+- [Changelog](https://github.com/nodeca/js-yaml/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/nodeca/js-yaml/compare/3.12.1...3.13.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>",dependabot[bot],dependabot[bot],2019-10-28T15:29:51Z
+3bc73226d70c97f93cdf3a25951be9dbaab0127f,"build(deps): bump mixin-deep from 1.3.1 to 1.3.2 (#10631)
+
+Bumps [mixin-deep](https://github.com/jonschlinkert/mixin-deep) from 1.3.1 to 1.3.2.
+- [Release notes](https://github.com/jonschlinkert/mixin-deep/releases)
+- [Commits](https://github.com/jonschlinkert/mixin-deep/compare/1.3.1...1.3.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",dependabot[bot],dependabot[bot],2019-10-28T15:29:38Z
+0645fe61bf2f05e7ad4f71c44b2ae8af2e97662f,"build(deps): bump eslint-utils from 1.3.1 to 1.4.2 (#10630)
+
+Bumps [eslint-utils](https://github.com/mysticatea/eslint-utils) from 1.3.1 to 1.4.2.
+- [Release notes](https://github.com/mysticatea/eslint-utils/releases)
+- [Commits](https://github.com/mysticatea/eslint-utils/compare/v1.3.1...v1.4.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",dependabot[bot],dependabot[bot],2019-10-28T15:29:14Z
+b885e1e88f8b5928278d54449a937bcb0fdcc899,chore: update sponsors [ci skip] (#10750),vue-bot,vue-bot,2019-10-28T15:27:51Z
+d7d8ff06b70cf1a2345e3839c503fdb08d75ba49,chore: fix typo in `next-tick.js` comment (#10607),EVILLT,2nthony,2019-10-08T08:41:17Z
+e8ca21ff1d7af92649902952c97418ad3ffd014f,chore: fix sponsor link,Evan You,yyx990803,2019-10-07T14:49:43Z
+78aefcf6d5f56935e67d6c2b6443342f8c381d67,chore: update backers [ci skip] (#10598),vue-bot,vue-bot,2019-10-06T15:59:59Z
+33d9d81218aa01ad89013422ee0b7c3a11d7236e,chore: update sponsors [ci skip] (#10599),vue-bot,vue-bot,2019-10-06T15:59:47Z
+2b5c47aef9914905398e8fcba52852b02fa0fc1b,chore: update sponsors [ci skip] (#10589),vue-bot,vue-bot,2019-10-06T15:58:52Z
+5d928fc7783b552ddbb0ee1dc1a085abf6f1bd5c,chore: update sponsors [ci skip] (#10587),vue-bot,vue-bot,2019-10-06T15:58:27Z
+3dcd85b82693765b13e866132bcaa318ef086fe5,chore: fix typo in <template v-slot> warning (#10585),Tan Zhen Yong,Xenonym,2019-10-01T07:07:36Z
+235064ebe19648420295f5ee57cf5ed5b72bbc16,chore: update backer image [ci skip],Evan You,yyx990803,2019-09-25T13:36:39Z
+b9b849255fe3199e94ff8ef09187a55521731c0c,chore: update sponsors [ci skip] (#10556),vue-bot,vue-bot,2019-09-24T17:27:53Z
+d2db6af1a55fdb4d65746fb67f7bfbced7d916f0,chore: update sponsors [ci skip] (#10534),vue-bot,vue-bot,2019-09-23T15:52:43Z
+77796596adc48d050beefd11e827e8e4d44c6b3c,chore: update backers [ci skip] (#10474),vue-bot,vue-bot,2019-09-19T20:09:31Z
+5bbb077cd9d79eabab0002c459d373d75e532ef0,docs: fix link to point to ModuleOptions lines (#10531),Tommy Lebel,tlebel,2019-09-19T07:52:32Z
+95d8afa07c4a84d6c178e220913cec4b1afcf21d,chore: update sponsors [ci skip] (#10467),vue-bot,vue-bot,2019-09-04T19:32:22Z
+399b53661b167e678e1c740ce788ff6699096734,chore: add posva to funding.yml,Eduardo San Martin Morote,posva,2019-08-24T11:10:40Z
+369dbe711a037b04612bca2f2e961282bdbb9153,chore(benchmarks): use flex-wrap (#10380),Daniel Ruf,DanielRuf,2019-08-12T08:05:31Z
+d40b7ddb8177944d1dd50f4f780e6fd92c9455c2,chore: typo in variable name (#10358),Li Yongcheng,git-nkliyc,2019-08-07T07:09:00Z
+1a43722e72f30841472432ec55000f4850a93644,chore: update sponsors [ci skip] (#10355),vue-bot,vue-bot,2019-08-05T16:15:21Z
+64fcad6476fa46419dcac34502d5592e1f3f08ff,chore: update backers [ci skip] (#10353),vue-bot,vue-bot,2019-08-05T14:26:28Z
+78c3ce0ce0c2230f657cb7772a84fc7aa7ce0825,chore: fix prefixed data properties warning typo (#10327),Husam Ibrahim,HusamElbashir,2019-07-31T07:52:42Z
+f1d29d7f45022f0edd20081dea8387043c96b30d,chore: update sponsors [ci skip] (#10319),vue-bot,vue-bot,2019-07-29T18:42:41Z
+b7c2d9366cf731a1551286b8ac712e6e0905070e,"fix(security) upgrade lodash.template (#10257)
+
+That's it.
+https://github.com/lodash/lodash/pull/4336",nothingismagick,Unknown,2019-07-15T14:31:39Z
+a99c6672d6e58183013be338cb7affe14a23c9d8,chore: update sponsors [ci skip] (#10242),vue-bot,vue-bot,2019-07-08T13:30:33Z
+024e4f2c768757872be6e25476e19c2c56057ddc,chore: update sponsors [ci skip] (#10233),vue-bot,vue-bot,2019-07-08T13:29:51Z
+c236f56422ddc56cc6dc26c8d9e6a26429100748,chore: update backers [ci skip] (#10232),vue-bot,vue-bot,2019-07-08T13:28:26Z
+3b8925bc7973bb71b33374281db10a945ca9854e,chore: update sponsors [ci skip] (#10181),vue-bot,vue-bot,2019-06-22T04:48:50Z
+b47a7b820c1cf13b1abcf72adcbeb33e8a715f07,chore: update backers [ci skip] (#9974),vue-bot,vue-bot,2019-06-22T04:48:00Z
+bad3c326a3f8b8e0d3bcf07917dc0adf97c32351,chore: update sponsors [ci skip] (#10158),vue-bot,vue-bot,2019-06-14T14:24:23Z
+8f7133c8fa64a11fa12ee7ec511f174c48051570,chore: fix sponsor url [ci skip],Evan You,yyx990803,2019-06-12T14:39:51Z
+bbdaaf480c00b25d7d900cae79c03ef8d5ca7d53,chore: update sponsors [ci skip] (#10136),vue-bot,vue-bot,2019-06-12T08:34:56Z
+d09355c5101bcaaa8ff1ff66032fd984a8a14664,chore: update sponsors [ci skip] (#10130),vue-bot,vue-bot,2019-06-12T08:32:46Z
+3819af5c9dedde4d1ea81f9caa127e611c8752e3,chore: update sponsors [ci skip] (#10113),vue-bot,vue-bot,2019-06-11T07:40:50Z
+f64765fa03c1eb1d37f3301ea5beb4d18e57158a,chore(typo): fix comment typo (#10101),Magic,Magiccwl,2019-06-04T09:51:19Z
+ff911c9ffef16c591b25df05cb2322ee737d13e0,chore: update sponsors [ci skip] (#10064),vue-bot,vue-bot,2019-05-24T03:20:12Z
+0224ae85183ca2b05988e0a7b7572b530ca92eba,Create FUNDING.yml,Evan You,yyx990803,2019-05-24T03:19:01Z
+06d4ad40a49e85e678ce2aa8fac0ecf2176f86e2,chore: update sponsors [ci skip] (#10031),vue-bot,vue-bot,2019-05-16T01:04:06Z
+0caebfe905bc1e587fb583de778287c2362bba1a,chore(typo): fix README tag mismatch (#9934),msidolphin,msidolphin,2019-05-14T10:15:42Z
+1137e415c9e8701d1b0a25e5812f8c4dffeeeaaa,chore(typo): fix typo in comments (#9995),Sai,sairoutine,2019-05-08T15:08:29Z
+26bd80774fd70625b2ec44ddd9c967571ef4a884,chore: update sponsors [ci skip] (#9970),vue-bot,vue-bot,2019-05-02T15:01:15Z
+f0b9c923786e1e35e4586502d21cc2f804c9489d,chore: update sponsors [ci skip] (#9933),vue-bot,vue-bot,2019-04-28T01:39:43Z
+569b728ab19d1956bf935a98c9c65a03d92ac85f,"fix: fix function expression regex (#9922)
+
+fix #9920",GU Yiling,Justineo,2019-04-25T13:04:36Z
+ab50e8e1da2f4f944af683252481728485fedf16,fix(types): fix global namespace declaration for UMD bundle (#9912),katashin,ktsn,2019-04-25T03:18:07Z
+085d188379af98e9f482d7e2009ebfd771bd7ca5,fix(compiler): Remove the warning for valid v-slot value (#9917),X.L,liximomo,2019-04-25T03:17:39Z
+861aea16615a9736eab6af6d05fa5500ae4d6c37,polish: add warning when .native modifier is used on native HTML elements (#9884),Natalia Tepluhina,NataliaTepluhina,2019-04-25T02:39:19Z
+bd6cea0973247e2a8e1d4a2250614c0bf44f0b26,test: fix running e2e test on windows (#9909),zrh122,zrh122,2019-04-25T02:35:16Z
+43b98fe25151b0b6bacd36f3ee27c5d61add5fdb,"refactor: remove useless parameter to the function removeVnodes (#9914)
+
+close #9910",子迟,lessfish,2019-04-25T02:34:55Z
+ea113d261835d14b7fb7a14896972efc3c8a75b9,test: separate failing test for TS 3.4,Evan You,yyx990803,2019-04-25T02:13:32Z
+a9a303009a4267b7f12b956741b4e34dfdc6566f,chore: fix SimpleSet export,Evan You,yyx990803,2019-04-25T02:00:51Z
+29e745f99f43d0629df547da80b016996ae70872,chore: improve license clarity of simplehtmlparser.js (#9907),Henri Yandell,hyandell,2019-04-23T01:44:01Z
+f478ab80106b4993398761608aee71b9724e2227,chore: update sponsors [ci skip] (#9860),vue-bot,vue-bot,2019-04-11T01:00:56Z
+91b8cda0b28d6774d7319d646c999e04d948a8cd,docs(contributing): fix a grammar error (#9858),Billy Zou,DaKoala,2019-04-10T15:45:47Z
+15704ce6ef274f30b05b9fc89337a18bbe48ff57,chore: use png for sponsor logo,Evan You,yyx990803,2019-04-10T03:01:01Z
+fb4d2c1c632795d1db0e81ad8289cd1718b19e61,chore: update sponsors [ci skip] (#9846),vue-bot,vue-bot,2019-04-10T02:51:23Z
+546e7d14adddad643f0065ba91c95d69cbbb020e,docs(contributing): add yarn requirement to guide (#9848),Billy Zou,DaKoala,2019-04-08T18:06:47Z
+af15d16d62d5ebea28322b703806624dd1ffd039,chore: update sponsors [ci skip] (#9845),vue-bot,vue-bot,2019-04-08T13:15:00Z
+6a8473411ab67e4b4b00773c5c15b0fad7339b76,chore: update sponsors [ci skip] (#9834),vue-bot,vue-bot,2019-04-06T02:19:11Z
+a8184917a26215629d6194c079c953dff4caacf5,"docs(contributing): replace npm install with yarn
+
+Related to #9831",Eduardo San Martin Morote,posva,2019-04-05T20:18:50Z
+94c0918f8d4f16d4d0e77771529f05427b1c2a7b,chore: update sponsors [ci skip] (#9828),vue-bot,vue-bot,2019-04-05T14:18:06Z
+8637009b5bbbfa5cee6aa3d9b9dc24922f3dfd50,chore: update backers [ci skip] (#9827),vue-bot,vue-bot,2019-04-05T14:17:49Z
+6be3bf4a69b4f59fd5507dfdc7ab5f8ba5d00c67,chore: update sponsors [ci skip] (#9804),vue-bot,vue-bot,2019-04-02T01:21:20Z
+e90cc60c4718a69e2c919275a999b7370141f3bf,build: release 2.6.10,Evan You,yyx990803,2019-03-20T06:26:44Z
+e7b912a17bf3be6b1743307ce359a9c6816be0dd,build: build 2.6.10,Evan You,yyx990803,2019-03-20T06:26:40Z
+f11449d916a468651d4fd5024c37e3eebbc9941f,"fix(core): only unset dom prop when not present
+
+fix #9650",Evan You,yyx990803,2019-03-20T06:13:23Z
+02d21c265c239682e73b2b3f98028f2da5e7205d,"fix(core): cleanup timeouts for async components (#9649)
+
+close #9648",Alexander Schwartz,ahus1,2019-03-20T05:55:37Z
+bf5ceb759a0c9dfc8a9fa05b024f3d9aa4ea70e4,polish: improve template compiler version mismatch warning (#9738),Brian McMillen,mcmillenb,2019-03-20T05:13:14Z
+df4af4bd1906b9f23b62816142fdfbd6336d3d2f,"fix(types): allow using functions on the PropTypes (#9733)
+
+close #9692",Carlos Rodrigues,pikax,2019-03-19T04:54:27Z
+22790b250cd5239a8379b4ec8cc3a9b570dac4bc,"fix(scheduler): revert timeStamp check
+
+fix #9729
+
+This reverts #9667, but also fixes the original issue #9632 by skipping
+the check in IE altogether (since all IE use low-res event timestamps).",Evan You,yyx990803,2019-03-19T04:44:49Z
+ebc1893faccd1a9d953a8e8feddcb49cf1b9004d,"fix(slots): fix slots not updating when passing down normal slots as $scopedSlots
+
+fix #9699",Evan You,yyx990803,2019-03-18T09:42:16Z
+3433ba5beef9a6dd97705943c3441ebbee222afd,"fix(codegen): support named function expression in v-on (#9709)
+
+fix #9707",GU Yiling,Justineo,2019-03-18T08:19:41Z
+982d5a492fb95577217e2dacaa044eabe78a8601,"fix(types): support string type for style in VNode data (#9728)
+
+fix #9727",Vitor Luiz Cavalcanti,VitorLuizC,2019-03-18T07:47:43Z
+653c74e64e5ccd66cda94c77577984f8afa8386d,"fix(core): use window.performance for compatibility in JSDOM (#9700)
+
+fix #9698",GU Yiling,Justineo,2019-03-15T01:06:40Z
+43115e09e98d484a35f7c12249396b6d5d66c7ff,build: release 2.6.9,Evan You,yyx990803,2019-03-14T09:02:03Z
+5bffed03f14a6d15fc5718335f9697cab0c261ab,build: build 2.6.9,Evan You,yyx990803,2019-03-14T09:02:00Z
+f1bdd7ff9d1fc86f7a8ad8d5cb6d9abc7b2e47f3,fix(compiler): whitespace: 'condense' should honor pre tag as well (#9660),GU Yiling,Justineo,2019-03-14T07:47:51Z
+4de4649d9637262a9b007720b59f80ac72a5620c,fix(transition): fix appear check for transition wrapper components (#9668),DSha,shasharoman,2019-03-14T07:45:42Z
+d44cc20e968cb5a44202813e22b3b7c1377e69b1,chore: remove unused build alias (#9525),Pengfei Yang,flyyang,2019-03-14T07:27:00Z
+7186940143704acc4ec046132f6a56e9c983e510,"fix: should not swallow user catch on rejected promise in methods
+
+fix #9694",Evan You,yyx990803,2019-03-14T07:25:01Z
+8082d2f910d963f14c151fb445e0fcc5c975cca9,"fix(ssr): fix nested async functional componet rendering (#9673)
+
+fix #9643",krystal,dejour,2019-03-13T09:20:28Z
+7591b9dc6dde314f2d32dcd7a8355f696a330979,"fix: event timeStamp check for Qt
+
+fix #9681",Evan You,yyx990803,2019-03-13T09:18:47Z
+d28240009c4c49fb2ef42a79206f0d9ad03f736c,fix(ssr): not push non-async css files into map (#9677),Xin Du (Clark),clarkdo,2019-03-13T09:16:44Z
+2747a657654d1006bf7061faec1b3029fb9b4432,test: remove unused code (#9684),Decade,decadef20,2019-03-13T02:19:19Z
+aa043347818a39da695375697e8ae2b9afb846c8,chore: update sponsors [ci skip] (#9680),vue-bot,vue-bot,2019-03-12T05:41:16Z
+eafea3134e19aaaed1937657553bc7a101acd869,chore: update sponsors [ci skip] (#9675),vue-bot,vue-bot,2019-03-11T23:08:55Z
+19c0f80d2cfaa1327aa019663b2e33dff6be0787,chore: update backers [ci skip] (#9621),vue-bot,vue-bot,2019-03-11T02:54:26Z
+ef2a380c6eb6bd1a7ff516c357dafa717e75a745,"fix(scheduler): getNow detection can randomly fail (#9667)
+
+The previous detection code compared time stamps based on Date.now()
+which are not monotonic, so the check could fail due to clock skew or
+adjustments.
+
+This fix changes the check to compare against performance.now() if it is
+supported, because it is monotonic (strictly increasing).",Felix Bünemann,felixbuenemann,2019-03-11T02:28:06Z
+781c70514e01bc402828946805bfad7437c7175e,"fix: should use fallback for scoped slots with single falsy v-if
+
+fix #9658",Evan You,yyx990803,2019-03-08T18:44:08Z
+9313cf91740e1d43c43cf9e73d905dbab913beb5,"fix: should consider presence of normal slots when caching normalized scoped slots
+
+fix #9644",Evan You,yyx990803,2019-03-08T18:03:19Z
+da77d6a98bdccd8a2c8bfdfe6b9cb46efcb1193c,"fix(scheduler): fix getNow check in IE9 (#9647)
+
+fix #9632",Felix Bünemann,felixbuenemann,2019-03-08T17:04:28Z
+0b57380f10986c6b07e3c240acc06bfd2eddfd1b,"fix: v-bind object should be overridable by single bindings (#9653)
+
+fix #9641",GU Yiling,Justineo,2019-03-08T17:00:47Z
+731e4d0ebc997a6c2b1fc500b08924ff7ba091b6,"types: use normalized type for `RenderContext.scopedSlots` (#9624)
+
+fix #9616",DSha,shasharoman,2019-03-05T21:46:56Z
+0c4c78bfc026bed79e76d0d0009b6ed15b6bb008,chore: update sponsors [ci skip] (#9622),vue-bot,vue-bot,2019-03-05T21:44:12Z
+6ad99796c747987142c21b45c9361cca60e54e68,docs: fix spelling and grammatical errors (#9619),Jagannath Bhat,jagannathBhat,2019-03-04T16:53:59Z
+d123c7e4c67cb17c265f3a4f741fae71b69f5dc9,build: release 2.6.8,Evan You,yyx990803,2019-03-01T15:03:38Z
+869a8197efa78164c1e8d4faa181ede9fdb0f7b2,build: build 2.6.8,Evan You,yyx990803,2019-03-01T15:03:33Z
+372d71cbfe717186e12d1fffc1cb3fe570dd943c,"docs: clarify docs about using template compiler (#9508)
+
+This commit is for https://github.com/vuejs/vue-loader/issues/1494",ULIVZ,ulivz,2019-03-01T15:00:01Z
+cbad54aa52847cfc934bb925d53c53ee57fc153d,fix(compiler): set end location for incomplete elements (#9598),Jason,gzzhanghao,2019-03-01T14:56:13Z
+1574ade607499bf4e3cf270c69249893e29eb259,"test: Add a unit test for ""$off event and this event added by $once"" (#9550)",Luxiaosong,wujieZ,2019-02-28T22:54:51Z
+38825ff6754d61a350d8892462cecaa3eceb93c6,test: add a test case for ssr max stack size limit,Evan You,yyx990803,2019-02-28T22:52:20Z
+571a4880fc06b491a280325b79fd4cbb59ceb47e,"fix: further adjust max stack size
+
+close #9562",Evan You,yyx990803,2019-02-28T22:46:28Z
+03c13de38e883636917800a283ebcb338bbfbdc3,refactor: remove unncessary condition,Evan You,yyx990803,2019-02-28T22:39:10Z
+ed341137b23315b76ba391db1b0e537950c091e1,"fix: handle async component when parent is toggled before resolve (#9572)
+
+fix #9571",Markus Oberlehner,maoberlehner,2019-02-28T22:37:44Z
+241eea19a64550bfdb3f9d7e4197127997572842,fix(types): allow scoped slots to return a single VNode (#9563),Kael,KaelWD,2019-02-28T22:03:28Z
+f33301619d18b9392597c5230af17921c0b42466,fix(types): update this for nextTick api (#9541),Gcaufy,Gcaufy,2019-02-28T21:54:07Z
+2277b2322cf81b5830a5b85f6600e1896edc7aa9,"fix: scoped slots dynamic check should include v-for on element itself
+
+fix #9596",Evan You,yyx990803,2019-02-28T19:36:47Z
+7912f75c5eb09e0aef3e4bfd8a3bb78cad7540d7,"fix: avoid compression of unicode sequences by using regexps (#9595)
+
+closes #9456",Haoqun Jiang,haoqunjiang,2019-02-28T17:10:38Z
+060c3b98efa44a9f21bcc038a2593b1cc3c782e9,"fix: fix modifier parsing for dynamic argument with deep path (#9585)
+
+fix #9577",DSha,shasharoman,2019-02-28T14:36:47Z
+2ec5b640f55a34df1b70aa9d59b08385c2f7ac20,chore: update sponsors [ci skip] (#9588),vue-bot,vue-bot,2019-02-27T14:30:04Z
+59d8579fbd3a3450ab684d6a596f1853f2257d08,build: release 2.6.7,Evan You,yyx990803,2019-02-21T22:06:20Z
+875d6ac46c5ae8bca1490d493c75783e6e255635,build: build 2.6.7,Evan You,yyx990803,2019-02-21T22:06:16Z
+7a8de91cd78f523fabe8452652513250871a01c6,fix(compiler): handle negative length in codeframe repeat,Evan You,yyx990803,2019-02-21T19:27:33Z
+173042bb8e07c5ce3a0857063445bf4dc1d1d846,refactor: improve test case,Evan You,yyx990803,2019-02-21T19:14:35Z
+2f3020e9cc1ad5c878606b56bb73a30b1d9bb7d9,"fix(#9511): avoid promise catch multiple times (#9526)
+
+* fix(#9511): avoid promise catch multiple times
+
+* fix(#9511): add a test case for util/error/invokeWithErrorHandling
+
+* fix(#9511): update test case for util/error/invokeWithErrorHandling",DSha,shasharoman,2019-02-21T19:01:53Z
+8a80a23ecba23f92f278d664388050ffcd121385,"fix: avoid errors thrown during dom props update
+breaking the entire app
+
+fix #9459",Evan You,yyx990803,2019-02-21T18:54:28Z
+cd3d202edb606ec941d5e4fff63a90a9223652d0,refactor: simplify conditions,Evan You,yyx990803,2019-02-21T18:31:58Z
+7ec4627902020cccd7b3f4fbc63e1b0d6b9798cd,"fix: ensure generated scoped slot code is compatible with 2.5
+
+fix #9545",Evan You,yyx990803,2019-02-21T13:52:15Z
+d9b27a92bd5277ee23a4e68a8bd31ecc72f4c99b,"fix: ensure scoped slots update in conditional branches
+
+close #9534",Evan You,yyx990803,2019-02-21T02:48:33Z
+b3bd3116351eb53cf98254652ee2a01f440b62d8,chore: update sponsors [ci skip] (#9538),vue-bot,vue-bot,2019-02-20T16:37:17Z
+9d4c972cad7832042f1ed188fa8db6f41b3bff54,chore: update sponsors [ci skip] (#9537),vue-bot,vue-bot,2019-02-20T16:19:15Z
+8f004ea44e06d7764fa884212fa95c2033515928,"fix: scoped slots should update when inside v-for
+
+fix #9506",Evan You,yyx990803,2019-02-18T22:17:47Z
+bb0aab664c52006ff79d0802631cf59e65fbbe0d,ci: pin webpack version,Evan You,yyx990803,2019-02-18T22:16:22Z
+1d3316615bfdab021474c248f38ef255e5cc88d5,chore: bump webpack (fix PR build cache),Evan You,yyx990803,2019-02-18T21:34:46Z
+ee29e41ef469b3ca3c793f04289075e3b128447f,fix: avoid possible infinite loop by accessing observables in error handler (#9489),katashin,ktsn,2019-02-18T18:56:17Z
+a702d1947b856cf3b9d6ca5fb27b2271a78a9a5b,build: release 2.6.6,Evan You,yyx990803,2019-02-12T04:20:09Z
+ac7a5bdaed7f380d5f12626d4e7011889a43aba3,build: build 2.6.6,Evan You,yyx990803,2019-02-12T04:20:04Z
+29c348f3cf60c50a52cc98123f8c54fa8f5672fc,"fix: fix keyCode check for Chrome autofill fake key events
+
+close #9441",Evan You,yyx990803,2019-02-12T03:54:35Z
+21fca2fffc3a75235a6656eb85ae40835e04bf69,fix: ensure scoped slot containing passed down slot content updates properly,Evan You,yyx990803,2019-02-11T16:30:14Z
+11deaa932eb51e9af11fd32e72c8cab3cd55ec67,build: release 2.6.5,Evan You,yyx990803,2019-02-11T05:14:34Z
+1489b99f24da78b9023cbe031517d99f0a61c85c,build: build 2.6.5,Evan You,yyx990803,2019-02-11T05:14:30Z
+e7d49cdcf2fd9a612e0dac7a7bea318824210881,"fix: allow passing multiple arguments to scoped slot
+
+fix #9468
+
+Note: the usage is NOT recommended",Evan You,yyx990803,2019-02-11T03:24:18Z
+060686d6ea4d013129b4d2e93d7d2e5c93e09686,fix: do not cache scoped slots when mixed with normal slots,Evan You,yyx990803,2019-02-11T03:23:22Z
+0bad7e2a3508b55abaa8aec2a1bd9c1127305cb4,"fix: bail out of event blocking for iOS bug
+
+close #9462",Evan You,yyx990803,2019-02-09T06:16:41Z
+c1989500450c06cde7750850c87a6082c0725b54,build: release 2.6.4,Evan You,yyx990803,2019-02-08T21:44:50Z
+dfb9fb177feff7dbdc249b4a55bf53f0fbc2af82,build: build 2.6.4,Evan You,yyx990803,2019-02-08T21:44:45Z
+b2a093fa03704b2f0c6b2e9ee4d10b7ed156698d,chore: fix e2e test in phantomjs,Evan You,yyx990803,2019-02-08T21:32:22Z
+9011b83db79cf2f3563f8fccb2e41b5b863c3ee9,fix: avoid breaking avoriaz edge case,Evan You,yyx990803,2019-02-08T21:11:41Z
+8a800867fe61e5aa642e1e3da91bb890d07312f7,fix: new syntax slots without scope should also be exposed on functional slots(),Evan You,yyx990803,2019-02-08T19:45:45Z
+099f3ba60085a089ff369442bdb835f3868e47c0,perf: skip scoped slots normalization when possible,Evan You,yyx990803,2019-02-08T19:36:36Z
+7a0dfd0badf3054c95ac1ec66cc6e213f1592c95,perf: cache result from functional ctx.slots() calls,Evan You,yyx990803,2019-02-08T19:35:37Z
+0e8560d0fc1c0fbf3a52464939701e0e44543b00,"fix: expose v-slot slots without scope on this.$slots
+
+fix #9421, fix #9458",Evan You,yyx990803,2019-02-08T18:47:17Z
+ca57920edb56000bfc87bb64f4e5e3450c03e13a,"fix: avoid logging same error twice when thrown by user in global handler
+
+fix #9445",Evan You,yyx990803,2019-02-07T15:17:28Z
+57bc80a546acb2bd092edd393228324b453ae4e2,"fix: empty scoped slot should return undefined
+
+fix #9452",Evan You,yyx990803,2019-02-07T15:03:13Z
+4015debe951c6b022dee5fc16869561b6c9981b4,chore: make documentation clearer (#9450),JakeConnors376W,JakeConnors376W,2019-02-07T00:52:06Z
+f9c83087cc73697300c4587283f197d84065d4ae,build: release 2.6.3,Evan You,yyx990803,2019-02-06T21:52:07Z
+6441eac4c69de438b630a5ffbb8591dbdc6356f8,build: build 2.6.3,Evan You,yyx990803,2019-02-06T21:52:03Z
+dae7e4182fbbb41e599953cc22e5d54dbb164070,"fix: skip microtask fix if event is fired from different document
+
+fix #9448",Evan You,yyx990803,2019-02-06T20:57:06Z
+d5ade28652b07303ac6b713813792752ae5e4e04,"revert: feat: expose all scoped slots on this.$slots
+
+This reverts commit 0129b0eb12a1f98a722f100892bfc5e60b0f51ce.",Evan You,yyx990803,2019-02-06T20:22:21Z
+7bc88f30c3eadded07dd5b460d1e7cb9342d017c,"fix: skip microtask fix in Firefix <= 53
+
+fix #9446",Evan You,yyx990803,2019-02-06T20:04:24Z
+96a09aad99bdecbcc0e5c420077bf41893d4a745,"fix(compiler): fix v-bind dynamic arguments on slot outlets
+
+fix #9444",Evan You,yyx990803,2019-02-06T18:58:09Z
+4d4d22a3f6017c46d08b67afe46af43027b06629,"fix: bail out scoped slot optimization when there are nested scopes
+
+fix #9438",Evan You,yyx990803,2019-02-06T17:29:00Z
+b6247fc9d7442c50d60ccf366a7cb183a4d02129,refactor: split resolve-scoped-slot into its own file,Evan You,yyx990803,2019-02-06T17:28:10Z
+24b4640c1f268722f5ab8f03e68e2df897cfbdf6,"fix: avoid exposing internal flags on $scopedSlots
+
+ref #9443",Evan You,yyx990803,2019-02-06T16:34:37Z
+54e6a121e992f20c03f104533caa4c59e59b1ee7,fix(types): add Vue.version to types (#9431),Sebastian Krüger,mathe42,2019-02-06T03:20:03Z
+b9de23b1008b52deca7e7df40843e318a42f3f53,"fix: async component should use render owner as force update context
+
+Previously, an async component uses its lexical owner as the force
+update context. This works when the async component is rendered in a
+scoped slot because in the past parent components always force update
+child components with any type of slots. After the optimization in
+f219bed though, child components with only scoped slots are no longer
+force-updated, and this cause async components inside scoped slots to
+not trigger the proper update. Turns out they should have used the
+actual render owner (the component that invokes the scoped slot) as the
+force update context all along.
+
+fix #9432",Evan You,yyx990803,2019-02-06T03:16:55Z
+2ef67f868dc4ca95453a091a589bab24e226f045,chore: fix typo in scheduler.js [ci skip] (#9425),katashin,ktsn,2019-02-05T16:34:16Z
+fdc5f0363bf528ddd1eda73c313c860ea8cf5e7a,"[automated] Patreon sponsors update (#9424)
+
+* chore: update sponsors [ci skip]
+
+* Update BACKERS.md
+
+* Update README.md",vue-bot,vue-bot,2019-02-05T16:30:33Z
+d06e3aff96f2ca3a78a1611b52412d665a02843e,chore: update backers [ci skip] (#9423),vue-bot,vue-bot,2019-02-05T16:26:42Z
+ee9b684d0bca0c6260092b98ac81d739d35a1587,build: release 2.6.2,Evan You,yyx990803,2019-02-05T03:52:44Z
+22795094568a500421556698a44d04a65fdcb57b,build: build 2.6.2,Evan You,yyx990803,2019-02-05T03:52:39Z
+44a4ca33b95070e9aa53c6924479519d86dd9b36,"fix: restore slot-scope + v-if behavior
+
+fix #9422",Evan You,yyx990803,2019-02-05T03:39:35Z
+0129b0eb12a1f98a722f100892bfc5e60b0f51ce,"feat: expose all scoped slots on this.$slots
+
+close #9421",Evan You,yyx990803,2019-02-05T03:25:19Z
+b034abf48e793189ce8796c259eed2fbfb79bcd0,fix: always set transformed model value on attrs,Evan You,yyx990803,2019-02-05T03:03:33Z
+1a6f7a576c5359d3f86ceaf080e4e72cbeba030a,build: release 2.6.1,Evan You,yyx990803,2019-02-04T22:51:36Z
+6fb3a2211aa6aba54c961df41a514af1131424a6,build: build 2.6.1,Evan You,yyx990803,2019-02-04T22:51:32Z
+66fd3c8dd1577d4b634731adf4be4d3db5bf1df6,"fix(v-model): add value to $attrs if not defined in props (#9331)
+
+fix #9330",Bogdan Luca,lbogdan,2019-02-04T22:43:48Z
+0fb03b7831693b4abc90dd0bfe971c36c02d82a6,"fix: avoid blocking first input event in IE when it shouldn't (#9297)
+
+- the original bug in #7138 only happens for `<textarea>`
+- the bug doesn't happen if placeholder has empty value
+
+fix #9042, fix #9383",nciont,nciont,2019-02-04T22:39:41Z
+55bfb94a33ecc9b33131ec0fb78bba2946e8fc75,"fix(compiler): fix inline-template crashing (#9365)
+
+fix #9361",Filipe Amaral,Unknown,2019-02-04T21:49:27Z
+c27fe24dc6088b517ab17c799a1852f97c22c076,fix: decode single quotes in html attributes (#9341),bughit,bughit,2019-02-04T21:48:24Z
+1922e7d4d99d0397223b3919a1643aacb7afbbab,"fix(template-compiler): allow comments on the root node in templates (#9408)
+
+In SFC templates, we are allowed to add comments to the root node. If parsing with comments flag
+true, we are not anymore. This ignores the root comments in case they cannot be added.
+
+fix #9407",Barthélémy Ledoux,elevatebart,2019-02-04T21:34:32Z
+b6b42ca8c41963be292caa266ce4330603f4c4eb,"fix: avoid isPromise check when handler return value is Vue instance
+
+fix #9418",Evan You,yyx990803,2019-02-04T20:14:29Z
+85548310f19975745c83ac173f700f8b2f1e8e3e,build: release 2.6.0,Evan You,yyx990803,2019-02-04T15:57:04Z
+076dc8d84facb3a62700b73e69804eca9f47ae50,build: build 2.6.0,Evan You,yyx990803,2019-02-04T15:57:00Z
+9b33f206f82a9fcea6e78de37e7624cd4b7431b8,chore: update sponsors [ci skip] (#9405),vue-bot,vue-bot,2019-02-02T15:53:46Z
+64f863bbb9c8147819ef4547dfdadba0239c6d59,feat: move v-bind.prop shorthand behind flag,Evan You,yyx990803,2019-02-02T15:49:01Z
+44a17ba2cde7fb9a673486d44de7f29feb5c1882,"fix: fix child forceUpdate regression
+
+close #9396",Evan You,yyx990803,2019-01-31T15:24:41Z
+539e481f38706a6202f0eacf54c579362fbd5bb4,fix: fix v-bind:style for camelCase properties with !important  (#9386),Filipe Amaral,Unknown,2019-01-31T15:08:35Z
+e1db2c5bf66fca3d219683682690cd33921dd5c5,chore: update sponsors [ci skip] (#9400),vue-bot,vue-bot,2019-01-31T15:04:43Z
+e632e9a0759532e1d902871ca07b02c9ac267e7c,"fix: allow more enumerated values for contenteditable
+
+close #9397",Evan You,yyx990803,2019-01-31T14:56:18Z
+6afd96f2fdb59b1fce8ee7bf1cef4c348294959b,chore: fix flow,Evan You,yyx990803,2019-01-31T02:41:56Z
+3edb99920011d64516c30d45250988e39544e418,polish: warn against incorrect nested v-slot usage,Evan You,yyx990803,2019-01-31T02:33:59Z
+2807fd24b0c17179336f84d1725b69cd3c7a0aca,fix: template v-slot should work with v-else conditions,Evan You,yyx990803,2019-01-31T02:30:29Z
+5851961ca320a423003bd32fecb488f230dcd854,refactor: adjust codegen for v-if on scoped slot,Evan You,yyx990803,2019-01-30T23:12:18Z
+7721febcc3c0594af0abc25fa32d72d63a52942f,build: release 2.6.0-beta.3,Evan You,yyx990803,2019-01-30T14:59:37Z
+9f3cbafa551f654c9782fd0cef9e3214efc903f2,build: build 2.6.0-beta.3,Evan You,yyx990803,2019-01-30T14:59:32Z
+2afa1d056e9c50376cb63763ab6815cd245b8d69,build: fix feature flags for esm builds,Evan You,yyx990803,2019-01-30T14:47:31Z
+c9e3a5d1d92500ac1e1d1eb6f3866a9df5eecf53,feat: detect and warn invalid dynamic argument expressions,Evan You,yyx990803,2019-01-28T23:08:37Z
+624c79930ad2e9b0cfff8853f5629383b8d59b3a,build: release 2.6.0-beta.2,Evan You,yyx990803,2019-01-26T04:38:40Z
+90f47d1bc687b195aeda55c61c147296ff4dc45a,build: build 2.6.0-beta.2,Evan You,yyx990803,2019-01-26T04:38:36Z
+dbc0582587f90e78867809bb6ae683301cd0626b,"feat: dynamic directive arguments for v-on, v-bind and custom directives (#9373)",Evan You,yyx990803,2019-01-26T04:21:58Z
+f219bedae8f9cab131eb5529769bcfdc91ce2912,"perf: improve scoped slots change detection accuracy (#9371)
+
+Ensure that state mutations that only affect parent scope only trigger parent update and does not affect child components with only scoped slots.",Evan You,yyx990803,2019-01-26T03:34:06Z
+770c6ed64f8be3edc4175d431fc67ba140bf5b97,refactor: extend dom-props update skip to more all keys except value,Evan You,yyx990803,2019-01-24T20:47:58Z
+1868561442507690f07579c258f4db19a650fb9a,fix: fix checkbox event edge case in Firefox,Evan You,yyx990803,2019-01-24T20:43:06Z
+8cb2069aa44f833259781f135c7b6cf9e21e15c8,test: fix tests in IE/Edge,Evan You,yyx990803,2019-01-24T15:05:39Z
+32072e8a8853584b1f8763f42cd845fbc55f4dc2,refactor: simplify timestamp check,Evan You,yyx990803,2019-01-24T15:05:20Z
+60a277ca31f2cea83733d502bebcd6e4546db262,chore: update comment,Evan You,yyx990803,2019-01-23T23:44:21Z
+ba0ebd4771ddb5c56c1261f82c842b57ca7163a6,"fix: async edge case fix should apply to more browsers
+
+also optimize fix performance by avoiding calls to performance.now()",Evan You,yyx990803,2019-01-23T23:41:50Z
+ba9907c73c01b1b52afdf9486c178238a4a68169,chore: update sponsor,Evan You,yyx990803,2019-01-23T20:07:24Z
+8d8457246daac543c5935aa3cbf62d362431da43,feat: warning for ambiguous v-slot usage,Evan You,yyx990803,2019-01-23T15:20:01Z
+67e85deae2b9720624ed7b20223b905a882942a0,feat: adjust v-slot per RFC + enable flag,Evan You,yyx990803,2019-01-23T03:21:24Z
+ec8403209ab9ecc526f696c032f6cd14c8d122bb,chore: update README in dist (#9346),yong,multics,2019-01-19T16:28:19Z
+6ca18bd05b5f90af5285851cc6db62b908a844e2,chore: update sponsors [ci skip] (#9343),vue-bot,vue-bot,2019-01-19T13:37:22Z
+b0f2f830e62b21a93f22d12ac6402e70354e849c,chore: fix flow,Evan You,yyx990803,2019-01-18T21:46:49Z
+42fdf3f8378e5dc379808a4fa67b39c4a74ae191,refactor: ssrPrefetch -> serverPrefetch for more consistent naming,Evan You,yyx990803,2019-01-18T21:43:17Z
+df064cedd11d43173b550762ae850c507638db76,test: tests for ssr template function (#9324),Evan You,yyx990803,2019-01-18T16:25:37Z
+b65f6d78e0e480601b0042b1b5e8259343b629fb,"feat(ssr): allow template option to be function in renderToString (#9324)
+
+Also allows return Promise for async handling",DominusVilicus,Unknown,2019-01-18T16:20:07Z
+4fca0454bd716a5d3ba32057ff2ed510af933c8d,feat: update new slot syntax per RFC revision,Evan You,yyx990803,2019-01-16T18:44:58Z
+a47a0ee287116df7f2b89b956fdb3a3ea6c6330c,workflow: fix release script [ci skip],Evan You,yyx990803,2019-01-16T16:22:02Z
+732bf878c1f8b60e075990ec490977758d4fb886,build: release 2.6.0-beta.1,Evan You,yyx990803,2019-01-16T16:21:07Z
+e75c6230473ba324352547f8356bce12f69c3f9d,build: build v2.6.0-beta.1,Evan You,yyx990803,2019-01-16T16:20:25Z
+730a10f771cf722fd28994b0501ad7b04534882a,types: type sync for template-compiler and server-renderer,Evan You,yyx990803,2019-01-15T22:41:42Z
+7fb6fdd16824d9af1b7bbff83e1c032940ee600c,"build: introduce feature flags, hide new slot syntax behind flag",Evan You,yyx990803,2019-01-15T21:22:06Z
+0cf6aaddb54361889231b3e2c52b34f9fa82c22d,types: type sync for 2.6 features,Evan You,yyx990803,2019-01-15T17:38:58Z
+9ae80acde59d9d149ee5e4e2097f209eac6f834f,"feat: expose performance measures
+
+ref #7570",Evan You,yyx990803,2019-01-15T16:41:00Z
+c5c354d593d6f6344e78ca098f1ae1fa3e83d6ed,feat: new scoped slot syntax implementation update per rfc,Evan You,yyx990803,2019-01-15T03:56:37Z
+aef5b4e47811cb842315bd27d6919650da45279b,fix(ssr): should render 0 as valid value for style property with unit,Evan You,yyx990803,2019-01-12T07:07:17Z
+584e89da4ab17e1ebdae0ae10be77ef9d230c7a0,"feat: support slot-props and its shorthand
+
+See https://github.com/vuejs/vue/issues/9306 for more details.",Evan You,yyx990803,2019-01-12T06:23:51Z
+4f61d5b73b2e96b9570959dd2a540bc439d0f3bd,chore: fix flow,Evan You,yyx990803,2019-01-12T05:42:09Z
+bc97ff956e373be14b67da4c57db207c1c889706,chore: reset CommonJS dist files overwritten by merge,Evan You,yyx990803,2019-01-12T05:32:56Z
+794ad0dae3bd562dc603e784d550b6707dc716b1,refactor: additional tweaks after revert,Evan You,yyx990803,2019-01-12T04:09:31Z
+6a2994e8f07d24ff6d94507a3e8effd22e2434d9,"revert: feat: support scoped-slot usage with $slot
+
+This reverts commit 7988a5541cd6e9a9be28b4905d69c44ddcb3878e.",Evan You,yyx990803,2019-01-12T04:04:04Z
+6fe07ebf5ab3fea1860c59fe7cdd2ec1b760f9b0,chore: merge branch '2.6' into dev,Evan You,yyx990803,2019-01-11T23:26:32Z
+99343f9b48048c459c2021d25d25a8cbc86d2f32,build: release 2.5.22,Evan You,yyx990803,2019-01-11T23:18:31Z
+06dbb2ab2e7f10d00d9801e4e1641c2edf83db9e,build: build 2.5.22,Evan You,yyx990803,2019-01-11T23:18:26Z
+7ac8f63a051de2a4b19b73e4729f2c8662b2fb3e,chore: remove residual files from dist,Evan You,yyx990803,2019-01-11T23:13:13Z
+0d2e9c46f16e9ec5bd0f3eebd2aa31c7f7493856,"fix(core): dedupe lifecycle hooks during options merge
+
+The fix landed in #9199 causes further extended constructors used as
+mixins to drop options from its inheritance chain, so a different fix
+is needed.",Evan You,yyx990803,2019-01-11T22:51:45Z
+edf7df0c837557dd3ea8d7b42ad8d4b21858ade0,"fix(core): dedupe lifecycle hooks during options merge
+
+The fix landed in #9199 causes further extended constructors used as
+mixins to drop options from its inheritance chain, so a different fix
+is needed.",Evan You,yyx990803,2019-01-11T22:51:45Z
+743edacdb6fa0bb711e860b68373274f50c8baa5,"fix(core): fix merged twice bug when passing extended constructor to mixins (#9199)
+
+fix #9198",hikerpig,hikerpig,2019-01-10T21:10:54Z
+d21e93139697be2c0a6fdc4ee74d30d2834a729f,"fix(async component): memory leak after synchronous async loading (#9275)
+
+fix #9229",Adrien Baron,adrienbaron,2019-01-11T20:46:25Z
+17d8bcb60edc14b2c23f5e6cc92f030897092e21,"fix(ssr): should not render invalid numeric style values
+
+Reverts part of 7d9cfebe - browsers only auto append units to
+numbers when in quirksmode, so in standard mode, numbers set to
+style properties that require units are invalid and should not
+be rendered.",Evan You,yyx990803,2019-01-11T19:54:10Z
+7d9cfebe39ffd531e0948668e688474b276cdec1,"fix(ssr): properly handle invalid and numeric style properties
+
+Ignores values that are not string or numbers, and append px as default
+unit to appropriate properties.
+
+There will still be certain cases where the user simply provides an
+invalid string value to a property which will be too costly to detect
+(it's possible by using the `cssstyle` package, but very heavy). But
+in such cases the user would already notice the style is not working
+on the client, so it's not really worth it for the perf implications.
+
+fix #9231",Evan You,yyx990803,2019-01-11T16:07:40Z
+fe2b27ffb98932ec8e822bd88b4de1666810521c,types: typing for Vue.observable,Evan You,yyx990803,2019-01-11T03:44:55Z
+142cf6c4893c36a20e9e4102f588103c70023b46,types: update typing for vue-template-compiler,Evan You,yyx990803,2019-01-10T23:19:23Z
+a4ed58c076649a4536b40a9c98c974c77602c76b,feat(compiler): expose generateCodeFrame method,Evan You,yyx990803,2019-01-10T22:58:06Z
+537161779ea329c1d0a993997555f1c692b8cac1,"fix(core): fix merged twice bug when passing extended constructor to mixins (#9199)
+
+fix #9198",hikerpig,hikerpig,2019-01-10T21:10:54Z
+c50bbde41c4a1868a8a0b33df3238346840bd37c,feat: add Vue.observable() for explicitly creating observable objects,Evan You,yyx990803,2019-01-10T21:03:03Z
+ce7ca7bde9bc2296a263e59d5bb8b633405b87cb,refactor: should also fire handler if timestamp was same,Evan You,yyx990803,2019-01-10T20:08:38Z
+3a1a9359607ed6ddc32627f5c33548d671fb21bd,refactor: do not override scoped slots when exposing normal slots,Evan You,yyx990803,2019-01-10T19:25:09Z
+3504d7f6d6c8f5bf156fa9242bf54f502c077520,"refactor: better solution for async edge case.
+
+Revert event delegation related changes.",Evan You,yyx990803,2019-01-10T19:21:31Z
+90fe7490911c5f7f3adc1607f1a55fae5070bcd7,build: trigger regression tests from 2.6 feature branch,Evan You,yyx990803,2019-01-10T17:44:31Z
+b32c4b693535c35ae10742eb3351cbc123b15941,fix: ensure proxied normal slot uses correct key,Evan You,yyx990803,2019-01-10T17:32:06Z
+d855027741d4f602cc9f507c18ede75c3e7ce84a,test: more test cases for $slot usage detection,Evan You,yyx990803,2019-01-10T16:18:06Z
+1e5174d21399eec115ae1b1930f218853311558d,test: add more test case for watch option,Evan You,yyx990803,2019-01-10T15:33:02Z
+8b382b3efb14986e9ea5213d0b57c244b70ae0e7,fix: allow _ in watch paths (element compat),Evan You,yyx990803,2019-01-10T04:46:38Z
+5fb23d4e2971480d14fbee0146e3416a07bc0b9f,fix: ensure only nromalize a scoped slot when it is present,Evan You,yyx990803,2019-01-10T03:47:11Z
+4c2c6f03dc617e0b7f8ffee7539876d131506cbf,build: fix dev:cjs script,Evan You,yyx990803,2019-01-10T03:26:54Z
+8eea6b07c415ac5c7e3a401265e6390f0e18e5b9,"refactor: avoid using immutable object for $slot
+
+libs like Avoiraz assumes $slots is mutable, need backwards
+compat.",Evan You,yyx990803,2019-01-10T03:03:51Z
+3be1c5d67e8bdfc9387122317bf3779261010d45,feat(config): expose config.useEventDelegation and default to false,Evan You,yyx990803,2019-01-10T01:09:50Z
+02f897a4bc57fec89301918ed7c3db0c423deaae,chore: fix flow,Evan You,yyx990803,2019-01-09T22:41:37Z
+d2902ca8ec5fd184fe81479fea1318553fdb8323,"feat: support .property shorthand syntax for v-bind.prop modifier
+
+close #7582",Evan You,yyx990803,2019-01-09T22:31:04Z
+23a145952c20f0b7538f4591b910fd209035c683,refactor: adjust #7941 for slots unification,Evan You,yyx990803,2019-01-09T21:35:39Z
+fb6aa0609045e69a0b6050bc7b6466b63be8d69d,feat(functional): add scopedSlots to context in functional components (#7941),Eduardo San Martin Morote,posva,2019-01-09T21:18:14Z
+5d52262f1ce56d080c3438c4773a81dc5c8397aa,"feat(core): expose all slots on $scopedSlots as functions
+
+After this change, users using render functions can always make use
+of slots via `this.$scopedSlots` without worrying about whether the
+slot is being passed in as scoped or not.
+
+This should also make it easier to migrate to 3.0 where all slots are
+exposed as functions that return Array of VNodes on `this.$slots`.",Evan You,yyx990803,2019-01-09T20:35:57Z
+cf42f8e870f34e59e19f9cbf7ac6309c3c9c160c,"chore: update sponsors [ci skip] (#9296)
+
+[automated] Patreon sponsors update",vue-bot,vue-bot,2019-01-09T17:52:30Z
+7988a5541cd6e9a9be28b4905d69c44ddcb3878e,feat: support scoped-slot usage with $slot,Evan You,yyx990803,2019-01-08T03:26:44Z
+91327300355a6e52b39da0d5c95cc45563cbb021,refactor(codegen): simplify conditions,Evan You,yyx990803,2019-01-07T23:22:22Z
+583dd01158a4dec1df5a101d1bba68cb8e17a60a,"refactor(parser): move element self processing to after children
+
+This allows element processing logic to be based on its sub tree
+content, e.g. $slot usage detection",Evan You,yyx990803,2019-01-07T21:47:18Z
+d278da20a008a61ed8d5ec9d92524eb5dc9630cf,test: fix LRU upgrade,Evan You,yyx990803,2019-01-07T17:15:15Z
+bbfeb039f37d8d040bde318fe904761c6bd9386f,build: bump dev deps,Evan You,yyx990803,2019-01-07T15:58:29Z
+ab2b1f16f4fa2c966d9b7d89d36aa7125c6802c5,chore: update sponsors,Evan You,yyx990803,2019-01-04T19:54:44Z
+75a2b4cd42bcb864d37c3d4a12d984e746eb3a5f,chore: update sponsors,Evan You,yyx990803,2019-01-04T19:54:44Z
+05fbc3602f2a0c4d4989721f1dbbd9c55f1d8560,chore: update backers,Evan You,yyx990803,2019-01-03T15:18:47Z
+c117e8f25efeaa46565e7bb7e3c055d48f7f5117,chore: update backers,Evan You,yyx990803,2019-01-03T15:18:47Z
+ce35159d6d6e9c3607bd3232e386b5b994d0ec49,chore: fix types,Evan You,yyx990803,2018-12-26T22:22:32Z
+c7c13c2a156269d29fd9c9f8f6a3e53a2f2cac3d,"fix(scoped-slots): ensure $scopedSlots calls always return Arrays
+
+Also allow render functions to return an Array of a single element.
+Close #8056",Evan You,yyx990803,2018-12-26T22:17:30Z
+d747469e1ae26190d364e5cc9c8112d3d865a0b9,test: test case for v-for native collection support,Evan You,yyx990803,2018-12-26T21:02:50Z
+7a9290421d511cca66a6563f910beb1fab1b33ee,build: fix chrome headless on CI,Evan You,yyx990803,2018-12-26T20:48:19Z
+85d8ad64aa864f4c0800fbb9a895432b5edfdfe3,build: use headless chrome by default for unit tests,Evan You,yyx990803,2018-12-26T20:38:52Z
+d40eb9c2880c8dd27fedb9fbc508823a15742274,feat(v-for): support iterables in v-for (#8179),Jeremy Dubois,mymyoux,2018-12-26T20:38:19Z
+e1abedb9e66b21da8a7e93e175b9dabe334dfebd,"feat(compiler): add whitespace option, deprecate preserveWhitespace option
+
+close #9208",Evan You,yyx990803,2018-12-26T19:12:34Z
+9c718522bac60d13d3b48d6b6512fccfd5cf8858,"feat(compiler/watch): allow unicode characters in component names and watch paths (#8666)
+
+close #8564",Pak Youngrok,youngrok,2018-12-26T15:02:54Z
+325fc7693c1574e69fe542f1dbc334030a4b1ec3,feat(compiler): output codeframe in browser compiler,Evan You,yyx990803,2018-12-22T04:55:48Z
+3883f1f69c3dc12abd9c5f321f98f340233c1087,chore: update deps,Evan You,yyx990803,2018-12-22T03:23:11Z
+b31a1aa8870474b2ca782c45d55edac2932d4cc2,"feat(compiler): output source range for compiler errors (#7127)
+
+ref #6338",Jason,gzzhanghao,2018-12-22T02:58:32Z
+d08b49f520e0704f9d4e61be4f751e3b2cdac6a8,fix: make transition-group key warning a tip to avoid breaking compilation,Evan You,yyx990803,2018-12-21T19:46:18Z
+1c105fb16c1b2395790740efce10b137f2f36c19,test: fix test case for #8297,Evan You,yyx990803,2018-12-21T19:29:57Z
+3fca52792ef83fa58a5c28882706d9e8a039790d,"feat: v-bind.sync also listens for kebab-case update event (#8297)
+
+ fix #6428",Divya,shortdiv,2018-12-21T18:34:17Z
+0e4e45ec741416e0042c29a53bbc0e58c8663f6e,"feat: support custom toString() in text interpolation and v-html (#8217)
+
+close #8093",Mathieu TUDISCO,mathieutu,2018-12-21T18:13:48Z
+1933ee80ff808b81a691fa6a135c1588d218bc0a,fix(provide/inject): Merges symbol provides (#7926),Hiroki Osame,privatenumber,2018-12-21T17:49:21Z
+5ab028a9128b289b0c840bdb6901021fc482e6f5,refactor: speed up injection resolution,Evan You,yyx990803,2018-12-21T17:26:24Z
+bf0efb02b1f52cceb0bad8588cf6c90e22349049,"feat(compiler): support deindent: false in vue-template-compiler (#7215)
+
+close #7054",Zhenfei You,imyzf,2018-12-21T16:59:34Z
+a981c80d2aedb0d56f98865e39c981819fbf65d0,feat: support v-html for SVG elements (#8652),GU Yiling,Justineo,2018-12-20T22:07:34Z
+22ad26615104c15fd09bc69692e3042bb1bb58e9,"fix(runtime): DevTools recommendation shows for all browsers (#8638)
+
+Close #8634",Alejandro Maguey,Unknown,2018-12-20T22:05:05Z
+44940121eef4e2df5f3cb3c21f3f468af8b336bc,"feat(ssr): add custom state serializer option
+
+close #6614",Evan You,yyx990803,2018-12-20T21:08:58Z
+7ebabe2392d3376a97492209e2895122e5a54bd2,test: test for #8790,Evan You,yyx990803,2018-12-20T20:54:35Z
+ab24285458c98e25d5749beb4edebef73672de4b,"feat(ssr): allow opting-out of caching by returning false in serverCacheKey
+
+close #8790",Evan You,yyx990803,2018-12-20T20:47:15Z
+d7a533d6f85aae52aed03202fa5ccb774f0cb2ec,feat(ssr): ssrPrefetch option + context.rendered hook (#9017),Guillaume Chau,Akryum,2018-12-20T20:26:12Z
+f036cce16377cec328bee03a3a4069275b320312,"feat(ssr): Add 'nonce' option to context for ssr outlet script (#8047)
+
+close #7479",Hyunje Jun,Unknown,2018-12-20T20:15:04Z
+9432737cf871335c42ce0dc0a0baa21a4d8c3832,fix: cover more cases in v-on inline return value,Evan You,yyx990803,2018-12-20T17:20:09Z
+0ebb0f39dfee0a5c03adb2f312f617cca37b44d6,"fix: return inline invocation return value in v-on handlers
+
+close #7628",Evan You,yyx990803,2018-12-20T16:32:06Z
+b00868c5cb1ca8aa8b42947ff5d2a55e9e298582,refactor: extract async error handling logic,Evan You,yyx990803,2018-12-20T15:26:56Z
+35edc1c1e2515033a07e903580df01bcd43090aa,refactor: extract isPromise util,Evan You,yyx990803,2018-12-20T15:09:06Z
+6e9fcfc81d922a1b188268bf50d7e67c07d6d662,"feat(errors): sync/async error handling for lifecycle hooks and v-on handlers (#8395)
+
+close #6953, close #7653",Enkot,enkot,2018-12-20T15:02:28Z
+b7f7f2756928f409950186c5d641034f362b392a,"feat: use event delegation when possible
+
+This also fixes async edge case #6566 where events propagate too slow
+and incorrectly trigger handlers post-patch.",Evan You,yyx990803,2018-12-20T00:26:58Z
+080dd971f77f7c631650c4e3027d1802f4e804d8,"fix(next-tick): revert 60da366
+
+the condition is no longer necessary after reverting back to microtask
+only nextTick implementation, and fix #8436",Evan You,yyx990803,2018-12-19T19:00:15Z
+850555d1faa9be7d8306adffd95c7dee5e58717f,"fix: always use microtasks for nextTick (#8450)
+
+fix #7109, #7546, #7707, #7834, #8109
+reopen #6566",Haoqun Jiang,haoqunjiang,2018-12-19T18:29:00Z
+ced774be6ddbc53884d7a5d395514a9f62e32336,feat(types): add types for vue-template-compiler (#7918),katashin,ktsn,2018-12-05T22:56:27Z
+57910723c6ba68386c15e095e42c1ed9603c7bcf,"feat(types): add Prop to main type declaration file (#6856)
+
+close #6850",Ferdy Budhidharma,ferdaber,2018-12-05T22:50:13Z
+63f5c6e9f18388b214c17d432842b581c26b33ac,build: add esm browser prod build,Evan You,yyx990803,2018-12-05T22:46:28Z
+861abf4bb940e89a6ae3c5c3e2dad4ed0bd53b3e,feat: add browser ESM build,Evan You,yyx990803,2017-11-22T19:23:16Z
+17296aa6bbbe9f1242bca01381d3a936a569ab7f,build: ship pre-minified versions of CommonJS build and server renderer,Evan You,yyx990803,2018-12-05T14:41:16Z
+38e967b8067441ff37cb3b923200023a6b842759,refactor: tiny cleanup changes (#9193),Xin Du (Clark),clarkdo,2018-12-12T16:41:45Z
+af9e2b3f0f4156fd52ed4444b96e2b8c0932c658,chore: minor comment cleanup (#9191),Nick Hall,nickhall,2018-12-12T16:41:36Z
+b06c784b81a244e1bc2d028216fcd2ab873730b9,fix(ssr): support rendering comment (#9128),Xin Du (Clark),clarkdo,2018-12-12T16:41:08Z
+70754084ec2d84e44effeb8f82efda3397a08b0d,build: release 2.5.21,Evan You,yyx990803,2018-12-11T22:52:21Z
+b449e17eefd5543316291398677b57220cc951ba,build: build 2.5.21,Evan You,yyx990803,2018-12-11T22:52:18Z
+847e493768371cec4718969e02bdb7f8463f4e03,fix: fix single v-for child optimization,Evan You,yyx990803,2018-12-11T22:47:59Z
+4e975485a4d90fef62bf73a32a2b72e249919130,test: use mocks for commits e2e test,Evan You,yyx990803,2018-12-11T22:44:25Z
+80fb6b8da144bd9c2313702e23a35d72fa620135,"revert: ""chore: use keypress in TodoMVC example for IME input methods (#9172)""
+
+This reverts commit 6980035a86cfb79368af77a5040e468177d6b14a.",Evan You,yyx990803,2018-12-11T21:58:18Z
+4074104fac219e61e542f4da3a4800975a8063f2,perf: skip normalization on single child element v-for,Evan You,yyx990803,2018-12-11T21:51:40Z
+47487607fbb99339038cf84990ba341c25b5e20d,"fix: fix v-for component with undefined value
+
+fix #9181",Evan You,yyx990803,2018-12-11T21:51:03Z
+984393fed981c58ad79ed50424f023dcfa6829d0,test: change model text's priority case (#9170),krystal,dejour,2018-12-11T16:37:39Z
+6980035a86cfb79368af77a5040e468177d6b14a,chore: use keypress in TodoMVC example for IME input methods (#9172),Fumio Nonaka,FumioNonaka,2018-12-11T16:35:21Z
+87bad80f0cb9a30b95d9410120ff6e3e2022a723,"fix(lifecycle): beforeUpdated should not be called if component is destroyed (#9171)
+
+fix #8076",Matteo Fogli,therealpecus,2018-12-11T16:31:27Z
+d8285c57a613c42eddf2d4f2b75c1cea6aa4703a,"fix(weex): support data class type that is string (#9139)
+
+close #9124",Zhenfei You,imyzf,2018-12-11T16:29:49Z
+8fccd8256902b6199ac124017f70d75abb45ed27,chore: fix tag name in compiler/parser/index.js (#9165),NaotoSuzuki,sinshutu,2018-12-11T16:28:40Z
+3d449376d557c4533a9664f95df3a168ecee9bfa,"fix(v-model): properly handle multiline v-model expressions (#9184)
+
+fix #9183",Andrew Hyndman,andrew-humu,2018-12-11T15:27:43Z
+d780dd2e2adcf71f40c086055a659a9a2b4a8282,"fix(types): accept primatives and falsy values in createElement children (#9154)
+
+fixes #8498",Kael,KaelWD,2018-12-10T23:36:41Z
+77d406b2a49b286fe6587305fabcf0796db19ab1,build: release 2.5.20,Evan You,yyx990803,2018-12-10T16:57:04Z
+952d3b4b218697b22f6f4bb42f859d15d1896e86,build: build 2.5.20,Evan You,yyx990803,2018-12-10T16:57:01Z
+e06d2af276fc8d626a3b048f4d138a243aa690a4,"fix(types): avoid `this` in VueConstructor signature (#9173)
+
+https://github.com/vuejs/vue-class-component/issues/294#issuecomment-445526936",Herrington Darkholme,HerringtonDarkholme,2018-12-10T16:53:57Z
+628c1b7f5b298e13975d880c73e8fc2893628c2e,build: release 2.5.19,Evan You,yyx990803,2018-12-09T21:26:02Z
+c38a81b84a52351e8220a56f5828894b422ec816,build: build 2.5.19,Evan You,yyx990803,2018-12-09T21:25:36Z
+0d4b35f55975946cb0eb4f7f5f35efe3d078473e,"fix(vdom): remove unnecessary sameVnode condition
+
+fix #9168",Evan You,yyx990803,2018-12-09T21:21:22Z
+5d721a42b140865e50a78445fe21c5f270bde703,"revert: fix(sfc): avoid deindent when pad option is specified (#7647)
+
+This reverts commit 9d2f9a034f9c40d5ba6d8b1e131b1bfb675dc1cf.",Evan You,yyx990803,2018-12-09T20:52:17Z
+780dac561b9cd6c3cec28f154f76e7d28352ebf3,"fix(ssr): should not warn for custom directives that do not have ssr implementation
+
+fix #9167",Evan You,yyx990803,2018-12-09T20:47:43Z
+a89384c8d93a3e5a382f60a84d60f0675408ed75,test(ssr): add basic directives test (#9166),sqal,sqal,2018-12-09T20:42:20Z
+dadc918c05ff96063eb9f6c48c126db71758213b,build: release 2.5.18,Evan You,yyx990803,2018-12-07T21:09:08Z
+eb81ec213196ef9e286e34be3d542326f14a1910,build: build 2.5.18,Evan You,yyx990803,2018-12-07T21:09:05Z
+dfaf9e24361e10ae68ce3951eaf48262cf90f0ec,fix(types): type support for advanced async components (#8438),Timur Kiyui,kiyui,2018-12-05T23:00:56Z
+8a2dbf50105ea729125a42fecfe2c2f0371d7836,"fix(transition-group): fix activeInstance regression
+
+fix #9151",Evan You,yyx990803,2018-12-05T22:33:39Z
+0ed0aad77228b95e9a61a87386736938837527f8,"fix: fix keyName checking for space and delete in IE11 (#9150)
+
+fix #9112",GU Yiling,Justineo,2018-12-05T20:26:58Z
+f077ed17af14bb2675db64b2aa2d023769219624,"fix(ssr): fix ssr template publicPath generation
+
+fix #9145",Evan You,yyx990803,2018-12-05T15:54:42Z
+93850f49e31559c78dc91f5df9e756f424ba910a,chore: fix sponsor link,Evan You,yyx990803,2018-12-04T16:00:09Z
+1b4a8a0c1edaf9c7eb129ba61bca94ba607bbf56,"fix(compiler): fix codegen for v-for component inside template
+
+fix #9142",Evan You,yyx990803,2018-12-04T15:51:29Z
+448ba65d2b139b29f1e6891add9925ac22ffe10b,"fix(types): correct scopedSlot types (#9131)
+
+see #8946",Kael,KaelWD,2018-12-04T01:31:39Z
+0d7fb739257cc3d3fc1ea6127eb1089a762b220c,chore: update sponsors/backers [ci skip],Evan You,yyx990803,2018-12-03T20:02:02Z
+e8031b4e68a060d4e559ec62f4350987e06dee9a,build: release v2.5.18-beta.0,Evan You,yyx990803,2018-12-02T21:13:36Z
+fe194dd5d812249bed5c15ad1d16551599b029dd,build: build v2.5.18-beta.0,Evan You,yyx990803,2018-12-02T21:12:52Z
+307835284a326569ea12c4a22c7dcb8f36d2d8ca,"fix(ssr): resolve server directives the same as on client (#9129)
+
+fix #8961",ggtmtmgg,ggtmtmgg,2018-12-02T21:01:19Z
+aca17b4064bf5017506d77e9f5bf286cfe926ae1,ci: add regression test for popular libraries in Vue.js ecosystem (#8608),Haoqun Jiang,haoqunjiang,2018-12-02T21:00:06Z
+e4b1b57fd7117a19cdb376dcb156606e0cc32a94,"fix(ssr): adjust call stack size defer threshold
+
+fix #8545",Evan You,yyx990803,2018-12-02T17:31:16Z
+19c33a7e4072b03069f803263ed0c49feb5f73a9,"fix(v-on): correctly remove once listener (#8036)
+
+fix #8032",laoxiong,gebilaoxiong,2018-12-02T16:32:59Z
+530ca1b2db315fbd0e360807b2031d26665c5d3d,"fix(core): properly handle reused vnodes
+
+This also removes the restrictions on rendering the same slot multiple
+times.
+
+close #7913",Evan You,yyx990803,2018-12-02T02:07:18Z
+097f6229dffc34af452b106ad2a3b58845588807,"fix(core): avoid mutating original children when cloning vnode
+
+The on-demand clone strategy introduced in 956756b mutates the owner
+array of the cloned vnode. This causes the newly cloned vnode to be
+destroyed when the parent node is destroyed. This is fixed by cloning
+the children array when cloning a vnode.
+
+fix #7975",Evan You,yyx990803,2018-12-01T22:05:36Z
+ef8524ab7db8d64ac449ce74f5858aa9d91357ad,"fix(compiler):  wrap scoped slots v-if conditions in parens (#9119)
+
+fix #9114",Subhash,subu28,2018-12-01T05:33:59Z
+0b31647c41b0c916d40b962723b1de06672d0e01,chore: fix grammar in core/observer/index.js comments (#9116),Husam Ibrahim,HusamElbashir,2018-12-01T05:29:37Z
+0d62bb84ffa1af7a4826aecc11c429c7a020645c,"fix: actually disable dep collection when invoking lifecycle hooks (#9095)
+
+fix #9046",ysj16,ysj16,2018-12-01T05:24:30Z
+b0ccb8618382b6ee143d68cf4498d6b3ec18aa81,chore: rephrase comment (#9100),James George,jamesgeorge007,2018-12-01T05:23:58Z
+b111de486b1bdc747fe0f5795fe22697d151bb8c,fix: make sure global state is restored in the case of an exception in macrotask callback (#9093),Mitar,mitar,2018-12-01T05:07:46Z
+33e669b22f69a1f9c9147528360fe0bba85534f0,"fix(ssr): computed properties should pass vm as first argument in ssr (#9090)
+
+fix #8977",sqal,sqal,2018-12-01T05:05:13Z
+f43ae6d151de3ab00a5fbd1bb5fd3fabf454de85,chore(typo): fix typo (#9085),Julian Rüth,saraedum,2018-12-01T04:58:58Z
+05e8bcfe5d308f280f3640df96bd170fbcf1a9b5,fix: fix server env detection in wechat mini program (#9075),Jay Fong,fjc0k,2018-12-01T04:58:29Z
+1129d184482720bb52fa61f0a309645b7caaddd9,"refactor: reduce if-else nesting, coalesce conditions (#9060)",Joseph Anglada,fluorine,2018-12-01T04:57:26Z
+97086f365808a040f6cf1ddb12e2b3f63d7769bf,"fix(types): fix vm.$once argument type (#8995)
+
+vm.$once should accept an event or array of events as first parameter.
+
+fix #8983",hugoazevedosoares,ant1m4tt3r,2018-12-01T04:41:27Z
+76443803e8878dc13a31ebed119abfd31573e7f1,"Typings: Improve $slots and $scopedSlots type to prevent unchecked access to undefined (#8946)
+
+* fix(types): Declare $scopedSlots as potentially undefined to enable stricter TS checks
+
+* fix(types): Fix tests
+
+* fix(types): declare $slots option as potentially undefined
+
+declare $slots option as potentially undefined to enable stricter TS checks",thenickname,thenickname,2018-12-01T04:31:45Z
+3cd4af4af0a8a67f5887d5fc967147d433c8612c,fix(types): support typing $el as SVGElement (#8809),Kaoru Hagihara,Unknown,2018-12-01T04:30:31Z
+0ba79e2588309ba386f570ed84d372611c4dd165,fix(types): accept `number` type as key on Vue.set/delete (#8707) (#8709),nel215,nel215,2018-12-01T04:28:52Z
+ac217d2472bb92ce901ef1f46595b44a1b5d1a18,"fix(types): fix `renderError`arguments type (#8636)
+
+fix #8635",st-sloth,Unknown,2018-12-01T04:28:29Z
+c711ec189aaf46399756e34d933ba5e0b6576c36,fix(types): support chain call for Vue.use and Vue.mixin (#8595),狼族小狈,lzxb,2018-12-01T04:27:24Z
+613cb52bf3e5fd6caee0a94fab953ac9fdd37924,"polish: improve invalid method warning with type info (#8974)
+
+close #8017",Alexey Tirman,Stexxe,2018-11-30T23:06:24Z
+a7658e03a16dc507f0abeba41aee705f773727d0,fix(data): skip recursive call if values are identical (#8967),Kael,KaelWD,2018-11-30T23:04:05Z
+05001e695ebd0b0504d664197a4771463a0f5328,"fix(compiler): should keep newline after unary tags in <pre> (#8965)
+
+fix #8950",Jovino Xu,javoski,2018-11-30T23:02:54Z
+2bb3199da718be4e3150b5555bbf12364c3987be,"polish: warn duplicate keys when patching children into empty node (#8881)
+
+close #8832",Daniel Santana Rocha,DanielSanRocha,2018-11-30T23:01:45Z
+758524134e71ae025238e16a4c1f2b30a1310fe8,"fix: v-bind object should be overridable with kebab-cased props (#8845)
+
+In addition .sync should generate camelCased event name",GU Yiling,Justineo,2018-11-30T22:56:41Z
+80f17fa498f5df0388412877799dbd7573c44b2d,"fix(core): skip mixins and extends if child is already merged (#8870)
+
+fix #8865",Kael,KaelWD,2018-11-30T22:54:16Z
+374861f72b8b8fda5aa5d54f96bc2f297c775719,refactor: remove redundant ternary (#8848),Sultan Iman,sultaniman,2018-11-30T22:38:09Z
+e29fbad0aceeb51a3e528fa8f2898522df4e0a0f,chore: fix lint,Evan You,yyx990803,2018-11-30T22:37:30Z
+2e472c5e5e559a7a4083b4164ffe0c3911ce0651,"fix(component): clean up memory leak after loading async component completes (fix #8740) (#8755)
+
+* fix(component): clean up memory leak after loading async component completes
+
+* fix(async component): accounting for async components with loading property
+
+* refactor(component): simplifying memory cleanup logic",Matt Lavallee,mattlavallee,2018-11-30T22:36:08Z
+5f6ef15fb2879411797aee0287b811977f6ebb42,polish: warn sequential index on <transition-group> (#8748),HcySunYang,HcySunYang,2018-11-30T22:35:10Z
+5624278fbe5d85cfe578d749da12b1e73c3e61a9,fix(ssr): check js assets more accurate in ssr webpack plugin (#8639),Clark Du,clarkdo,2018-11-30T22:32:28Z
+4ecc21c29ec12bb33d3b426cb4d42c579e9b0f2d,feat(devtools): store functional render context on vnode in development (#8586),Rahul Kadyan,znck,2018-11-30T22:31:44Z
+2686818beb5728e3b7aa22f47a3b3f0d39d90c8e,"fix(error handling): handle errors on immediate watcher execution (#8581)
+
+The handle callback call should be wrapped in a try/catch that explicitly calls handleError
+
+fix #8567",Adrià Fontcuberta,afontcu,2018-11-29T23:14:28Z
+7b7164c11cbb74ed44ee086f0a82acfcc1ff47a2,"fix(v-model): avoid duplicate model transforms
+
+This happens when a component directly passes down its own data object
+to a child component. Fix #8436.",Evan You,yyx990803,2018-11-29T23:09:37Z
+69730fac8f2c1f43e56a82c8b2ce24827a2a5e1e,chore: update badge for Vue CLI 3 (#8640),william-pan,william-pan,2018-11-29T21:37:01Z
+6cc070063bd211229dff5108c99f7d11b6778550,chore: update sponsors,Evan You,yyx990803,2018-11-26T14:51:30Z
+1762a66204d4856e0725f09f12e4da16f403bf09,chore: update sponsors,Evan You,yyx990803,2018-11-19T05:22:21Z
+3d220a65de8740fbc7d354bbda1563f67ad0034f,chore: update sponsors,Evan You,yyx990803,2018-11-13T03:03:20Z
+0008e0c5cf5abcb458ddba53a6dfd9a34cf4316a,chore: update sponsors,Evan You,yyx990803,2018-11-09T19:55:41Z
+d483a49c86874b2e75863b661f81feecd46ae721,"fix(compiler): normalize potential functional component children in v-for (#8558)
+
+fix #8468",X.L,liximomo,2018-10-24T18:02:45Z
+59d4351ad8fc042bc263a16ed45a56e9ff5b013e,"fix(transition): handle local-formatted floats in toMs function.  (#8495)
+
+fix #4894",Phablulo Joel,phablulo,2018-10-24T17:58:25Z
+8c2674ea6a742173d278f3d6c3c75f4999b84293,refactor: remove unnecessary judgment (#8493),阿林,linjiajian999,2018-10-24T17:56:02Z
+eb604529c62e9954305889122f34499ad75b3b45,fix: support modifier combination of click.right + .once (#8492),HcySunYang,HcySunYang,2018-10-24T17:55:33Z
+002acbe678a76efb57be2b80e4e6e54d8d82b08c,refactor(codegen): only generate pre data for possible components,Evan You,yyx990803,2018-10-24T17:52:35Z
+0b16927c9d382b9cf134b131b898350340c2ee41,"fix(transition): check existence of `el.parentNode` (#8422)
+
+fix #8199
+
+* fix(transition): check existence of `el.parentNode`
+
+If the new parentNode gets a `textContent` or `innerHTML` property during
+patching, the `transition` node would have been detached early, which means
+`el.parentNode` no longer exists.
+
+* fix(vdom): should not reuse nodes with `textContent` / `innerHTML` props",Haoqun Jiang,haoqunjiang,2018-10-24T17:26:20Z
+8f04135dbaa5f5f0500d42c0968beba8043f5363,"fix(parser): allow CRLFs in string interpolations (#8408)
+
+fix #8103",Haoqun Jiang,haoqunjiang,2018-10-24T17:24:55Z
+a64ff1957c35270b818aa9cfdfb2acb6e42ce2a9,"fix(lifecycle): updated should not be called after component being destroyed (#8381)
+
+fix #8076",Haoqun Jiang,haoqunjiang,2018-10-24T17:24:31Z
+a71853bfc5b6ee117af05408f4d75c80893d44e2,fix(v-pre): skip compiling custom component tags in v-pre blocks (fix #8286) (#8376),Haoqun Jiang,haoqunjiang,2018-10-24T17:24:07Z
+504d5da7eff1c77117c2f57b0c4238e56de80fc5,fix(transition): transition-group should only listen for first-level children's end events (#8374),Vladimir Verstov,verstoff,2018-10-24T17:23:12Z
+96b833bc5da5e5179bd56f1352cda84560451b89,refactor: remove unnecessary code in html-parser.js (#8359),淼淼真人,ChrisMiaoMiao,2018-10-24T17:22:16Z
+6eaf56e28d659f985934ae3a8782f90e9d6f1775,refactor: keep single source of truth (#8334),X.L,liximomo,2018-10-24T17:21:14Z
+5489339a30e25d1bdea4492ea253144ede0d31f1,"refactor(core): Replace ""var"" (#8299)
+
+Replaces instances of ""var"" with ""let"" and ""const"" where applicable using the eslint 'no-var' and
+'prefer-const' rules",Sam Lichlyter,slichlyter12,2018-10-24T17:07:40Z
+5cfdf1a2484fa73b572eae4afd196dcf9e1912ba,fix: handle undefined style properties in jsdom (fix #7444) (#8281),Alex Ivasyuv,industral,2018-10-24T17:06:17Z
+038ed86967b70a8b7305104e63afaa586857af48,polish(compiler): remove the extra space of v-for alias (#8233),yongningfu,yongningfu,2018-10-24T17:05:48Z
+bfd722bb5d4a489a7c9f9b0f6681bf6f83f21bb5,types: add refInFor to VNodeData (#8229),Kael,KaelWD,2018-10-24T17:05:15Z
+952ae33290d46b95b2f441fd336b71ffbae1dd27,polish: warn when an existing property starting with $ is not pro… (#8214),Eduardo San Martin Morote,posva,2018-10-24T17:04:56Z
+496635e7c9e56b30c3993c4c1dcb27559327e999,"types: add model option to functional components (#8212)
+
+Closes #8210",Eduardo San Martin Morote,posva,2018-10-24T17:03:48Z
+bf2e2ed159f680cd4e230427ce94739c657c1b61,"types: allow functional components to return multiple VNodes (#8192)
+
+close #8191",Zev Goldstein,zevdg,2018-10-24T17:03:29Z
+46b8d2c59dc259995a71662229ed52b8b8beeb38,"fix(server): use path.posix.join to generate public path (#8177)
+
+fix #8167",Herrington Darkholme,HerringtonDarkholme,2018-10-24T17:02:11Z
+ecac831691d27cf7a10ec73a004d3fbad7623d1a,"fix(compiler): templates inside v-pre should be rendered to HTML (#8146)
+
+close #8041",Kevin Ball,kball,2018-10-24T17:01:29Z
+61c32cc6732aaf225d868cee79872d9d9fdd5dcc,Fix: block unnecessary input event on input tag placeholder in IE (#8140),DongGyu Lee,donggyu04,2018-10-24T17:01:02Z
+e9fc04ba50782c15703392272322e277fb92dd9a,test: fix assertion,Evan You,yyx990803,2018-10-24T16:58:21Z
+aef2a5f3dbd5e52ec9d5ce026d7b858539057186,"fix(compiler): maybeComponent should return true when ""is"" attribute exists (#8114)
+
+close #8101",Jovino Xu,javoski,2018-10-24T16:50:42Z
+f5b5b3c96f00a321e0ba41f0d33a42b2338ef750,chore: use template strings in config.js (#8113),xudaashuai,xudaashuai,2018-10-24T16:48:58Z
+ecc239e47516d7f9a93b2cd49da4a2000960b8f7,"fix(for): use IE compatible regex in v-for regex (#8048)
+
+Closes #7946",Eduardo San Martin Morote,posva,2018-10-24T16:48:07Z
+1b69cbde74fd1d183a0c8afd72e774b8bf1daa89,"refactor: add empty v-bind warning(re #7973) (#7988)
+
+* refactor: add empty v-bind warnings
+
+re #7973
+
+* Update index.js",Yuhang Liu,lyhper,2018-10-24T16:46:38Z
+db7287c23b11bdc032fb0786e6617f3c6c40c835,"fix(shared): check dates in looseEqual (#7940)
+
+Fix #7928
+thanks to @w3cj for the initial version. This one is using getTime instead of toUTCString because it
+is much faster to compare",Eduardo San Martin Morote,posva,2018-10-24T16:45:06Z
+7597bb06e0d9ba142f894de5b90b2bf2d7765e08,test: fix ssr tests,Evan You,yyx990803,2018-10-24T16:42:53Z
+9d2f9a034f9c40d5ba6d8b1e131b1bfb675dc1cf,fix(sfc): avoid deindent when pad option is specified (#7647),katashin,ktsn,2018-10-24T16:10:58Z
+76fd45c9fd611fecfa79997706a5d218de206b68,build: upgrade eslint and use only non-stylistic rules,Evan You,yyx990803,2018-10-24T16:08:32Z
+980801c8a3daf9cb7f435156487ee733037efd9b,build: use terser instead of uglify,Evan You,yyx990803,2018-10-24T14:50:37Z
+eeb752f6b61b29e1089465bea6db23bdf461a056,build: upgrade typescript,Evan You,yyx990803,2018-10-24T14:44:05Z
+52f9d3f492b9e5e6ec30f4986201ae774e5c460a,build: upgrade webpack & karma,Evan You,yyx990803,2018-10-24T14:41:38Z
+b273bf7a95a2309398dfa9e27a7cd81d94312c92,build: upgrade rollup,Evan You,yyx990803,2018-10-23T22:45:59Z
+12e8efc2e70123de31204800b195917a0ce77766,workflow: upgraded to babel 7 (#8948),Vikram Rangaraj,vikr01,2018-10-23T22:40:55Z
+93d1f5f8d6ac80369718ec7f845da9a36f2cf86a,chore: add extension to .eslintrc (#8904),Manoel,ManoelLobo,2018-10-23T22:22:19Z
+265dd457789bf726f95dd0578c1ce65a8b6ae9fd,refactor(class-util): cache whitespace regex (#8743),宋铄运,fnlctrl,2018-10-23T20:54:35Z
+4f111f9225f938f7a2456d341626dbdfd210ff0c,refactor: empty function replace to noop (#8791),JJJ,jessejyang,2018-10-23T20:52:02Z
+390ff8ede828f75795d1a880072159e3fc549e81,refactor: add missing else in genNode (#8600),Clark Du,clarkdo,2018-10-23T20:26:20Z
+88f687cb26f0f7f1ef995647448244eb8e7a6877,refactor(transition): replace nested closure with static ones (#8547),宋铄运,fnlctrl,2018-10-23T20:01:29Z
+af819a07dd8c2afc94e670e81b5e248f82794334,"refactor(shared-utils): Improve readability and consistency in code comments (#8529)
+
+Improvements that apply to all comments:
+- Consistent use of periods
+- Consistent use of commas
+- Consistent capitalization
+- Correct use of articles (a, an, the)
+
+Improvements to specific comments:
+- Correct pluralization in the description for helper functions
+- Reword for clarity and break into shorter sentences the description
+for `polyfillBind` function
+- Reword for clarity the description for `genStaticKeys` function
+- Add a previously missing description for `looseIndexOf` function
+
+Fixes: https://github.com/vuejs/vue/issues/8528",Sagir Khan,sagirk,2018-10-23T19:53:47Z
+5e912976c45ca19d8524657bffe6883723027ed2,chore: update reference to already defined variable (#8518),sqal,sqal,2018-10-23T19:52:44Z
+7ae1f4e0b53e268cb887c74a63352b6773f1f879,chore: tweak description (#8509),msrahman07,msrahman07,2018-10-23T19:52:19Z
+19008ecd12b517de0292eb2b7f277fc404c4c417,ci: use customized ci image,Evan You,yyx990803,2018-10-22T20:21:01Z
+99a51b452fa13fc4392e87215a8c3024adf5f710,"fix(types): make VNodeDirective properties optional, fix #8013 (#8003)",Kael,KaelWD,2018-10-22T20:09:23Z
+4dec3b52c9b71f816e6b86d42ea53e9f2e559646,chore: remove useless code (#8002),李春,levi1994,2018-10-22T20:04:54Z
+6e5909869c0f2896c5d4b7d8b1145c50803136b4,refactor: set should return early if original def has getter but no setter (#7981),HcySunYang,HcySunYang,2018-10-22T20:04:06Z
+c356b29e322ecb2a13d041f99d69dfc883c68248,chore: add placeholder to firebase example (#7979),Akitaka Oba,cobafan,2018-10-22T19:55:04Z
+16021f321c6a1cf9ffed8a77e6ab8cf9a3b21134,chore: update suacelabs link,Evan You,yyx990803,2018-10-22T19:21:28Z
+6514a37a5ac8d9c3f8edf8b6dc21b477ec97cc02,chore(readme): correct badge link (#8729),Shyam Chen,Shyam-Chen,2018-10-22T19:14:39Z
+0737d11a146818d975266953ee547a12a63a1a41,chore: new sponsor,Evan You,yyx990803,2018-10-04T15:03:55Z
+e9888e2d51f1dbb971acb1c9db10fb458a5c7eb7,chore: update backers,Evan You,yyx990803,2018-10-04T15:01:49Z
+704b22e853ecbba7c3d8ba58615d601cc1b985ba,chore: new sponsor,Evan You,yyx990803,2018-09-26T14:51:14Z
+9d19f84d4e7a281484a6eb3f92e6a266a1adc243,"docs(readme): grammar fix, extra 'the' (#8887)",Spencer Davies,spencer1573,2018-10-02T05:56:24Z
+79cabadeace0e01fb63aa9f220f41193c0ca93af,chore: fix OpenCollective silver tier,Evan You,yyx990803,2018-09-19T18:18:17Z
+6b1d431a89f3f7438d01d8cc98546397f0983287,"Revert ""perf: avoid unnecessary re-renders when computed property value did not change (#7824)""
+
+This reverts commit 653aac2c57d15f0e93a2c1cc7e6fad156658df19.",Evan You,yyx990803,2018-09-18T14:21:55Z
+2ae4e298f1a028e4c3dde7cd9902a11e73eeb104,chore: lockfile maintenance,Evan You,yyx990803,2018-09-18T14:21:25Z
+2a057844fa3ed87f8fa04cb9a86c4162f422be19,chore: update sponsor,Evan You,yyx990803,2018-09-18T14:21:15Z
+a9eb198413e7b1baaf364e93ec3c093734529fe8,fix(types): relax the return type of props default option (#8537),katashin,ktsn,2018-09-18T02:33:58Z
+1e1ce0cac7d6c22c980021cbd3cb207a47e85dfb,"fix: replace hardcoded .parentNode with abstract ops, fix #8713 (#8714)",GU Yiling,Justineo,2018-09-09T21:28:20Z
+3b43c81216c2e29bd519c447e930d6512b5782e8,chore: update sponsors,Evan You,yyx990803,2018-08-27T19:05:41Z
+d280937045988097b816c4497322acc8aaca2d86,test(e2e): trigger click on .new-todo instead of footer (#7938),Tim,TimSpeelman,2018-08-20T21:52:06Z
+c21b89ebeda4c45024c2a71bc7a292d47ebc7ee1,fix(ssr): fix double escaping of staticClass values (#7859) (#8037),Haoqun Jiang,haoqunjiang,2018-08-20T21:49:18Z
+59860b0a756526f37468655598c68d119f0e74bd,refactor: make the warning messages more explicit (close #7764) (#7881),Yuriy Alekseyev,Unknown,2018-08-17T14:40:46Z
+c94482743c41e9bfc745aa06d63f7f83bdd56991,"feat: add async option (#8240)
+
+This is an option intended only for testing purposes, and should not be used in
+application code.",Edd Yerburgh,eddyerburgh,2018-08-16T20:26:02Z
+833175e9d6e8f47367e49e1752cd149a677cdae8,refactor: ignore control-regex lint for unsafeAttrCharRE (#8601),Clark Du,clarkdo,2018-08-14T13:12:26Z
+9476d3e7428b6638d3243045d5a052ad5824d4e7,chore: update backers (#8649),d-pollard,d-pollard,2018-08-14T13:11:43Z
+25a688ee314d82b584ef0f192d4016b75664a616,chore: update backers,Evan You,yyx990803,2018-08-13T21:48:11Z
+312fd51770ca25a8b6b33603a6a91cebc5c5d3d2,chore: update sponsors,Evan You,yyx990803,2018-08-13T15:46:04Z
+1e77d355add015ab1dd732a0d732bffa4af0f060,chore: new sponsor,Evan You,yyx990803,2018-08-07T22:02:13Z
+3d36a443c755bf16f2656a8595dda9076f021a4a,fix: fix potential xss vulnerability in ssr when using v-bind,Evan You,yyx990803,2018-08-01T19:33:47Z
+5a255d946c6c70218f6ebc0ddbf31029db696813,chore: update sponsors and backers,Evan You,yyx990803,2018-07-31T13:19:25Z
+21112ecc691e25fc13b40985c0f0381e3911efa5,chore: update sponsor,Evan You,yyx990803,2018-07-18T21:33:48Z
+48acf71a01e5665f72696d44aa5a8d8f1d137172,chore: remove bmqb,Evan You,yyx990803,2018-07-13T13:16:24Z
+0e5306658ad7b83c553a6a3eeedb15f9066ab063,chore: sponsors,Evan You,yyx990803,2018-07-05T15:13:57Z
+1f68e1eb013d528741ed14d2cbbeb7281563d330,chore: update sponsors,Evan You,yyx990803,2018-07-03T02:27:12Z
+b10ea06a378ed5a677089d1b52d0414ca9e8d999,chore: update sponsors,Evan You,yyx990803,2018-07-01T14:15:15Z
+52719ccab8fccffbdf497b96d3731dc86f04c1ce,chore: sponsor cleanup,Evan You,yyx990803,2018-06-11T20:54:26Z
+bb953435afc4086d66d93b76bcaac2d1144f1e8d,chore: update sponsors,Evan You,yyx990803,2018-06-11T20:42:41Z
+5e3823a5766da1df60481e1e7a20f36d08e716ce,chore(package.json): Add sideEffects: false field in package.json (#8099),Sean Larkin,TheLarkInn,2018-05-02T21:28:04Z
+654e5f153dc88ee5fc853af6df178c4fc24abe98,chore: new sponsor,Evan You,yyx990803,2018-04-30T20:15:11Z
+1abb944a71c13542a7203ac6beccb89def641a37,chore(typo): no dots at the end of the comments (#8087),Alexander,gavrashenko,2018-04-26T12:14:16Z
+1ff51be93c86c72f7a76c0478d22b11055bb8bf8,chore: new sponsor,Evan You,yyx990803,2018-04-25T20:13:50Z
+97f113e7b548d9de252f1f02c0d93b58ec4b0bd6,chore: update sponsors,Evan You,yyx990803,2018-04-24T13:38:37Z
+8cc7eaeadd00529e687920f9b837b01a9e96de54,chore: update sponsors,Evan You,yyx990803,2018-04-12T13:01:56Z
+38d5459e109a83b4992168c673403503278ff3c1,chore: use reactive components count in benchmark (#7996),jonkofee,jonkofee,2018-04-10T16:34:58Z
+62265035c0c400ad6ec213541dd7cca58dd71f6e,feat(weex): support object syntax of class (#7930),Zhenfei You,imyzf,2018-04-07T04:24:23Z
+ef0b25097957ae9ef9970be732d6e65cc78902e9,"feat(server, webpack-plugin): webpack 4 support (#7839)
+
+SSR webpack 4 compat",Pooya Parsa,pi0,2018-04-07T04:23:59Z
+575b6e77ab82b0bbc581aec3ea9b07135d2d1fcd,"fix(ssr): render initial and used async css chunks (#7902)
+
+compatibility with webpack 4 + mini CSS extraction
+
+close #7897",Clark Du,clarkdo,2018-04-07T04:22:22Z
+ae6dcd63a017059644502f8741d8a514f3e9cf84,"fix(ssr): remove trailing hash in webpack module identifier when
+generating client manifest",Evan You,yyx990803,2018-04-05T00:08:12Z
+805a4fd67602f1ac2a063284c4e2ce35be07815e,chore: new sponsor,Evan You,yyx990803,2018-04-03T15:19:43Z
+ee1a36820e3097ed23a114a70a1a87f2aea7456e,chore: update sponsor,Evan You,yyx990803,2018-04-02T13:18:19Z
+19552a82a636910f4595937141557305ab5d434e,build: release 2.5.17-beta.0,Evan You,yyx990803,2018-03-23T23:29:02Z
+dbf15103f797a54f41288af2a393b1e8ccee0aec,build: build 2.5.17-beta.0,Evan You,yyx990803,2018-03-23T23:28:59Z
+950daca99b872e240131908aaa5ad1889f749476,types: make flow happy,Evan You,yyx990803,2018-03-23T23:21:45Z
+f1480774372bd395f04beef20d8056a4d6b2ccfb,chore: format,Evan You,yyx990803,2018-03-23T23:21:34Z
+faaf142cb620f864f5a6d65ab58c9fb1677c85c6,"refactor: reduce component mergeHook arg count
+
+Because f43ce3a5 removed the two extra args from init hook",Evan You,yyx990803,2018-03-23T23:06:49Z
+8227fb35240ab1f301c30a6ad5d4d25071fa7996,fix: add missing `asyncMeta` during VNode cloning (#7861),Luis Hernandez,luisatmaniak,2018-03-23T23:13:10Z
+1bd6196fb234c28754d9a27095afe0b5b84990ad,"fix(codegen): support IE11 and Edge use of ""Esc"" key (#7887)
+
+Closes #7880",Matheus Azzi,matheusazzi,2018-03-23T23:08:55Z
+7a145d86430bad65271f4d6ab1344b215fefe52a,fix(observer): invoke getters on initial observation if setter defined (#7828),Piotr Kaminski,pkaminski,2018-03-23T23:08:02Z
+653aac2c57d15f0e93a2c1cc7e6fad156658df19,"perf: avoid unnecessary re-renders when computed property value did not change (#7824)
+
+close #7767",Evan You,yyx990803,2018-03-23T23:03:27Z
+f43ce3a5d8f73e273f2d03c9d86ea5662cda481a,"fix: invoke component node create hooks before insertion (#7823)
+
+fix #7531",Evan You,yyx990803,2018-03-23T23:03:17Z
+b7445a2b945dcded287601ace8e711ab5cf35ab5,"fix: beforeUpdate should be called before render and allow state mutation (#7822)
+
+fix #7481",Evan You,yyx990803,2018-03-23T23:03:00Z
+de42278d34f6a800cec5c7eb781c1b8b83a829dd,"fix: ensure init/prepatch hooks are still repsected
+
+this address a regression introduced in 984927a which
+causes vue-router#1338 to resurface.",Evan You,yyx990803,2018-03-23T23:01:24Z
+a7d190d2491a573e8bdfcc05d70d341d191ea213,chore: update sponsors,Evan You,yyx990803,2018-03-23T21:02:48Z
+943e5c242b6c3a8cc92478dc95aba0a5b4b49588,workflow: clean shell scripts (#7826),Léo Andrès,zapashcanon,2018-03-22T14:02:40Z
+903be9b91f7c41d40e228676df9d66d2c064fe23,"Revert ""refactor: remove unnecessary checks (#7875)""
+
+This reverts commit 43551b4fb60f449eb28600023eb0d3a3cf604a0e.",Evan You,yyx990803,2018-03-22T14:01:53Z
+49385e1efab90f8c75087a731de2fcdcb367941e,"types: add UMD global declaration to index.d.ts (#7868)
+
+Users using Vue from e.g. the CDN might be using the global `.Vue` without importing the module.
+
+See https://www.typescriptlang.org/docs/handbook/modules.html for details on the syntax",Ryan Cavanaugh,RyanCavanaugh,2018-03-22T13:58:04Z
+43551b4fb60f449eb28600023eb0d3a3cf604a0e,refactor: remove unnecessary checks (#7875),Huo Chunyang,HcySunYang,2018-03-22T13:56:05Z
+7b387390aa917edffc0eabce0b4186ea1ef40e2c,"fix: correct the `has` implementation in the `_renderProxy` (#7878)
+
+It's feasible that someone might ask if something other than a string is
+in the proxy such as a `Symbol` that lacks a `charAt` method.  This aligns
+the implementation with the `getHandler`.",dherman,dcherman,2018-03-22T13:53:28Z
+17d7a5f6bd28dda247ddeb02ed66ebc92182ded9,chore: update sponsors,Evan You,yyx990803,2018-03-20T14:26:32Z
+25342194016dc3bcc81cb3e8e229b0fb7ba1d1d6,build: release 2.5.16,Evan You,yyx990803,2018-03-13T22:14:20Z
+90891709708e8ebdc1522eed678a49eb9f312fda,build: build 2.5.16,Evan You,yyx990803,2018-03-13T22:14:16Z
+62a922e865f5e578f67b386cb614abfc173d7851,"fix: fix wrongly matched named slots in functional components
+
+This is a subtle edge case caused when a stateful component triggers
+a self re-render, which reuses cached slot nodes. The cached slot
+nodes, if returned from a functional render fn, gets the fnContext
+property which causes subsequent slot resolving to not function
+properly. To fix this, nodes returned from functional components
+need to be cloned before getting assigned fnContext.
+
+fix #7817",Evan You,yyx990803,2018-03-13T21:48:52Z
+9084747e307dc9b415ff8e2a788c6a585a2a8f6c,"fix(core): Make set/delete warning condition for undefined, null and (#7818)
+
+primitive values more precise.  Corrects #7452",Piotr Kaminski,pkaminski,2018-03-13T15:09:49Z
+1a979c44d6543d89f8a7e26ad7f995b1bf2aee3c,"fix(ssr): fix v-show inline style rendering when style binding is array (#7814)
+
+fix #7813",leon,jinzhubaofu,2018-03-13T15:07:58Z
+a6169d1eb71d64eacddf1738e72d21725e2bff00,"fix(model): fix static input type being overwritten by v-bind object (#7819)
+
+fix #7811",Hiroki Osame,privatenumber,2018-03-13T15:05:58Z
+6dd73e9ee44c09f04d3f616fcce18750a55e2e4f,"fix: named slots for nested functional components
+
+Named slots should be respecred when passing raw children down multiple
+layers of functional components.
+
+fix #7710",Evan You,yyx990803,2018-03-12T19:39:39Z
+215f877d1b7eb6583f7adf15676ead8611f07379,"fix(keep-alive): run prune after render for correct active component check
+
+fix #7566",Evan You,yyx990803,2018-03-12T17:05:31Z
+4378fc5124067c2b3a3517dd7f527edd9be2ad37,"fix: fix keyName checking for arrow keys in IE11
+
+fix #7806",Evan You,yyx990803,2018-03-12T15:40:35Z
+984927a1a98d10ad8af44f2accfb08d34d517610,"fix: fix regression on duplicate component init when using shared data objects
+
+fix #7805",Evan You,yyx990803,2018-03-12T14:50:27Z
+cf0b1b745f6b98f4e010f2e0b4c2351bb5a7b812,ci: use yarn.lock instead of package-lock.json,Evan You,yyx990803,2018-03-12T13:34:02Z
+702000971c5a355c937607edb930b67311c78f5d,chore: fix typo,Evan You,yyx990803,2018-03-12T13:27:50Z
+35dc8c2555da884bfb65451391887966bc411a98,types: add Fragment in RenderState typing (#7802),JK,jkzing,2018-03-12T13:34:41Z
+882e7199fd8eee039291c4b9f7f324dcf46f32fd,"fix(ssr): fix SSR for async functional components
+
+fix #7784",Evan You,yyx990803,2018-03-11T21:09:51Z
+666cdbd71e15de01e4b4468cb5b52ec882cae159,test(vdom): add test case for #7786 (#7793),JK,jkzing,2018-03-11T18:04:31Z
+71b4b25375fa4bcd929e1161c35cab133e4a7c23,"fix: allow multiline expression in v-for
+
+fix #7792",Evan You,yyx990803,2018-03-11T15:51:51Z
+af5453cd5e90461531f1711b5ecb6bd47136e7b0,build: release 2.5.15,Evan You,yyx990803,2018-03-10T23:36:42Z
+bafc73f42705e277c1ae9390475fb455e5974fd6,build: build 2.5.15,Evan You,yyx990803,2018-03-10T23:36:38Z
+84a9a9d61057f6f40a9ad2bee456b39ef0a8f001,"fix: do not traverse VNodes when regsitering dependencies
+
+fix #7786",Evan You,yyx990803,2018-03-10T18:39:29Z
+387d2567ebec83db47d2049eec006a1ffc83451a,build: release 2.5.14,Evan You,yyx990803,2018-03-09T21:41:47Z
+a08feed8c410b89fa049fdbd6b9459e2d858e912,build: build 2.5.14,Evan You,yyx990803,2018-03-09T21:41:25Z
+2c52c4265ba420ff47dc35eb1060a57c0813ee5d,workflow: specify e2e env when releasing,Evan You,yyx990803,2018-03-09T21:36:24Z
+83ea0da4b0d39ea97dab8059a7442610f116e4b5,chore: coverage,Evan You,yyx990803,2018-03-09T21:29:00Z
+81e1e47cabbd479e2a285f03120944f1efffe749,"fix: respect type order when boolean casting multi-typed props
+
+fix #7485",Evan You,yyx990803,2018-03-09T19:46:00Z
+a2cd412876c68ff0fac8e70c82676684c6f82770,refactor: observerState,Evan You,yyx990803,2018-03-09T17:39:22Z
+318f29fcdf3372ff57a09be6d1dc595d14c92e70,"fix(core): disable dependency collection in lifecycle hooks and data getter (#7596)
+
+This fixes the parent being updated more than necessary due to collecting child props
+as dependencies during its own update computation.
+
+fix #7573",AchillesJ,javoski,2018-03-09T18:13:16Z
+d7d9b002fd60d246b1ef65f71b55b45f46563b4d,chore: fix typo (#7781),Pig Fang,g-plane,2018-03-09T13:54:55Z
+6bc75cacb72c0cc7f3d1041b5d9ff447ac2f5f69,fix(v-on): return handler value when using modifiers (#7704),Alex,STUkh,2018-03-08T22:09:53Z
+db584931e20f9ad4b423cfc14d587f9d0240a565,fix(v-model): handle trailing whitespaces in expression (#7737),Eduardo San Martin Morote,posva,2018-03-08T22:01:38Z
+550c3c0d14af5485bb7e507c504664a7136e9bf9,"fix(model): fix array index binding for v-model checkbox (#7671)
+
+Closes #7670",Eduardo San Martin Morote,posva,2018-03-08T21:54:33Z
+144bf5a99e2ebd644f80bc8ab61cd1bf0366961a,fix(types): prefer normal component over functional one (#7687),Herrington Darkholme,HerringtonDarkholme,2018-03-08T18:55:52Z
+68b51f2620a8245398d7c95b8afd523d0917d10b,chore: fix comment grammar mistake (#7739),Lars Stegman,LarsStegman,2018-03-08T17:21:57Z
+6931a47c5c5664d4df2a99dd5c1b275ccef625bc,refactor: use more accurate variable name (#7755),Gcaufy,Gcaufy,2018-03-08T17:21:11Z
+8053f6043c8e24f4bbd2002ab960a86f5c94c541,chore: merge imports (#7762),Huo Chunyang,HcySunYang,2018-03-08T17:09:48Z
+f83987bb7022a4fa50b59445158b824debcbf6b4,chore: update downloads badge to point to graph of downloads (#7733),Chang Wang,cheapsteak,2018-03-08T17:07:57Z
+9e04f6af2792f709417f4d39113e7723aae69918,test: add unit tests for core/observer/dep (#7738),Sergei Chipiga,schipiga,2018-03-08T17:06:46Z
+6b8516b2dde52be643ee6855b45b253a17ed0461,fix(types): fix wrong errorCaptured type (#7712),katashin,ktsn,2018-03-08T17:05:03Z
+2b0fc381fcc2888b05fbbdf314b8450d3f31d396,docs: update Angular's commit convention link (#7666),Stanimira Vlaeva,sis0k0,2018-03-08T17:00:11Z
+acd92cf981d384d4006c81b9001a6d35957630dc,chore: unify the terms 'microtask' and '(macro) task' (#7641),Yao Ding,yaodingyd,2018-03-08T16:58:14Z
+b2092dbff9ab0ccfa8e59ed3ca540cca0715c683,fix(types): make render option in functional components to optional (#7663),katashin,ktsn,2018-03-08T16:55:27Z
+ec9152f67ac6b910012059df7f3a67e5517e205f,"ci: use latest version of codecov binary (#7665)
+
+closes #7664",Eduardo San Martin Morote,posva,2018-03-08T16:55:01Z
+db1b18ceec51761f1bcd6160c51e02b36b86a9c2,fix(types): add missing `listeners` type on RenderContext (#7584),katashin,ktsn,2018-03-08T16:52:01Z
+dc97a39c2f41ce57431d42d8b41811866f8e105c,"fix(codegen): support filters with () in older browsers (#7545)
+
+Fix #7544
+Make sure no extra , is added at the end of the call so it also work with older browsers",Eduardo San Martin Morote,posva,2018-03-08T16:24:09Z
+013d98092868a0c6721831e91616c64f99119b74,"fix(show): prevent transitions from starting on change truthy values (#7524)
+
+Closes #7523",Eduardo San Martin Morote,posva,2018-03-08T16:19:08Z
+733c1be7f5983cdd9e8089a8088b235ba21a4dee,"fix(inject): use hasOwn instead of 'in' for provideKey check (#7460)
+
+fix #7284
+
+* fix(Injection with Symbol polyfill): hasOwn instead of 'in'
+
+Symbol polyfill adds a setter on the Object prototype so the 'in' check evaluated to true on every
+object
+
+* test(Injected properties): Ensures prototype properties aren't injected
+
+Prototype properties were being injected, so injecting 'constructor' would have hit the first
+provide-layer and not yield expected results.",Hiroki Osame,privatenumber,2018-03-08T16:15:35Z
+e98d12d232af49b8e127375b6237013e01b77dda,"workflow: add ""polish"" to commit types",Evan You,yyx990803,2018-03-08T15:32:42Z
+e9ea565d915cdffbad17bb78aa30af752dd4e5e6,"polish: raise warning when Vue.set/delete is called on invalid values  (#7452)
+
+close #7381",İsmail Arılık,ismailarilik,2018-03-08T15:31:40Z
+dc2171a33a38d0563ef14934b078d9dc4c39acf3,"refactor: Use native bind function instead of own (#7491)
+
+close #7408",dmitry-vakhnenko,dima-takoy-zz,2018-03-08T15:07:40Z
+80e650cfdf9f8127405592d64ba5af1e6e13ce86,chore: fix formatting,Evan You,yyx990803,2018-03-08T14:52:27Z
+9b22d86ab315a3c6061a6a4776eab1964304f92e,"fix: install ssr helpers for functional context during SSR
+
+close #7443, ref nuxt/nuxt.js#2565",Evan You,yyx990803,2018-03-08T14:51:03Z
+3d431a5ddc62fac77a0d0466e13427dd7985901d,chore: update deps,Evan You,yyx990803,2018-03-07T22:12:55Z
+1c0b4af5fd2f9e8173b8f4718018ee80a6313872,"fix: skip v-model & value binding collision check with dynamic type binding (#7406)
+
+* fix #7404",GU Yiling,Justineo,2018-03-07T22:44:55Z
+f7ca21eab1e0d661945aa6070fc988028c90966f,"fix: always install composition event listeners
+
+Previously the installation was skipped on Android because
+it was not needed for Chinese IME - however some IMEs such
+as Japanese exhibits the same behavior as on other browers.
+
+So it is safer to always enable the check. Closes #7367",Evan You,yyx990803,2018-03-07T21:50:38Z
+3eb37acf98e2d9737de897ebe7bdb7e9576bcc21,fix: fix ssr env detection in weex (#7375),Hanks,Hanks10100,2018-03-07T20:37:14Z
+aeebf0de906e7030282d59734ad30d69548cb521,test: add test for observer lazy getter invocation,Evan You,yyx990803,2018-03-07T20:00:40Z
+7392dfcc1d5fd7b257df5ae134f9eb2f0cc0a51e,"fix(observer): do not invoke getters on initial observation  (#7302)
+
+fix #7280",Nikolai Iakovlev,DeyLak,2018-03-07T19:58:12Z
+f7311c90b35da6ee680dacb0566a276bff907ccb,refactor: move keyName alias map to compiler,Evan You,yyx990803,2018-03-07T19:50:35Z
+1c8e2e88ed2d74a02178217b318564b73a096c18,"fix: support KeyboardEvent.key in built-in keyboard event modifiers (#7121)
+
+fix #6900",JK,jkzing,2018-03-07T19:38:41Z
+50b711af43708426e63b4ea529436b49fafc3f2e,"fix: do not special case attributes for custom elements
+
+close #6864, close #6885",Evan You,yyx990803,2018-03-07T17:03:31Z
+c57ffb768def2b8a409472eab2715579fc3f047d,"chore: fix README.md vulnerable target=""_blank"" links (#7689)
+
+* README: add rel noopener and noreferrer
+
+Add to all  ""_blank"" links rel noopener and noreferrer to prevent vulnerability
+
+* Update README.md",Dennis,Unknown,2018-03-07T14:03:07Z
+d6200d70261c4a8943190900e0721ede1c4a4f2b,"feat(weex): update weex recycle-list compiler (#7610)
+
++ Support v-once
++ Generate @templateId on the root element of each component
++ Add binding-expression attribute on recycle-list
++ Fix the compile result of v-else-if and v-else",Hanks,Hanks10100,2018-03-05T03:59:21Z
+990374bacbaa75ae2535370583714f1032e768a1," feat(weex): support sending style sheets and class list to native (#7530)
+
+No longer manage style sheets and class list in vue and weex-js-runtime.
+
+Refer to https://github.com/Hanks10100/weex-native-directive/issues/14",Hanks,Hanks10100,2018-03-05T03:58:24Z
+a270111a2c89fd5273664f4be15d38c26ff5c6c2,chore: update sponsors,Evan You,yyx990803,2018-03-02T18:08:06Z
+cd334070f3b82d3f5892c4999cc290ccd4f56fd8,fix: address potential regex backtrack,Evan You,yyx990803,2018-02-21T18:11:11Z
+1fa4a5e0fb2191e5b48b72710c92feaf51b3a979,chore: update sponsor image,Evan You,yyx990803,2018-02-21T16:30:19Z
+e396eb3445904f11232f2355f03e8356173d0e31,"fix(ref): allow ref key to be zero (#7676)
+
+prevents missing elements when :ref value is ""0""
+
+fix #7669",TB,t0mburton,2018-02-21T15:21:51Z
+4e6d6379ee35f986a842c95964615dc27afa832f,chore: update sponsors,Evan You,yyx990803,2018-02-09T18:19:54Z
+39d58e521a4a6bc4c0d42f17453421ae155ec04f,"chore: edit documentation for grammar and consistency (#7600)
+
+* edit docs for grammar and consistency
+
+* remove changes to pull request template",Sheena Ramirez,commonstarling,2018-02-06T00:58:33Z
+2d168f1ba11d77cb2f2caa3356de86e99aba8da6,test(types): update TS version and fix types test (#7597),Pig Fang,g-plane,2018-02-03T19:02:25Z
+8053eb1fba4202274efed11044679e011a1e525b,chore: update sponsors,Evan You,yyx990803,2018-02-02T21:47:47Z
+acb3bde95bb9d4a77a42b9d93b9267ed751ec4e4,chore: update sponsors,Evan You,yyx990803,2018-02-02T17:23:31Z
+ced00b1dec8326a653cce225133927fe5b4a3109,"fix: fix config.productionTip
+
+fix #7565",Evan You,yyx990803,2018-01-31T07:53:25Z
+4746256e553b19d4e37f264bf0c050fe0823d876,refactor: use util.isNative to check native Proxy (#7549),william-pan,william-pan,2018-01-28T20:51:20Z
+f2b476d4f4f685d84b4957e6c805740597945cde,refactor: avoid leading semi,Evan You,yyx990803,2018-01-12T19:43:51Z
+eaf6b54a389dd6e316df932b3fe3a5d6579e2499,chore: fix another link,Evan You,yyx990803,2018-01-12T14:47:00Z
+04da767d10038d355b67778173ccf66ea74211c5,chore: fix sponsor link,Evan You,yyx990803,2018-01-12T14:45:34Z
+f0e9dc44672c6b68d919f26f5ccc49af21385a59,chore: update sponsors,Evan You,yyx990803,2018-01-12T05:56:35Z
+782b66c790cee4a4998f48704bd0b8f643a43aca,workflow: remove setup script,Evan You,yyx990803,2018-01-06T15:10:30Z
+a6a9d6d05ac7cb4fa62a3ecc6725fadfb0eebd3e,workflow: improve git hooks setup,Evan You,yyx990803,2018-01-06T15:08:47Z
+5191f13472d1fc37bdd601079970201fde6bf13e,"fix(transition): should not add transition class when cancelled (#7391)
+
+fix #7390",Guillaume Chau,Unknown,2018-01-05T22:45:59Z
+05299610ea3e89ddbcfe4d8ede0c298223766423,"fix(vdom): svg inside foreignObject should be rendered with correct namespace (fix #7330) (#7350)
+
+* add failed test case
+
+* fix failed test case
+
+* fix(vdom): svg inside foreignObject should be rendered with correct namespace
+
+* adjust comments",AchillesJ,javoski,2018-01-05T22:44:44Z
+6ee684983b1f3384a4050d7c47cee7c6a325db8b,fix(types): contravariant generic default in ComponentOption (#7369),Herrington Darkholme,HerringtonDarkholme,2018-01-03T06:33:48Z
+5b4e6679cbfabd7a6229e86f10c300bcc1b2f815,chore: update sponsors,Evan You,yyx990803,2018-01-03T04:44:27Z
+400aa651ba1648185274c10aa83c94cb9d8eac56,chore: fix setup script (#7364),JK,jkzing,2018-01-02T16:21:05Z
