@@ -7,6 +7,7 @@ load_dotenv()
 TOKEN = os.getenv("GITHUB_TOKEN")
 
 repositories = [
+    ("freeCodeCamp", "freeCodeCamp"),
     ("pytorch","pytorch"),
     ("facebook","react"),
     ("vuejs", "vue"),
@@ -45,23 +46,28 @@ def fetch_commits(owner, repo, since, until):
         if not commits:
             break  
 
-        all_commits.extend(commits)
-        print(f"Fetched {len(commits)} commits from page {page} for {owner}/{repo}")
+        for commit in commits:
+            author_name = commit["commit"]["author"]["name"]
+            author_username = commit["author"]["login"] if commit.get("author") else "Unknown"  # Extract GitHub username
 
+            all_commits.append([
+                commit["sha"],
+                commit["commit"]["message"],
+                author_name,
+                author_username,  # Add username
+                commit["commit"]["author"]["date"]
+            ])
+
+        print(f"✅ Fetched {len(commits)} commits from page {page} for {owner}/{repo}")
         page += 1  # go to next page
 
     # Save 
     with open(filename, "w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
-        writer.writerow(["SHA", "Message", "Author", "Date"])
+        writer.writerow(["SHA", "Message", "Author", "Username", "Date"])
 
         for commit in all_commits:
-            writer.writerow([
-                commit["sha"],
-                commit["commit"]["message"],
-                commit["commit"]["author"]["name"],
-                commit["commit"]["author"]["date"]
-            ])
+            writer.writerow(commit)
 
     print(f"✅ Saved {len(all_commits)} commits to {filename}")
 

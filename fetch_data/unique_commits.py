@@ -2,13 +2,12 @@ import os
 import pandas as pd
 
 repo_folders = {
-    "fcc": "freecodecamp_results",
+    "freecodecamp": "freecodecamp_results",
     "pytorch": "pytorch_results",
     "react": "react_results",
     "vue": "vue_results",
     "vscode": "vscode_results"
 }
-
 
 time_frames = [
     ("2018-01-01T00:00:00Z", "2019-12-31T23:59:59Z", "2018_2019"),
@@ -16,36 +15,37 @@ time_frames = [
     ("2022-06-01T00:00:00Z", "2024-06-30T23:59:59Z", "2022_2024"),
 ]
 
-unique_authors = {}
+unique_users = {}
 
-# Looping through each repo based on each timeframe
-for repo,folder in repo_folders.items():
+# Loop through each repo based on each timeframe
+for repo, folder in repo_folders.items():
     for since, until, label in time_frames:
         filename = os.path.join(folder, f"commits_{label}_{repo}.csv")
-        
+
         if os.path.exists(filename):
             df = pd.read_csv(filename)
 
-            # Check if "Author" column exists
-            if "Author" in df.columns:
-                authors = df["Author"].dropna().unique()
+            # Check if "Username" column exists
+            if "Username" in df.columns:
+                users = df["Username"].dropna().drop_duplicates()
+                users_list = list(users) 
 
-                if len(authors) > 0:
-                    unique_authors[(repo, label)] = authors
-                    print(f"✅ Extracted {len(authors)} unique authors from {filename}")
+                if users_list:
+                    unique_users[(repo, label)] = users_list
+                    print(f"✅ Extracted {len(users_list)} unique users from {filename}")
                 else:
-                    print(f"⚠️ No authors found in {filename}")
+                    print(f"⚠️ No users found in {filename}")
             else:
-                print(f"❌ 'Author' column not found in {filename}")
+                print(f"❌ Required column 'Username' not found in {filename}")
         else:
             print(f"❌ File not found: {filename}")
 
-# Save results
-output_file = "commit_authors.csv"
+# Save results 
+output_file = "commit_users.csv"
 with open(output_file, "w", newline="", encoding="utf-8") as file:
-    file.write("Repository,Time Frame,Author\n")
-    for (repo, label), authors in unique_authors.items():
-        for author in authors:
-            file.write(f"{repo},{label},{author}\n")
+    file.write("Repository,Time Frame,Username\n")
+    for (repo, label), users in unique_users.items():
+        for username in users:
+            file.write(f"{repo},{label},{username}\n")
 
-print(f"✅ Saved unique commit authors to {output_file}")
+print(f"✅ Saved unique commit users to {output_file}")
