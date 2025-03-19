@@ -1,0 +1,1794 @@
+SHA,Message,Author,Username,Date
+a03b9775d544b06a5b4f2aa630214c7c22fc2229,"[Mediaset] Support player version number in URL pattern
+
+Ref: https://github.com/yt-dlp/yt-dlp/issues/4141",dirkf,dirkf,2022-06-26T13:18:33Z
+8a158a936c8b002ef536e9e2b778ded02c09c0fa,[NHK] Use new API URL,dirkf,dirkf,2022-06-14T18:45:34Z
+11665dd2367a2eefd1ad090828f987fef11226e4,[test] Fix linter for 3aa94d7945dfaa0e04acf2700ffe0e43b00db498,dirkf,dirkf,2022-06-15T17:26:54Z
+cc179df346abf34c8f77dbb221b839092007f20c,"[XHamster] Support xhday.com alias, extract `uploader_id`
+* support xhday.com alias for xhamster.com (resolves #31023)
+  Authored by: dirkf
+* extract `uploader_id`:
+  from https://github.com/yt-dlp/yt-dlp/commit/908b56eaf7872149706dbd7fa071f838d0c786b7
+  (PR https://github.com/yt-dlp/yt-dlp/pull/844)
+  Authored by: octotherp",dirkf,dirkf,2022-06-12T13:10:38Z
+0700fde6403aa9eec1ff02bff7323696a205900c,"[utils, etc] Kill child processes when yt-dl is killed
+
+* derived from PR #26592, closes #26592
+
+Authored by: Unrud",pukkandan,pukkandan,2021-01-09T12:26:12Z
+811c480f7b6c25ca510a033e6365d00174135392,"[YouTube] Support JSON3 subtitle format
+* subtitle tests updated to match",dirkf,dirkf,2022-06-09T14:25:23Z
+3aa94d7945dfaa0e04acf2700ffe0e43b00db498,"[test] Fix workable subtitle tests (except YT) and mark others as skip, broken
+
+* broken tests need to be fixed when fixing the respective IE",dirkf,dirkf,2022-06-08T22:11:33Z
+ef044be34bb64c489558dd07818616b514d2e2ad,[test] Skip not _WORKING IE in subtitle tests; use unittest.skipTest throughout,dirkf,dirkf,2022-06-08T14:52:21Z
+530f4582d011cd94986cf4d233f9fb9263f72150,"[HRFernsehen] Back-port new extractor from yt-dlp
+Closes #26445, where this was originally proposed.",dirkf,dirkf,2022-06-06T18:29:48Z
+1baa0f5f6678c047624785dc9a3ab3cb44a72809,"[utils] Escape URL while sanitizing
+Closes #31008, #yt-dlp/263
+
+While this fixes the issue in question, it does not try to address the root-cause of the problem
+Refer: 915f911e365736227e134ad654601443dbfd7ccb, f5fa042c82300218a2d07b95dd6b9c0756745db3",pukkandan,pukkandan,2021-04-28T23:26:09Z
+9aa8e5340f3d5ece372b983f8e399277ca1f1fe4,"[Readme] Clarified extractor naming (#29799)
+
+* Exported usable extractors must be named `xxxxIE`
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",LewdyCoder,LewdyCoder,2022-05-30T01:50:50Z
+04fd3289d30de3c99c7d2de34d555b050bc96d4d,"[YouPorn] Improve `upload_date` extraction
+
+See https://github.com/yt-dlp/yt-dlp/issues/2701#issuecomment-1034341883",dirkf,dirkf,2022-05-28T12:54:32Z
+52c3751df722ab6f31f0229a415c7389a95c2307,"[utils] Enable ALPN in HTTPS to satisfy broken servers
+
+See https://github.com/yt-dlp/yt-dlp/issues/3878",dirkf,dirkf,2022-05-28T12:52:51Z
+187a48aee29847664e0c4cd80fe90c32e1fb334b,"[YouTube] Handle player c5a4daa1 with indirect n-function definition
+
+* resolves #30976",dirkf,dirkf,2022-05-24T14:33:00Z
+be35e5343a6c31f5f32ee216ab4486a1992260c5,Update options.py,Jacob Chapman,chapmanjacobd,2022-04-13T12:21:23Z
+c3deca86aedd2d8ab7cd0c596fd68b7aeb7c042d,"[wat.tv] Add version `pver` to metadata API call
+
+Resolves #30959.",dirkf,dirkf,2022-05-19T17:41:48Z
+c7965b9fc2cae54f244f31f5373cb81a40e822ab,[NHK] Support alphabetic characters in 7-char NhkVod IDs (#29682),dirkf,dirkf,2022-05-09T17:54:41Z
+e988fa4523e489596a2a27c4d45275e44db49406,[doc] Clarify test naming,dirkf,dirkf,2022-04-28T14:25:49Z
+e27d8d819fa69d5714ea1682a1d5d56f617461fc,"[streamcz] Remove empty `'{}'.format()` for Py2.6 
+
+Use `'-join()'` here, or `{0}`, ..., in general.",dirkf,dirkf,2022-04-29T12:36:02Z
+ebc627847cd1f5faddf4bd90376c1635777283cf,"[KTH] Add new extractor for KTH play (#30885)
+
+* Implement extractor for KTH play
+* Make KTH Play url regex more relaxed",Árni Dagur,ArniDagur,2022-04-28T09:18:10Z
+a0068bd6bec16008bda7a39caecccbf84881c603,"[Youtube] Fix ""n"" descrambling for player fae06c11
+
+Resolves #30856.",dirkf,dirkf,2022-04-15T15:07:09Z
+b764dbe7730bc5b0a4f30f4f89fd85e096d0c4a0,Disable blank issues,dirkf,dirkf,2022-04-10T04:49:09Z
+871645a4a4a0e12ec8f7bf78a3ad7bf75838ee5c,"[RAI] Fix extraction of http formats
+
+From https://github.com/yt-dlp/yt-dlp/pull/3272
+Closes https://github.com/yt-dlp/yt-dlp/issues/3270
+Authored by: nixxo",nixxo,nixxo,2022-04-02T05:57:56Z
+1f50a07771fddb5f64617617d156bfdd593f951e,"[RAI] Extend formats with direct http mp4 link (PR #27990)
+
+* initial support for creating direct mp4 link
+* improved regexes and info extraction
+* added ""connection: close"" to request headers
+* updated to https://github.com/yt-dlp/yt-dlp/pull/208",nixxo,nixxo,2021-01-27T11:24:50Z
+9e5ca66f16998eb2a680e23a6e769e34001898c5,"[RAI] Added checks for DRM protected content (PR #27657)
+
+reviewed by pukkandan (https://github.com/yt-dlp/yt-dlp/pull/150)",nixxo,nixxo,2021-01-04T14:11:47Z
+17d295a1ec6d04362740dd8a0c583690f5ba082a,"[extractor/bilibili] Fix path ""/audio/auxxxxx"" download return 403",lihan7,Unknown,2022-03-25T07:46:28Z
+49c5293014bc11ec8c009856cd63cffa6296c1e1,"Ignore --external-downloader-args if --external-downloader was rejected
+
+... and generate warning",dirkf,dirkf,2022-02-22T11:24:06Z
+6508688e88c83bb811653083db9351702cd39a6a,"Make default upload_/release_date a compat_str
+
+Ensures download tests pass in Python 2 as well as 3; also
+add YoutubeDL tests for timestamp -> upload_date etc.",df,dirkf,2021-08-01T08:42:57Z
+4194d253c0b922addf0439228066cb4fb487bac3,"Avoid skipping ID when unlisted_hash is numeric
+
+Pattern needed a non-greedy match; also replaced a redundant test with one for this, issue 29690",dirkf,dirkf,2021-07-30T11:58:19Z
+f8e543c9063c1c7ad157936cb6a15b428ddb3896,"[Alsace20TV] Add new extractors Alsace20TVIE, Alsace20TVEmbedIE",dirkf,dirkf,2022-02-07T20:06:27Z
+c4d1738316db45e03e0625650b3550334b66ab7f,"[CPAC] Add extractor for Canadian Parliament
+
+CPACIE: single episode
+CPACPlaylistIE: playlists and searches",dirkf,dirkf,2022-02-24T09:16:16Z
+1f13ccfd7fcafbfd79ddd652967e02f9eda7ce79,"Fixed groups() call on potentially empty regex search object (#30676)
+
+* Fixed groups() call on potentially empty regex search object.
+- https://github.com/ytdl-org/youtube-dl/issues/30521
+
+* minimising lines changed
+
+Co-authored-by: yayorbitgum <50963144+yayorbitgum@users.noreply.github.com>",dirkf,dirkf,2022-02-24T18:26:58Z
+923292ba643bf2a5c1fade797bd87a0de4f58d25,[aliexpress] Fix test case,marieell,marieell,2022-02-10T09:36:24Z
+782bfd26dbebea60e35f58ab18e218bedbecb782,"[bigo] add support for bigo.tv (#30635)
+
+* [bigo] add support for bigo.tv
+
+* [bigo] prepend ""Bigo says""
+
+* title fallback
+
+* add error for invalid json data",Lesmiscore (Naoya Ozaki),Lesmiscore,2022-02-24T13:34:32Z
+34722270741fb9c06f978861c1e5f503291070d8,"[rutv] fix vbr for empty string value (#30623)
+
+* [rutv] use str_to_int() (thx dirkf)",Vladimir Stavrinov,vstavrinov,2022-02-14T17:54:31Z
+bf23bc0489cf304b2a8ab756f2f63b2cfa5586fe,add missing __future__ import unicode_literals,Petr Vaněk,arkamar,2022-02-12T14:27:10Z
+85bf26c1d01f94b83476703e5c70022f01164ccf,resolve problem with unpacking operator for <py3.5,Petr Vaněk,arkamar,2022-02-12T14:02:08Z
+d8adca1b664fceb07f2b28b55c7e1855407296ea,[streamcz] test fixes and one additional test,Petr Vaněk,arkamar,2022-02-12T12:13:20Z
+d02064218be76eba6350a13ccbbc473b1b439570,do not use f-strings,Petr Vaněk,arkamar,2022-02-12T11:30:29Z
+b1297308fb7b423a60c3a28c74ac014d7b385a2a,avoid traverse_obj function,Petr Vaněk,arkamar,2022-02-12T11:28:30Z
+8088ce036ac4ce282f8f864c6b5f4f3987647221,revert: use _match_valid_url function,Petr Vaněk,arkamar,2022-02-12T10:55:13Z
+29f7bfc4d7a80cecd67c19c25134481fbba6e175,"[streamcz] cherry-pick from yt-dlp
+
+Cherry-picked-from: 7d449fff5346 (""[streamcz] Fix extractor (#1616)"")",Petr Vaněk,arkamar,2022-01-11T16:56:18Z
+74f8cc48afa59e1a125f939c060b21654d29789c,"[extractor/videa] Back-port from yt-dlp PRs 463+1028
+
+Authored by: nyuszika7h",dirkf,dirkf,2022-02-09T04:37:28Z
+8ff961d10faed848009f9e2ec03fa390b486694d,"[extractor/videa] fix extraction in Py2
+
+Fixes #30416",kikuyan,kikuyan,2021-12-23T02:40:45Z
+266b6ef18520f8de60fa143e154e4b12be12afb7,[BBC] Also allow PID with leading 'l' (live?),dirkf,dirkf,2022-02-09T21:21:59Z
+825d3426c56aabfc91aea139f2e6e0589f8096bc,"[Nuvid] Use site JSON for video details (#29332)
+
+Back-port yt-dlp PR 1022 onto PR #17890 and update
+
+Video details aren't in the original HTML now but populated by async JS
+
+Co-authored by: u-spec-png
+Co-authored by: vidaritos",dirkf,dirkf,2022-02-09T02:40:34Z
+47b0c8697a39bbd64d5b922f81ad74ee4d2a3136,"[ARD] Back-port subtitle extraction from yt-dlp PR 2409
+
+Authored by: fstirlitz
+Fixes #30543
+Closes #17766 (thanks ngdio)",dirkf,dirkf,2022-02-07T13:28:21Z
+734dfbb4e3ad4ee4d98609dc902ac864b94033a4,Remove redundant assigning `format_id`,Seonghyeon Cho,sh-cho,2021-10-13T11:27:40Z
+ddc080a562cce984ac4a86969f511b1ae59421bf,Add ArteTVCategoryIE to support category playlists,df,dirkf,2021-10-18T14:54:26Z
+16a3fe2ba6b4c86e60bca930253c81c8efdd676b,"Updated Album URL regex
+
+Mistakenly forgot to edit a line in last commit.
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Abdullah Ibn Fulan,abdullah-if,2021-08-17T19:56:39Z
+c820a284a23438f065171b7e222024d01893a95f,"[extractor/audiomack] Updated URL regex, corrected invalid testcases, fixed bug
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Abdullah Ibn Fulan,abdullah-if,2021-08-17T12:22:07Z
+58babe9af79215bd6bdf07da0a8ebb1d3650e00b,"Support __INITIAL_DATA__ with stringified JSON
+
+Add test and fix test for bbcthreeConfig",dirkf,dirkf,2021-11-30T05:15:33Z
+6d4932f02347bb1d0228b20798435930022bf316,"Try for timestamp, description from window.__INITIAL_DATA__ pages",df,dirkf,2021-04-18T00:46:40Z
+92d73ef3936ed6de9770f613fddf2260731becc9,[niconico] Implement heartbeat for download,dirkf,dirkf,2021-12-07T23:30:30Z
+91278f4b6b5600e9ce65826ec9e7e38e7dba5937,"[niconico] Back-port extractor from yt-dlp
+
+Add Nico search extractors, fix extraction",dirkf,dirkf,2021-12-06T20:52:21Z
+73e1ab6125eeea2b07942326cd2f1d6d9adff64e,[test:download] Only extract enough videos for playlist_mincount,dirkf,dirkf,2021-12-06T19:26:33Z
+584715a803eef68f68fbbb8b72a022a699983197,[applepodcasts] Extract default thumbnail image,dirkf,dirkf,2021-12-09T01:35:35Z
+e00b0eab1e78ed822683b2689f60eab85514ac42,"[applepodcasts] Improve format extraction
+
+Set acodec and vcodec, etc, to avoid breaking, eg, bestaudio",dirkf,dirkf,2021-12-09T00:55:04Z
+005339d6375f2d2a4cec962b1c1a157c1dffbf8f,[applepodcasts] Support new AMP-ish page structure,dirkf,dirkf,2021-12-08T23:37:54Z
+23ad6402a6966dd09e4c854f32c33f69be1a064e,xvideos: Fix for #30271,Chris Rose,offbyone,2021-11-26T16:08:17Z
+96423449659131ed8e7bfaa7f791466c3f8f2db1,Fix tests for working IEs; disable obsolete WDRMobile,dirkf,dirkf,2022-01-25T13:04:04Z
+568c7005d513d0398c20b9e88eb9838c68651fc2,Fix WDRMaus; extend URL matching for other Maus pages; improve ID extraction,dirkf,dirkf,2022-01-25T12:59:31Z
+5cb4833f408745135d1b0e178b9a2545a899f2ac,"Update URPlayIE extractor for Next.js page format, with subtitles",dirkf,dirkf,2022-01-13T19:38:08Z
+5197336de6ee2d18c37732f3f7c6532c8899ec29,"Support more deeply nested ptmd_path with test, update tests",dirkf,dirkf,2022-01-14T20:14:14Z
+01824d275bfa7efbaca274b38c1ddc2b03f12f5d,"Additional tweaks: allow any .ndr.de, simplify quote match",dirkf,dirkf,2022-01-19T13:24:33Z
+39a98b09a2acf50dc64bc41185be723b98e740b9,"Fix NDR, NJoy tests",dirkf,dirkf,2022-01-17T03:29:43Z
+f0a05a55c2ee512880546c056cfbec5ad3399798,"NJoy: improve extraction of NDR id, description, etc with current page formats",dirkf,dirkf,2022-01-17T03:22:32Z
+4186e817772d49d6f66b07c5ac8c248f026a6446,"NDR: improve extraction of NDR id, description, etc with current page formats",dirkf,dirkf,2022-01-17T03:13:37Z
+b494824286f0ac2fc7313452b287fbbffe61ccbe,Support Tele5 pages with Discovery Networks format instead of JWPlatform,dirkf,dirkf,2022-01-17T13:11:11Z
+8248133e5ee5579316120cbcbff3ba8b713f1017,"Back-port yt-dlp Viki extractor
+
+From https://github.com/yt-dlp/yt-dlp/pull/2540",dirkf,dirkf,2022-02-04T11:29:41Z
+27dbf6f0ab778a9e3d81be64a615046e6737c3f6,"Return the item itself if playlist has one entry
+
+Removes playlist spam from log",dirkf,dirkf,2022-02-04T11:38:44Z
+61d791726f67255c2ed3c0bb6ee24c8c1faeb028,Find TV2DK Kaltura ID in Nuxt.js page format,dirkf,dirkf,2022-02-04T11:24:03Z
+0c0876f790c78c38ececbc920073e8b6cf01e9c7,[youtube:search] Add tests,pukkandan,pukkandan,2022-02-03T02:14:37Z
+7a497f1405ecdcd76c671c7bfaad238d75d01639,"Rework 2c2c2bd with an actual Mix page and realistic playlist size
+
+From https://github.com/ytdl-org/youtube-dl/commit/2c2c2bd348b7dce0aad55a6fc37a18c6f9a000e3#commitcomment-65953545",dirkf,dirkf,2022-02-04T04:09:23Z
+5add3f4373287e6346ca3551239edab549284db3,"Merge branch 'pukkandan-yt-searchurl' into yt-dl-master
+
+Closes #27749",dirkf,dirkf,2022-02-04T03:50:32Z
+78ce962f4fe020994c216dd2671546fbe58a5c67,"[youtube] Support channel search
+
+Code from https://github.com/yt-dlp/yt-dlp/commit/cd684175adbe663bbdf6a6c72d8b99b617b6ff2e",pukkandan,pukkandan,2022-01-29T19:54:09Z
+41f0043983c831b7c0c3614340d2f66ec153087b,Avoid crashing if n-sig decode fails,dirkf,dirkf,2022-02-01T23:22:57Z
+34c06b16f5eb814308392b68dce07bbff62bc406,Support Youtube Shorts URL format,dirkf,dirkf,2022-01-31T00:02:56Z
+1e677567cd083d43f55daef0cc74e5fa24575ae3,"[YouTube] Fix n-sig for player e06dea74 (#30582)
+
+From yt-dl commit 48416bc",dirkf,dirkf,2022-02-01T14:39:03Z
+af9e72507ea38e5ab3fa2751ed09ec88021260cb,"Implement n-param descrambling using JSInterp
+
+Fixes #29326, closes #29790, closes #30004, closes #30024, closes #30052,
+closes #30088, closes #30097, closes #30102, closes #30109, closes #30119,
+closes #30125, closes #30128, closes #30162, closes #30173, closes #30186,
+closes #30192, closes #30221, closes #30239, closes #30539, closes #30552.",df,dirkf,2021-11-01T04:45:42Z
+6ca7b776965ed1e9220690edc4ee22de8c8587f5,"Refactor JSInterpreter._separate
+
+yt-dlp/yt-dlp/@06dfe0a, improve _MATCHING_PARENS",dirkf,dirkf,2021-12-10T19:14:54Z
+9d142109f445ea247e476cfc0e0ca134f6ebb802,Back-port test_youtube_signature.py from yt-dlp and fix JSInterp accordingly,dirkf,dirkf,2021-11-27T03:18:29Z
+1ca673bd98cc5bbfa76d00ac84ad5f6c1376db01,"Fix splice to handle float
+
+Needed for new youtube js player f1ca6900
+Add https://github.com/yt-dlp/yt-dlp/commit/57dbe8077f8d00e0fffac53669f40cd7d584474f#diff-729b57caa8d006426f6a8960c061f519a8b6658682284015e069745af52ffb07",dirkf,dirkf,2021-11-27T02:06:13Z
+e1eae16b56b5c57e341b000167c0a92e67095e6e,"Handle default in switch better
+
+Add https://github.com/yt-dlp/yt-dlp/commit/a1fc7ca0743c8df06416e68ee74b64e07dfe7135
+Thanks coletdjnz",df,dirkf,2021-11-04T12:48:06Z
+96f87aaa3b34d80bc72097a7475d8093849091fc,Back-port JS interpreter upgrade from yt-dlp PR #1437,df,dirkf,2021-11-02T11:18:39Z
+5f5de51a499f732a6e687f32037e130cbdc50c8f,Add compat_map/filter and use the former,df,dirkf,2021-11-01T13:34:29Z
+39ca35e7651048c2adf558f1d6db2df0de4554f5,Fix test_youtube_flat_playlist_extraction,df,dirkf,2021-11-01T04:44:57Z
+d76d59d99d05fba94963690a039d38373dddc658,Remove obsolete non-working test_youtube_toptracks,df,dirkf,2021-10-29T02:10:35Z
+2c2c2bd348b7dce0aad55a6fc37a18c6f9a000e3,Fix test_youtube_mix,df,dirkf,2021-10-29T02:03:00Z
+46e0a729b2d4503d8d49433fdddfce726d08261e,Remove obsolete test_youtube_course,df,dirkf,2021-10-28T14:57:10Z
+57044eacebc6f2f3cd83c345e1b6e659a22e4773,Fix test_youtube_playlist_noplaylist,df,dirkf,2021-10-28T14:55:38Z
+a3373da70c97d356bd4927eff403abd261dd8f9f,Merge branch 'UP/youtube-dl' into dl/YoutubeSearchURLIE,pukkandan,pukkandan,2022-01-29T19:37:28Z
+2c4cb134a90b49a4d44965b57ff43cfd45ec2d69,Fix max_results,pukkandan,pukkandan,2022-01-29T19:24:22Z
+bfe72723d8318f8bfcb35dee69a40758df5fa3c0,Use `itertools.islice`,pukkandan,pukkandan,2022-01-29T19:19:55Z
+ed99d68bdddfba0440dc81c105d5c0ea7cee7d1c,Add back `YoutubeSearchURLIE`,pukkandan,pukkandan,2022-01-29T19:11:47Z
+5014bd67c22b421207b2650d4dc874b95b36dda1,release 2021.12.17,Sergey M․,dstftw,2021-12-16T18:49:07Z
+e41882335066ed03b1f4837e72fc0e83dfbe3525,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-12-16T18:43:16Z
+b5242da7d24028f60cd23fd10f28fb635c7c7634,[youtube] Update signature function patterns (closes #30363) (#30366),lanegramling,lanegramling,2021-12-16T18:42:17Z
+a8035827177d6b59aca03bd717acb6a9bdd75ada,[peertube] only call description endpoint if necessary (#29383),bopol,B0pol,2021-07-01T06:53:22Z
+7fb9564420d43252c8f8c453d4dc54bf3ff9f8ee,[periscope] pass referer to HLS requests(closes #29419),Remita Amine,remitamine,2021-06-28T19:06:33Z
+379f52a4954013767219d25099cce9e0f9401961,"[liveleak] Remove extractor (closes #17625, closes #24222) (#29331)",Aleri Kaisattera,alerikaisattera,2021-06-20T21:23:50Z
+cb668eb973b8f09152bb48e3b49a014d3cb72b22,[pornhub] Add support for pornhubthbh7ap3u.onion,Sergey M․,dstftw,2021-06-20T21:08:15Z
+751c9ae39a0bb9c66eca888a12595624db00bf16,[pornhub] Detect geo restriction,Sergey M․,dstftw,2021-06-20T20:33:43Z
+da32828208743c8012c8eea01780cbf9b3f60436,"[pornhub] Dismiss tbr extracted from download URLs (closes #28927)
+
+No longer reliable",Sergey M․,dstftw,2021-06-20T20:22:37Z
+2ccee8db74c36eb1254cdffd4e691e56c0ce0724,"[curiositystream:collection] Extend _VALID_URL (closes #26326, closes #29117)",Sergey M․,dstftw,2021-06-20T18:54:52Z
+47f2f2fbe9730b041b91451d17279216f311ffc2,[youtube] Make get_video_info processing more robust (closes #29333),Sergey M․,dstftw,2021-06-20T18:35:21Z
+03ab02730f77da5b7ad05ca78ff1624d8226ec5f,"[youtube] Workaround for get_video_info request (refs #29333)
+
+See https://github.com/ytdl-org/youtube-dl/issues/29333#issuecomment-864049544",Sergey M․,dstftw,2021-06-20T18:34:27Z
+4c77a2e538fb23da116aaba0f51e314ef76feb68,[bilibili] Strip uploader name (#29202),Tianyi Shi,TianyiShi2001,2021-06-20T18:03:21Z
+41317030017418c89742594a80c0596c4b26bbb9,[youtube] Update invidious instance list (#29281),bopol,B0pol,2021-06-20T17:42:09Z
+cc21aebe9071660ba558dae75c3066a4a3b38820,"[umg:de] Update GraphQL API URL (#29304)
+
+Previous one no longer resolves
+
+Co-authored-by: Sergey M. <dstftw@gmail.com>",Logan B,einstein95,2021-06-20T17:41:14Z
+57b9a4b4c6cf2580b5007db78bd333a9a237fd47,"[nrk] Switch psapi URL to https (closes #29344)
+
+Catalog calls no longer work via http",Sergey M․,dstftw,2021-06-20T17:36:28Z
+3a7ef27cf306a0a8f79ebd78ae60329c53080d14,[postprocessor/ffmpeg] Show ffmpeg output on error (refs #22680) (#29336),kikuyan,kikuyan,2021-06-20T16:58:19Z
+a7f61feab2dbfc50a7ebe8b0ea390bd0e5edf77a,"[egghead] Add support for app.egghead.io (closes #28404) (#29303)
+
+Co-authored-by: Sergey M. <dstftw@gmail.com>",kikuyan,kikuyan,2021-06-17T03:34:33Z
+8fe5d54eb721f1bbb8c8a0d18810a42d1257e406,[appleconnect] Fix extraction (#29208),kikuyan,kikuyan,2021-06-16T21:12:13Z
+d156bc8d59dd469bf70b822926504f213ce237de,[orf:tvthek] Add support for MPD formats (closes #28672) (#29236),kikuyan,kikuyan,2021-06-16T21:02:06Z
+c2350cac243ba1ec1586fe85b0d62d1b700047a2,[README.md] Update MSVC 2010 redist URL (closes #29222),Sergey M,dstftw,2021-06-05T22:32:27Z
+b224cf39d53bd16bcfda2ac493712c3ff449ecb8,release 2021.06.06,Sergey M․,dstftw,2021-06-05T18:38:22Z
+5f85eb820cb7eb89dcb567f9cbfefb5d9038b9c0,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-06-05T18:32:15Z
+bb7ac1ed669d67d79fa1a3b9e5c70271892ecbcc,[facebook] Improve login required detection,Sergey M․,dstftw,2021-06-05T18:16:43Z
+fdf91c52a8b58b3b7c12a393629fc962d6ab7618,[youporn] Fix formats and view count extraction (closes #29216),Sergey M․,dstftw,2021-06-05T17:11:09Z
+943070af4a9e13ef2b81c5e484d9c799f1845aab,[orf:tvthek] Fix thumbnails extraction (closes #29217),Sergey M․,dstftw,2021-06-05T16:42:25Z
+82f3993ba3f4d435d3bc9e37426ab225f5549510,[formula1] fix extraction(closes #29206),Remita Amine,remitamine,2021-06-04T16:51:44Z
+d495292852b6c2f1bd58bc2141ff2b0265c952cf,"[ard] Relax _VALID_URL and fix video ids (closes #22724, closes #29091)",Sergey M․,dstftw,2021-05-29T23:14:59Z
+2ee6c7f11074917c08253af4c47f9258aa1e0dad,[ustream] Detect https embeds (closes #29133),Sergey M․,dstftw,2021-05-29T20:43:59Z
+6511b8e8d7db78d4ba3706df5122a74e1c9b9b57,[ted] Prefer own formats over external sources (closes #29142),Sergey M․,dstftw,2021-05-29T20:05:22Z
+f3cd1d9cec91943a459a0662cbcffe3b2e1f6675,[twitch:clips] Improve extraction (closes #29149),Sergey M․,dstftw,2021-05-29T18:46:49Z
+e13a01061d149f4fac7db1a50124c4745a11c16e,[twitch:clips] Add access token query to download URLs (closes #29136),phlip,mrphlip,2021-05-28T01:01:59Z
+24297a42efc52862cb9510d32b28efd7faf49af6,"[youtube] Fix get_video_info request (closes #29086, closes #29165)",Sergey M․,dstftw,2021-05-29T17:36:26Z
+1980ff4550a3f040fbc1e054d6b91013e9d8cb96,[vimeo] fix vimeo pro embed extraction(closes #29126),Remita Amine,remitamine,2021-05-26T10:04:39Z
+dfbbe2902fc67f0f93ee47a8077c148055c67a9b,[redbulltv] fix embed data extraction(closes #28770),Remita Amine,remitamine,2021-05-17T11:56:49Z
+e1a9d0ef780b7a0cdcdc706909ad2de9bd06138c,"[shahid] relax _VALID_URL(closes  #28772, closes #28930)",Remita Amine,remitamine,2021-05-17T11:37:39Z
+f47627a1c9a790fac29d5c166bc0f7944fcb1a98,release 2021.05.16,Sergey M․,dstftw,2021-05-16T15:55:05Z
+efeb9e0fbf1e33043c19dbfda9d12984bf0c6e34,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-05-16T15:40:39Z
+e90a890f01ad253b611d8edd365f41b0c4553b67,"[playstuff] Add extractor (closes #28901, closes #28931)",Sergey M․,dstftw,2021-05-16T15:31:37Z
+199c645bee2052e43ec33cc8d0b0fa0c18853da8,[eroprofile] Skip test,Sergey M․,dstftw,2021-05-16T15:01:51Z
+503a3744ad620a2fe21c82cb2c595dc939310a1e,"[eroprofile] Fix extraction (closes #23200, closes #23626, closes #29008)",Sergey M․,dstftw,2021-05-16T14:56:30Z
+ef03721f470606deaddb4a57e51550045a32fb04,"[vivo] Add support for vivo.st (#29009)
+
+Co-authored-by: Sergey M. <dstftw@gmail.com>",kr4ssi,kr4ssi,2021-05-16T14:46:32Z
+1e8aaa1d155d2f6b04ba1caa040876372bb0bb44,"[generic] Add support for og:audio (closes #28311, closes #29015)",Sergey M․,dstftw,2021-05-16T14:42:38Z
+6423d7054eb2a73a1557c8531f631330e6d7e084,[options] Fix thumbnail option group name (closes #29042),Sergey M․,dstftw,2021-05-16T14:34:10Z
+eb5080286a8882eedbb77d1a8cd72f1c85b75737,[phoenix] Fix extraction (closes #29057),Sergey M․,dstftw,2021-05-16T14:21:14Z
+286e01ce30b4d4d7a631512c3d1f983b30d9059c,[generic] Add support for sibnet embeds,Sergey M․,dstftw,2021-05-16T13:50:32Z
+8536dcafd82380c006a25409bdc2c3dc0d14195c,[vk] Add support for sibnet embeds (closes #9500),Sergey M․,dstftw,2021-05-16T13:48:24Z
+552b1399110360232bf1bf2ba5ed50cb8b30e818,"[generic] Add Referer header for direct videojs download URLs (closes #2879, closes #20217, closes #29053)",Sergey M․,dstftw,2021-05-16T13:28:32Z
+2202cef0e4551293913e0be06b72b4cffccae0aa,[orf:radio] Switch download URLs to HTTPS (closes #29012) (#29046),Lukas Anzinger,Lukas0907,2021-05-16T12:54:15Z
+a7260099873acc6dc7d76cafad2f6b139087afd0,"[blinkx] Remove extractor (closes #28941)
+
+No longer exists.",Sergey M․,dstftw,2021-05-04T21:12:35Z
+03afef753878c2528260dc8084092556428f4343,"[medaltv] Relax _VALID_URL (#28884)
+
+Co-authored-by: Sergey M. <dstftw@gmail.com>",catboy,Unknown,2021-05-04T20:44:07Z
+b797c1cc750b1f617678281731303611e21c70d0,"[YoutubeDL] Improve extract_info doc (#28946)
+
+Co-authored-by: Sergey M. <dstftw@gmail.com>",Jacob Chapman,chapmanjacobd,2021-05-04T20:31:24Z
+04be55307a3a13f7091a9a2970a1cc20863769e3,[funimation] Add support for optional lang code in URLs (closes #28950),Sergey M․,dstftw,2021-05-04T19:54:12Z
+504e4d804df0ee666d80ba6796017cf97e026c0b,[gdcvault] Add support for HTML5 videos,Sergey M․,dstftw,2021-05-04T19:44:29Z
+1786cd3fe4e555b83bdd3eea77ade3477293330d,[dispeak] DRY and update tests (closes #28970),Sergey M․,dstftw,2021-05-04T19:30:42Z
+b8645c1f5885522ec8bb77649f49ce842e947c25,[dispeak] Improve FLV extraction (closes #13513),Ben Rog-Wilhelm,zorbathut,2021-04-18T04:15:10Z
+fe05191b8c59538a48b6cbc95f4fe54fc7e6a0ac,"[kaltura] Improve iframe extraction (#28969)
+
+Co-authored-by: Sergey M. <dstftw@gmail.com>",Ben Rog-Wilhelm,zorbathut,2021-05-04T19:14:35Z
+0204838163bd4068fe23b40414573d1307d817ab,[kaltura] Make embed code alternatives actually work,Sergey M․,dstftw,2021-05-04T18:57:02Z
+a0df8a06178e530a1097f177a1faf1d2c609ac99,"[cda] Improve extraction (closes #28709, closes #28937)",Sergey M․,dstftw,2021-05-01T15:53:30Z
+d1b9a5e2eff1c075b38815a3d2b25eb8b3f626bb,[twitter] Improve formats extraction from vmap URL (closes #28909),Sergey M․,dstftw,2021-05-01T12:00:39Z
+ff04d43c469e4cf8c14ba3e2e79da0d35ef3c7db,[xtube] Fix formats extraction (closes #28870),Sergey M․,dstftw,2021-05-01T11:33:05Z
+d2f72c40db0d1fe1102c98c017682b283579ad97,"[svtplay] Improve extraction (closes #28507, closes #28876)",Sergey M․,dstftw,2021-05-01T11:09:32Z
+e33dfb445c547f210a7060e8b7abd592dbe42808,[tv2dk] Fix extraction (closes #28888),Sergey M․,dstftw,2021-05-01T10:53:27Z
+94520568b399d5b4f35a9708f5643d8b16c6c4ee,[workflows/ci.yml] Update link to jython-installer,Sergey M․,dstftw,2021-04-25T19:16:47Z
+273964d190fb048477e71114c4734fcb819c5c16,release 2021.04.26,Sergey M․,dstftw,2021-04-25T18:33:30Z
+346dd3b5e87503c52fc6800d9f73cd6bdbce71bc,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-04-25T18:29:50Z
+f5c2c062310b347cd2737920e3eb15f2aeb633d7,[xfileshare] Add support for wolfstream.tv (#28858),schnusch,schnusch,2021-04-25T17:32:47Z
+57eaaff5cf1ae63d4e3ae89f301c0f9b3e86bb55,[francetvinfo] Improve video id extraction (closes #28792),Sergey M․,dstftw,2021-04-25T15:52:28Z
+999329cf6b29878d054c6ccdd24573489a2886d5,[workflows/ci.yml] Fix install nose for Jython,Sergey M․,dstftw,2021-04-24T16:52:16Z
+c6ab79299034492c5af9dd29b0c49585e4efc4cd,"[medaltv] Fix extraction (#28807)
+
+numeric clip ids are no longer used by medal, and integer user ids are now sent as strings.",catboy,Unknown,2021-04-24T12:10:35Z
+0db79d8181c1c3ebf74b9b6d38262c8dcaaf0f4f,[tver] Redirect all downloads to Brightcove (#28849),The Hatsune Daishi,Lesmiscore,2021-04-24T11:58:03Z
+7e8b3f9439ebefb3a3a4e5da9c0bd2b595976438,[youtube] Remove unused code,Sergey M․,dstftw,2021-04-20T22:37:51Z
+ac19c3ac8035fbf9369fd4bd336c9045d4eeafa3,"[go] Improve video id extraction (closes #25207, closes #25216, closes #26058)",Sergey M․,dstftw,2021-04-20T22:35:39Z
+c4a451bcdd2b743fdb96fcbae261c86ed91022ba,[test_execution] Add test for lazy extractors (refs #28780),Sergey M․,dstftw,2021-04-20T21:47:29Z
+5ad69d3d0e7d1d8d15a1f2497d602b1b91fcc74a,[test_youtube_misc] Move YoutubeIE.extract_id test into separate module,Sergey M․,dstftw,2021-04-20T21:45:13Z
+32290307a45260885b2210aa3c2a57e64abf8c34,[youtube] Fix lazy extractors (closes #28780),Sergey M․,dstftw,2021-04-20T20:56:04Z
+dab83a25972e0dbcc69583bf78d2a992f581563d,[bbc] Extract full description from __INITIAL_DATA__ (refs #28774),Sergey M․,dstftw,2021-04-20T20:00:56Z
+41920fc80e4fe4a8996aeb31a04826a5a2534814,[bbc] Extract description and timestamp from __INITIAL_DATA__ (#28774),dirkf,dirkf,2021-04-20T19:51:55Z
+9f6c03a00602eb1119e43a522cf50682f6d6a6dd,[cbsnews] Fix extraction for python <3.6 (closes #23359),Sergey M․,dstftw,2021-04-16T22:05:31Z
+596b26606cfe20aa9f776ac0658b6bfb1ea95397,release 2021.04.17,Sergey M․,dstftw,2021-04-16T20:50:09Z
+f20b505b46e6654464635ca4afb0f37e1f14c57b,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-04-16T20:47:00Z
+cfee2dfe83c5593d46bd0c8e8ce6a3d8c6e42db7,[utils] PEP 8,Sergey M․,dstftw,2021-04-16T20:32:04Z
+30a3a4c70fdcad10ef1dc6c3402457a95fe1ae5c,"[lbry] Add support for HLS videos (closes #27877, closes #28768)",Sergey M․,dstftw,2021-04-16T20:23:47Z
+a00a7e0cad3308d999599bf17df5d3e6aba502d8,"[utils] Add support for support for experimental HTTP response status code 308 Permanent Redirect (refs #27877, refs #28768)",Sergey M․,dstftw,2021-04-16T20:22:13Z
+54558e0baa4d62a94af105cd1d7f8abcbd16b468,[youtube] Improve stretch extraction and fix stretched ratio calculation (closes #28769),Sergey M․,dstftw,2021-04-16T19:27:54Z
+7c5239547928079513b65f62e4c84aea21ce76e6,[youtube:tab] Improve grid extraction (closes #28725),Sergey M․,dstftw,2021-04-16T18:05:44Z
+ea87ed8394127c4bf824688b8780eaf5a804e7a3,[youtube:tab] Detect series playlist on playlists page (closes #28723),zraktvor,Unknown,2021-04-10T13:11:35Z
+d01e261a15abd779decae6e0858d8586f7a71621,[youtube] Add more invidious instances (#28706),Cássio Ávila,toniz4,2021-04-16T17:31:34Z
+79e4ccfc4b395127bb3e5e957b20b04e75cba355,[pluralsight] Extend anti-throttling timeout (#28712),quyleanh,quyleanh,2021-04-16T17:30:10Z
+06159135ef148a6ddc632d0c89b90c937d5bb021,"[youtube] Improve URL to extractor routing (closes #27572, closes #28335, closes #28742)",Sergey M․,dstftw,2021-04-16T17:07:32Z
+4fb25ff5a3be5206bb72e5c4046715b1529fb2c7,[maoritv] Add new extractor(closes #24552),Aaron Lipinski,krisl,2021-04-08T07:59:36Z
+1b0a13f33cfb3644cc718d35951ea85bb1905459,[youtube:tab] Pass innertube context and x-goog-visitor-id header along with continuation requests (closes #28702),Sergey M․,dstftw,2021-04-08T19:09:52Z
+27e5a4464d1d4c418d4937492e18a9d47d30fc50,[mtv] Fix Viacom A/B Testing Video Player extraction(closes #28703),Remita Amine,remitamine,2021-04-08T17:53:36Z
+545d6cb9d06a8bf32bcd24463c0fd25e650bb2c7,[pornhub] Extract DASH and HLS formats from get_media end point (closes #28698),Sergey M․,dstftw,2021-04-08T08:32:59Z
+006eea564d55130bb2e2ea7feb3a0e286d75d91f,[cbssports] fix extraction(closes #28682),Remita Amine,remitamine,2021-04-07T13:01:48Z
+281b8e34432d8dba9902be2c1eb77d3e6371cd73,[jamendo] fix track extraction(closes #28686),Remita Amine,remitamine,2021-04-07T09:41:06Z
+c0c5134c5771dd2a1caeeaee62dcd207d169e981,"[curiositystream] fix format extraction(closes #26845, closes #28668)",Remita Amine,remitamine,2021-04-07T08:27:05Z
+72a2c0a9ede04c6b82235e453b1a933faf072a76,release 2021.04.07,Sergey M․,dstftw,2021-04-06T20:42:24Z
+445db582a27c44cb02d57ac9171d58651cafbd76,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-04-06T20:35:25Z
+6b116f0c03ac0b1aff01cd08bbe1d5cb87dff853,[youtube] Fix videos with restricted location (closes #28685),Sergey M․,dstftw,2021-04-06T20:34:43Z
+70d0d4f9beba0e5b6d95ee50ad62ae7ab5be9be1,[compat] Use more conventional name for compat SimpleCookie,Sergey M․,dstftw,2021-04-06T07:22:28Z
+6b315d96bc0b07ddc3abaa7318583775828cce30,[compat] flake8,Sergey M․,dstftw,2021-04-06T07:15:13Z
+25b1287323f5836c9416a8183096adc63809d5ce,[line] add support live.line.me (closes #17205)(closes #28658),guredora,guredora403,2021-04-04T13:12:07Z
+760c911299aa607ca967d6d4be2985528bacf29f,[compat] add compat_SimpleCookie to __all__ array,Remita Amine,remitamine,2021-04-05T06:16:50Z
+162bf9e10a4e6a08f5ed156a68054ef9b4d2b60e,[compat] add compat_SimpleCookie,Remita Amine,remitamine,2021-04-04T18:49:24Z
+6beb1ac65b03415764c487fd139298f22e1e0313,[extractor/common] keep support for non standard JSON-LD VideoObject author values,Remita Amine,remitamine,2021-04-04T18:16:17Z
+3ae9c0f410b1d4f63e8bada67dd62a8d2852be32,[vimeo] improve extraction(closes #28591),Remita Amine,remitamine,2021-04-04T15:26:56Z
+e165f5641fdf62975d3b6a40132a475c9cbaea2a,[extractor/common] fix JSON-LD VideoObject author extraction,Remita Amine,remitamine,2021-04-04T14:52:14Z
+aee6feb02adaa316455ea9497e92cc82b720f231,"[youku] Update ccode(closes #17852, closes #28447, closes #28460) (#28648)",RomanEmelyanov,RomanEmelyanov,2021-04-04T08:14:37Z
+654b4f4ff2718f38b3182c1188c5d569c14cc70a,"[youtube] prioritize information from YoutubeIE for playlist entries(closes #28619, closes #28636)",Remita Amine,remitamine,2021-04-03T07:23:35Z
+1df2596f81695bf452ffbfd89596d115d9b2daf5,"[extractor/common] fix _get_cookies method for python 2(#20673, #23256, #20326, closes #28640)",Remita Amine,remitamine,2021-04-03T06:54:02Z
+04d4a3b136060158438c3f2c1b31c884c6961712,"[screencastomatic] fix extraction(closes #11976, closes #24489)",Remita Amine,remitamine,2021-04-01T18:03:45Z
+392c467f95cbf89114235038e1938c72d97144d9,[palcomp3] Add new extractor(closes #13120),Allan Daemon,AllanDaemon,2017-05-15T03:04:39Z
+c5aa8f36bf636c3db81afd556d0e95d91b72b9c7,[arnes] Add new extractor(closes #28483),Vid,VidVidex,2021-03-18T17:53:06Z
+37488630703944b4f2bda84a26391ae61d29e15b,[youtube:tab] Add support for hashtag videos extraction(closes #28308),Remita Amine,remitamine,2021-04-01T10:50:30Z
+ca304beb1538e54c5a18fdd50846ed2259d63b8c,release 2021.04.01,Sergey M․,dstftw,2021-03-31T21:47:11Z
+e789bb1aa4cb627d3d7ca79a5e5daa8d2f58cda6,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-03-31T21:43:08Z
+14f29f087e6097feb46bdb84878924bc410a57eb,[youtube] Setup CONSENT cookie when needed (closes #28604),Sergey M․,dstftw,2021-03-31T21:05:10Z
+b97fb2edac25182ff3dcf4cb8537517a1ec9e4de,[vimeo] fix password protected review extraction(closes #27591),Remita Amine,remitamine,2021-03-31T19:07:13Z
+28bab774a0df2c80b689c277390da8617131db35,[youtube] imporve age-restricted video extraction(#28578),Remita Amine,remitamine,2021-03-30T20:44:41Z
+8f493de9fb3a7f123bdf887163efa06ce9d6b051,release 2021.03.31,Sergey M․,dstftw,2021-03-30T19:59:07Z
+207bc35d348efdfdfe2bd7119e004a1acf0ab3d2,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-03-30T19:58:01Z
+955894e72fd8d4fdce5d85fc006d548278e6d9eb,[vlive] fix inkey request(closes #28589),Remita Amine,remitamine,2021-03-30T09:00:40Z
+287e50b56b4c71da8fd0c3ffdeca9bff5ab0b005,[francetvinfo] Improve video id extraction (closes #28584),Sergey M․,dstftw,2021-03-29T20:37:43Z
+da762c4e329f6158956ddd51ac294e9183e5ce89,"[instagram] Improve title extraction and extract duration (#28469)
+
+Co-authored-by: Sergey M. <dstftw@gmail.com>",Chris Hranj,Brodan,2021-03-29T19:05:19Z
+87a8bde7775ebc31175ebb111015b4052b50b7db,[sbs] add support for ondemand watch URLs(closes #28566),Remita Amine,remitamine,2021-03-28T07:46:33Z
+49fc0a567febda65709cc5154ff046684a3b8427,[youtube] fix video's channel extraction(closes #28562),Remita Amine,remitamine,2021-03-27T18:11:41Z
+cc777dcaa0f3331626f33a7e4c61d804c43f4b5c,[picarto] fix live stream extraction(closes #28532),Remita Amine,remitamine,2021-03-27T16:37:45Z
+c78591187080e7316c0042309fe956bfd0d38d30,[vimeo] fix unlisted video extraction(closes #28414),Remita Amine,remitamine,2021-03-25T16:06:57Z
+605e7b5e47c60c3ed7c2ca71df4d6bbd49fa8a77,[youtube:tab] fix playlist/comunity continuation items extraction(closes #28266),Remita Amine,remitamine,2021-03-25T11:53:18Z
+8562218350a79d4709da8593bb0c538aa0824acf,[ard] improve clip id extraction(#22724)(closes #28528),Remita Amine,remitamine,2021-03-24T18:28:51Z
+76da1c954aebba4af8def73dd2319fab2e27e50a,release 2021.03.25,Sergey M․,dstftw,2021-03-24T17:04:10Z
+c2fbfb49da2657002fafcf4c609f8d91030a6ef3,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-03-24T17:03:00Z
+d1069d33b4ad3987acc2452756459065ce635d68,"[zoom] Add new extractor(closes #16597, closes #27002, closes #28531)",Roman Sebastian Karwacik,Romern,2020-04-12T21:27:58Z
+eafcadea261dba64c44c5c17ea8a47ac17256617,[extractor] escape forgotten dot for hostnames in regular expression (#28530),The Hatsune Daishi,Lesmiscore,2021-03-24T14:33:19Z
+a40002444e64957594a1305bb2740fddb477beeb,[bbc] fix BBC IPlayer Episodes/Group extraction(closes #28360),Remita Amine,remitamine,2021-03-24T14:10:19Z
+5208ae92fc3e2916cdccae45c6b9a516be3d5796,[youtube] Fix default value for youtube_include_dash_manifest (closes #28523),Sergey M․,dstftw,2021-03-23T19:57:35Z
+8117d613acdd0a2874e52bfa52c3574f46e3a4fb,"[zingmp3] fix extraction(closes #11589, closes #16409, closes #16968, closes #27205)",Remita Amine,remitamine,2021-03-22T14:58:44Z
+00b4d72d1e5c6e8151f33c822f1f9165ea99dfc8,"[vgtv] Add support for new tv.aftonbladet.se URL schema (#28514)
+
+Co-authored-by: Sergey M <dstftw@gmail.com>",Martin Ström,haraldmartin,2021-03-22T13:56:58Z
+21ccd0d7f46002acc61eb21bd0d4e492064c7fe1,[tiktok] detect private videos(closes #28453),Remita Amine,remitamine,2021-03-21T08:10:38Z
+7e79ba7dd6e6649dd2ce3a74004b2044f2182881,[vimeo:album] Fix extraction for albums with number of videos multiple to page size (closes #28486),Sergey M․,dstftw,2021-03-19T22:45:36Z
+fa6bf0a7112e83d36567072985d56440bb34de72,[vvvvid] fix kenc format extraction(closes #28473),Remita Amine,remitamine,2021-03-19T11:37:22Z
+f912d6c8cf5a68d576abe4426e12554c3404a7dd,[mlb] fix video extracion(#21241),Remita Amine,remitamine,2021-03-15T20:43:53Z
+357bfe251d7f4f8bb9319bc6531a3813b5a355a8,[svtplay] Improve extraction (closes #28448),Sergey M․,dstftw,2021-03-15T13:42:20Z
+3be098010f667b14075e3dfad1e74e5e2becc8ea,[applepodcasts] fix extraction(closes #28445),Remita Amine,remitamine,2021-03-14T19:08:46Z
+9955bb4a2704f98b74a448c82dfd690ec6775b8d,"[rtve] improve extraction
+
+- extract all formats
+- fix RTVE Infantil extraction(closes #24851)
+- extract is_live and series",Remita Amine,remitamine,2021-03-14T13:49:23Z
+ebfd66c4b1d6ffabd8a5bc52737f2bacac341d3d,release 2021.03.14,Sergey M․,dstftw,2021-03-14T02:38:16Z
+b509d24b2fef8d5994b7d925db51befcbbf996fb,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-03-14T02:36:11Z
+1860d0f41cf50b1a0876174c4e1ee7adbbd4a0f3,"[southpark] Fix extraction and add support for southparkstudios.com (closes #26763, closes #28413)",Sergey M․,dstftw,2021-03-14T02:26:54Z
+60845121ca2f49172e7cd941c0cb43363cb86e46,[sportdeutschland] fix extraction(closes #21856)(closes #28425),Remita Amine,remitamine,2021-03-13T14:19:24Z
+1182f9567b86f2af747cdb8769ab87649c8ce4c2,[pinterest] reduce the number of HLS format requests,Remita Amine,remitamine,2021-03-12T17:11:11Z
+ef414343e5fa2bc4fddae3097ecde5a8e32c2d4c,[peertube] improve thumbnail extraction(closes #28419),Remita Amine,remitamine,2021-03-12T09:48:58Z
+43d986acd8bf7247725fc9de34648c0eda560daf,[tver] improve title extraction(closes #28418),Remita Amine,remitamine,2021-03-12T09:14:28Z
+9c644a641922e5ac3b5b4a1c9386fa599973e885,[fujitv] fix HLS formats extension(closes #28416),Remita Amine,remitamine,2021-03-12T08:51:01Z
+fc2c6d53239d4b4a6bac5383441152117ccf3c6f,[shahid] fix format extraction(closes #28383),Remita Amine,remitamine,2021-03-10T12:16:21Z
+64ed3af328929f83b02ed57df5cb4f863fdd0389,[lbry] add support for channel filters(closes #28385),Remita Amine,remitamine,2021-03-10T10:45:30Z
+bae7dbf78be3a03d8454d1b17bfdbf1bfa0de715,[bandcamp] Extract release_timestamp,Sergey M․,dstftw,2021-03-09T20:41:21Z
+15c24b0346e3951b43dbf29631bfe65292f53ac5,[lbry] Extract release_timestamp (closes #28386),Sergey M․,dstftw,2021-03-09T20:40:56Z
+477bff69065872fff6bab5c3a1b0512018fbb6eb,Introduce release_timestamp meta field (refs #28386),Sergey M․,dstftw,2021-03-09T20:36:31Z
+1a1ccd9a6e8e9e90ab129e89c2524ab3eb9ed2ae,[pornhub] Detect flagged videos,Sergey M․,dstftw,2021-03-09T19:56:01Z
+7dc513487fb0babb5257fa72df87c3f24967f2a1,[pornhub] Extract formats from get_media end point (#28395),Sergey M․,dstftw,2021-03-09T19:54:10Z
+c6a14755bb9629967fb12536ee8660ca67ff4345,[bilibili] fix video info extraction(closes #28341),Remita Amine,remitamine,2021-03-08T15:53:50Z
+7f064d50db957d551dccde73ab73318f53ab3b17,[cbs] add support for Paramount+ (closes #28342),Remita Amine,remitamine,2021-03-07T07:32:37Z
+b8b622fbebb158db95edb05a8cc248668194b430,[trovo] Add Origin header to VOD formats(closes #28346),Remita Amine,remitamine,2021-03-04T16:57:16Z
+ec64ec9651848e9173ec033a9a27809e4b5063bc,[voxmedia] fix volume embed extraction(closes #28338),Remita Amine,remitamine,2021-03-04T11:41:49Z
+f68692b004f1c65f08a9a7d9c2ee4ab2ec255ea6,release 2021.03.03,Sergey M․,dstftw,2021-03-03T04:47:34Z
+8c9766f4bf78ca777e8de9d4809584d8e88098ab,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-03-03T04:44:49Z
+061c03013311eff75ac381cb4060204ce91b2510,"[youtube:tab] Switch continuation to browse API (closes #28289, closes #28327)
+
+Until further investigation.",Sergey M․,dstftw,2021-03-03T04:42:59Z
+8f56907afa693290a6b2e05fb7ffc2f15dca33e2,[9c9media] fix extraction for videos with multiple ContentPackages(closes #28309),Remita Amine,remitamine,2021-03-02T11:04:31Z
+e1adb3ed4fc911a8177280fe87109e7b54a52fa2,[bbc] correct catched exception type,Remita Amine,remitamine,2021-03-02T10:21:49Z
+e465b25c1fb0e72b97a032220399d4a959662095,"[bbc] add support for BBC Reel videos(closes #21870, closes #23660, closes #28268)",dirkf,dirkf,2021-02-24T11:52:30Z
+7c06216abff092d43e47b584699d435c40a8115e,release 2021.03.02,Sergey M․,dstftw,2021-03-01T23:19:42Z
+0002888627b40264994e8a37fc3a17cbd3551af6,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-03-01T23:16:41Z
+3fb14cd214fdadfae195745b26498e012f78be8e,"[zdf] Rework extractors (closes #11606, closes #13473, closes #17354, closes #21185, closes #26711, closes #27068, closes #27930, closes #28198, closes #28199, closes #28274)
+
+* Generalize unique video ids for zdf based extractors
+* Improve extraction
+* Fix 3sat and phoenix",Sergey M․,dstftw,2021-03-01T23:03:17Z
+bee618268014480bb3dd7887986b456c8e9c0236,[stretchinternet] Fix extraction(closes #28297),Remita Amine,remitamine,2021-03-01T13:00:03Z
+38fe5e239ad602b32c111f40ad7c51b3e029be3c,[urplay] fix episode data extraction(closes #28292),Remita Amine,remitamine,2021-02-28T11:31:18Z
+678d46f6bbcc8426723d48c49eb25cf202753245,[bandaichannel] Add new extractor(closes #21404),Remita Amine,remitamine,2021-02-28T09:42:41Z
+3c58f9e0b9d8471212406e012727374db084932b,"[srgssr] improve extraction
+
+- extract subtitle
+- fix extraction for new videos
+- update srf download domains
+
+closes #14717
+closes #14725
+closes #27231
+closes #28238",Alexander Seiler,goggle,2017-11-11T18:30:10Z
+ef28e33249f650b3f8d40c3e62b9df2c6103b360,[vvvvid] reduce season request payload size,Remita Amine,remitamine,2021-02-24T21:29:35Z
+9662e4964b8d1b8d23c79f90d91b9be87d10029f,[vvvvid] extract series sublists playlist_title (#27601) (#27618),nixxo,nixxo,2021-02-24T21:17:29Z
+44603290e5002153f3ebad6230cc73aef42cc2cd,[dplay] Extract Ad-Free uplynk URLs(#28160),Remita Amine,remitamine,2021-02-24T17:34:28Z
+1631fca1ee1c3312027c702854d741bbb8025dcd,[wat] detect DRM protected videos(closes #27958),Remita Amine,remitamine,2021-02-23T12:50:18Z
+295860ff00c5d8caf94badd4f04671f6a631fcae,[tf1] improve extraction(closes #27980)(closes #28040),Remita Amine,remitamine,2021-02-23T11:39:46Z
+8cb4b71909e720a758a17dd519d198e77884a14a,"[tmz] Fix and improve extraction (closes #24603, closes #24687, closes #28211)",Sergey M․,dstftw,2021-02-23T11:37:06Z
+d81421af4b4c3f8f6e197ad4a06fcdb948484c24,[gedidigital] improve asset id matching,Remita Amine,remitamine,2021-02-22T22:02:15Z
+7422a2194fcbc179083c6927a2fcca278fed39c5,[gedidigital] Add new extractor(closes #7347)(closes #26946),nixxo,Unknown,2020-10-15T12:24:17Z
+2090dbdc8c51d18760957e248f5ff152209f9236,[youtube] fix get_video_info request,Remita Amine,remitamine,2021-02-21T22:08:40Z
+0a04e03a0245d78593844e7b7930920051b9cc27,release 2021.02.22,Sergey M․,dstftw,2021-02-21T19:42:16Z
+44b2d5f5fc80a291b093c8bf20e2ad7ac58b3536,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-02-21T19:40:00Z
+aa9118a373a6e9cfb9fda24533df86286eccc468,[apa] Improve extraction (closes #27750),Sergey M․,dstftw,2021-02-21T19:29:50Z
+36abc16c3cf050a3368367038d40cce27504c28a,[apa] Fix extraction,Adrian Heine,adrianheine,2021-01-09T21:06:24Z
+919d7646004ad8480016b9dec0f6033759244520,[youporn] Skip test,Sergey M․,dstftw,2021-02-21T16:21:38Z
+696183e1333aa8f2f1241e149759edf410f94c79,"[youporn] Extract duration (#28019)
+
+Co-authored-by: Sergey M <dstftw@gmail.com>",piplongrun,Unknown,2021-02-21T16:19:37Z
+f90d825a6be852b6a3fa39b0948cc9b94154963e,[peertube] Add support for canard.tube (#28190),SirCipherz,SirCipherz,2021-02-21T16:05:33Z
+3037ab00c7ddbe4bedaff51420e4ea1e8d0ccccb,[youtube] fixup m4a_dash formats(closes #28165),Remita Amine,remitamine,2021-02-21T09:24:58Z
+21e872b19ada61337770160a124c4387d6c77e08,[samplefocus] Add new extractor(closes #27763),Isaac-the-Man,Isaac-the-Man,2021-01-10T15:37:54Z
+cf2dbec6301177a1fddf72862de05fa912d9869d,[vimeo] add support for unlisted video source format extraction,Remita Amine,remitamine,2021-02-19T20:13:56Z
+b92bb0e02a09930cad3c4f6a406eb503c941af61,"[viki] improve extraction(closes #26522)(closes #28203)
+
+- extract uploader_url and episode_number
+- report login required error
+- extract 480p formats
+- fix API v4 calls",Remita Amine,remitamine,2021-02-19T15:00:22Z
+40edffae3d9f86ca696dda6c8a4c9c0497cb6d76,[ninegag] unscape title(#28201),Remita Amine,remitamine,2021-02-19T10:55:14Z
+9fc5eafb8e384453a49f7cfe73147be491f0b19d,[youtube] Improve _VALID_URL (refs #28193),Sergey M․,dstftw,2021-02-17T21:59:56Z
+08c2fbb8443de3949af205d08015e5c6048d2e86,"[youtube] Add support for redirect.invidious.io (#28193)
+
+Co-authored-by: Sergey M <dstftw@gmail.com>",bopol,B0pol,2021-02-17T21:29:32Z
+3997efb65ef16dbd8c4792e79e797cbcab0fbec1,[dplay] add support for de.hgtv.com (closes #28182),Remita Amine,remitamine,2021-02-17T18:50:04Z
+a7356dffe90ed68958d839da073f1321f87a4feb,[dplay] Add support for discoveryplus.com (closes #24698),Remita Amine,remitamine,2021-02-17T17:33:33Z
+e20ec43094c09c41d71cef512c882a9d66163cd2,[simplecast] Add new extractor(closes #24107),dmsummers,azoxey,2020-02-20T20:33:05Z
+70baa7bfae8890c8274af7f3c7e2a704d300a326,[test_youtube_lists] Actualize youtube flat playlist test (closes #28045),PrinceOfPuppers,PrinceOfPuppers,2021-02-15T19:38:41Z
+8980f53b4227bc213048fce52c634830dd25e4bb,[youtube] Fix uploader extraction in flat playlist mode (#28045),PrinceOfPuppers,PrinceOfPuppers,2021-02-02T06:46:39Z
+a363fb5d28da7c1b651e6de98b9e799544a4df73,"[yandexmusic:playlist] Request missing tracks in chunks (closes #27355, closes #28184)",Sergey M․,dstftw,2021-02-16T21:03:54Z
+646052e416577cc805b7ba169c49158716541570,[postprocessor/embedthumbnail] Recognize atomicparsley binary in lowercase (#28112),Max,nbr23,2021-02-16T20:22:51Z
+844e4cbc547f2a2f76053786522bdd6b53bf9ae1,[storyfire] Add new extractor(closes #25628)(closes #26349),Stephen Stair,sgstair,2020-08-17T00:07:14Z
+56c63c8c02d7b9aabbced8d150badb6b520825d2,[zhihu] Add new extractor(closes #28177),Remita Amine,remitamine,2021-02-16T09:08:43Z
+07eb8f19169c58bce0e784607ea350ae16ed5363,[youtube] Fix controversial videos when authenticated with cookies (closes #28174),Sergey M․,dstftw,2021-02-15T22:57:53Z
+4b5410c5c841b826965ea76d62bea82a26a9e1b8,[ccma] fix timestamp parsing in python 2,Remita Amine,remitamine,2021-02-15T12:06:54Z
+be2e9b76eea73b073f00871ea831ee3f4a1000b3,[videopress] add support for video.wordpress.com,Remita Amine,remitamine,2021-02-14T21:10:06Z
+d8085580f63ad3b146a31712ff76cf41d5a4558a,[kakao] improve info extraction and detect geo restriction(closes #26577),Remita Amine,remitamine,2021-02-14T18:48:26Z
+6d32c6c6d3b0588b193eaeb4178592219c3b4df8,[xboxclips] fix extraction(closes #27151),Remita Amine,remitamine,2021-02-14T15:22:45Z
+f94d76499362017f673520286bc3848916735275,[ard] Improve formats extraction (closes #28155),Sergey M․,dstftw,2021-02-13T22:03:15Z
+f28f1b4d6ed053f1dbfbc7fc992162c4ea4f2ce7,[canvas] Add new extractor for Dagelijkse Kost (#28119),Kevin Velghe,paretje,2021-02-11T08:04:16Z
+360d5f0daac879a1371c6a45e0d3310ced60e352,release 2021.02.10,Sergey M․,dstftw,2021-02-10T15:34:47Z
+cd493c5adcb526cdfa2a9d5194269b671a0dc343,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-02-10T15:32:25Z
+a4c7ed6b1e9100be8ef65c44e7e6e43b9314ff5c,[youtube:tab] Improve grid continuation extraction (closes #28130),Sergey M․,dstftw,2021-02-10T15:28:58Z
+7f8b8bc418b8831ea1c2ae8de64e3bf0e8b707f8,[ign] fix extraction(closes #24771),Remita Amine,remitamine,2021-02-08T14:56:42Z
+311ebdd9a57e72116136a464fbc0fa8cad32db42,[xhamster] Extract formats from xplayer settings and extract filesizes (closes #28114),Sergey M․,dstftw,2021-02-08T08:46:32Z
+99c68db0a8adc634e2e928ea2756a2ceee3ae863,[youtube] add support phone/tablet JS player(closes #26424),Remita Amine,remitamine,2021-02-08T08:20:28Z
+5fc53690cbe6abb11941a3f4846b566a7472753e,"[archiveorg] Fix and improve extraction (closes #21330, closes #23586, closes #25277, closes #26780, closes #27109, closes #27236, closes #28063)",Sergey M․,dstftw,2021-02-07T13:34:41Z
+7a9161578e42abe681c9d3352ecc9a18a9b8df6a,[cda] Detect geo restricted videos (refs #28106),Sergey M․,dstftw,2021-02-07T12:18:06Z
+240585470539d31d9c3785a67861491fa3696451,[urplay] Fix extraction (closes #28073) (#28074),Adrian Heine né Lang,adrianheine,2021-02-06T19:46:05Z
+0cf09c2b4168cb99800836d8c1ff0d6d8b16fb6e,[youtube] Fix release date extraction (closes #28094),Sergey M․,dstftw,2021-02-06T19:17:03Z
+0156ce95c5ba83de6c68a149d352ccecd983a294,[youtube] Extract abr and vbr (closes #28100),Sergey M․,dstftw,2021-02-06T18:54:46Z
+1641b132323b544b9ae0dad06707425eba1f926b,[youtube] skip OTF formats(#28070),Remita Amine,remitamine,2021-02-04T12:05:35Z
+a4bdc3112bf0e925afc2e512d5f23f9097f6bc7a,release 2021.02.04.1,Sergey M․,dstftw,2021-02-04T06:11:33Z
+c7d407bca205d8eb248b94b611435187265b79da,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-02-04T06:09:28Z
+7215691ab7cabc858b17c16928c372da3e35ec59,[youtube] Prefer DASH formats (closes #28070),Sergey M․,dstftw,2021-02-04T06:07:43Z
+fc88e8f0e3e66f17f787cbc1ea45c87fdc70781e,[azmedien] Fix extraction (#28064),Adrian Heine né Lang,adrianheine,2021-02-03T23:57:56Z
+cfefb7d854f87e02c971170fcfa08f3ff2cb1bfa,release 2021.02.04,Sergey M․,dstftw,2021-02-03T21:49:25Z
+3c07d007ca5376719a0cfe6b9c6627b38cbd3e1f,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-02-03T21:47:30Z
+89c5a7d5aabd138a14c76453d79d5d66ef573bde,[pornhub] Implement lazy playlist extraction,Sergey M․,dstftw,2021-02-03T21:36:57Z
+2adc0c51cdf38e039fba0ede11f65bbd9c71bde8,[pornhub] Add placeholder netrc machine,Sergey M․,dstftw,2021-02-03T21:20:09Z
+1f0910bc2742b16be8425841d5ed6a0fd96f82a4,[svtplay] Fix video id extraction (closes #28058),Sergey M․,dstftw,2021-02-03T21:17:45Z
+e22ff4e35681a600ed61918beab8ed316728ec39,"[pornhub] Add support for authentication (closes #18797, closes #21416, closes #24294)",Sergey M․,dstftw,2021-02-03T21:09:11Z
+83031d749b11f062b9ba97023c228329e771cbd5,[pornhub:user] Add support for URLs unavailable via /videos page and improve paging (closes #27853),Sergey M․,dstftw,2021-02-03T17:25:26Z
+1b731ebcaa3ef2a1e52cf6968cf93e08d50fe0d4,[bravotv] add support for oxygen.com(closes #13357)(closes #22500),Remita Amine,remitamine,2021-02-03T17:13:17Z
+ab25f3f43196ca56964ba34ba4674fcb2d08f69a,[youtube] pass embed URL to get_video_info request,Remita Amine,remitamine,2021-02-03T16:15:31Z
+07f7aad81c47a11483a357e53380fae1ffbadea9,"[ccma] improve metadata extraction(closes #27994)
+
+- extract age_limit, alt_title, categories, series and episode_number
+- fix timestamp multiple subtitles extraction",Guillem Vela,guillemglez,2020-02-27T21:18:47Z
+1e2575df8714ce9056e559058a187ec0ffd2d739,Credit @adrianheine for #27732,Remita Amine,remitamine,2021-02-02T23:21:46Z
+b111a64135244b73b86a1720e9a5212e726afcbf,[egghead] fix typo,Remita Amine,remitamine,2021-02-02T18:05:37Z
+0e3a9684795c6c53546dace9e917ed11c4ae72a5,[egghead] update API domain(closes #28038),Viren Rajput,bkvirendra,2021-02-01T04:56:33Z
+c11f7cf9bd6ef239f25e7fb9c54e092ae1490e2d,[vidzi] remove extractor(closes #12629),Remita Amine,remitamine,2021-02-01T21:35:28Z
+8fa7cc387d699899114f7430bcf61837d58557a8,[vidio] improve metadata extraction,Remita Amine,remitamine,2021-02-01T20:35:18Z
+65eee5a745f705a7904709accdba47efb852cc6a,[youtube] improve subtitle extraction,Remita Amine,remitamine,2021-02-01T17:12:35Z
+efef4ddf51c375c3a9eb12355a61a21d69aec33f,[youtube] fix chapter extraction fallback,Remita Amine,remitamine,2021-02-01T15:49:52Z
+159a3d48dfb2b4ed77dc691433e420506c9340c3,[youtube] keep _formats array for format sorting tests,Remita Amine,remitamine,2021-02-01T15:36:19Z
+b46483a6ec6a42889fc16d53afd76d147748785f,[youtube/test_youtube_signature] fix test,Remita Amine,remitamine,2021-02-01T15:35:07Z
+9c724601ba234085dc5071ec9c1c3d98e6834817,"[youtube] remove description chapters tests
+
+video description no longer contain yt.www.watch.player.seekTo
+function",Remita Amine,remitamine,2021-02-01T15:08:50Z
+67299f23d8b1894120e875edf97440de87e22308,"[youtube] Rewrite Extractor
+
+- improve format sorting
+- remove unused code(swf parsing, ...)
+- fix series metadata extraction
+- fix trailer video extraction
+- improve error reporting
+- extract video location",Remita Amine,remitamine,2021-02-01T13:30:59Z
+8bf9591a70757c624a8ea5bf686040ed752246e0,[AENetworks] update AENetworksShowIE test playlist id (#27851),Adrian Heine né Lang,adrianheine,2021-01-30T12:44:01Z
+a800838f5afad43a76a53bdb5f4c1b20c80ff202,[vvvvid] add support for youtube embeds (#27825),nixxo,nixxo,2021-01-29T13:24:28Z
+ba15b2fee673f76c2cff2f193d5b4a19029b501f,[googledrive] report download page errors(closes #28005),Remita Amine,remitamine,2021-01-29T10:52:48Z
+56a7ee903360fe89cb5372805473b508153fb856,[vlive] Fix error message decoding for python 2 (#28004),ping,ping,2021-01-29T08:02:18Z
+0b4f03a56394dee070f6e1723af8ce3a9ce44bfb,[youtube] improve DASH formats file size extraction,Remita Amine,remitamine,2021-01-28T15:22:24Z
+7b8fa658f88d53066f7a2ad00df19697552cf286,"[cda] Improve birth validation detection (closes #14022) (#27929)
+
+Co-authored-by: Sergey M <dstftw@gmail.com>",knapior,knapior,2021-01-27T19:43:20Z
+fd95fc33b13d732002d53c35521f17184d14cc21,[awaan] Extract uploader id (#27963),Adrian Heine né Lang,adrianheine,2021-01-27T19:06:12Z
+c669554ef5491302eb20fc2bcb52339ea1a4ac1a,"[medialaan] add support DPG Media MyChannels based websites
+
+closes #14871
+closes #15597
+closes #16106
+closes #16489",Remita Amine,remitamine,2021-01-27T13:51:30Z
+11b68df7a4980f7f6175cdf2d7334fde11ff76b1,[abcnews] fix extraction(closes #12394)(closes #27920),Remita Amine,remitamine,2021-01-27T11:28:22Z
+d18f4419a72a01abc2cb45ef23f2400cd3eb5f43,[AMP] Fix upload_date and timestamp extraction (#27970),Adrian Heine né Lang,adrianheine,2021-01-26T21:43:11Z
+0f7d413d5b2637e2fb091745ab4f70811a6cc600,[tv4] relax _VALID_URL(closes #27964),Remita Amine,remitamine,2021-01-25T14:15:45Z
+286e5d6724f86ace38f6ccf0e33c511eeb1ab65d,[tv2] improve MTV Uutiset Article extraction,Remita Amine,remitamine,2021-01-25T13:46:04Z
+395981288ba0b2e1afabd4e595cb9c959ef62356,[tv2] Add support for mtvuutiset.fi (#27744),tpikonen,tpikonen,2021-01-25T13:43:41Z
+55bb3556c8c5ec088ef88edbdef925860e0926dc,[adn] improve login warning reporting,Remita Amine,remitamine,2021-01-25T08:28:24Z
+57f2488bbe4345eee545488e937e0f8426664f6f,[zype] fix uplynk id extraction(closes #27956),Remita Amine,remitamine,2021-01-25T08:20:48Z
+ea399a53eb9744c0b1530d72bf9d5e1e21ed3489,"[ADN] Implement login (#27937)
+
+closes #17091
+closes #27841",Adrian Heine né Lang,adrianheine,2021-01-25T08:25:57Z
+811a183eb6a7dabcc8600f6bf9dc4aac11e72b26,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-01-24T11:15:32Z
+b63981e85095542e056d7180496de4a2d85ddf9e,release 2021.01.24.1,Sergey M․,dstftw,2021-01-24T11:11:20Z
+186cbaffb954f00c4ff1f58f9fe378c65b4ef87b,release 2021.01.24,Sergey M․,dstftw,2021-01-24T11:00:58Z
+dbf3fa8af67dfdab42d56fdc5f35610658bc2746,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-01-24T10:36:40Z
+f08c31cf33beb0687c4df58b83e319ec8dfe03ad,[franceculture] Make thumbnail optional (closes #18807),Sergey M․,dstftw,2021-01-22T18:10:35Z
+d8dab85419ea7e35bd234479abe751334f3e7116,"[franceculture] Fix extraction (closes #27891) (#27903)
+
+Co-authored-by: Sergey M. <dstftw@gmail.com>",Aurélien Grosdidier,aurelg,2021-01-22T18:03:45Z
+5519bba3e14d05ccc8c7114e2f2909294c65a26e,[options] Clarify --extract-audio help string (closes #27878),Sergey M․,dstftw,2021-01-22T17:00:53Z
+142c584063ec02406e636522fe11d0d2be22b299,Introduce --output-na-placeholder (closes #27896),Sergey M․,dstftw,2021-01-22T16:51:22Z
+4542e3e55538a8e7115bde777e7ddbd781c2e446,[njpwworld] fix extraction (#27890),aarubui,aarubui,2021-01-22T08:56:51Z
+fa8f6d858064cf07b9167b73647545b3007c6b21,[comedycentral] fix extraction(closes #27905),Remita Amine,remitamine,2021-01-21T22:53:09Z
+3bb7769c405e02fc1078252cafbbd982913fe50c,[wat] remove unused variable,Remita Amine,remitamine,2021-01-21T16:22:30Z
+8d286bd5b67004d9c5420f6e3f6b7f75d2ba6395,[wat] fix format extraction(closes #27901),Remita Amine,remitamine,2021-01-21T16:20:32Z
+cff72b4cc0330f6d635353083eea7e570036b1ea,[americastestkitchen] improve season extraction,Remita Amine,remitamine,2021-01-21T15:47:55Z
+657221c81d966115cf6ac263805168e49a48abce,[americastestkitchen] Add support for downloading entire seasons (#27861),Brian Marks,bm1549,2021-01-21T15:46:29Z
+62acf5fa2c23d2eb52fb1dd07804352116bba12f,[trovo] Add new extractor(closes #26125),Remita Amine,remitamine,2021-01-19T21:43:59Z
+b79977fb6b1b2cea0231e5e25e201db05c0d1dba,[aol] add support for yahoo videos(closes #26650),Remita Amine,remitamine,2021-01-19T13:49:45Z
+bc7c8f3d4ea6cb98fa62a5fe457046dd4e9b5379,[yahoo] fix single video extraction,Remita Amine,remitamine,2021-01-19T13:47:39Z
+015e19b350a4bb7868008fb9df9092f4a60a5f00,[lbry] unescape lbry uri(closes #27872),Remita Amine,remitamine,2021-01-19T10:54:39Z
+54856480d7bac670c9d571d4191f5f35aadc5270,[ninegag] improve extraction,Remita Amine,remitamine,2021-01-19T09:23:02Z
+1dd12708c2042e5d78887e4c5026d6196cc02bb2,[9gag] Fix Extraction (#23022),DrWursterich,DrWursterich,2021-01-19T09:21:37Z
+f9201cef58c2ef6bd99315ea06b57d0c69a83f59,[americastestkitchen] Improve metadata extraction for ATK episodes (#27860),Brian Marks,bm1549,2021-01-18T14:47:06Z
+26499ba823ecba99e18cf5cc76e001f4bbbe4293,[aljazeera] fix extraction(closes #20911)(closes #27779),Remita Amine,remitamine,2021-01-17T16:35:10Z
+58f6c2112d55cdd77ad76b323760bb934d7e7576,[minds] improve extraction,Remita Amine,remitamine,2021-01-17T13:07:56Z
+de026a6acd3cbc2e62d0988b21c97e71e3730cb0,[Minds] Add new extractor (#17934),Tatsh,Tatsh,2021-01-17T13:05:39Z
+d4564afc7074a0c12e62649a50a05a2cdaef4650,[ard] Fix title and description extraction and update tests (#27761),Adrian Heine né Lang,adrianheine,2021-01-16T22:41:52Z
+360a5e0f60f273a0fd2fd664fed1439430cf35e3,[aenetworks] Fix test (#27847),Adrian Heine né Lang,adrianheine,2021-01-16T20:40:08Z
+55a3ca16d3724376385801873c918e450a863f4a,[spotify] Add new extractor for Spotify Podcasts(closes #27443),Remita Amine,remitamine,2021-01-16T17:12:05Z
+ef50cb3fda7c5455b036df648319c2829d899d7d,release 2021.01.16,Sergey M․,dstftw,2021-01-16T02:51:30Z
+8673f4344c40bf771af5344113b184f5cef08030,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-01-16T02:48:00Z
+f1487d4fca40fd37d735753e24a7bae53a1b1513,[mixcloud:playlist:base] Fix video id extraction in flat playlist mode (refs #27787),Sergey M․,dstftw,2021-01-16T02:42:11Z
+0cd4c402f0530d357bb11b660e14a303290f6caf,[animeondemand] Add support for lazy playlist extraction (closes #27829),Sergey M․,dstftw,2021-01-16T02:22:33Z
+9c9b45814582cc763d45cda2742f9574f254c6a0,[YoutubeDL] Protect from infinite recursion due to recursively nested playlists (closes #27833),Sergey M․,dstftw,2021-01-15T18:46:41Z
+9d50f862323ed3d7c1ccd014c16d5d25b05de925,[twitter] Add tests for more cards,Remita Amine,remitamine,2021-01-15T09:32:01Z
+7e92f9015efe97352e824bb593bd810721f4a604,[youporn] Restrict fallback download URL (refs #27822),Sergey M․,dstftw,2021-01-15T08:12:04Z
+aa860b80161152e7205232529e00f3fe636d000e,"[youporn] Improve height and tbr extraction (refs #23659, refs #20425)",Sergey M․,dstftw,2021-01-15T07:54:23Z
+b484097b01e4f864c7a4369fc6fd071f756802af,[youporn] Fix extraction (closes #27822),Sergey M․,dstftw,2021-01-15T07:43:52Z
+ab9001dab50db90f6470fcaf2189bcd2cfc0c370,[twitter] Add support for unified cards (closes #27826),Sergey M․,dstftw,2021-01-15T05:38:15Z
+879866a2304c3b0bbbb048feb4253431f0219aa3,"[twitch] Set OAuth token for GraphQL requests using auth-token cookie (#27790)
+
+Co-authored-by: remitamine <remitamine@gmail.com>",main(),main--,2021-01-14T12:41:44Z
+8e5477d036319adee98a6a7f95fc0ba09bb7b28c,[YoutubeDL] Ignore failure to create existing directory (#27811),Aaron Zeng,bcc32,2021-01-14T04:46:07Z
+1e8e5d5238b4863aa2005d1cd5981343d96bdbf3,[workflows/ci.yml] Run CI on PRs,Sergey M․,dstftw,2021-01-13T19:54:38Z
+d81a213cfb66f6e3175980d763318bd81e31be02,[YoutubeDL] Raise syntax error for format selection expressions with multiple + operators (closes #27803),Sergey M․,dstftw,2021-01-13T17:37:51Z
+7c2d18a13f7eaa4008923ad73ed8e938229db848,"[Mixcloud] Harmonize ID generation from lists with full ID generation (#27787)
+
+Mixcloud IDs are generated as `username_slug` when the full ID dict has been
+downloaded.  When downloading a list (e.g. uploads, favorites, ...), the temporary
+ID is just the `slug`.  This made e.g. archive file usage require the download
+of stream metadata before the download can be rejected as already downloaded.
+
+This commit attempts to get the uploader username during the GraphQL query, so the
+temporary IDs are generated similarly.",Aarni Koskela,akx,2021-01-13T09:22:48Z
+2408e6d26a9a1bd899769903ac28a8deaaa778a3,[cspan] improve info extraction(closes #27791),Remita Amine,remitamine,2021-01-13T08:17:43Z
+cf862771d72b028f8d5335256610c560245dc8c0,[adn] improve info extraction,Remita Amine,remitamine,2021-01-12T20:15:13Z
+a938f111ed2955dc5304d11c301bfa28df585fd3,"[ADN] Fix extraction (#27732)
+
+Closes #26963.",Adrian Heine né Lang,adrianheine,2021-01-12T20:12:44Z
+4759543f6e5d532795eb1d5434692bb6d5e1f0ec,[youtube:search] fix view_count and try to extract all video sections(closes #27588)(closes #27604),Remita Amine,remitamine,2021-01-11T16:35:13Z
+d0fc289f45763ab556936c2ce3d76fc1c3dd7c69,"[workflows/ci.yml] Change ubuntu-latest to ubuntu-18.04
+
+ubuntu-latest alias will be switched to ubuntu-20.04 soon (see [1]) which lacks python 3.3 and 3.4 (see [2]).
+
+1. https://github.blog/changelog/2020-10-29-github-actions-ubuntu-latest-workflows-will-use-ubuntu-20-04/
+2. https://raw.githubusercontent.com/actions/python-versions/main/versions-manifest.json",Sergey M․,dstftw,2021-01-10T18:30:54Z
+70f572585df5740da90feb518a93f10bb479cca2,[twitch] Improve login error extraction,Sergey M․,dstftw,2021-01-09T23:23:58Z
+c2d06aef600b2af557d367b9846d79720a3d6725,[twitch] Fix authentication (refs #27743),Sergey M․,dstftw,2021-01-09T23:23:08Z
+ff1e76540075d41899b18bde792aef4f8ba19ffa,[threeqsdn] Improve extraction(closes #21058),Remita Amine,remitamine,2021-01-09T21:29:58Z
+170e1c19951ce6a87ce0e9157faa32b9a2efe708,"[peertube] Extract files also from streamingPlaylists (#27728)
+
+JSON objects with an empty ""files"" tag seem to be a valid PeerTube API
+response. In those cases the ""files"" arrays contained in the
+""streamingPlaylists"" members can be used instead.
+closes #26002
+closes #27586",0l-l0,0l-l0,2021-01-08T20:09:38Z
+61e669acff712175362bea01d42d7a154d300289,[khanacademy] fix extraction(closes #2887)(closes #26803),Remita Amine,remitamine,2021-01-08T15:13:22Z
+2c337f4e854f8bdf33f30d26b1a242b00a0eff93,[spike] Update Paramount Network feed URL(closes #27715),Remita Amine,remitamine,2021-01-08T08:25:00Z
+bf6a74c620bd4d5726503c5302906bb36b009026,release 2021.01.08,Sergey M․,dstftw,2021-01-08T04:03:34Z
+38a967c98ea98524e24a36ca4a9f1d1e891f7887,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-01-08T04:01:29Z
+3a61e6d36003b6043dd53dec5ae714a839225044,"[rai] improve subtitles extraction (#27705)
+
+closes #27698",nixxo,nixxo,2021-01-07T13:48:45Z
+3d8e32dcc0bc6014fe05f445d755907ae046d5b5,[canvas] Match only supported VRT NU URLs(#27707),Remita Amine,remitamine,2021-01-07T11:35:04Z
+8f29b2dd38213a4b45064fee16e64af29338a6e5,[extractors] add BibelTVIE import,Remita Amine,remitamine,2021-01-06T19:39:04Z
+a29e340efa60ecb05d85e9c6d87ec709ba26822f,[bibeltv] Add new extractor(closes #14361),Remita Amine,remitamine,2021-01-06T19:38:02Z
+b13f29098fa8c7cf8da1867661713cbedb32e431,[bfmtv] Add new extractor(closes #16053)(closes #26615),Remita Amine,remitamine,2021-01-06T17:50:02Z
+430c4bc9d02b49e180309dc55c62b96d5cada535,[sbs] Add support for ondemand play and news embed URLs(closes #17650)(closes #27629),Remita Amine,remitamine,2021-01-06T12:41:07Z
+4ae243fc6ca41e4f7684db96dfdf58aaed33d100,[twitch] Refactor,Sergey M․,dstftw,2021-01-05T20:54:33Z
+8f20ad36dc6cadc9d2a2269bc68d1a00be82f64e,[twitch] Drop legacy kraken API v5 code altogether,Sergey M․,dstftw,2021-01-05T20:46:03Z
+799c794947045e04b920be5ca9fc037cdfe42d3c,[twitch:vod] Switch to GraphQL for video metadata,Sergey M․,dstftw,2021-01-05T20:33:45Z
+1ae7ae0b969d378ea41e6b90b9c5d44358d3e36b,[canvas] Fix VRT NU extraction(closes #26957)(closes #27053),Remita Amine,remitamine,2021-01-05T20:17:08Z
+ccc71122915e630d99e8266c73a2eba26707f199,[twitch] Improve access token extraction and remove unused code (closes #27646),Sergey M․,dstftw,2021-01-05T19:10:44Z
+5b24f8f505582f353c3c2f7b79b5f67612ba9c87,[twitch] Switch access token to GraphQL and refactor.,23rd,23rd,2021-01-03T13:30:56Z
+fcd90d258305cdafa5bd23c50443229205fcb9ed,"[rai] Detect ContentItem in iframe (closes #12652) (#27673)
+
+Co-authored-by: Sergey M. <dstftw@gmail.com>",nixxo,nixxo,2021-01-05T18:49:56Z
+8f757c735306355e1743a444364b79b681dea661,[ketnet] fix extraction(closes #27662),Remita Amine,remitamine,2021-01-05T17:17:04Z
+be1a3f2d11b9d88c10b624b12b00b508d923983d,[dplay] Add suport Discovery+ domains(closes #27680),Remita Amine,remitamine,2021-01-05T16:31:19Z
+ecae54a98d2a8d9300142bf3d586f31e8144ccd6,"[motherless] Fix review issues and improve extraction (closes #26495, closes #27450)",Sergey M․,dstftw,2021-01-05T00:40:06Z
+f318882955b90bead8206ee411641e65037b1011,"[motherless] Fix recent videos upload date extraction (closes #27661)
+
+Less than a week old videos use a '20h ago' or '1d ago' format.
+
+I kept the support for 'Ago' with uppercase start at is was already in the code.",cladmi,cladmi,2020-12-16T08:54:48Z
+c3399cac19a51897024545fb267f7579ea42318b,"[travis] Drop Travis CI (closes #7193, closes #12366)",Sergey M․,dstftw,2021-01-04T19:44:27Z
+9237aaa77f7e2f0b9fc17c66589423632172f473,[workflows/ci.yml] Add support for jython,Sergey M․,dstftw,2021-01-04T18:34:28Z
+766fcdd0fad8495222b2b5a14f1626960cd79d89,"[downloader/hls] Disable decryption in tests (#27660)
+
+Tests truncate the download to 10241 bytes, which is not divisible by 16
+and cannot be decrypted. Tests don't really care about the decrypted
+content, just that the data they retrieved is the expected data.
+Therefore, it's fine to just return the encrypted data to tests.
+
+See: #27621 and #27620",Kevin O'Connor,kevinoconnor7,2021-01-04T18:24:01Z
+f6ea29e24bf67d13d21de3c623975891a8d61ac1,"[iheart] Update test description value  (#27037)
+
+the description has no HTML tags now.",Yurii H,gardenappl,2021-01-04T16:16:27Z
+8a3797a4abdc0b63b6fcbd1fbc9d81acc57ec142,[nrk] fix extraction for videos without a legalAge rating,Remita Amine,remitamine,2021-01-04T11:16:54Z
+745db8899d77c56bf14443be60970aed1d9e2bdd,[iheart] clean HTML tags from episode description,Remita Amine,remitamine,2021-01-04T08:59:20Z
+83db801cbf35c130558b48f338948e0d3d3d871f,[iheart] remove print statement,Remita Amine,remitamine,2021-01-04T08:42:27Z
+964a8eb754dd082069419a2fda1ecedea62b7cc5,[googleplus] Remove Extractor(closes #4955)(closes #7400),Remita Amine,remitamine,2021-01-04T00:13:53Z
+ac61f2e0581ad15727870e8dd9a80ddacf01636e,[applepodcasts] Add new extractor(#25918),Remita Amine,remitamine,2021-01-04T00:09:11Z
+8487e8b98afd1b469c2b9d29ee53bd173ff9a7e0,[googlepodcasts] Add new extractor,Remita Amine,remitamine,2021-01-04T00:04:20Z
+9c484c0019ba16cd4b4d686930bfa038f1bf9320,[iheart] Add new extractor for iHeartRadio(#27037),Remita Amine,remitamine,2021-01-04T00:00:31Z
+0e96b4b5ce79a5f5c990247f6260da40f7d71a7c,[acast] clean podcast URLs,Remita Amine,remitamine,2021-01-03T23:53:58Z
+a563c97c5cddf55f8989ed7ea8314ef78e30107f,[stitcher] clean podcast URLs,Remita Amine,remitamine,2021-01-03T23:53:32Z
+e88c9ef62a4a26cc77370b741a4244d298c7d45a,[utils] add a function to clean podcast URLs,Remita Amine,remitamine,2021-01-03T23:51:55Z
+0889eb33e0d40d567be5b2f8431952a5517276fc,[xfileshare] Add support for aparat.cam (closes #27651),Sergey M․,dstftw,2021-01-03T17:17:51Z
+0021a2b9a14626b1b56c77bec4d93e70a217d32c,[nrktv] Add subtitles test,Sergey M․,dstftw,2021-01-03T15:25:17Z
+19ec46863587758fa6de274df293ede09b10eeb3,[twitter] Add support for summary card(closes #25121),Remita Amine,remitamine,2021-01-03T12:37:24Z
+491ee7efe45c287cfb8b28e6d74290d844b8bbb8,[twitter] try to use a Generic fallback for unknown twitter cards(closes #25982),Remita Amine,remitamine,2021-01-03T12:29:00Z
+8522bcd97c4173407261a3fa0283dd7800c39601,[stitcher] Add support for shows and show metadata extraction(closes #20510),Remita Amine,remitamine,2021-01-03T11:12:06Z
+ac71fd5919302f0d42c0cd79e04522cab8ab0318,[stv] improve episode id extraction(closes #23083),Remita Amine,remitamine,2021-01-03T09:04:32Z
+8e953dcbb10a1a42f4e12e4e132657cb0100a1f8,release 2021.01.03,Sergey M․,dstftw,2021-01-03T02:12:47Z
+f4afb9a6a8832c48888956d1e8722cb5bd36a78e,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2021-01-03T02:10:40Z
+d5b8cf093cdcf3ba873dba9aad898a3af91429e1,[nrk] Fix age limit extraction,Sergey M․,dstftw,2021-01-03T01:58:05Z
+5c6e84c0ff732559d8307e9e823b5a07b0bcc9ee,[nrk] Improve series metadata extraction (closes #27473),Sergey M․,dstftw,2021-01-03T01:31:26Z
+1aaee908b9ba12fc363c65daa2ef7d1690472a13,[nrk] PEP 8,Sergey M․,dstftw,2021-01-03T00:57:12Z
+b2d9fd9c9f7d4b9f6b6bebbbb8f7e799cb08d4b3,[nrk] Improve episode and season number extraction,Sergey M․,dstftw,2021-01-03T00:53:05Z
+bc2f83b95e02c9a75e576109ca0bced8a6c67eb2,[nrktv] Fix tests,Sergey M․,dstftw,2021-01-03T00:31:03Z
+85de33b04ef339005cea949576dda4b553296f50,[nrk] Improve series metadata extraction,Sergey M․,dstftw,2021-01-03T00:30:45Z
+7dfd966848e17e3d438e5e49e1088b8b1444f9e5,[nrk] Extract subtitles,Sergey M․,dstftw,2021-01-03T00:02:13Z
+a25d03d7cb52111fab906c2c180f9bdf2c52ed12,[nrk] Fix age limit extraction,Sergey M․,dstftw,2021-01-02T23:51:21Z
+cabfd4b1f0354518068bbdf0718cd36497d5c8a3,[nrk] Inline _extract_from_playback,Sergey M․,dstftw,2021-01-02T23:45:17Z
+7b643d4cd0f5aa02149e29d8212acd42038da63b,[nrk] Improve video id extraction,Sergey M․,dstftw,2021-01-02T23:44:28Z
+1f1d01d498fee8120bb3415b1b1a20e21259bbf4,[nrk] Add more shortcut tests,Sergey M․,dstftw,2021-01-02T23:41:37Z
+21a42e2588226b781a02124e26d709a9562c8fef,"[nrk] Improve extraction (closes #27634, closes #27635)
+
++ Add support for mp3 formats
+* Generalize and delegate all item extractors to nrk, beware ie key breakages
++ Add support for podcasts
++ Generalize nrk shortcut form to support all kind of ids",Sergey M․,dstftw,2021-01-02T23:29:52Z
+2df93a0c4ada8eff399844ac4a249a743e0a980d,"[nrktv] Switch to playback endpoint
+
+mediaelement endpoint is no longer in use.",Sergey M․,dstftw,2021-01-02T22:01:45Z
+75972e200d033429bf9d34793ad3ffc813042347,[vvvvid] fix season metadata extraction(#18130),Remita Amine,remitamine,2021-01-01T19:21:59Z
+d0d838638c8b49514c8bf093d6c76fea98019971,[stitcher] fix extraction(closes #20811)(closes #27606),Remita Amine,remitamine,2021-01-01T17:30:56Z
+8c17afc4710cb39801bdae5027fe3bf641bf485d,[acast] fix extraction(closes #21444)(closes #27612)(closes #27613),Remita Amine,remitamine,2021-01-01T16:05:42Z
+40d66e07dfef72fbef761ac720b82eb77deb7398,[arcpublishing] add missing staticmethod decorator,Remita Amine,remitamine,2020-12-31T22:42:17Z
+ab89a8678b77a53ef3ca701868a3acd5a4c300c1,"[arcpublishing] Add new extractor
+
+closes #2298
+closes #9340
+closes #17200",Remita Amine,remitamine,2020-12-31T22:31:07Z
+4d7d056909665f68e2aaa95fe42a000c287265b6,[sky] add support for Sports News articles and Brighcove videos(closes #13054),Remita Amine,remitamine,2020-12-31T11:17:55Z
+c35bc8260665e071d5088f5be3bb37f7664ef06e,[vvvvid] skip unplayable episodes and extract akamai formats(closes #27599),Remita Amine,remitamine,2020-12-31T11:04:35Z
+2f56caf0835786fa5af92da428ef90a530d90f26,[yandexvideo] fix extraction for Python 3.4,Remita Amine,remitamine,2020-12-31T10:58:52Z
+4066945919a3f51a01f551ade8957f4856c67e65,release 2020.12.31,Sergey M․,dstftw,2020-12-30T22:17:55Z
+2a84694b1e8d91b271eb5bb74b9d63cbfcc58cbe,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-12-30T22:14:33Z
+4046ffe1e16a65196e113cb12aa2d935f7f17c06,[redditr] Fix review issues and extract source thumbnail (closes #27503),Sergey M․,dstftw,2020-12-30T22:06:54Z
+d1d0612160ed2d753cc57b30483776b7c1b03473,[redditr] Extract all thumbnails,ozburo,ozburo,2020-12-22T12:12:14Z
+7b0f04ed1f72fd4e4b5b3e935e08a912857fa8c4,[vvvvid] imporove info extraction,Remita Amine,remitamine,2020-12-30T17:16:47Z
+2e21b06ea2f7a1ee5e038bf4274e5a74a4f52c2c,"[vvvvid] add playlists support (#27574)
+
+closes #18130",nixxo,nixxo,2020-12-30T17:12:17Z
+a6f75e6e89d2f2deba783cb92369747c1b44797d,"[yandexdisk] extract info from webpage
+
+the public API does not return metadata when download limit is reached",Remita Amine,remitamine,2020-12-30T15:45:53Z
+bd18824c2a99d6d01b00edfa186b9fd227af255c,[yandexdisk] fix extraction(closes #17861)(closes #27131),Remita Amine,remitamine,2020-12-30T12:43:56Z
+bdd044e67b5d10736aa712e9be64beff0d47f490,[yandexvideo] use old api call as fallback,Remita Amine,remitamine,2020-12-30T12:30:11Z
+f7e95fb2a0516f90edffe72d9911222d1ed1a2bc,[yandexvideo] fix extraction(closes #25000),Remita Amine,remitamine,2020-12-30T08:24:37Z
+9dd674e1d20440564a3d25f33cd8785695e110f6,[utils] accept only supported protocols in url_or_none,Remita Amine,remitamine,2020-12-30T08:22:30Z
+9c1e164e0cd77331ea4f0b474b32fd06f84bad71,[YoutubeDL] Allow format filtering using audio language(#16209),Remita Amine,remitamine,2020-12-29T18:29:08Z
+c706fbe9fe4a517ad43ca95393384e5f78870f82,[nbc] Remove CSNNE extractor,Remita Amine,remitamine,2020-12-29T16:21:05Z
+ebdcf70b0d52fd7b4627b2435b3081c7f4f4ce4b,[nbc] fix NBCSport VPlayer URL extraction(closes #16640),Remita Amine,remitamine,2020-12-29T16:15:13Z
+5966095e65b5365e8e4d211ffca6ab50514d3c84,[aenetworks] fix HistoryPlayerIE tests,Remita Amine,remitamine,2020-12-29T15:59:31Z
+9ee984fc760c9a3f4818055ff28ea886aadc58cb,[aenetworks] add support for biography.com (closes #3863),Remita Amine,remitamine,2020-12-29T15:13:36Z
+53528e1d2385494c72349f609907f0164d6f8431,[uktvplay] match new video URLs(closes #17909),Remita Amine,remitamine,2020-12-29T13:10:46Z
+c931c4b8ddb32371cddf48ea52d0c036a6a66240,[sevenplay] detect API errors,Remita Amine,remitamine,2020-12-29T13:09:10Z
+7acd042bbb555962f42fa4f0f236772194d2da64,[tenplay] fix format extraction(closes #26653),Remita Amine,remitamine,2020-12-29T13:06:58Z
+bcfe485e0172ff32c450bb7835cfae7fca7594ae,[brightcove] raise ExtractorError for DRM protected videos(closes #23467)(closes #27568),Remita Amine,remitamine,2020-12-29T13:05:23Z
+479cc6d5a166dc2f250687616041c9f3b36c80b4,release 2020.12.29,Sergey M․,dstftw,2020-12-28T19:52:31Z
+38286ee729782e2d094c64190c7612663c40c2d7,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-12-28T19:49:53Z
+1a95953867412bc7a785f21f6bff5145b2b13fd0,[youtube] Improve yt initial data extraction (closes #27524),Sergey M․,dstftw,2020-12-28T19:29:34Z
+71febd1c52d6de89ff571d4c212846aaaafb33ac,[youtube:tab] Improve URL matching (closes #27559),Sergey M․,dstftw,2020-12-28T19:19:43Z
+f1bc56c99bac05dccb01c1b68ef778eb08fbcb71,"[youtube:tab] Restore retry on browse requests (closes #27313, closes #27564)",Sergey M․,dstftw,2020-12-28T19:11:48Z
+64e419bd7386b2a16a3c2e7ac5da30427afe856d,"[aparat] Fix extraction
+
+closes #22285
+closes #22611
+closes #23348
+closes #24354
+closes #24591
+closes #24904
+closes #25418
+closes #26070
+closes #26350
+closes #26738
+closes #27563",Remita Amine,remitamine,2020-12-28T17:19:30Z
+782ea947b487d4ef2b7b11fa40a00a518b529fed,[brightcove] remove sonyliv specific code,Remita Amine,remitamine,2020-12-28T10:12:57Z
+f27224d57b6768569e1aedfaff326605bdb4f049,[piksel] import format extraction,Remita Amine,remitamine,2020-12-28T09:50:29Z
+c0071885987b3737d2c586133007c61ab513a477,[zype] Add support for uplynk videos,Remita Amine,remitamine,2020-12-27T22:47:28Z
+af93ecfd88d539cccea97f6cfc33b8cbe362a8ed,[toggle] add support for live.mewatch.sg (closes #27555),Remita Amine,remitamine,2020-12-27T21:26:20Z
+794771a164009ff94046c98d8a7d45f7706547af,"[go] Added support for FXNetworks (#26826)
+
+Co-authored-by: James Kirrage <james.kirrage@mortgagegym.com>
+
+closes #13972
+closes #22467
+closes #23754",JamKage,Unknown,2020-12-27T17:36:21Z
+6f2eaaf73daef3ac0995cd7b51c677b003c04218,[teachable] Improve embed detection (closes #26923),Sergey M․,dstftw,2020-12-27T15:57:50Z
+4c7a4dbc4d07786734324b267a41b74ee7099a85,[mitele] fix free video extraction(#24624)(closes #25827)(closes #26757),Remita Amine,remitamine,2020-12-27T15:22:01Z
+f86b299d0ecdba3462d67247cf70cee3a2809a1f,[telecinco] fix extraction,Remita Amine,remitamine,2020-12-27T15:20:49Z
+e4749965412edf2c6d3938d4b8f1d3dbab61b0b5,"[youtube] Update invidious.snopyta.org (#22667)
+
+Co-authored-by: sofutru <54445344+sofutru@users.noreply.github.com>",Sergey M,dstftw,2020-12-27T14:15:09Z
+aed617e311b95d771e10f48cc8dcde25d7816224,[amcnetworks] improve auth only video detection(closes #27548),Remita Amine,remitamine,2020-12-27T07:58:34Z
+0fa67c1d686c1c25b467906307cafefa885c4a80,[generic] Add support for VHX Embeds(#27546),Remita Amine,remitamine,2020-12-27T07:55:51Z
+365b3cc72dc265d20ece3e57f6abe590eb026544,release 2020.12.26,Sergey M․,dstftw,2020-12-26T16:17:35Z
+a272fe21a838be843a2d35f0161b75f23edab70b,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-12-26T16:13:26Z
+cec1c2f211b93d5c5b1c1ed8cd59d9bbf6f35d49,[instagram] Fix test,Sergey M․,dstftw,2020-12-26T15:59:10Z
+12053450dceda14ec63e3e721c72731f2cc40b34,[instagram] Fix comment count extraction,Sergey M․,dstftw,2020-12-26T15:58:27Z
+46cffb0c47bf57b7aba45916bae6cb4092965686,"[instagram] Add support for reel URLs (closes #26234, closes #26250)",Sergey M․,dstftw,2020-12-26T15:50:58Z
+c32a059f52ccb76703785dccdd91ae9ce947a824,"[bbc] switch to media selector v6
+
+closes #23232
+closes #23933
+closes #26303
+closes #26432
+closes #26821
+closes #27538",Remita Amine,remitamine,2020-12-26T15:54:24Z
+6911312e53dc2b2ac76450741e7e86d963cb939a,[instagram] Improve thumbnail extraction,Sergey M․,dstftw,2020-12-26T15:42:58Z
+f22b5a6b960bca57990ede16d0e06603d1b9ab0d,[instagram] Improve extraction (closes #22880),Sergey M․,dstftw,2020-12-26T15:37:41Z
+58e55198c1b13949b20f6912feed9ec9d9214950,[instagram] Fix extraction when authenticated (closes #27422),Andrew Udvare,Tatsh,2019-10-28T07:54:03Z
+d61ed9f2f15b1962646547f582c6637e7fa70df7,[spankbang] Remove unused import,Sergey M․,dstftw,2020-12-26T15:14:31Z
+8bc4c6350e0a9c54e79ac3bd28ce97054d8c000d,[spangbang:playlist] Fix extraction (closes #24087),Sergey M․,dstftw,2020-12-26T14:58:26Z
+cfa4ffa23b96df7ee3ffbe0dd35ec5c80e17590f,[spangbang] Add support for playlist videos,Sergey M․,dstftw,2020-12-26T14:55:12Z
+4f1dc1463d49167482e1722b4c637eabc560e7aa,[pornhub] Improve like and dislike count extraction (closes #27356),Sergey M․,dstftw,2020-12-26T14:24:43Z
+17e0f41d345b8cea7043b777bb68716219d3dc60,[pornhub] Fix review issues (closes #27393),Sergey M․,dstftw,2020-12-26T14:16:55Z
+b57b27ff8f442c134dd7e6245c4bfea829d770af,[pornhub] Fix lq formats extraction (closes #27386),JChris246,JChris246,2020-12-12T14:17:59Z
+bbe8cc6662ce870b2efee5d2a3fceab39e1a3c2c,"[README.md] Update reference to cookie export extension for Chrome (closes #26885) (#27433)
+
+The cookies.txt extension doesn't exist anymore on the Chrome Web Store (see https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg), so I propose to change the link in the README.md to another similar extension called Get cookies.txt (https://chrome.google.com/webstore/detail/get-cookiestxt/bgaddhkoddajcdgocldbbfleckgcbcid/) with the same functions and utility of the old one.
+
+This PR close #26885",Marco Fantauzzo,marco97pa,2020-12-26T13:50:39Z
+98106accb6fde5e48e0fd9894b4ce29b5c864f6d,[bongacams] Add extractor (closes #27440),Sergey M․,dstftw,2020-12-26T13:30:19Z
+af1312bfc38b8dd3ba9381e9d7a58206870651a5,[youtube:tab] Extend _VALID_URL (closes #27501),Sergey M․,dstftw,2020-12-26T12:59:57Z
+4c7d7215cd069bd15239d5a43ecb764e60a49ce7,[theweatherchannel] fix extraction (closes #25930)(closes #26051),Remita Amine,remitamine,2020-12-26T08:37:40Z
+0370d9eb3dd3b6779cb88fe128fe870fdfb2ea58,[sprout] correct typo,Remita Amine,remitamine,2020-12-25T20:35:55Z
+1434651d20b65bfdca6aa61d0716ec03425fe40d,[sprout] Add support for Universal Kids (closes #22518),Remita Amine,remitamine,2020-12-25T20:17:44Z
+2c312ab84a853f196223fd2618a543c806d59bcb,[theplatform] allow passing geo bypass countries from other extractors,Remita Amine,remitamine,2020-12-25T20:16:36Z
+0ee78d62d5d98d30f5b26e76504660adae01bd19,[wistia] Add support for playlists (closes #27533),Remita Amine,remitamine,2020-12-25T16:00:30Z
+7f3c90ab252e212c67c8aa80d2e83fb9b686ee6d,[ctv] Add new extractor (closes #27525),Remita Amine,remitamine,2020-12-24T18:40:08Z
+1d3cd2973041afb42d9e903735a0fcee7bd8c447,[9c9media] improve info extraction,Remita Amine,remitamine,2020-12-24T16:39:13Z
+4ef1fc970727a1bbdd9f20bea54c37deb8794fb0,[youtube] fix automatic captions extraction(closes #27162)(closes #27388),Remita Amine,remitamine,2020-12-24T15:05:03Z
+f9e6aa1dcfa5e5731f04b407ac00ef24009891a3,[sonyliv] fix title for movies,Remita Amine,remitamine,2020-12-24T12:33:12Z
+f83db9064b13bdf025b0710b5da00e91025403e9,[sonyliv] fix extraction(closes #25667),Remita Amine,remitamine,2020-12-24T12:09:58Z
+2da9a86399369929592561d11b6f7faf224fa847,[streetvoice] fix extraction(closes #27455)(closes #27492),Remita Amine,remitamine,2020-12-24T12:05:50Z
+ecaa535cf42f1e055056b590a4f7c870ded6c339,[facebook] add support for watchparty pages(closes #27507),Remita Amine,remitamine,2020-12-24T11:59:46Z
+79dd92b1fe94270a713af9d23718ad48e70133b9,[cbslocal] fix video extraction,Remita Amine,remitamine,2020-12-24T11:40:34Z
+bd3844c9c25e8bbe7d7fd3e89f61088a7c163ad1,[brightcove] add another method to extract policyKey,Remita Amine,remitamine,2020-12-24T11:38:04Z
+7bf5e3a84aca972fe4c34135c98394ca592211ef,[mewatch] Relax _VALID_URL (closes #27506),Sergey M․,dstftw,2020-12-22T16:27:05Z
+08a17dae5b66b288744d741d84782118880e0335,release 2020.12.22,Sergey M․,dstftw,2020-12-21T21:48:07Z
+924ea66ade51a0cdd96c5bdbafc162bedc81a482,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-12-21T21:45:37Z
+5b72f5b74fb144afb9001d43be34e34ad8fbb39e,"[anvato] remove NFLTokenGenerator
+
+until a better solution is introduced that:
+- works with lazy_extractors
+- allows for 3rd party token generators",Remita Amine,remitamine,2020-12-21T08:02:45Z
+bfa345744d055b2420f82336b339a51a9d73b28a,"[tastytrade] Remove Extractor(closes #25716)
+
+covered by GenericIE via BrighcoveNewIE",Remita Amine,remitamine,2020-12-20T17:07:34Z
+f966461476ffc85164b7d423f6faa35591c9ad20,[niconico] fix playlist extraction(closes #27428),Remita Amine,remitamine,2020-12-20T16:15:43Z
+b8aea53682264576bf005b2266a7d3454b1af8a3,[everyonesmixtape] Remove Extractor,Remita Amine,remitamine,2020-12-20T16:10:40Z
+c0d9eb7043b739936f936a7c854bae0195cc1763,[kanalplay] Remove Extractor,Remita Amine,remitamine,2020-12-20T11:05:48Z
+3ba6aabd254d3a4bea485baea7edf1ec1fcd695c,[arkena] fix extraction,Remita Amine,remitamine,2020-12-20T11:03:35Z
+a8b31505edbf4d9608b2d964b936b6720dcbb40d,"Switch to GitHub actions for CI
+
+Travis CI has ignored our requests and does not look to be interested in providing OSS credits for youtube-dl",Sergey M․,dstftw,2020-12-19T21:17:19Z
+90a271e91488d439a6f19033681fb10b33d30919,[nba] rewrite extractor,Remita Amine,remitamine,2020-12-19T19:13:47Z
+172d270607683ccfcf405c6e2e7082e5032cceba,[turner] improve info extraction,Remita Amine,remitamine,2020-12-19T19:12:01Z
+22feed08a1984d5c56b79b7322fe576d0d7bbbe5,[common] remove unwanted query params from unsigned akamai manifest URLs,Remita Amine,remitamine,2020-12-19T19:08:44Z
+942b8ca3bee90e13e0d058c03248670be1a9991c,[youtube] Improve xsrf token extraction (closes #27442),Sergey M․,dstftw,2020-12-19T17:48:44Z
+3729c52f9dd93773f47bab84ccb73de7917b0d7e,[generic] Improve RSS age limit extraction,Sergey M․,dstftw,2020-12-19T16:24:52Z
+71679eaee857d9dfcf1fdc4b5016abfc1fe8bc45,[generic] Fix RSS itunes thumbnail extraction (#27405),renalid,renalid,2020-12-19T16:18:51Z
+76fe4ba3b22a689ba7b5c6ea9064796ce1f4af55,[redditr] Extract duration (#27426),Trevor Nelson,trevnels,2020-12-17T16:21:36Z
+164a4a5756f5a29b928dc1351522c094c0026266,[anvato] Disable NFLTokenGenerator(closes #27449),Remita Amine,remitamine,2020-12-16T20:47:50Z
+455951985b97bccff1cb347e496ce2ab06f1f46d,[zaq1] Remove extractor,Remita Amine,remitamine,2020-12-16T20:20:57Z
+c29500e4126fc2d9d8b9f6fd02b557d8500f597c,"[asiancrush] fix extraction and add support for retrocrush.tv
+
+closes #25577
+closes #25829",Remita Amine,remitamine,2020-12-16T11:30:41Z
+1bc1520adcc39a8511c89efa545f46b8fc479629,[noco] Remove Extractor(closes #10864),Remita Amine,remitamine,2020-12-15T18:07:14Z
+022e05dc1f6a09f3580c6cd3abdc3f65d2a54505,[nfl] fix extraction(closes #22245),Remita Amine,remitamine,2020-12-15T15:06:10Z
+b34c9551aae2609c4ac3ee53cc7ce40e8f14d586,[anvato] update ANVACK table and add experimental token generator for NFL,Remita Amine,remitamine,2020-12-15T15:01:33Z
+84f19c026fc54e8793354a3bf1a1fe634e97e276,[sky] relax SkySports URL regex (closes #27435),Remita Amine,remitamine,2020-12-14T18:01:16Z
+6bde5492b6af38d671b1bc9fe48457aa30f0de90,[tv5unis] Add new extractor(closes #22399)(closes #24890),Remita Amine,remitamine,2020-12-14T17:47:00Z
+6086df4d6abe464a232e7a41750343825339f80c,[videomore] add support more.tv (closes #27088),Remita Amine,remitamine,2020-12-14T13:59:14Z
+c98052c5da1c984a2d1f0f426261e1147df5ae6e,[yandexmusic:album] Simplify,Sergey M․,dstftw,2020-12-14T05:52:25Z
+ab62bc583896f0f8e56bbb7b8ac72e84f7102a87,[yandexmusic] Add support for music.yandex.com (closes #27425),Sergey M․,dstftw,2020-12-14T05:48:12Z
+bc87ba842417081f34d112ca94bbb23165dc8633,[yandexmusic] DRY _VALID_URL base,Sergey M․,dstftw,2020-12-14T05:45:56Z
+b79df1b68d547e822eb87f6379c847866234396f,[nhk:program] Add support for audio programs and program clips,Remita Amine,remitamine,2020-12-13T21:04:44Z
+2797c7be45665c60a35bc2dd390cdd897ed5fc87,[nhk] Add support for NHK video programs (#27230),Matthew Rayermann,rolledback,2020-12-13T20:57:19Z
+755f186e213f0976bf9a3ceb4eb99e29ad1253c8,release 2020.12.14,Sergey M․,dstftw,2020-12-13T17:57:11Z
+2240a1dc4d9b7fb63499ea5bd8be9e724799112a,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-12-13T17:55:04Z
+03d3af9768502cd2cabd1e9302c6884824ea7068,[test_InfoExtractor] PEP 8,Sergey M․,dstftw,2020-12-13T16:47:13Z
+5ce9527e169012b6489d9580db6bf8cb14e80c5e,[mdr] Bypass geo restriction,Sergey M․,dstftw,2020-12-13T16:43:16Z
+c527f5ada08bebe2f6a3aa9af52a75de02223e4e,"[mdr] Improve extraction (closes #24346, closes #26873)",Sergey M․,dstftw,2020-12-13T16:42:43Z
+ace52668f0c9d23bc8d2e2a51d50d03b1b96c90e,[PULL_REQUEST_TEMPLATE.md] Add tests requirement and make coding conventions requirement more explicit,Sergey M․,dstftw,2020-12-13T15:46:17Z
+9c33eb027e4a798045706f669679a4f9305e1fdf,[yandexmusic:album] Improve album title extraction (closes #27418),Sergey M․,dstftw,2020-12-13T15:18:40Z
+679b711395c2d6a75b376e8f7b8b2529669c4c27,[eporner] Fix view count extraction and make optional (closes #23306),Sergey M․,dstftw,2020-12-13T13:27:08Z
+172754131578f6042efa7c47a57c6e8531e3d190,[extractor/common] Improve JSON-LD interaction statistic extraction (refs #23306),Sergey M․,dstftw,2020-12-13T13:24:13Z
+45b0a0d11b9bc67895507629f8f0a81c5835f51f,[eporner] Fix embed test URL,Sergey M․,dstftw,2020-12-13T12:57:11Z
+e665fcd4da18dc0d487e4aaac51e696e381814e9,"[eporner] Fix hash extraction and extend _VALID_URL (#27396)
+
+Co-authored-by: Sergey M <dstftw@gmail.com>",spvkgn,spvkgn,2020-12-13T12:56:28Z
+aae737d4af1093249e36783d3f86d39e08de8761,[slideslive] use m3u8 entry protocol for m3u8 formats(closes #27400),Remita Amine,remitamine,2020-12-13T11:43:21Z
+92a6de861e8cfd7141a79622760f7a840ba57eee,[downloader/hls] delegate manifests with media initialization to ffmpeg,Remita Amine,remitamine,2020-12-13T11:39:17Z
+5ff881aee6532a2f588ab4b3424c72159f1d8e63,[twitcasting] fix format extraction and improve info extraction(closes #24868),Remita Amine,remitamine,2020-12-13T11:13:16Z
+eae19a4473e3f7d3d8e73e28b5262b7ea4987bc7,[extractor/common] Document duration meta field for playlists,Sergey M․,dstftw,2020-12-13T09:53:23Z
+f70c263ce59f9ca5b9fb00cbfb356d1e31906fe7,"[linuxacademy] Fix authentication and extraction (closes #21129, closes #26223, closes #27402)",Sergey M․,dstftw,2020-12-13T09:52:36Z
+92d135921fecac475ef057f7d84067adcb4734a5,[itv] clean description from HTML tags (closes #27399),Remita Amine,remitamine,2020-12-13T08:50:20Z
+d8008dee4f8b2d9fb66835aa83023bc681f116f1,[vlive] Sort live formats (closes #27404),Sergey M․,dstftw,2020-12-13T08:04:18Z
+bb38a1215718cdf36d73ff0a7830a64cd9fa37cc,"[hotstart] fix and improve extraction
+
+- fix format extraction (closes #26690)
+- extract thumbnail URL (closes #16079, closes #20412)
+- support country specific playlist URLs (closes #23496)
+- select the last id in video URL (closes #26412)",Remita Amine,remitamine,2020-12-12T22:02:11Z
+bcc8ef0a5ae0ce4469bd313a41a707fd4f1d05c9,"[youtube] Add some invidious instances (#27373)
+
+Co-authored-by: Cássio <heyitscassio@cock.li>",toniz4,toniz4,2020-12-12T18:27:56Z
+3cb1a5dc73f934f1810852d12971f99ab32f6c96,release 2020.12.12,Sergey M․,dstftw,2020-12-12T00:09:59Z
+ed40c02c9b2d2c022bd9d1b9ab2906c80e9118af,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-12-12T00:04:28Z
+b5fdceb4d1c724d1a3135a73f9bfb6edc489ef6d,[ruutu] Extract more metadata and detect non-free videos (closes #21154),Sergey M․,dstftw,2020-12-11T23:49:43Z
+1e6f7f3b457d97271da648df8e0a8e1b6bb90a8c,"[ruutu] Authenticate format URLs (closes #21031, closes #26782)",Sergey M․,dstftw,2020-12-11T22:57:14Z
+469ff02f4e288f5e2d10c8f9f6582ae9b63e924b,[ruutu] Add support for static.nelonenmedia.fi (closes #25412),Sergey M․,dstftw,2020-12-11T22:09:30Z
+56f1c5ad38686c0437924eb51c4b54a5c0c876dc,[ruutu] Extend _VALID_URL (closes #24839),Sergey M․,dstftw,2020-12-11T22:05:52Z
+3a6b8f4edfddfd5221c28a4f9a6dc2a54c5be202,[facebook] Add support archived live video URLs(closes #15859),Remita Amine,remitamine,2020-12-11T22:09:18Z
+3ae02d4a626b6966ba9678827c5bfc0e8804a2aa,"[wdr] Extent subtitles extraction and improve overall extraction (closes #22672, closes #22723)",Sergey M․,dstftw,2020-12-11T21:48:56Z
+59fea63dc2636b2bde10d56116c273cd5d516eed,[facebook] add support for videos attached to Relay based story pages(#10795),Remita Amine,remitamine,2020-12-11T21:36:52Z
+22933e02d402a4d9d5d5fa55c19166df760d3b25,[wdr:page] Add support for kinder.wdr.de (closes #27350),Sergey M․,dstftw,2020-12-11T21:27:25Z
+98a62d7cbd57c546871eb47460efc5eb95aec874,[facebook] Add another regex for handleServerJS,Remita Amine,remitamine,2020-12-11T20:50:40Z
+d6c5fdef34cffd56670eef09bb631005acb19385,[facebook] fix embed page extraction,Remita Amine,remitamine,2020-12-11T20:24:08Z
+4b9051cf39e5f967b0826871bb30b36889ca65fa,[YoutubeDL] Improve thumbnails' filenames deducing (closes #26010) (#27244),compujo,compujo,2020-12-11T20:12:31Z
+00f5068908eda869d6d4250902905ca381b9bd28,[facebook] add support for Relay post pages(closes #26935),Remita Amine,remitamine,2020-12-11T16:49:22Z
+432c6b0f487d7bcd92cbd5b79b0540a6fb41a83f,[facebook] proper support for watch videos(closes #22795)(#27062),Remita Amine,remitamine,2020-12-11T15:05:47Z
+ad5e5788ff59fbc37beb417e1371f40a6365e956,"Revert ""[facebook] add support for watch videos(closes #22795)""
+
+This reverts commit dc65041c224497f46b2984df02c234ce54bdedfd.",Remita Amine,remitamine,2020-12-11T14:54:24Z
+dc65041c224497f46b2984df02c234ce54bdedfd,[facebook] add support for watch videos(closes #22795),Remita Amine,remitamine,2020-12-11T12:54:03Z
+9f88b079453b0b74efd494a7ddfda40a43055852,[facebook] add support for group posts with multiple videos(closes #19131),Remita Amine,remitamine,2020-12-11T11:04:02Z
+225646c4cac07558b69add9488a2c82683ff49c7,"[itv] remove old extractio method and fix series metadata extraction
+
+closes #23177
+closes #26897",Remita Amine,remitamine,2020-12-10T21:28:44Z
+5c6e9f0b6c643ca9f5b95dba4cb2f44960ddd83e,"[facebook] redirect Mobile URLs to Desktop URLs
+
+closes #24831
+closes #25624",Remita Amine,remitamine,2020-12-10T14:19:43Z
+6c370bc149945e26c6e359147221b3aa96e0ea75,[facebook] Add support for Relay based pages(closes #26823),Remita Amine,remitamine,2020-12-10T13:52:35Z
+37fd242342a04613317fd7f85170a20fb7323efe,[facebook] try to reduce unessessary tahoe requests,Remita Amine,remitamine,2020-12-10T11:10:33Z
+aee1f871681af7d6cbd26e33f9fe3e63f742167f,"[facebook] remove hardcoded chrome user-agent
+
+closes #18974
+closes #25411
+closes #26958
+closes #27329",Remita Amine,remitamine,2020-12-09T22:52:25Z
+b69bb1ed119d07b83cf88ca95b87773209f14d3b,[smotri] Remove extractor (#27358),Andrey Smirnoff,mashed-potatoes,2020-12-09T19:01:23Z
+772cefef8c9bf467089e65a6890660ca9bfd83b8,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-12-09T17:12:59Z
+842654b6d03085661dfc5a6a57004123a1a9d35f,[README.md] Update travis CI tld (#27354),谭九鼎,imba-tjd,2020-12-09T14:50:42Z
+df5e50954b0286eb88e3b0bc5199c8271e3ab9ec,"[beampro] Remove Extractor
+
+closes #17290
+closes #22871
+closes #23020
+closes #23061
+closes #26099",Remita Amine,remitamine,2020-12-09T09:39:14Z
+a4a2fa8754de4d7f9515c09c04e907c8ce199916,release 2020.12.09,Sergey M․,dstftw,2020-12-08T21:25:24Z
+9da0504a09f28ca4ffc92217fa347288e5a4b7ac,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-12-08T21:24:31Z
+470cf496f5e33a24527decc736f9cb204393ea70,[youtube:tab] Improve identity token extraction (closes #27197),Sergey M․,dstftw,2020-12-08T21:17:47Z
+e029da9addef9e41ec9db4a85165ef8e1e352636,[youtube:tab] Make click tracking params on continuation optional,Sergey M․,dstftw,2020-12-08T21:02:50Z
+e00b8f60d4ad662d1737e80f154f7afeb738494c,[youtube:tab] Delegate inline playlists to tab-based playlists (closes #27298),Sergey M․,dstftw,2020-12-08T20:40:02Z
+644c3ef886c3e7c4974658202c2761cc6570f93a,[tubitv] Extract release year (#27317),EntranceJew,EntranceJew,2020-12-08T18:14:46Z
+9d8d0f8b4a65ea05c4bd9a9720c07d2c7f3eaf03,[youtube] Remove unused code (#27343),Soneé John,SoneeJohn,2020-12-08T17:41:47Z
+5a1fbbf8b7215aab0e6382e93eaa1561093352cf,[extractor/common] Fix inline HTML5 media tags processing and add test (closes #27345),Sergey M․,dstftw,2020-12-08T17:05:21Z
+e2bdf8bf4f3de7698d1d2844687e3acc760b34e7,[amcnetworks] Fix free content extraction(closes #20354),Remita Amine,remitamine,2020-12-08T16:11:28Z
+c368dc98e06961a84b0751541ee2869c352253a8,[lbry] add support for channel extraction(closes #25584),Remita Amine,remitamine,2020-12-08T13:53:22Z
+e7eff914cd3ffd8bc2975100036fdac9829dd16d,[lbry] add support for short and embed URLs and fix channel metadata extraction,Remita Amine,remitamine,2020-12-08T09:52:52Z
+07333d00626fe47c4491f762f4d77b51cd69a1b9,"[telequebec] Fix Extraction and Add Support for video.telequebec.tv
+
+closes #25733
+closes #26883
+closes #27339",Remita Amine,remitamine,2020-12-07T23:31:47Z
+5bd7ad2e811c9bda2e889156bc261a76e9f086ed,[youtube:tab] Capture and output alerts (closes #27340),Sergey M․,dstftw,2020-12-07T18:12:00Z
+3ded7519857ef3fd1e3760e49e7ee26a92d44679,[generic] comment a test covered now by AmericasTestKitchenIE,Remita Amine,remitamine,2020-12-07T14:27:13Z
+6956db3606e7ffa638856f1816747f544c1b1a53,[tvplay:home] Fix extraction(closes #21153),Remita Amine,remitamine,2020-12-07T14:12:54Z
+17b01228f84713df850912b554675bbfcbc62fb3,"[americastestkitchen] Fix Extraction and add support for Cook's Country and Cook's Illustrated
+
+closes #17234
+closes #27322",Remita Amine,remitamine,2020-12-06T22:37:16Z
+4f1ecca58d19be96b17893edb44308004c2b47fa,[slideslive] Add support for yoda service videos and extract subtitles (closes #27323),Sergey M․,dstftw,2020-12-06T20:27:21Z
+2717036489924fce092db593fb769d2f20179e05,release 2020.12.07,Sergey M․,dstftw,2020-12-06T19:03:34Z
+d9482c0083e1a6ad6602f063bab46edfa7514338,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-12-06T19:01:53Z
+791b743765b1154cff099c543a6723f2c40b822b,[extractor/generic] Remove unused import,Sergey M․,dstftw,2020-12-06T19:01:47Z
+fa604d9083805aa2ff398f31d56dc3508b77a37c,"[aenetworks] Fix extraction
+
+- Fix Fastly format extraction
+- Add support for play and watch subdomains
+- Extract series metadata
+
+closes #23363
+closes #23390
+closes #26795
+closes #26985",Remita Amine,remitamine,2020-12-06T18:38:27Z
+2bf0634d16b5732548652093d77dbd1aa76e8189,[youtube] Improve youtu.be extraction in non-existing playlists (closes #27324),Sergey M․,dstftw,2020-12-06T18:48:10Z
+dccf4932e15392a35a44c24a2732cc0ea6deada4,[extractor/common] Extract timestamp from Last-Modified header,Sergey M․,dstftw,2020-12-06T18:15:30Z
+91dd25fe1e18aa3f617005799a8f5018a551c7dd,[extractor/common] Add support for dl8-* media tags (closes #27283),Sergey M․,dstftw,2020-12-06T17:59:25Z
+06bf2ac20f2fb64df9f6e4cd1dba267b25effd22,[extractor/common] Eliminate media tag name regex duplication,Sergey M․,dstftw,2020-12-06T17:55:49Z
+6ad0d8781e2b156a4599abcebaa0b91b7e3131f4,[extractor/common] Fix media type extraction for HTML5 media tags in start/end form,Sergey M․,dstftw,2020-12-06T17:45:16Z
+f2c704e1126d614a7cd3283ed94a2226587d7a33,[generic] Extract RSS video itunes metadata,Sergey M․,dstftw,2020-12-06T16:08:03Z
+5e822c252627905036b164cdbc1220dc7b1f5d08,[generic] Extract RSS video timestamp,Sergey M․,dstftw,2020-12-06T15:30:30Z
+cc017e07ca1ce70740f45620f2bceb1b0ac25eb2,[generic] Extract RSS video description (#27177),renalid,renalid,2020-12-06T15:12:25Z
+082da364166b5e33e1aa3ff643a177c0456b43e6,[nrk] reduce requests for Radio series,Remita Amine,remitamine,2020-12-05T15:24:49Z
+6bf95b15ee311d673e63ed5bc98d0b74040f24f0,[nrk] reduce the number of instalments requests,Remita Amine,remitamine,2020-12-05T14:35:29Z
+4c93b2fd155cc15588017c14c033bcea1a1ff931,[nrk] improve format extraction,Remita Amine,remitamine,2020-12-05T08:13:42Z
+1b26bfd425eaf5f7e314a6ebc810d62e8608ce5a,"[nrk] improve extraction
+
+- improve format extraction for old akamai formats
+- update some of the tests
+- add is_live value to entry info dict
+- request instalments only when their available
+- fix skole extraction",Remita Amine,remitamine,2020-12-04T23:32:59Z
+13ec444a982fa0c3b2e61666792069d35111ff31,[peertube] Extract fps,Sergey M․,dstftw,2020-12-04T21:45:30Z
+51579d87e4435d5e661329dcefd0422d263bb56b,[peertube] Recognize audio-only formats (closes #27295),Sergey M․,dstftw,2020-12-04T21:41:33Z
+e1476196692131fa7218f9cf91571b40bb4facb8,release 2020.12.05,Sergey M․,dstftw,2020-12-04T20:40:00Z
+e7f93fbd85549896102fe4e870ec840046f9025a,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-12-04T20:31:07Z
+58f7ada235801aae3fdcb959df04a4bfdb790415,"[teachable:course] Improve extraction (closes #24507, closes #27286)",Sergey M․,dstftw,2020-12-04T20:24:56Z
+c67b33888f4b8ea21189a966f087f795c6ea52bc,[nrk] Improve error extraction,Sergey M․,dstftw,2020-12-04T20:00:10Z
+e8c0af04b79f84ab3b697498423f8dc27caca24a,[nrktv] Relax _VALID_URL,Sergey M․,dstftw,2020-12-04T19:46:28Z
+5d769860c32cd3c5a4719a46a8c11863d3ce0bc5,[nrktv:series] Improve extraction (closes #21926),Sergey M․,dstftw,2020-12-04T19:43:33Z
+02b04785ee22036e53e7883ba3217d17cc181916,[nrktv:series] Improve extraction,Sergey M․,dstftw,2020-12-04T19:21:07Z
+41c92b8d02c33d6018991f9e5d3a9b616e325355,[nrktv:season] Improve extraction,Sergey M․,dstftw,2020-12-04T18:19:37Z
+fe0c28f9569bb99f3bddd59b7f4b2be919368f22,[nrk] fix call to moved method,Remita Amine,remitamine,2020-12-04T17:08:08Z
+957c65b9eaeaf181d76c6aa815a8f946c090129b,[nrk] fix typo,Remita Amine,remitamine,2020-12-04T17:05:27Z
+5e95e18ce949e759e8e26de76c386c44e50b2abd,[nrk] improve format extraction and geo-restriction detection (closes #24221),Remita Amine,remitamine,2020-12-04T17:04:38Z
+e91df0c5501bd5df9987e310a37df51129ee1cf2,[pornhub] Handle HTTP errors gracefully (closes #26414),Sergey M․,dstftw,2020-12-04T16:56:50Z
+c5636e9bcaf37f2190b1e7d73785fde399001c29,"[nrktv] Relax _VALID_URL (closes #27299, closes #26185)",Sergey M․,dstftw,2020-12-04T16:38:42Z
+2e4726423544041887641df18e2f4c4c5e3f4f6d,[zdf] extract webm formats(closes #26659),Remita Amine,remitamine,2020-12-04T13:16:03Z
+1c78cb118c306541984c7f5e2c40fd4e3ed1c94c,"[travis] Disable download jobs
+
+Until youtube-dl OSS approval by Travis or moving to GitHub Actions
+[ci skip]",Sergey M․,dstftw,2020-12-03T16:25:36Z
+beab2f88c9c83c2dba3d539f06133345542b7f03,[nhk] Add audio clip test to NHK extractor (#27269),Matthew Rayermann,rolledback,2020-12-03T07:47:56Z
+00254473691185e567006da00524eedbee9597aa,[gamespot] Extract DASH and HTTP formats,Remita Amine,remitamine,2020-12-02T23:35:47Z
+da4304609dd627b577d7b69c0a05851497fa384c,[extractor/commons] improve Akamai HTTP formats extraction,Remita Amine,remitamine,2020-12-02T23:33:55Z
+ea89680aeae7c26af355ac23038e3a45f116649e,[tver] correct episode_number key,Remita Amine,remitamine,2020-12-02T21:49:51Z
+664dd8ba854238207fa1421a4f353606406dcded,"[extractor/common] improve Akamai HTTP format extraction
+
+- Allow m3u8 manifest without an additional audio format
+- Fix extraction for qualities starting with a number
+Solution provided by @nixxo based on: https://stackoverflow.com/a/5984688",Remita Amine,remitamine,2020-12-02T20:37:14Z
+64554c12e121a5dc0ab3f715fbf2452e5969a722,[tver] Add new extractor (closes #26662)(closes #27284),Remita Amine,remitamine,2020-12-02T20:36:51Z
+4ded9c0f0018f45034070092e4899668f58b4690,"[pornhub] Add support for pornhub.org (#27276)
+
+Most ISPs block the other two TLDs through deep packet inspection",opusforlife2,opusforlife2,2020-12-02T18:30:08Z
+c0820dd52ad2796b8ef159a0f6ab21ac28d4bf67,[extractors] Add QubIE import,Remita Amine,remitamine,2020-12-01T23:41:00Z
+2bb70750a9bb27aea34cab0e17327f549bae5734,release 2020.12.02,Sergey M․,dstftw,2020-12-01T18:37:40Z
+09d923f2ebad2a24e11abbe86c47ec1efa2b7dc5,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-12-01T18:22:43Z
+37d979ad33717c2b98d4f259d109c3b1c11906ae,[tva] Add support for qub.ca (closes #27235),Remita Amine,remitamine,2020-12-01T11:25:02Z
+95ac4de229921d7e59781179c7f7a9aaba34b5d5,[toggle] Detect DRM protected videos (closes #16479)(closes #20805),Remita Amine,remitamine,2020-12-01T09:38:53Z
+d3e142b3faca04ab21163595d7dcf308d52e5253,[toggle] Add support for new MeWatch URLs (closes #27256),Remita Amine,remitamine,2020-12-01T09:11:51Z
+132aece1ed824aafd849ef63dcb44c835eab6ee9,[youtube:tab] Extract channels only from channels tab (closes #27266),Sergey M․,dstftw,2020-11-30T21:44:10Z
+3e4e338133463e57125ade82fe5dfd57bb42dc1a,"[cspan] Extract info from jwplayer data (closes #3672, closes #3734, closes #10638, closes #13030, closes #18806, closes #23148, closes #24461, closes #26171, closes #26800, closes #27263)",Sergey M․,dstftw,2020-11-30T18:53:12Z
+be19ae11fde9eb8cb28ff967ded15b457b5f80ea,[cspan] Pass Referer header with format's video URL (#26032) (closes #25729),Roman Beránek,zavorka,2020-11-30T18:14:29Z
+59d63d8d4aa82c7b1472d5b6a0f9f4e9c2893212,[youtube] Improve age-gated videos extraction (closes #27259),Sergey M․,dstftw,2020-11-30T17:49:03Z
+cfeba5d17f5f621b129571213e7034c44c719e76,[mediaset] add support for movie URLs(closes #27240),Remita Amine,remitamine,2020-11-30T08:45:44Z
+6da0e5e7a238a9a27260198da741a4014787dcae,"[yandexmusic] Refactor and add support for artist's tracks and albums (closes #11887, closes #22284)",Sergey M․,dstftw,2020-11-29T17:25:06Z
+d6ce649f15cff2e259a0f38b176b97fec293f0ff,"[yandexmusic:track] Fix extraction (closes #26449, closes #26669, closes #26747, closes #26748, closes #26762)",Sergey M․,dstftw,2020-11-29T15:15:51Z
+b449b73dccf6fdd676770ea83cff322348cdf778,release 2020.11.29,Sergey M․,dstftw,2020-11-29T06:53:01Z
+16c822e91e6cbd433bd562c213538553574b2a94,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-11-29T06:49:12Z
+43181707799fe89b477759a6a20ce0bb6a1e5d82,[drtv] Extend _VALID_URL (#27243),Michael Munch,Munken,2020-11-29T06:44:36Z
+fb626c05867deab04425bad0c0b16b55473841a2,"[tiktok] Fix extraction (closes #20809, closes #22838, closes #22850, closes #25987, closes #26281, closes #26411, closes #26639, closes #26776, closes #27237)",Sergey M․,dstftw,2020-11-29T01:09:20Z
+717d1d2d5acf88aba6e227870e15bbff0be89ff1,[ina] Add support for mobile URLs (#27229),bopol,B0pol,2020-11-28T21:15:53Z
+9585b376db8cb0a3f0e7a866e5d64b351fb6ecf7,"[YoutubeDL] Write static debug to stderr and respect quiet for dynamic debug (closes #14579, closes #22593)
+
+TODO: logging and verbosity needs major refactoring (refs #10894)",Sergey M․,dstftw,2020-11-28T20:55:49Z
+f04cfe24e0554ca7e08db94ef138d44d22493af0,[pornhub] Fix like and dislike count extraction (closes #27227) (#27234),JChris246,JChris246,2020-11-28T19:32:13Z
+20c50c65566be31607e59d7ca2467c664a29c843,[youtube] Improve yt initial player response extraction (closes #27216),Sergey M․,dstftw,2020-11-28T08:02:31Z
+f9f9699f2fa87ec54d59b1834cc56adb6147fec6,[videa] improve extraction,Remita Amine,remitamine,2020-11-26T11:56:49Z
+a3cf22e590f7057c50563f36c17b59993446dbdd,"[videa] Adapt to updates (#26301)
+
+closes #25973, closes #25650.",Adrian Heine né Lang,adrianheine,2020-11-26T11:55:06Z
+99de2f38d375f794ffdc4f5a110a5227310f3ab0,[spreaker] fix SpreakerShowIE test URL,Remita Amine,remitamine,2020-11-25T20:39:17Z
+9fe50837c3e8f6c40b7bed8bf7105a868a7a678f,release 2020.11.26,Sergey M․,dstftw,2020-11-25T20:05:51Z
+4dc545553f977013ae92fcb10046749b9a0405ee,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-11-25T20:03:51Z
+686e898fde48de9981c170f21d631d15e6f419ad,"[spreaker] Add extractor (closes #13480, closes #13877)",Sergey M․,dstftw,2020-11-25T19:58:48Z
+3a78198a96ffcb989d1302294f6a747c6147b418,[vlive] improve extraction for geo-restricted videos,Remita Amine,remitamine,2020-11-25T10:40:37Z
+836c810716cca64673b2cb85a2b489f2dd0a15ef,[vlive] Add support for post URLs(closes #27122)(closes #27123),Remita Amine,remitamine,2020-11-25T10:26:26Z
+97c5be383c78da84efdb6ea9334ee95b198a2f1d,[viki] fix video API request(closes #27184),Remita Amine,remitamine,2020-11-24T22:25:03Z
+a7ea88537a8bc8843636f21eb9bd9fa04d5060c5,[bbc] fix BBC Three clip extraction,Remita Amine,remitamine,2020-11-24T21:54:08Z
+6c35de4c6bc13c307215cd2f8977b7ac09de28fb,[bbc] fix BBC News videos extraction,Remita Amine,remitamine,2020-11-24T21:49:04Z
+579d43951d7d60b5027ae224973b5f541b51c74a,[medaltv] improve extraction,Remita Amine,remitamine,2020-11-24T17:29:46Z
+e24ebeafd1c59336705bd31b9f1ff46676273e1d,[medaltv] Add new extractor (#27149),Joshua Lochner,xenova,2020-11-24T17:27:33Z
+01c92973ddebe6429f5a03855e41c412889c96dc,[youtube] imporve music metadata and license extraction(closes #26013),Remita Amine,remitamine,2020-11-23T21:44:34Z
+f4415faa4690cf71d61d90ad7e9a7f9980be9b50,"[downloader/fragment] Set final file's mtime according to last fragment's Last-Modified header (closes #11718, closes #18384, closes #27138)",Sergey M․,dstftw,2020-11-23T21:16:29Z
+a86ce9d7a1091b86948feec0ba4a34fa431d7618,[nrk] Fix extraction,Sergey M․,dstftw,2020-11-23T19:59:49Z
+37258c644f76416b2a09de14c0e74da628534e2e,"[cda] Fix extraction (closes #17803, closes #24458, closes #24518, closes #26381)",Sergey M․,dstftw,2020-11-23T19:18:40Z
+d0512ac4c56191b6bdd0c0baf2f907990e3045b7,release 2020.11.24,Sergey M․,dstftw,2020-11-23T17:23:14Z
+da4eaa15a275628a56ce0512d916fb879734969f,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-11-23T17:20:42Z
+191286265d8ad4fff834249d44e3d334a969b668,"[youtube:tab] Fix feeds extraction (closes #25695, closes #26452)",Sergey M․,dstftw,2020-11-23T17:10:25Z
+323427281899cf3527e504ac7058f5b10aad5d61,[youtube:tab] PEP 8,Sergey M․,dstftw,2020-11-23T15:34:27Z
+9d2c90354f9743214a0d02de6981fa748af11b37,[youtube:favorites] Restore extractor,Sergey M․,dstftw,2020-11-23T15:33:21Z
+316b10855af61798760b30531a5dc34da8d9a69b,[youtube:tab] Fix some weird typo (closes #27157),Sergey M․,dstftw,2020-11-23T15:19:25Z
+484fe787379a20ec9ef19f69b9e07321359bbd1e,[pinterest] Add support for large collections(more than 25 pins),Remita Amine,remitamine,2020-11-23T13:16:38Z
+2cd43a00d1eec54c40e3fdf9a288f4cb391a8323,[franceinter] flake8,Remita Amine,remitamine,2020-11-22T18:38:45Z
+dd0f524c69ad95541f7d370bdb877ee68f722f26,"[franceinter] add thumbnail url (#27153)
+
+Co-authored-by: remitamine <remitamine@gmail.com>",renalid,renalid,2020-11-22T18:35:53Z
+c84f9475b8df0f892b631966159e1649dafe13f0,[box] Add new extractor(#5949),Remita Amine,remitamine,2020-11-22T16:39:41Z
+15f27347911e51954184aa483a77c98eaea2c399,"[nytimes] Add new cooking.nytimes.com extractor (#27143)
+
+* [nytimes] support cooking.nytimes.com, resolves #27112
+
+Co-authored-by: remitamine <remitamine@gmail.com>",Jia Rong Yee,fourjr,2020-11-22T13:12:47Z
+cb6e24f946023e04469acb00174dfd71c2fa518d,[lbry] relax _VALID_URL regex(closes #27144),Remita Amine,remitamine,2020-11-22T12:16:03Z
+9d531aa2918067570e4827fcced59c60accac220,[rumble] add support for embed pages(#10785),Remita Amine,remitamine,2020-11-22T12:07:04Z
+e9cbb98a0f63e08cf7c42d1612450e2534c8de7e,[skyit] add support for multiple Sky Italia websites(closes #26629),Remita Amine,remitamine,2020-11-22T12:01:56Z
+193422e12a98ebcc49a215cf3667c7fce593f25c,[extractor/common] add generic support for akamai http format extraction,Remita Amine,remitamine,2020-11-22T11:54:55Z
+c4cabf040e1bf37aec69a3ff45594ac6965ba139,[pinterest] Add extractor (closes #25747),Sergey M․,dstftw,2020-11-21T22:04:01Z
+f23eceebbfa0aa26f7ff598026ee6029233148b6,release 2020.11.21.1,Sergey M․,dstftw,2020-11-21T16:59:11Z
+650bd8f6231b3302dadcddf336748a9eb1dc85ed,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-11-21T16:52:39Z
+5d8cb4367dc5f8c5739bfa4e807d2a8b301dfe4a,release 2020.11.21,Sergey M․,dstftw,2020-11-21T16:54:33Z
+82abc13aedb42d77afcb0ca9c1d7982955826b66,[youtube:tab] Comment out test,Sergey M․,dstftw,2020-11-21T16:41:49Z
+1e72660c9b2bcd18c688cd8786f81acaa7ad088e,[svtplay] Fix test title,Sergey M․,dstftw,2020-11-21T16:36:25Z
+049f2242480fd481ddb6a88c5a9d7f360f890d7c,[svtplay] Add support for svt.se/barnkanalen (closes #24817),Sergey M․,dstftw,2020-11-21T16:35:01Z
+0ada1b90b801e5d6ce713a25eccd7de21e7e4b6f,"[svt] Extract timestamp and thumbnail in more cases (#27130)
+
+Add timestamp, set to ""valid from"" which i think could been seen as publish time.
+Add thumbnail in more cases, seems to was only done in the embedded data case for some reason.
+Switch svtplay test url to an existing video and also one with no expire date.
+Also add an additional thumbnail url test regex.",Mattias Wadman,wader,2020-11-21T16:24:37Z
+71ddc222adca21f471051e922d2c2f08a27b2d44,"Fix typos (#27084)
+
+* spelling: authorization
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: brightcove
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: creation
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: exceeded
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: exception
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: extension
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: extracting
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: extraction
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: frontline
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: improve
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: length
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: listsubtitles
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: multimedia
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: obfuscated
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: partitioning
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: playlist
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: playlists
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: restriction
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: services
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: split
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: srmediathek
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: support
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: thumbnail
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: verification
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: whitespaces
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>",Josh Soref,jsoref,2020-11-21T15:00:05Z
+21292c0649e956afc46bd39d774ec811d568de2a,[youtube] Fix error reason extraction (#27081),Daniel Peukert,dpeukert,2020-11-21T14:52:20Z
+46a265a2da26c663463244ecf9a4a699c2cd6efc,[youtube] Fix like and dislike count extraction (closes #25977),Sergey M․,dstftw,2020-11-21T13:49:56Z
+e2096776b99e4b5b67aacd1bcc7807a3d3757236,[youtube:tab] Add support for current video and fix lives extraction (closes #27126),Sergey M․,dstftw,2020-11-21T13:48:13Z
+a1c88c4819233cf5f3734bcd6cf251d4339196ce,[infoq] fix format extraction(closes #25984),Remita Amine,remitamine,2020-11-20T22:23:55Z
+51ca93d75162f554efd8d4cb5ac97864a38f7bee,"[francetv] Update to fix thumbnail URL issue (#27120)
+
+Fix the thumbnail URL. The issue was here for many years, never fixed. It's done ! :-)
+
+Example : https://www.france.tv/france-2/de-gaulle-l-eclat-et-le-secret/de-gaulle-l-eclat-et-le-secret-saison-1/2035247-solitude.html
+
+failed thumbnail url generated : http://pluzz.francetv.fr/staticftv/ref_emissions/2020-11-02/EMI_1104da66f533cc7dc5d0d07a181a18c2e2fe1d81_20201014122553940.jpg
+
+right thumbnail url fixed : https://sivideo.webservices.francetelevisions.fr/staticftv/ref_emissions/2020-11-02/EMI_1104da66f533cc7dc5d0d07a181a18c2e2fe1d81_20201014122553940.jpg",renalid,renalid,2020-11-20T21:44:08Z
+a7e0531999fa3a7fef542942aaad8c55e22adec5,[downloader/http] Fix crash during urlopen caused by missing reason of URLError,Sergey M․,dstftw,2020-11-20T21:22:21Z
+ab0eda99e1d1c6cd6aa697f4931c439bec350bd0,[YoutubeDL] Fix --ignore-errors for playlists with generator-based entries of url_transparent (closes #27064),Sergey M․,dstftw,2020-11-20T21:00:08Z
+ec99f4710877731da4619617a89cf1dd45a2fc2a,[youtube:tab] Replace some test URLs with RIAA-friendly ones,Sergey M․,dstftw,2020-11-20T16:34:46Z
+b31b5f4434b52816f3a5a1ae2cbe1d162be0fbd0,[youtube] Improve yt initial data extraction (closes #27093),Sergey M․,dstftw,2020-11-20T16:21:52Z
+86f2fa1590991fffae7b1daacae9164771312c0b,[discoverynetworks] add support new TLC/DMAX URLs(closes #27100),Remita Amine,remitamine,2020-11-20T09:47:52Z
+7bc7fbce239da880f7ab67fc5be55ea82df64e20,[rai] fix protocol relative relinker URLs(closes #22766),Remita Amine,remitamine,2020-11-20T09:26:55Z
+a78e530c14cf7caf9449918285653d8284ef30dc,[rai] fix unavailable video format detection,Remita Amine,remitamine,2020-11-20T09:10:57Z
+af7bb684c086292e855d4e6f37a724ef27e14bd8,[rai] improve extraction,Remita Amine,remitamine,2020-11-20T09:01:56Z
+dd9e0f58f3482204491007e06a134c69788b1c82,"[rai] Fix extraction for recent raiplay.it updates (#27077)
+
+- Remove first test of RaiPlayIE: it is no longer available
+- Make RaiPlayIE extension-agnostic (passing possible `.json' URLs is now
+  supported too)
+- Adjust RaiPlayLiveIE to recent raiplay.it updates.  Passing it as
+  `url_transparent' is no longer supported (there is no longer an accessible
+  ContentItem)
+- Adjust RaiPlayPlaylistIE to recent raiplay.it updates and instruct it about
+  ContentSet-s.
+- Update a RaiIE test and remove two tests that are no longer availables
+
+Thanks to @remitamine for the review!",Leonardo Taccari,iamleot,2020-11-20T09:00:05Z
+59e583f7e8530ca92776c866897d895c072e2a82,[viki] improve format extraction,Remita Amine,remitamine,2020-11-19T21:45:46Z
+daa25d414284747980a9ad32e138a2ae388fcd0c,"[viki] fix stream extraction from mpd (#27092)
+
+Co-authored-by: beefchop <beefchop@users.noreply.github.com>",beefchop,beefchop,2020-11-19T20:38:09Z
+25a35cb38a472731d9f487309f6bcff94ee4918c,[googledrive] fix format extraction(closes #26979),Remita Amine,remitamine,2020-11-19T19:01:24Z
+2cf8003638ef76a0f76541229ecab1adf739a3ae,[amara] improve extraction,Remita Amine,remitamine,2020-11-19T16:29:30Z
+cf1a8668e8e47a56c834fb567d227787d7480d08,"[Amara] Add new extractor (#20618)
+
+* [Amara] Add new extractor",Joost Verdoorn,joostverdoorn,2020-11-19T16:26:53Z
+2dbb45ae82836699486d434cfb6d902920bab66e,[vimeo:album] fix extraction(closes #27079),Remita Amine,remitamine,2020-11-19T12:12:58Z
+4fe190df705d16c66fc3e7b2d798ff14ebbc9878,[mtv] fix mgid extraction(closes #26841),Remita Amine,remitamine,2020-11-19T10:54:54Z
+039e715b3020710546b13976042bd18ab6e2df5b,release 2020.11.19,Sergey M․,dstftw,2020-11-18T22:22:27Z
+32152bab7a488f8b563444e8d8cddd6d09f8a54a,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-11-18T22:21:09Z
+b1347a5881fa09777408a77360f0b5ce7ae6450c,[youporn] Fix upload date extraction and make comment count optional (closes #26986),Sergey M․,dstftw,2020-11-18T22:16:25Z
+91e954587f5b2b4760b73275ad0720933c0136a7,"[arte] Rework extractors
+
+* Reimplement embed and playlist extractors to delegate to the single entrypoint artetv extractor
+  Beware reluctant download archive extractor keys breakage.
+* Improve embeds detection (closes #27057)
+- Remove obsolete code",Sergey M․,dstftw,2020-11-18T22:02:04Z
+9b505185da1f7148e02174fce693583af68976d9,[arte] Extract m3u8 formats (closes #27061),Sergey M․,dstftw,2020-11-18T20:26:49Z
+444a68e0ec928a6dd01170362e092e41d69e3781,[mgtv] fix format extraction(closes #26415),Remita Amine,remitamine,2020-11-18T20:06:33Z
+c7178f0f7af1d12cdaca5d1328adba5300c7436a,"[extractor/common] Output error for invalid URLs in _is_valid_url (refs #21400, refs #24151, refs #25617, refs #25618, refs #25586, refs #26068, refs #27072)",Sergey M․,dstftw,2020-11-18T16:31:35Z
+5c3f7014efe75ae4c4e1c8aa18a062b8442c917a,[lbry] add support for odysee.com domain(closes #26806),Remita Amine,remitamine,2020-11-17T23:41:07Z
+d65628ef037c5c927cf2990d91f30cc222724171,[francetv] improve info extraction,Remita Amine,remitamine,2020-11-17T22:16:04Z
+8a6c5b080600465e08f5504f147c9042211c123b,"[francetv] Add fallback video url extraction (#27047)
+
+Fallback on another API endpoint when no video formats are found.
+
+Closes ytdl-org#22561",gdzx,gdzx,2020-11-17T22:06:19Z
+9360936f26cba46c0ccfb668fc463cda3226e151,release 2020.11.18,Sergey M․,dstftw,2020-11-17T21:15:30Z
+bb2b89e077bf3d105b89d48dc523318a87763e4d,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-11-17T21:11:58Z
+2d7a29081c7419e4148cd0829b4f68a608c78496,"[spiegel] Fix extraction (closes #24206, closes #24767)
+
+Code picked from PR #24767 since original repo is not available due to takedown.",Sergey M․,dstftw,2020-11-17T21:09:02Z
+2864179293ba16189544b28356647886960a48fe,"[youtube] Improve extraction
+
++ Add support for --no-playlist (closes #27009)
+* Improve playlist and mix extraction (closes #26390, closes #26509, closes #26534, closes #27011)
++ Extract playlist uploader data
+* Update tests",Sergey M․,dstftw,2020-11-17T20:32:42Z
+284f8306dffb3dbeeca3f99ef4c32ed4fcd571c3,[youtube:tab] fix view_count extraction(closes #27051),Remita Amine,remitamine,2020-11-17T19:32:50Z
+aa613ef7e1efe9f799a1209659f8d9d01e3de221,[malltv] fix extraction(closes #27035),Remita Amine,remitamine,2020-11-17T18:13:38Z
+cb2b9a22a5a53dd63f26db7509f4438a19261e36,[bandcamp] extract playlist_description(closes #22684),Remita Amine,remitamine,2020-11-17T13:46:02Z
+5b867c15a8443c79e1521053c19db3ae5f679625,[urplay] fix extraction(closes #26828),Remita Amine,remitamine,2020-11-17T12:11:35Z
+f8c749f12c3b88fc97b4d2a2d9934483589b50a3,[youtube:tab] Fix playlist title extraction (closes #27015),Sergey M․,dstftw,2020-11-17T00:01:41Z
+7d509c613ba66492ede723188d4254bb1427f4a2,[youtube] Fix chapters extraction (closes #26005),Sergey M․,dstftw,2020-11-16T21:28:35Z
+b92e95aa0159f114f1066fbbefed128d8c850c60,release 2020.11.17,Sergey M․,dstftw,2020-11-16T20:59:54Z
+e3cad6bd99f32ef5f146d803b60be182d34a83b8,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-11-16T20:50:12Z
+6699b6ce41ca04d1d8782b943dfacfa41e7102eb,[youtube:tab] Fix extraction with cookies provided (closes #27005),Sergey M․,dstftw,2020-11-16T20:40:02Z
+91dcde8a381d1c442e5b56fa1d3652fdd3f4496d,[lrt] fix extraction with empty tags(closes #20264),Remita Amine,remitamine,2020-11-16T20:27:51Z
+11f3471c4be16d0f848c72a4b4915f5f81d4f337,"[ndr:embed:base] Extract subtitles (closes #25447, closes #26106)",Sergey M․,dstftw,2020-11-16T20:24:23Z
+f4093b34f6ae8f8f3603b20270232950d52933ae,[servus] Add support for pm-wissen.com (closes #25869),Sergey M․,dstftw,2020-11-16T20:02:07Z
+a80b23c373202b35a2b00ba2455d0e2fcf8d366f,"[servus] Fix extraction (closes #26872, closes #26967, closes #26983, closes #27000)",Sergey M․,dstftw,2020-11-16T19:57:26Z
+2e7fa18bb96dac31bda754f9f7f0ab21a6513166,[xtube] Fix extraction (closes #26996),Sergey M․,dstftw,2020-11-16T18:32:48Z
+fe07e788bf7718d429d6fc7e4bcb0c761ffd2cfc,[utils] Skip ! prefixed code in js_to_json,Sergey M․,dstftw,2020-11-16T18:30:43Z
+6d3bdcf2177ce75f8f95731186a4794412b9776d,[lrt] fix extraction,Remita Amine,remitamine,2020-11-16T18:17:10Z
+ec2a2ab44132e8000cf0a0a81b793c3ea5fc1903,[lbry] Add new extractor,Remita Amine,remitamine,2020-11-16T18:04:55Z
+9448a203126105d6462299bddbe3a6a32bc017fd,[condenast] fix extraction and extract subtitles,Remita Amine,remitamine,2020-11-16T17:57:33Z
+3f1748b9445e9d9367d29221c4b7bf9b88895e4e,[bandcamp] fix extraction,Remita Amine,remitamine,2020-11-16T16:26:09Z
+fe13087cd152c7eb98ea418bad0419a15c767c08,[rai] fix RaiPlay extraction,Remita Amine,remitamine,2020-11-16T16:17:52Z
+f22fa82d7ffed28e0a1dd7b8370a699ee5d894d6,[extractors] Remove VLivePlaylistIE import,Remita Amine,remitamine,2020-11-16T15:36:56Z
+059fa9aa8119154d4b92ff31f7f65d68675b83be,[vlive] fix extraction,Remita Amine,remitamine,2020-11-16T15:35:08Z
+650aec4a984c3286b015de9870bef4e51bf6303f,[usanetwork] fix extraction,Remita Amine,remitamine,2020-11-16T15:21:48Z
+2ea9c97432a5342f70ed87d440cb1ec97a21cbde,[nbc] fix NBCNews/Today/MSNBC extraction,Remita Amine,remitamine,2020-11-16T15:18:37Z
+efc589b86578ad98025aa0a9ccfa5db3195c7deb,[devscripts/make_lazy_extractors] Correct a spelling mistake (#26991),Edward Betts,EdwardBetts,2020-11-16T15:08:20Z
+1737ea69b978f7ebe0f52c526d3dda5ba5c196b6,[cnbc] fix extraction,Remita Amine,remitamine,2020-11-16T14:55:07Z
+1fb034d029c8b7feafe45f64e6a0808663ad315e,"[youtube] Remove RIAA copyrighted media from tests as per [1]
+
+1. Github dmca and 1201 notice re youtube-dl 9-21-20",Sergey M․,dstftw,2020-11-16T14:03:56Z
+28f9568a8460088de18210d060058598e5237022,release 2020.11.12,Sergey M․,dstftw,2020-11-11T23:23:46Z
+5bbdadd5f886c15d1d765a21a463af899f8c30e3,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-11-11T23:18:16Z
+2de2ca6659a18b6f5ab76565e00491153ae47276,"[youtube] Rework extractors
+
+WIP",Sergey M․,dstftw,2020-11-11T23:16:37Z
+051071203ccedcaf6d0de0f0d83af593c78673e6,release 2020.11.01.1,Sergey M․,dstftw,2020-11-01T01:58:40Z
+34299510bbe077c08e57929d835d212487037e2a,release 2020.11.01,Sergey M․,dstftw,2020-11-01T01:52:27Z
+b9bceba37ca277261ba9cd37931036b3a52e3e07,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-11-01T00:34:20Z
+6d4733ce7be2e5bb31d1a21f68c6123074d584a0,[youtube] Fix JS player URL extraction,Sergey M․,dstftw,2020-10-31T23:52:00Z
+416da574ec0df3388f652e44f7fe71b1e3a4701f,[ytsearch] Fix extraction (closes #26920),Sergey M․,dstftw,2020-10-23T14:31:37Z
+48c5663c5f7dd9ecc4720f7c1522627665197939,[afreecatv] Fix typo (#26970),Toan Nguyen,memecoinbeliever,2020-10-22T12:15:05Z
+7d740e7dc7149cfd93dde1fa47e9f314e72582c2,[23video] Relax _VALID_URL (#26870),Hannu Hartikainen,dancek,2020-10-19T17:56:23Z
+4eda10499e8db831167062b0e0dbc7d10d34c1f9,"[utils] Don't attempt to coerce JS strings to numbers in js_to_json (#26851)
+
+The current logic in `js_to_json` tries to rewrite octal/hex numbers to
+decimal. However, when the logic actually happens the `""` or `'` have
+already been trimmed off. This causes what were originally strings, that
+happen to look like octal/hex numbers, to get rewritten to decimal and
+returned as a number rather than a string.
+
+In practive something like:
+
+```js
+{
+  ""0x40"": ""foo"",
+  ""040"": ""bar"",
+}
+```
+
+would get rewritten as:
+
+```json
+{
+  64: ""foo"",
+  32: ""bar
+}
+```
+
+This is problematic since this isn't valid JSON as you cannot have
+non-string keys.",Kevin O'Connor,kevinoconnor7,2020-10-17T17:10:41Z
+605535776a8d5beba78b4d1b057d5206ddd969eb,[ustream] Add support for video.ibm.com (#26894),Sergio Livi,serl,2020-10-17T16:14:46Z
+1050e0d09f02209cc5c6f45da46c2b79f73d96f4,[iqiyi] Fix typo (#26884),Felix Yan,felixonmars,2020-10-17T16:02:17Z
+d65d89183f645a0e95910c3861491a75c26000eb,[expressen] Add support for di.se (closes #26670),Sergey M․,dstftw,2020-09-24T00:36:38Z
+0c92f1e96b004fc7a04eac0759f115a535c8e03a,[iprima] Improve video id extraction (#26507) (closes #26494),Surkal,Surkal,2020-09-23T23:46:58Z
+adae9e844b0a40bf686a142a20c7ca30e4e1145b,[README.md] Fix autonumber sequence description (refs #26686),Sergey M․,dstftw,2020-09-23T23:36:07Z
+c5764b3f89b66e0148a186490f522ae7c259a55e,[downloader/http] Properly handle missing message in SSLError (closes #26646),Sergey M․,dstftw,2020-09-22T00:01:59Z
+0837992a226690d514eb01b7460bed4a33fddb30,[downloader/http] Fix access to not yet opened stream in retry,Sergey M․,dstftw,2020-09-21T23:44:14Z
+b55715934bb7f9474f69b99e4d51cc83dee7cbef,release 2020.09.20,Sergey M․,dstftw,2020-09-20T05:30:45Z
+bbc3b5b4bb760ce1c04cbe0374a82c53acd5251c,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-09-20T05:23:38Z
+1ca5f821c8708720d5897b48a8c8d9e3d8822f93,[redtube] Extend _VALID_URL (#26506),nixxo,Unknown,2020-09-20T04:39:42Z
+defc820b70e3f0131fad450fc1e673e18b00a625,[twitch] Switch streams to GraphQL and refactor (closes #26535),Sergey M․,dstftw,2020-09-20T03:05:00Z
+82ef02e936a0e2ca698048c8cd79273a22e79867,[telequebec] Fix issues (closes #26368),Sergey M․,dstftw,2020-09-19T00:52:42Z
+b856b3997ce2978f7a8c386b4ce4840fd221c45a,[telequebec] Add support for brightcove videos (closes #25833),Patrick Dessalle,patrickdessalle,2019-08-28T17:04:57Z
+cd85a1bb8b24eaf6a421a32a985d4c3ad4f80597,[pornhub] Extract metadata from JSON-LD (closes #26614),Sergey M․,dstftw,2020-09-18T23:34:34Z
+ce5b904050b4610bac6d99673bbe9181a3af3db5,[extractor/common] Relax interaction count extraction in _json_ld,Sergey M․,dstftw,2020-09-18T23:33:17Z
+ad06b99dd47acc8b1bd213f079e1f36da9e3a73d,[extractor/common] Extract author as uploader for VideoObject in _json_ld,Sergey M․,dstftw,2020-09-18T23:13:42Z
+540b9f5164d50eb99d9c988ece6eb6775ccaf94a,[pornhub] Fix view count extraction (#26621) (refs #26614),JChris246,JChris246,2020-09-18T22:59:19Z
+6e65a2a67e075ae8f3e4fe03c732d7772d36f5e1,"[downloader/hls] Fix incorrect end byte in Range HTTP header for media segments with EXT-X-BYTERANGE (#24512) (closes #14748)
+
+The end of the byte range is the first byte that is NOT part of the to
+be downloaded range. So don't include it into the requested HTTP
+download range, as this additional byte leads to a broken TS packet and
+subsequently to e.g. visible video corruption.
+
+Fixes #14748.",Stefan Pöschel,basicmaster,2020-09-17T22:26:56Z
+f8c7bed133fe729a9e26f23e5685559e3fa12eb1,"[extractor/common] Handle ssl.CertificateError in _request_webpage (closes #26601)
+
+ssl.CertificateError is raised on some python versions <= 3.7.x",Sergey M․,dstftw,2020-09-17T20:41:16Z
+cdc55e666f3f9c795ed74c478c6a249d992cf93f,[downloader/http] Improve timeout detection when reading block of data (refs #10935),Sergey M․,dstftw,2020-09-17T20:32:54Z
+86b7c00adca578b36138b165b0add5978972917e,[downloader/http] Retry download when urlopen times out (#26603) (refs #10935),Ori Avtalion,salty-horse,2020-09-17T20:15:44Z
+e8c5d40bc840b9e3ec8b4e8070291a64a4fa75b2,release 2020.09.14,Sergey M․,dstftw,2020-09-13T20:37:36Z
+ca7ebc4e5e03a79b90ffa509cd3ce6bbf65d43fa,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-09-13T20:35:18Z
+bff857a8af696e701482208617bf0b7564951326,"[postprocessor/embedthumbnail] Fix issues (closes #25717)
+* Fix WebP with wrong extension processing
+* Fix embedding of thumbnails with % character in path",Sergey M․,dstftw,2020-09-13T20:28:31Z
+a31a022efd1b7bac8cd0a477f08534f3fcc67298,[postprocessor/embedthumbnail] Add support for non jpeg/png thumbnails (closes #25687),Alex Merkel,alexmerkel,2020-06-18T20:36:44Z
+45f6362464d283fe61653c75fbb93a6a87ac6f65,[rtlnl] Extend _VALID_URL for new embed URL schema,Sergey M․,dstftw,2020-09-13T14:42:06Z
+97f34a48d72c5e55a584b7defc0dd00d2d9b416c,[rtlnl] Extend _VALID_URL (#26549) (closes #25821),Derek Land,ddland,2020-09-13T14:38:16Z
+ea74e00b3afe604531419c17eb7291038115a271,[youtube] Fix empty description extraction (#26575) (closes #26006),Daniel Peukert,dpeukert,2020-09-13T14:23:21Z
+06cd4cdb252a45da25ed75ea63b714bc3b9d691b,"[srgssr] Extend _VALID_URL (closes #26555, closes #26556, closes #26578)",Sergey M․,dstftw,2020-09-13T14:07:25Z
+da2069fb22fd3b34046fd1be03690fccdd9ab1a2,"[googledrive] Use redirect URLs for source format (closes #18877, closes #23919, closes #24689, closes #26565)",Sergey M․,dstftw,2020-09-13T13:43:50Z
+95c98100155589e224c76fddb3d01dae0bd233ac,[svtplay] Fix id extraction (closes #26576),Sergey M․,dstftw,2020-09-13T11:59:37Z
+b03eebdb6aab0f778293ed298543083b6ae76963,[redbulltv] improve support for rebull.com TV localized URLS(#22063),Remita Amine,remitamine,2020-09-13T10:26:11Z
+1f7675451c119b67edb486940e1275b096dd47d5,[redbulltv] Add support for new redbull.com TV URLs(closes #22037)(closes #22063),Remita Amine,remitamine,2020-09-12T18:20:53Z
+aa272535567cb372b93fcd4cd24e13bca050437f,"[soundcloud] Reduce pagination limit to fix 502 Bad Gateway errors when listing a user's tracks. (#26557)
+
+Per the documentation here https://developers.soundcloud.com/blog/offset-pagination-deprecated the maximum limit is 200, so let's respect that (even if a higher value sometimes works).
+
+Co-authored-by: tfvlrue <tfvlrue>",tfvlrue,tfvlrue,2020-09-12T09:35:11Z
+d51e23d9fc709a80ca037199a46e59c729a1192e,release 2020.09.06,Sergey M․,dstftw,2020-09-06T06:00:41Z
+6cd452acffe8d79c895a2ebd0346e2ba7f9e112f,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-09-06T05:57:56Z
+50e9fcc1fd5aa8e3c8bbeb33f2434fbf9c1200d7,"[nrktv:episode] Improve video id extraction (closes #25594, closes #26369, closes #26409)",Sergey M․,dstftw,2020-09-06T05:42:57Z
+16ee69c1b7d9877c852d50428d8f047ada45d539,"[youtube] Fix age gate content detection (#26100) (closes #26152, closes #26311, closes #26384)",random-nick,random-nick,2020-09-06T04:44:53Z
+67171ed7e940d9022e3388ddd029978bc426ea1f,[youtube:user] Extend _VALID_URL (closes #26443),Sergey M․,dstftw,2020-09-06T04:31:28Z
+1d9bf655e68c873dc1f04739640046c43a1443d5,[utils] Recognize wav mimetype (closes #26463),Sergey M․,dstftw,2020-09-06T04:19:53Z
+62ae19ff760b9df6a2600430e42e2c32f1449e7a,[xhamster] Improve initials regex (#26526) (closes #26353),TheRealDude2,TheRealDude2,2020-09-06T04:10:27Z
+5ed05f26adea517aa715d5ec4b0dccfea30b2b8e,"[svtplay] Fix svt id extraction (closes #26425, closes #26428, closes #26438)",Sergey M․,dstftw,2020-09-06T03:45:57Z
+841b683804c6f706554bf7607e52072575358445,"[twitch] Rework extractors (closes #12297, closes #20414, closes #20604, closes #21811, closes #21812, closes #22979, closes #24263, closes #25010, closes #25553, closes #25606)
+
+* Switch to GraphQL.
++ Add support for collections.
++ Add support for clips and collections playlists.",Sergey M․,dstftw,2020-09-06T03:45:34Z
+f5863a3ea08492bd9fc04c55e1e912d24e92d49b,[biqle] improve video_ext extraction,Remita Amine,remitamine,2020-08-27T18:20:41Z
+10709fc7c640fcd2f4866090d68f130fc8d9ad0c,[xhamster] Extend _VALID_URL (closes #25927),Sergey M․,dstftw,2020-08-12T14:51:06Z
+a7e348556a213f008758011777a0a25759efc2e8,[xhamster] Fix extraction (closes #26157) (#26254),TheRealDude2,TheRealDude2,2020-08-12T14:42:17Z
+6cb30ea5eddb2db4a2536d1b851f4cc45f427d3c,[xhamster] Extend _VALID_URL (closes #25789) (#25804),JChris246,JChris246,2020-08-12T14:37:22Z
+a4ed50bb84658b7e77cbb37597c36fa62a9acd4b,release 2020.07.28,Sergey M․,dstftw,2020-07-27T22:13:03Z
+570611955ff76b7140c14f5bfc842d452f40d357,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-07-27T22:07:54Z
+e450f6cb634f17fd4ef59291eafb68b05c141e43,"[youtube] Fix sigfunc name extraction (closes #26134, closes #26135, closes #26136, closes #26137)",Sergey M․,dstftw,2020-07-27T22:04:50Z
+a115e07594ccb7749ca108c889978510c7df126e,[youtube] Improve description extraction (closes #25937) (#25980),MRWITEK,MRWITEK,2020-07-14T11:01:15Z
+718393c632df5106df92c60c650f52d86a9a3510,[wistia] Restrict embed regex (closes #25969),Sergey M․,dstftw,2020-07-11T11:27:19Z
+07af16b92ef52ac29ecd7f1defdca89295fa611c,[youtube] Prevent excess HTTP 301 (#25786),Glenn Slayden,glenn-slayden,2020-06-30T19:56:16Z
+e942cfd1a74cea3a3a53231800bbf5a002eed85e,[youtube:playlists] Extend _VALID_URL (closes #25810),Sergey M․,dstftw,2020-06-28T03:30:03Z
+9a7e5cb88aa3a80f7b4d37424ca7cb3bd144cdc8,[bellmedia] add support for cp24.com clip URLs(closes #25764),Remita Amine,remitamine,2020-06-23T14:08:50Z
+2391941f283a1107b01f9df76a8b0e521a5abe3b,[brightcove] Improve embed detection (closes #25674),Sergey M․,dstftw,2020-06-16T10:37:58Z
+9ff6165a8199488e92e8a76962f37d944e14a738,release 2020.06.16.1,Sergey M․,dstftw,2020-06-15T23:22:01Z
+1c748722f9bbe08ed362985a723cc1fd39b21f85,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-06-15T23:19:23Z
+ee0b726cd74ac6d4f6b187b1264baa0fc14c8800,"[youtube] Force old layout (closes #25682, closes #25683, closes #25680, closes #25686)",Sergey M․,dstftw,2020-06-15T23:17:53Z
+dbeafce5d58b0d40b7af35e5276f77855ced81a4,[youtube] Fix categories and improve tags extraction,Sergey M․,dstftw,2020-06-15T20:13:39Z
+ed604ce7bcf5bfb02cf6d134eebae705f7c0f381,release 2020.06.16,Sergey M․,dstftw,2020-06-15T19:53:33Z
+7adc7ca54731997ca5ad4f0cd26217c7f480b88f,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-06-15T19:52:09Z
+a6211d237b4e7051ca018cc09440502561fedaa7,[youtube] Fix uploader id and uploader URL extraction,Sergey M․,dstftw,2020-06-15T19:43:09Z
+7b16239a490a0d8784375895b620598bfccf0ede,[youtube] Improve view count extraction,Sergey M․,dstftw,2020-06-15T19:38:45Z
+37357d21a97dc7a4ab6fa75b862f303c7eb36eb8,[youtube] Fix upload date extraction,Sergey M․,dstftw,2020-06-15T19:37:19Z
+b477fc13144be90ba7bbec3386f2e48fa3e7d604,[youtube] Fix thumbnails extraction and remove uploader id extraction warning (closes #25676),Sergey M․,dstftw,2020-06-15T19:29:04Z
+d84b21b427d080a031ca1f9c75beb1dc8024b900,[youtube] Fix playlist and feed extraction (closes #25675),Sergey M․,dstftw,2020-06-15T18:59:46Z
+48bd042ce76f93b22196ce0a73c41a81a406d856,"[facebook] Support single-video ID links
+
+I stumbled upon this at https://www.facebook.com/bwfbadminton/posts/10157127020046316 . No idea how prevalent it is yet.",Philipp Hagemeister,phihag,2020-06-14T11:17:51Z
+84213ea8d41d5fe1608333a16ac578dccdf9a915,[youtube] Extract chapters from JSON (closes #24819),Sergey M․,dstftw,2020-06-05T21:16:31Z
+562de77f41d0c08df9dbb08cfa86ba6c7d239c5a,[kaltura] Add support for multiple embeds on a webpage (closes #25523),Sergey M․,dstftw,2020-06-05T19:14:35Z
+e1723c4bac4e465991789b5a29beb946d872f508,release 2020.06.06,Sergey M․,dstftw,2020-06-05T18:51:39Z
+607d204551aa0def292383c2870fba2afca096da,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-06-05T18:49:27Z
+a5b6102ea893d6943f9ffa9fc0677229c56c99ca,[tele5] Bypass geo restriction,Sergey M․,dstftw,2020-06-05T18:45:05Z
+b77888228d605a73f85d367845cf50609b855b62,[jwplatform] Add support for bypass geo restriction,Sergey M․,dstftw,2020-06-05T18:44:36Z
+0b1eaec3bc7f974fba4dae742516153e2f9b7562,[tele5] Prefer jwplatform over nexx (closes #25533),Sergey M․,dstftw,2020-06-05T18:35:09Z
+b37e47a3f980c2470882ec83dda43c8166ddb3cd,[twitch:stream] Expect 400 and 410 HTTP errors from API,Sergey M․,dstftw,2020-06-05T17:57:40Z
+ce3735df0270ef4dfd86a527c4d0edff822dd920,[twitch:stream] Fix extraction (closes #25528),Sergey M․,dstftw,2020-06-05T17:55:29Z
+a0455d0ffd93b069b8ab1aa95b7fa7d0bc526302,[twitch] Pass v5 accept header and fix thumbnails extraction (closes #25531),Sergey M․,dstftw,2020-06-05T17:12:47Z
+c8b232cc48858713d9f5c88300ffcbd022d740b2,[brightcove] Sort imports,Sergey M․,dstftw,2020-06-05T16:35:57Z
+b4eb0bc7bd2524a63e3a6441fe82a6cfd8ebc365,[brightcove] Fix subtitles extraction (closes #25540),Sergey M․,dstftw,2020-06-05T16:33:14Z
+d5147b65ac3d81b5acb4aa2c4aca008ffd3e7c06,[malltv] Add support for sk.mall.tv (#25445),Matej Dujava,mdujava,2020-06-01T14:11:31Z
+7b0b53ea69ad32d0bf6987633e56f68da3913caa,[twitter:broadcast] Add untitled periscope broadcast test,Sergey M․,dstftw,2020-06-01T13:32:57Z
+7016e24ebea09c717f413273cda16721c4098325,[periscope] Fix untitled broadcasts (#25482),Sergey M․,dstftw,2020-06-01T13:31:51Z
+bef4688c72f9bdb37f261cc2699d6915a5593edc,[jwplatform] Improve embeds extraction (closes #25467),Sergey M․,dstftw,2020-05-31T04:10:31Z
+228c1d685bb6d35b2c1a73e1adbc085c76da6b75,release 2020.05.29,Sergey M․,dstftw,2020-05-28T20:33:13Z
+efd72b05d212f914315f6520cc831a0fbea26f6c,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-05-28T20:28:44Z
+fe515e5c75bf8be6024893a78ce6c24364bbc1dd,[ard:beta] Extend _VALID_URL (closes #25405),Sergey M․,dstftw,2020-05-28T19:01:51Z
+1db5ab6b34b07b0d186f9e3d22436795dc0747a2,[youtube] Add support for more invidious instances (#25417),striker.sh,liz-desartiges,2020-05-26T18:26:45Z
+2791e80b60e1ca1c36b83ca93be35e7e5418a1c3,[postprocessor/ffmpeg] Embed series metadata with --add-metadata,Sergey M․,dstftw,2020-05-23T05:26:21Z
+8f841fafcd1d34112b14300cf76c78c270deacea,[giantbomb] Extend _VALID_URL (#25222),JordanWeatherby,JordanWeatherby,2020-05-20T21:30:50Z
+a54c5f83c01cb243a38c0dbc5981f97bd9224c46,[ard] Improve _VALID_URL (closes #25134) (#25198),Michael Klein,mklein-de,2020-05-19T21:08:08Z
+cd13343ad8c5f6e1cbd47ae0ae1eed00d27ff69a,"[redtube] Improve formats extraction and extract m3u8 formats (closes #25311, closes #25321)",Sergey M․,dstftw,2020-05-19T20:39:41Z
+9cd5f54e31bcfde1f0491d2c7c3e2b467386f3d6,[utils] Fix file permissions in write_json_file (closes #12471) (#25122),Rob,ankenyr,2020-05-19T20:21:52Z
+9a269547f2268822724018330c8a939d3bdc2db4,[indavideo] Switch to HTTPS for API request (#25191),tlsssl,Unknown,2020-05-19T19:13:06Z
+bf097a5077036d25e5c2ae2ea2d3b8c55bfdc83c,[redtube] Improve title extraction (#25208),Dave Loyall,daveloyall,2020-05-19T19:11:05Z
+52c50a10af5de16165621f8929b64dc726774276,[vimeo] improve format extraction and sorting(closes #25285),Remita Amine,remitamine,2020-05-15T14:57:06Z
+b334732709a283a3a284e8835f4473c2a2be2827,[soundcloud] reduce API playlist page limit(closes #25274),Remita Amine,remitamine,2020-05-15T13:12:31Z
+384bf91f8802805283f993714ace137e831ba45e,[youtube] Add support for yewtu.be (#25226),Juan Francisco Cantero Hurtado,juanfra684,2020-05-13T22:54:42Z
+fae11394f0c51d02320cf4e173877cfc4ed5ddce,[README.md] flake8 HTTPS URL (#25230),TotalCaesar659,TotalCaesar659,2020-05-13T22:53:17Z
+adc13b0748784db87faef580929b1adadaff732e,[mailru] Fix extraction (closes #24530) (#25239),comsomisha,comsomisha,2020-05-13T22:51:40Z
+327593257c64b7f37440bd1ccea0e6935c30e68a,[bbccouk] PEP8,Sergey M․,dstftw,2020-05-13T22:11:42Z
+9d8f3a12a66efe99a005cf02d540c21a0963ceef,[spike] fix Bellator mgid extraction(closes #25195),Remita Amine,remitamine,2020-05-12T19:48:16Z
+b002bc433a0ba151b7c2f42ab6f1db9a27ed1ecd,release 2020.05.08,Sergey M․,dstftw,2020-05-08T11:10:37Z
+b74896dad1177a19307922d7ef0f3b0e60d8fb11,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-05-08T11:07:05Z
+fa3db383330501f00fb0353a3989aef272b571f2,[youtube] Improve signature cipher extraction (closes #25188),Sergey M․,dstftw,2020-05-08T10:42:30Z
+30fa5c6087d2e5e7a2bfe395ffbb267d92959356,[iprima] Improve extraction (closes #25138),Sergey M․,dstftw,2020-05-06T16:20:14Z
+6c907eb33ffd79ef9c4761c6460acb31b2eded46,"[downloader/http] Request last data block of exact remaining size
+
+Always request last data block of exact size remaining to download if possible not the current block size.",Sergey M․,dstftw,2020-05-05T14:30:27Z
+f7b42518dc4c10d6027bfe7f5e7f186d526b1a4b,"[downloader/http] Finish downloading once received data length matches expected
+
+Always do this if possible, i.e. if Content-Length or expected length is known, not only in test.
+This will save unnecessary last extra loop trying to read 0 bytes.",Sergey M․,dstftw,2020-05-05T13:01:25Z
+ce7db64bf1a558759be63e92f34550d7ba0e4052,[uol] fix extraction(closes #22007),Remita Amine,remitamine,2020-05-05T10:19:19Z
+1328305851bf2b708f74140b35a600c955d58394,[orf] Add support for more radio stations (closes #24938) (#24968),hh0rva1h,hh0rva1h,2020-05-04T23:22:50Z
+6c22cee673f59407a63b2916d8f0623a95a8ea20,"[extractor/common] Use compat_cookiejar_Cookie for _set_cookie (closes #23256, closes #24776)
+
+To always ensure cookie name and value are bytestrings on python 2.",Sergey M․,dstftw,2020-05-04T23:00:37Z
+6d874fee2a4b54272c48960f3082072d37a7e0ae,[compat] Introduce compat_cookiejar_Cookie,Sergey M․,dstftw,2020-05-04T22:54:10Z
+676723e0daf86eafb31d82ba07813ebc98b334dd,[dailymotion] Fix typo,Sergey M․,dstftw,2020-05-04T22:09:07Z
+c380cc28c4e94b4b61db7f86d35e48197b407266,"[utils] Improve cookie files support
+
++ Add support for UTF-8 in cookie files
+* Skip malformed cookie file entries instead of crashing (invalid entry len, invalid expires at)",Sergey M․,dstftw,2020-05-04T21:19:33Z
+f7f304910d1c1fc19313231d424daba304e1de71,[puhutv] Remove no longer available HTTP formats (closes #25124),Sergey M․,dstftw,2020-05-04T14:15:19Z
+00a41ca4c32ff4b4b30c0bb6d9fbdf74d8230dc6,release 2020.05.03,Sergey M․,dstftw,2020-05-02T17:05:05Z
+66f32ca0e1fbacdc4a61451c5496553439002bdb,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-05-02T16:59:25Z
+6ffc3cf74ab3d7044c46e2ff4cd5265aeca347f1,"[crunchyroll] Fix and improve extraction (closes #25096, closes #25060)",Sergey M․,dstftw,2020-05-02T16:42:51Z
+4433bb02457f961dc2a753b3d4350a4a8cae138f,[extractor/common] Extract multiple JSON-LD entries,Sergey M․,dstftw,2020-05-02T16:40:30Z
+e40c758c2a8f049cd254ad73f0e6ade00bd004d9,[youtube] Improve player id extraction and add tests,Sergey M․,dstftw,2020-05-02T00:18:08Z
+011e75e641ad2b7fa141a05fa35d3e5d6d0b736b,[youtube] Use redirected video id if any (closes #25063),Sergey M․,dstftw,2020-04-30T17:40:38Z
+2468a6fa6416fbe617aea00d8203abc74f481d87,[yahoo] fix GYAO Player extraction and relax title URL regex(closes #24178)(closes #24778),Remita Amine,remitamine,2020-04-29T13:56:32Z
+700265bfcf77f19bdf56062865c1fdf18ca3c9da,[tvplay] fix Viafree extraction(closes #15189)(closes #24473)(closes #24789),Remita Amine,remitamine,2020-04-29T12:38:58Z
+c97f5e934f30309237f5229b16dc9ea1da4e18f2,[tenplay] Relax _VALID_URL (closes #25001),Sergey M․,dstftw,2020-04-26T05:41:33Z
+38db9a405ada5ccf333d43004f4a5394f47ef905,[prosiebensat1] Extract series metadata,Sergey M․,dstftw,2020-04-23T19:56:10Z
+2cdfe977d7e006ae93c427868ec1c5701d49cf1a,[prosiebensat1] Improve extraction and remove 7tv.de support (#24948),Philipp Stehle,Peter42,2020-04-23T19:44:13Z
+46d0baf9412eca5c9241fa55ddc133682e2f2ad7,[options] Clarify doc on --exec command (closes #19087) (#24883),willbeaufoy,willbeaufoy,2020-04-23T19:31:38Z
+00eb865b3c8002f47e73706b54f58feaee0b0ac2,[youtube] Fix DRM videos detection (refs #24736),Sergey M․,dstftw,2020-04-11T16:05:08Z
+2f1983572659415354c88743130a303af8188caf,[thisoldhouse] Improve video id extraction (closes #24549),Sergey M․,dstftw,2020-04-11T13:07:12Z
+533f3e3557af85e28afd72d291cb51a769c7dd7a,"[thisoldhouse] Fix video id extraction (closes #24548)
+
+Added support for:
+with of without ""www.""
+and either  "".chorus.build"" or "".com""
+
+It now validated correctly on older URL's
+```
+<iframe src=""https://thisoldhouse.chorus.build/videos/zype/5e33baec27d2e50001d5f52f
+```
+and newer ones
+```
+<iframe src=""https://www.thisoldhouse.com/videos/zype/5e2b70e95216cc0001615120
+```",AndrewMBL,AndrewMBL,2020-03-31T04:25:04Z
+75294a5ed03f4443970478f3f4eac572239cec45,"[soundcloud] Improve AAC format extraction (closes #19173, closes #24708)",Sergey M․,dstftw,2020-04-10T10:24:21Z
+b9e5f872916a7d753ae237459b10622c1c2c3471,[soundcloud] Extract AAC format,tom,tomsolarino,2020-04-09T11:50:45Z
+6b09401b0ba95da5669d249c8930b3adb873d96e,[youtube] Skip broken multifeed videos (closes #24711),Sergey M․,dstftw,2020-04-09T15:42:43Z
+5caf88ccb4bfe3d1b53885b78b2bc509ba333f15,[nova:embed] Fix extraction (closes #24700),Sergey M․,dstftw,2020-04-08T20:52:29Z
+dcc8522fdba4c9286ebc0548caf05b425bc68773,[motherless] Fix extraction (closes #24699),Sergey M․,dstftw,2020-04-08T19:11:19Z
+c9595ee78027ecf6bedbdc33c690228fa7d3a5bb,[twitch:clips] Extend _VALID_URL (closes #24290) (#24642),Felix Stupp,Zocker1999NET,2020-04-07T16:21:25Z
+91bd3bd0194119fccc91b7eafb7afdcda646ad57,[tv4] Fix ISM formats extraction (closes #24667),Sergey M․,dstftw,2020-04-07T15:55:36Z
+13b08034b53efdcf7055df92199a0f35cf1e172e,[extractor/common] Skip malformed ISM manifest XMLs while extracting ISM formats (#24667),Sergey M․,dstftw,2020-04-07T15:54:34Z
+6a6e1a0cd8bacf5a23f731eedaa1783503470227,[tele5] Fix extraction (closes #24553),Sergey M․,dstftw,2020-04-05T19:05:06Z
+4e7b5bba5fb73502476c61e4931284c9c3d3d232,[mofosex] Add support for generic embeds (closes #24633),Sergey M․,dstftw,2020-04-05T14:27:36Z
+52c4c51556df15f98c9cda911e36995fe0fc0a47,[youporn] Add support form generic embeds,Sergey M․,dstftw,2020-04-05T13:56:14Z
+8fae1a04eb20279a76d6b1eccdb8249718ad9942,[spankwire] Add support for generic embeds (refs #24633),Sergey M․,dstftw,2020-04-05T13:42:10Z
+d44a707fdde6c0138e9e275ed5b4ffb0b8f72966,"[spankwire] Fix extraction (closes #18924, closes #20648)",Sergey M․,dstftw,2020-04-05T13:34:57Z
+049c0486bbd57a9bb5fb5a6a5eeff82fd4ac03ff,release 2020.03.24,Sergey M․,dstftw,2020-03-23T20:14:30Z
+30b5121a1c63c3f84251e9add3c9bf9e3c490228,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-03-23T20:12:15Z
+b439634f0e9a1f251d117303dc60f02fd0ab11ef,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-03-23T20:07:34Z
+6e47200b6ecaeafc65a8f5a19cd12d6e91ad186e,[teachable] Update test,Sergey M․,dstftw,2020-03-23T19:55:52Z
+38fa761a4549dc2c3b155306a8a9441944bdcf01,[teachable] Update gns3 domain,Sergey M․,dstftw,2020-03-23T19:55:17Z
+08a27407c45745239de819f059a86559e7a75087,"[teachable] Update upskillcourses domain
+
+New version does not use teachable platform any longer",Sergey M․,dstftw,2020-03-23T19:46:55Z
+be7dacf9cfc3603ba6e4f818a8988a527f06d6d8,[generic] Look for teachable embeds before wistia,Sergey M․,dstftw,2020-03-23T19:46:37Z
+4560adc820a5d4bda5babc62f0f7fc306b13ad86,[teachable] Extract chapter metadata (closes #24421),Sergey M․,dstftw,2020-03-23T19:43:24Z
+63dce3094bf45964b49a2c9f26c94b10cf60c2c2,[bilibili] Add support for player.bilibili.com (closes #24402),Sergey M․,dstftw,2020-03-23T17:24:39Z
+b4eb08bb03f69c587f8440912cf56aadc9e52879,"[bilibili] Add support for new URL schema with BV ids (closes #24439, closes #24442)",Sergey M․,dstftw,2020-03-23T17:11:39Z
+2e20cb36364b91c1d928ce896064fdc7c49e82f8,[limelight] remove disabled API requests(closes #24255),Remita Amine,remitamine,2020-03-23T11:57:10Z
+a6c5859d6b106733905c3a95fc52b53a784c94da,[soundcloud] fix download url extraction(closes #24394),Remita Amine,remitamine,2020-03-22T08:24:07Z
+c76cdf2382c91af13de0c7580b1b5e1b24484664,[cbc:watch] Fix authenticated device token caching (closes #19160),Sergey M․,dstftw,2020-03-20T18:41:54Z
+787c3604671283bd4945eefb87866d01fb973097,[cbc:watch] Add support for authentication,Devon Meunier,meunierd,2019-05-19T11:32:46Z
+73453430c11002a7193eaa9fb8cf5349fa326c93,[hellporno] Fix extraction (closes #24399),Sergey M․,dstftw,2020-03-20T17:59:48Z
+158bc5ac03a175d95337979afa02f7423c2bf445,[xtube] Fix typo,Sergey M․,dstftw,2020-03-14T15:58:10Z
+4568a11802b47c22ac43d1187435ab2e6d7a3c6d,[xtube] Fix formats extraction (closes #24348),Sergey M․,dstftw,2020-03-14T15:57:10Z
+4cbce88f8b44ab17d55fe1b7615e37a2c1f142d7,[ndr] Fix extraction (closes #24326),Sergey M․,dstftw,2020-03-13T21:58:24Z
+541fe3eaff579f72ccc14f97009a8904f739368f,[nhk] Update m3u8 URL and use native hls (#24329),Sergey M․,dstftw,2020-03-13T21:42:40Z
+9bfe08859491882e40603ed6c4eb59760ed35ca7,[nhk] Remove obsolete rtmp formats (closes #24329),Sergey M․,dstftw,2020-03-13T21:40:11Z
+fcaf4d7a067e9ac6b36a5f7b1100be391f492a79,[nhk] Relax _VALID_URL (#24329),Sergey M․,dstftw,2020-03-13T21:39:21Z
+40b6495d403a4636ea8be1dd9a2dad33c136a1e3,"Revert ""[vimeo] fix showcase password protected video extraction(closes #24224)""
+
+This reverts commit 12ee431676bb655f04c7dd416a73c1f142ed368d.",Remita Amine,remitamine,2020-03-13T07:59:10Z
+f1a8511f7b5bbbd9e64f597c87791ad3b4310efc,[utils] Add reference to cookie file format,Sergey M․,dstftw,2020-03-09T21:59:02Z
+042b66493398dd8c3bb31216e3f828b98716810d,"Revert ""[utils] Add support for cookies with spaces used instead of tabs""
+
+According to [1] TABs must be used as separators between fields.
+Files produces by some tools with spaces as separators are considered
+malformed.
+
+1. https://curl.haxx.se/docs/http-cookies.html
+
+This reverts commit cff99c91d150df2a4e21962a3ca8d4ae94533b8c.",Sergey M․,dstftw,2020-03-09T21:51:20Z
+68fa15155f40f7d646079e6649df03696a5e7d4b,release 2020.03.08,Sergey M․,dstftw,2020-03-08T11:27:20Z
+434f57304683552b5d3c1a76130319ebd8139340,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-03-08T11:16:17Z
+cff99c91d150df2a4e21962a3ca8d4ae94533b8c,[utils] Add support for cookies with spaces used instead of tabs,Sergey M․,dstftw,2020-03-08T10:52:19Z
+fa9b8c662808a50605bb05f90af101e13b30fce6,[pornhub] Add support for pornhubpremium.com (#24288),Tristan Waddington,twaddington,2020-03-08T11:00:25Z
+ea782aca520ff17fbf32771bfcfd9cbd36123900,[README.md] Clarify 429 error,Sergey M․,dstftw,2020-03-08T02:17:17Z
+43ebf77df3bbd93dbbd0336b0243d8d50895ab72,"[youtube] Remove outdated code
+
+Additional get_video_info requests don't seem to provide any extra itags any longer",Sergey M․,dstftw,2020-03-08T01:34:17Z
+d332ec725db5b1102473a75b9fc3212913bda618,[youtube] Improve age-gated videos extraction in 429 error conditions (refs #24283),Sergey M․,dstftw,2020-03-07T22:37:47Z
+f93abcf1da5aa1ca122896254bdec3a3c831ac24,[youtube] Improve extraction in 429 error conditions (closes #24283),Sergey M․,dstftw,2020-03-07T22:09:02Z
+0ec9d4e565c1471c1234634bb3be0c7c7662d864,[nhk] update API version(closes #24270),Remita Amine,remitamine,2020-03-06T19:12:35Z
+34525a3885946bbbdb2bfda85f3dcc67c66018f6,release 2020.03.06,Sergey M․,dstftw,2020-03-05T17:25:43Z
+2db9ac228d0f7ccc1d8078d5e29030665f0e3239,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-03-05T17:23:14Z
+5429d6a9cb2db07472735b4555eeec89ea4f3c87,[youtube] Fix tests,Sergey M․,dstftw,2020-03-05T17:05:50Z
+dc879c5a37dae588a5bb35d416635678356ad1b7,[youtube] Fix age-gated videos support without login (closes #24248),Sergey M․,dstftw,2020-03-05T16:48:25Z
+12ee431676bb655f04c7dd416a73c1f142ed368d,[vimeo] fix showcase password protected video extraction(closes #24224),Remita Amine,remitamine,2020-03-03T11:33:38Z
+46cc54ca8f13c7b823c1a12446cdd76d060c74b6,[pornhub] Improve title extraction (closes #24184),Sergey M․,dstftw,2020-03-02T23:23:39Z
+1e1c1960aa154a6e257e83e94e86ee6dc8b0b362,[peertube] Fix issues and improve extraction (closes #23657),Sergey M․,dstftw,2020-03-02T20:01:23Z
+ac379fa236c01ed1d3601f013d755066b92709a4,[peertube] Improve extraction,3risian,3risian,2020-01-07T07:34:51Z
+0e30a7b9732dbecc63527df6037c5fbea964b1fd,[youtube:playlist] Fix tests (closes #23872) (#23885),jxu,jxu,2020-03-02T18:46:00Z
+3b5399ce0f85f46ce856d47c725a437c72dcce6e,"[servus] Add support for new URL schema (closes #23475, closes #23583, closes #24142)",Sergey M․,dstftw,2020-03-02T18:40:48Z
+1c45ff5572e0844b2ad26c2c0d477edc81e6b5b0,[vimeo] Fix subtitles URLs (#24209),tsia,tsia,2020-03-02T18:27:40Z
+669625a32cce386d0c19b5a0eea03707570a60d5,release 2020.03.01,Sergey M․,dstftw,2020-03-01T13:11:32Z
+170f5b7c27f2e68b0a0a4e799647cbe780399fbf,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-03-01T13:09:05Z
+b274e48d56cced250f5abbc88b4cda2e5b4338d0,[xhamster] Fix extraction (closes #24205),Sergey M․,dstftw,2020-03-01T13:04:48Z
+50d19895a1a3515d48dc952bf9280cbdc4f405f9,[franceculture] Fix extraction (closes #24204),Sergey M․,dstftw,2020-03-01T12:22:09Z
+6d475d01d8f1fc9f5e92ac2caa986453bee95ae1,[telecinco] Add support for article opening videos,Sergey M․,dstftw,2020-02-29T20:09:19Z
+f8cbd8c96367871db974621d5a92b324acb57938,[telecinco] Fix extraction (refs #24195),Sergey M․,dstftw,2020-02-29T18:04:51Z
+838f051c4b9a0c974da32e79c011bbf85fa186fe,[xtube:user] Fix test,Sergey M․,dstftw,2020-02-29T16:51:56Z
+e88b450771027e3a36e7b3721e0bc1f105331cf7,"[xtube] Fix metadata extraction (closes #21073, closes #22455)",Sergey M․,dstftw,2020-02-29T16:51:34Z
+278355bae4b4aed9cd3bf09bdf251fcb7396e303,[zapiks] Fix test,Sergey M․,dstftw,2020-02-29T16:09:13Z
+b4cbdbd4b37a496c6539694bebd0ec50ef02c864,[zdf:channel] Fix tests,Sergey M․,dstftw,2020-02-29T16:06:36Z
+ea17979d83e6dcd61de0901fc55e2672d577e5a7,[test_subtitles] Remove obsolete test,Sergey M․,dstftw,2020-02-29T15:08:43Z
+886d9859590c423b1d036d4a2e6f43ee639560d4,[youjizz] Fix extraction (closes #24181),Sergey M․,dstftw,2020-02-29T14:58:22Z
+7947a1f7dbc6ba47a6f22ab67fd330e57c0ef87c,Remove no longer needed compat_str around geturl,Sergey M․,dstftw,2020-02-29T12:17:27Z
+fca6dba8b80286ae6d3ca0a60c4799c220a52650,[YoutubeDL] Force redirect URL to unicode on python 2,Sergey M․,dstftw,2020-02-29T12:08:44Z
+e2f8bf5888274b95513b430e0f20261120699b4b,[extractor/common] Convert ISM manifest to unicode before processing on python 2 (#24152),Sergey M․,dstftw,2020-02-29T10:29:30Z
+b76f0e58f750fd420ac3078c7183b2de66da562c,[options] Remove duplicate short option -v for --version (#24162),The Hatsune Daishi,Lesmiscore,2020-02-29T09:33:09Z
+bee6451fe88dbe8d983150cb17565d1c3e9024f7,[pornhd] Fix extraction (closes #24128),Sergey M․,dstftw,2020-02-23T21:47:56Z
+00d798b7c25f0a03adb252c882df46abc8c23b1b,[teachable] Add support for multiple videos per lecture (closes #24101),Sergey M․,dstftw,2020-02-22T23:49:45Z
+fda6d237a5b664cc8a9a45562d4113c51fd0280d,"[wistia] Add support for multiple generic embeds (closes #8347, closes #11385)",Sergey M․,dstftw,2020-02-22T23:47:11Z
+5d9f6cbc5afa033b6f1cfd2abe4327e366da2ad1,[imdb] Fix extraction (closes #23443),Sergey M․,dstftw,2020-02-22T21:33:29Z
+97c822b3d5221d612748e1b589c87603bbae8a4a,[tv2dk:bornholm:play] Fix extraction (#24076),Martin Ström,haraldmartin,2020-02-18T18:02:05Z
+117ba9e9df641655f00509b34591e0a6c44395c9,release 2020.02.16,Sergey M․,dstftw,2020-02-16T15:43:42Z
+0d718db6233d1ac93df2fe6cf9c3fb908ad75b33,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-02-16T15:40:44Z
+7bf27721d61dadb2e4f2f6215cbc9d66ba3fd708,[npr] Add support for streams (closes #24042),Sergey M․,dstftw,2020-02-14T22:35:55Z
+f6052ec923fbe4270a3733aeb8d4a9d5727ef80f,"[24video] Add support for porn.24video.net (closes #23779, closes #23784)",Sergey M․,dstftw,2020-02-14T20:49:29Z
+4e9e1e240dea1c37c95ceef5e52c15534d56ca7c,[test_YoutubeDL] Add tests for #10591 (closes #23873),Sergey M․,dstftw,2020-02-14T20:31:31Z
+e0abaab29332f22f438617a7c425b1b2ee1c14d5,[test_YoutubeDL] Fix get_ids,Sergey M․,dstftw,2020-02-14T20:30:06Z
+de1121d749089ea62d17aadb43493c00492bb37a,"[YoutubeDL] Fix playlist entry indexing with --playlist-items (closes #10591, closes #10622)",jxu,jxu,2020-01-28T10:20:19Z
+293c9f0186334fe8475f67508a8e156fb8b64e1e,[jpopsuki] Remove extractor (closes #23858),Sergey M․,dstftw,2020-02-14T19:23:29Z
+06f1de2daff8351f572974dafccebefd378b9f99,[nova] Improve extraction (refs #23690),Sergey M․,dstftw,2020-02-14T19:16:26Z
+b68a6e32fb01717b24fd2201c3e1a5611fd1c963,[nova:embed] Improve (closes #23690),Sergey M․,dstftw,2020-02-14T19:00:26Z
+8cd809fb3dc446ec06afa2c1d398c9fe31a435cc,[nova:embed] Fix extraction (closes #23672),Jan 'Yenda' Trmal,jtrmal,2020-01-10T09:14:18Z
+d6aa1db7ed0cd70570f1a01c7fc25a49e153d15b,[abc:iview] Support 720p (#22907) (#22921),d2au,d2au,2020-02-13T13:52:00Z
+f377edec067a05365824434d0c44c0f22d797190,[nytimes] improve format sorting(closes #24010),Remita Amine,remitamine,2020-02-10T08:42:50Z
+bfe2b8cf2ac57c6b66def2d5e0fc3fc424c78d75,[update] Fix updating via symlinks (closes #23991),Sergey M․,dstftw,2020-02-08T12:38:36Z
+82fea5b42eadc4ac2d3f4f688613f140967e92b7,[compat] Introduce compat_realpath (refs #23991),Sergey M․,dstftw,2020-02-08T12:36:55Z
+fffc618c519d10a7335eb5b06ab13d56ecea8561,[toggle] Add support for mewatch.sg (closes #23895) (#23930),Xaver Hellauer,xaverh,2020-02-05T15:41:56Z
+705b1cda9981153f4ced3adc025a8bbfea6caff9,[thisoldhouse] fix extraction(closes #23951),Remita Amine,remitamine,2020-02-03T12:20:20Z
+7d55b62ff2e9f3666e6cc4daa969647b917331cd,[popcorntimes] Add extractor (closes #23949),Sergey M․,dstftw,2020-02-02T23:05:56Z
+0d006fac5c925f95f8ba0d58ee6d7e844e216d29,"[sportdeutschland] Update to new sportdeutschland API
+
+They switched to SSL, but under a different host AND path...
+Remove the old test cases because these videos have become unavailable.",Philipp Hagemeister,phihag,2020-02-01T22:35:55Z
+00de61a98feeb2cb03bbc3e467f2366314b61342,[twitch:stream] Lowercase channel id for stream request (closes #23917),Sergey M․,dstftw,2020-01-31T17:32:25Z
+d95a1cc98e83a9e0be291dface57ccc48b29e86b,"[tv5mondeplus] Fix extraction (closes #23907, closes #23911)",Sergey M․,dstftw,2020-01-30T21:58:36Z
+493574973051601606c562c46331806831819ce4,[tva] Relax _VALID_URL (closes #23903),Sergey M․,dstftw,2020-01-30T20:49:16Z
+51c7f40c83a12f9dc0fce0b9e5102a0c13467b6a,[vimeo] fix album extraction(closes #23864),Remita Amine,remitamine,2020-01-27T22:37:29Z
+4877ffc0e9c1f27262bf6b5a4972d11edd487bfe,"[viewlift] improve extraction
+
+- fix extraction(closes #23851)
+- add add support for authentication
+- add support for more domains",Remita Amine,remitamine,2020-01-27T14:12:08Z
+8e4d3f83ce486aebc851f6f74fa970f331ca338e,[svt] fix series extraction(closes #22297),Remita Amine,remitamine,2020-01-26T15:17:51Z
+43e7994749472be22318c2e4bad81ac5cd17e37f,[svt] fix article extraction(closes #22897)(closes #22919),Remita Amine,remitamine,2020-01-26T13:15:49Z
+2a5c26c9803ed8801bac2419128f1778bae558df,"[soundcloud] imporve private playlist/set tracks extraction
+
+https://github.com/ytdl-org/youtube-dl/issues/3707#issuecomment-577873539",Remita Amine,remitamine,2020-01-23T22:20:48Z
+76dbe4df5f931de47a25c7962ef55b2a261cf1a8,release 2020.01.24,Sergey M․,dstftw,2020-01-23T21:16:05Z
+bffdedfabd7ef2d9491a4f2c6a42a8326e739589,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-01-23T21:14:08Z
+c3cfea906869e8358652e382679a5996c2aec73e,[youtube] Fix sigfunc name extraction (closes #23819),Sergey M․,dstftw,2020-01-23T21:09:10Z
+22cb94902f5bbe32d636009c2599eae7aa66282c,[stretchinternet] fix extraction(closes #4319),Remita Amine,remitamine,2020-01-19T20:20:56Z
+be96f9924f4b93ab4632b602a7e7b97518a1ddab,[voicerepublic] fix extraction,Remita Amine,remitamine,2020-01-19T19:15:02Z
+9cf30dc017d2c04a8d7b3d455899a47a41de9bd7,[azmedien] fix extraction(closes #23783),Remita Amine,remitamine,2020-01-19T18:30:48Z
+f4a18db748d710616d6886d2283a1661b1993783,[ard] add a missing condition,Remita Amine,remitamine,2020-01-19T17:24:00Z
+fd032450f09c18a971c2a7d4b2e251c8444d69b4,[businessinsider] Fix jwplatform id extraction (closes #22929) (#22954),PB,uno20001,2020-01-18T15:47:50Z
+a4b2769451a632837e9f0e86511ed50b5e9c90b2,[24video] Add support for 24video.vip (closes #23753),Sergey M․,dstftw,2020-01-18T08:05:45Z
+d9a2f8679136228ddead5f09bb17e006cccaeffe,[ivi:compilation] Fix entries extraction (closes #23770),Sergey M․,dstftw,2020-01-18T07:46:38Z
+c968f738df8e21d7a7f2f86f697207e0476b76ef,"[ard] improve extraction(closes #23761)
+
+- simplify extraction
+- extract age limit and series
+- bypass geo-restriction",Remita Amine,remitamine,2020-01-17T13:23:24Z
+48ff5590c160b89e4596b706f2b33c69557063a0,[nbc] add support for nbc multi network URLs(closes #23049),Remita Amine,remitamine,2020-01-16T14:37:16Z
+2c482bff7c91c364c55b74846a3ae416cf588df3,[americastestkitchen] fix extraction,Remita Amine,remitamine,2020-01-15T13:16:58Z
+a9866c0366bd6399b0f757527425466a3be4d128,"[zype] improve extraction
+
+- extract subtitles(closes #21258)
+- support URLs with alternative keys/tokens(#21258)
+- extract more metadata",Remita Amine,remitamine,2020-01-15T13:02:57Z
+90ea83c64d904587992105fb4506e80f6abb28b5,[orf:tvthek] Improve geo restricted videos detection (closes #23741),Sergey M․,dstftw,2020-01-14T21:32:05Z
+e4e5fa6e3c1c2ca2d48dfb5a8b1f734bd627b2dc,[soundcloud] Restore previews extraction (closes #23739),Sergey M․,dstftw,2020-01-14T21:13:10Z
+e8cf0dbdd8aa4f2dcd521d0bf7e7798e87867b52,release 2020.01.15,Sergey M․,dstftw,2020-01-14T18:37:29Z
+d7c55f226dd8fafb424eefb078f41b3fc410588b,"[ChangeLog] Actualize
+[ci skip]",Sergey M․,dstftw,2020-01-14T18:34:01Z
+bfdc8340c90e0ce495d2927e7d555daa5ac05670,"[yourporn] Fix extraction (closes #21645, closes #22255, closes #23459)",Moritz Patelscheck,Unknown,2019-12-19T23:02:39Z
+14bb191634e2e8ab89a2e94e9e4d009b6406c8b2,[travis] Add flake8 job (#23720),jnozsc,jnozsc,2020-01-14T18:09:08Z
+628e5bc0b715c239e5fe367bc538a1c1fa563787,"[canvas] Add support for new API endpoint and update tests (closes #17680, closes #18629)",Sergey M․,dstftw,2020-01-14T16:48:36Z
+3fc56635b7d375b262ac3c15aaae549227b5227e,[ndr:base:embed] Improve thumbnails extraction (closes #23731),Sergey M․,dstftw,2020-01-14T14:46:56Z
+bd2c211fcc3b0390a1b404fa01409d455859caa8,[vodplatform] add support for embed.kwikmotion.com domain,Remita Amine,remitamine,2020-01-12T16:34:21Z
+10a5091e58077cc0fd916a21df4c702f8d519702,[twitter] add support for promo_video_website cards(closes #23711),Remita Amine,remitamine,2020-01-12T10:55:11Z
+aca2fd222fc951dd8e177d4c5584f5276e719825,[orf:radio] Clean description and improve extraction,Sergey M․,dstftw,2020-01-10T19:18:36Z
+9ba179c1fabe8f1700f5cbd778ef2030fa246d6e,[orf:fm4] Fix extraction (#23599),Johannes N,jonolt,2020-01-10T18:51:15Z
+3fdf573148abaa4e3b0dc9a8ae7ee7d1bdab2289,[safari] Fix kaltura session extraction (closes #23679) (#23670),cdarlint,cdarlint,2020-01-10T18:34:26Z
+d4e0cd69efe6240a188eac9cce296b57b06661ca,[lego] fix extraction and extract subtitle(closes #23687),Remita Amine,remitamine,2020-01-10T04:06:45Z
+483b858d49eabaad2c521425eb892c1330d4f525,[cloudflarestream] import embed URL extraction,Remita Amine,remitamine,2020-01-08T22:07:41Z
+a71c1d1a5a54afc7f24acf3af7f1afd610c648f2,"[cloudflarestream] improve extraction
+
+- add support for bytehighway.net domain
+- add support for signed URLs
+- extract thumbnail",Remita Amine,remitamine,2020-01-08T21:42:53Z
+838171630da3691ad4df8a11eeab9b2632fb0bcf,[naver] improve metadata extraction,Remita Amine,remitamine,2020-01-08T11:55:33Z
+c88debff5d355cf345837fdd7f869db1ce8b9db3,"[naver] improve extraction
+
+- improve geo-restriction handling
+- extract automatic captions
+- extract uploader metadata
+- extract VLive HLS formats",Remita Amine,remitamine,2020-01-08T09:54:05Z
+3cb05b86de3887cfd2f5ebf41fedc09ff3ae6ff3,[pandatv] Remove extractor (#23630),Singwai Chan,Singwai,2020-01-07T14:11:03Z
+b2771a28530dab483848a7389616f1b52e96090c,[dctp] fix format extraction(closes #23656),Remita Amine,remitamine,2020-01-07T12:03:32Z
+7bac77413d2fbd7d9c79100ba85b59b08960e6f0,[scrippsnetworks] correct test case URL,Remita Amine,remitamine,2020-01-06T13:30:02Z
+0264903574f78ef5d950081a1afa542f6a063157,[scrippsnetworks] add support for www.discovery.com videos,Remita Amine,remitamine,2020-01-06T13:25:23Z
+2f7aa680b79b60d707d7b09818e3ec55748448b2,[discovery] fix anonymous token extraction(closes #23650),Remita Amine,remitamine,2020-01-06T13:24:13Z
+0d2306d02beb4c1e50c3f279c109ab25f94ae421,[nrktv:seriebase] Fix extraction (closes #23625) (#23537),Roxedus,Roxedus,2020-01-05T23:34:36Z
+233826f68f75ec8ee93c5762bf0cd6fceffab0bb,[wistia] improve format extraction and extract subtitles(closes #22590),Remita Amine,remitamine,2020-01-05T20:08:50Z
+259ad381730c1b3479c604820bf8333f06f65c64,[devscripts/create-github-release] Remove unused import,nmeum,nmeum,2020-01-05T18:26:22Z
+44b434e4e3c4e64b25363bec1a3ededb7f667d72,[vice] improve extraction(closes #23631),Remita Amine,remitamine,2020-01-05T15:32:43Z
+484637a9ccede2967a709d2026d29d7b61560e43,[redtube] Detect private videos (#23518),Sergey M․,dstftw,2020-01-02T15:45:42Z

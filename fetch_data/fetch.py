@@ -7,11 +7,8 @@ load_dotenv()
 TOKEN = os.getenv("GITHUB_TOKEN")
 
 repositories = [
-    ("freeCodeCamp", "freeCodeCamp"),
-    ("pytorch","pytorch"),
-    ("facebook","react"),
-    ("vuejs", "vue"),
-    ("microsoft", "vscode"),
+    ("kubernetes", "kubernetes"),
+    ("tensorflow","tensorflow"),
 ]
 
 HEADERS = {"Authorization": f"token {TOKEN}"} if TOKEN else {}

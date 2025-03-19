@@ -11,7 +11,7 @@ TOKEN = os.getenv("GITHUB_TOKEN")
 HEADERS = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
 # Input
-input_file = "commit_users.csv"
+input_file = "commit_users_3.csv"
 cache_file = "github_locations_cache.json"
 
 
