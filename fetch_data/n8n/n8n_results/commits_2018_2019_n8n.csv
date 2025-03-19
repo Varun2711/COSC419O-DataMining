@@ -1,0 +1,1208 @@
+SHA,Message,Author,Username,Date
+8f253039280bb5cef7e6db6315c9d31738f168dd,:sparkles: Make it possible to trigger all X minutes/hours,Jan Oberhauser,janober,2019-12-31T23:41:47Z
+a6403fcc81bc08a29b61e9aeeeed42b79c0e74e2,done,Ricardo Espinoza,RicardoE105,2019-12-31T21:24:01Z
+2f56561bff909222c58ceb7e195b5d0406d9b3da,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/toggl-trigger',Jan Oberhauser,janober,2019-12-31T20:30:17Z
+584033ab4a99c6047b31df50ca038d071b7a01ac,:sparkles: Add polling support to Trigger-Nodes,Jan Oberhauser,janober,2019-12-31T20:19:37Z
+7c44571be88cc72fe85f77d3a9e6dd982f90ab24,Merge branch 'master' into feature/wordpress-node,Ricardo Espinoza,RicardoE105,2019-12-30T21:08:43Z
+c172ac4879866547219de1f24d409fe91b4df331,done,Ricardo Espinoza,RicardoE105,2019-12-30T21:08:22Z
+d072321ad4ee2c9a569c3a74a9623611307499a8,:twisted_rightwards_arrows: Merge branch 'feature/toggl-trigger' of https://github.com/RicardoE105/n8n into RicardoE105-feature/toggl-trigger,Jan Oberhauser,janober,2019-12-30T20:12:33Z
+c7978aa4a446a07622e84ebc83688f7022e12ded,:twisted_rightwards_arrows: Merge branch 'master' of github.com:n8n-io/n8n,Jan Oberhauser,janober,2019-12-30T19:41:52Z
+cd340c1a447635f16aacc4ce70cdfbba668dab3f,:twisted_rightwards_arrows: Merge branch 'depfu/update/packagescli/npm/open-7.0.0',Jan Oberhauser,janober,2019-12-30T19:41:25Z
+d726eef239a5dd560be98c6c7f1ef0f847f6db69,:arrow_up: Update some more packages to latest version,Jan Oberhauser,janober,2019-12-30T19:38:55Z
+ccabff72bce652037b8a39682bd0f79e2c398e8c,":twisted_rightwards_arrows: Merge pull request #172 from n8n-io/depfu/update/packagescli/npm/open-7.0.0
+
+[packages/cli] Upgrade open to version 7.0.0",Jan,janober,2019-12-30T15:16:55Z
+a3bc35d971a95f39ee685a64e0694e375e76d99e,:twisted_rightwards_arrows: Merge branch 'master' into depfu/update/packagescli/npm/open-7.0.0,Jan Oberhauser,janober,2019-12-30T15:11:53Z
+93c974308f96a57139041e5aa51d60bd4c0738fc,:bug: Fix new string input issue,Jan Oberhauser,janober,2019-12-30T05:04:51Z
+93f1695e72ca9d1bda3564dbb5c9eaac8ddf418a,:twisted_rightwards_arrows: Merge branch 'master' of github.com:n8n-io/n8n,Jan Oberhauser,janober,2019-12-29T21:13:27Z
+0ba712cd9278512c2c0dc083b81f68379a57fecf,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-12-29T21:13:15Z
+e4d647420503b82c2cf3f05290f9193d6f037d9b,":twisted_rightwards_arrows: Merge pull request #171 from n8n-io/depfu/update/packagescli/npm/nodemon-2.0.2
+
+[packages/cli] Upgrade nodemon to version 2.0.2",Jan,janober,2019-12-29T21:07:57Z
+49e22855733a23e832465bcc0a0431a01a62578d,:arrow_up: Update packages to latest version on n8n-editor-ui,Jan Oberhauser,janober,2019-12-29T21:02:21Z
+e2b74abe62f45e4e507d64101f5bd2cea60c666b,Update open to version 7.0.0,depfu[bot],depfu[bot],2019-12-29T19:55:17Z
+7f0287ccbf3e99a4a022832b2b00ec9dbeedbd15,:twisted_rightwards_arrows: Merge branch 'master' of github.com:n8n-io/n8n,Jan Oberhauser,janober,2019-12-29T19:02:46Z
+0ca4362d66b0c9abdbf5c9e8cb2c9ae9db992863,Update nodemon to version 2.0.2,depfu[bot],depfu[bot],2019-12-29T18:45:16Z
+da425ff8575af206f3b2e938eeb2b1830118a753,:arrow_up: Set localtunnel@2.0.0 on n8n,Jan Oberhauser,janober,2019-12-29T18:22:37Z
+ec7012097a22829a9299feeb8467c56de83e978e,":twisted_rightwards_arrows: Merge pull request #169 from n8n-io/depfu/update/packagescli/npm/inquirer-7.0.1
+
+[packages/cli] Upgrade inquirer to version 7.0.1",Jan,janober,2019-12-29T18:13:41Z
+a3f6fa2c5dd8123dd80e28fa8e232b40b5981bef,:twisted_rightwards_arrows: Merge branch 'master' into depfu/update/packagescli/npm/inquirer-7.0.1,Jan Oberhauser,janober,2019-12-29T18:11:35Z
+bb16d691cddf4904c65f4ac190f446a01f7210a5,":twisted_rightwards_arrows: Merge pull request #168 from n8n-io/depfu/update/packagescli/npm/@types/dotenv-8.2.0
+
+[packages/cli] Upgrade @types/dotenv to version 8.2.0",Jan,janober,2019-12-29T16:23:11Z
+1043e81472ec3a1b676e66e1252cb79d223a5d94,Update inquirer to version 7.0.1,depfu[bot],depfu[bot],2019-12-29T16:20:19Z
+bf0fb1b5fed46542062d2cbcaf072f6ec1542231,Update @types/dotenv to version 8.2.0,depfu[bot],depfu[bot],2019-12-29T15:07:42Z
+50f3d9bb5a3b949001ba6fee6b0444ead5018ff5,:sparkles: Add HTML Extract-Node,Jan Oberhauser,janober,2019-12-29T03:28:15Z
+e1be29194916792c33ce758677af125b6559b02c,:zap: Add subtitle to HTTP Request Node,Jan Oberhauser,janober,2019-12-29T03:24:14Z
+40ab92bcc11358ea440dc7d4e17d374eba7244db,":twisted_rightwards_arrows: Merge pull request #166 from n8n-io/depfu/update/packagescli/npm/@types/compression-1.0.1
+
+[packages/cli] Upgrade @types/compression to version 1.0.1",Jan,janober,2019-12-27T22:10:14Z
+fe9b37375b386c0f8ac88765308af6d4e8964c4d,Update @types/compression to version 1.0.1,depfu[bot],depfu[bot],2019-12-27T20:11:32Z
+ec30f10091b5172535fc7be69e8fe5136d91e063,:zap: Make it possible to read from specific sheet,Jan Oberhauser,janober,2019-12-27T16:54:51Z
+d943a8ca03cf454e1bc6381474bb12088402fc83,:zap: Improve display name of fileFormats,Jan Oberhauser,janober,2019-12-27T16:33:42Z
+4a4373882940f2c5fe0c07b8391805ceacf62cdd,:zap: Allow to set custom sheet name,Jan Oberhauser,janober,2019-12-27T16:33:16Z
+72cf3252476ed7e7317c60f7cea2fe84094f71fa,:bug: Fix introduced bug,Jan Oberhauser,janober,2019-12-27T15:32:04Z
+a3ad579f89edcd90a9a00bd5f23d5379ba17258f,:zap: Make it possible to read RAW data from Spreadsheets,Jan Oberhauser,janober,2019-12-27T14:50:22Z
+a75b844f0e67dabf37fe4e38dabf19e308232eff,:bookmark: Release n8n@0.41.0,Jan Oberhauser,janober,2019-12-27T03:20:43Z
+12734199fbf033ec5f2ab179a418e95ca3e91606,:arrow_up: Set n8n-nodes-base@0.36.0 on n8n,Jan Oberhauser,janober,2019-12-27T03:20:09Z
+973dde5d9dd7b172c27a152e42988aea85b70e6d,:bookmark: Release n8n-nodes-base@0.36.0,Jan Oberhauser,janober,2019-12-27T03:18:02Z
+a6de0499670a93ccc35ab94b0e95dd8fc9728abd,":twisted_rightwards_arrows: Merge pull request #165 from tildabio/master
+
+Enable external module imports in Function-node",Jan,janober,2019-12-27T03:05:36Z
+04cdb0890617418706e4a50d30da93d090da613c,"Enable external module imports in Function-node
+
+Enable whitelist support to pick external modules which are allowed in
+Function-node. The environment variable NODE_FUNCTION_ALLOW_EXTERNAL specifies
+the list of modules to whitelist.",Ram Yalamanchili,ramyala,2019-12-27T02:49:48Z
+b3f3ce25ddd2a8e91f0216b80d5ee96f290fd6c7,:construction_worker: Automatically run tests,Jan,janober,2019-12-25T00:25:44Z
+1ed5a4589d389a8957181f6e00209c092b5a01be,:zap: Improve handling of incorrect return data of Function Nodes,Jan Oberhauser,janober,2019-12-23T20:54:27Z
+2b343a4aa56fcae686fe5ed32e9fe4fbf1c0a1a8,:zap: Add smallerEqual and largerEqual to IF and Switch Nodes,Jan Oberhauser,janober,2019-12-23T19:22:15Z
+81ca11cb599e0e27a344790507aab4bc57730b17,:zap: Improve error message on GithubTrigger #162,Jan Oberhauser,janober,2019-12-23T13:29:28Z
+c630a3583c5504ecb28c38c668e2ce80fcff2411,fix,Ricardo Espinoza,RicardoE105,2019-12-22T13:12:12Z
+2cca963fa1b0eafa681c1539a05dda4ed1a9bbfb,sync upstream master,Ricardo Espinoza,RicardoE105,2019-12-22T02:48:00Z
+0e340a1e2b843331ec3039aca5538de3730dfdd6,"done
+
+done",Ricardo Espinoza,RicardoE105,2019-12-22T02:44:56Z
+a7bc500343b652162f3b0068c711225e01b5ed3b,:bookmark: Release n8n@0.40.0,Jan Oberhauser,janober,2019-12-22T02:00:31Z
+a4efe788eaf71cd13bb51fce05e09b7342a44b2a,":arrow_up: Set n8n-core@0.18.0, n8n-editor-ui@0.29.0, n8n-nodes-base@0.35.0 and n8n-workflow@0.18.0 on n8n",Jan Oberhauser,janober,2019-12-22T01:59:28Z
+31849de5535803e77b6e1853ad7654c2e037362e,:bookmark: Release n8n-editor-ui@0.29.0,Jan Oberhauser,janober,2019-12-22T01:55:43Z
+b8607c67b9750f9e07f0f20a2ce338dfee6c0f2b,:arrow_up: Set n8n-workflow@0.18.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-12-22T01:55:02Z
+6292daab8446b88c947d47007ff7cbf5e50f20a3,:bookmark: Release n8n-nodes-base@0.35.0,Jan Oberhauser,janober,2019-12-22T01:51:22Z
+580e90b6fb39f80dd8742a31f7dd6e6b2af8ae4a,:arrow_up: Set n8n-core@0.18.0 and n8n-workflow@0.18.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-12-22T01:50:43Z
+6c1f307329a82798f8cc5b1fb435fe42d0328848,:bookmark: Release n8n-core@0.18.0,Jan Oberhauser,janober,2019-12-22T01:49:04Z
+0a5b4ad2afec43891b9a23046ed1daebcafebcc7,:arrow_up: Set n8n-workflow@0.18.0 on n8n-core,Jan Oberhauser,janober,2019-12-22T01:47:14Z
+dee7f7b159ca3ef86155f6dd18dff64bc439b12c,:bookmark: Release n8n-workflow@0.18.0,Jan Oberhauser,janober,2019-12-22T01:45:34Z
+8d7341b70ad5f3be3aaf39ce5569b62482351654,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/added-rawBody-webhook',Jan Oberhauser,janober,2019-12-22T01:04:26Z
+9acb03435abb6d9602c02764f29fb348c0dbd3d3,:zap: Fix rawBody,Jan Oberhauser,janober,2019-12-22T01:03:24Z
+968ddbd3df58112d423d427d98f5c81c44b067cf,:twisted_rightwards_arrows: Merge branch 'feature/added-rawBody-webhook' of https://github.com/RicardoE105/n8n into RicardoE105-feature/added-rawBody-webhook,Jan Oberhauser,janober,2019-12-22T00:37:58Z
+43442449e6d46617aff2a2fb7ce9713a2c91d252,:zap: Fix start issue,Jan Oberhauser,janober,2019-12-21T21:04:47Z
+f1bb1f10f3aba55a5d5ed50fc25d8f53e43cb348,changes,Ricardo Espinoza,RicardoE105,2019-12-21T20:36:08Z
+700ca5c85adbac315344e84c23e18c200d729807,added rawBody,Ricardo Espinoza,RicardoE105,2019-12-21T17:19:15Z
+e0752b861de8f21795dd2494ca0167b3091e2483,:sparkles: Make it possible to rename workflows,Jan Oberhauser,janober,2019-12-20T22:58:36Z
+3f748e3aa8182314b1b38e83b0818fc853637f74,:heavy_check_mark: Fix tests,Jan Oberhauser,janober,2019-12-20T18:53:52Z
+9cb9ec2b93401cc0640fc839be5cda94a59f2e93,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/node-vero',Jan Oberhauser,janober,2019-12-20T04:34:28Z
+9c2ff708c54b91d60804c68a822ccbfc87abb8f3,:zap: Small fix for Vero-Node,Jan Oberhauser,janober,2019-12-20T04:33:37Z
+d9e22a749c56f60330ca17dc4489056506bf3d4d,:twisted_rightwards_arrows: Merge branch 'feature/node-vero' of https://github.com/RicardoE105/n8n into RicardoE105-feature/node-vero,Jan Oberhauser,janober,2019-12-20T00:13:07Z
+f2236ba38c106cbb457764b973fc92ead3b207fa,:zap: Make WriteBinaryFile-Node error when data is missing,Jan Oberhauser,janober,2019-12-19T23:58:55Z
+99c13249dbf70844bedc39a39d69b1e711bcd6a7,":twisted_rightwards_arrows: Merge pull request #158 from RicardoE105/fix/removed-deprecation-warning
+
+Fix/removed deprecation warning",Jan,janober,2019-12-19T22:17:04Z
+108ffb0d86effa1439a08818b6c3769b2acfbd43,:zap: Automatically parse response in GraphQL node to JSON,Jan Oberhauser,janober,2019-12-19T22:15:19Z
+8acc3c5931805c686ea47e82e1fccafbde25378a,:sparkles: Add ExecuteWorkflow-Node,Jan Oberhauser,janober,2019-12-19T22:07:55Z
+403c52ddf89e370bf3d1bf926ff9bd590befac93,:bug: Add missing file,Jan Oberhauser,janober,2019-12-18T20:17:31Z
+a8a21034d1a619b80c5c7a0c5b0c788258a90920,deleted test file,Ricardo Espinoza,RicardoE105,2019-12-18T17:32:04Z
+01983a9c8f706e33b06ade4d090f70fd73c0530b,:zap: removed deprecation warning,Ricardo Espinoza,RicardoE105,2019-12-18T17:30:16Z
+83eaaf1e33663f9b110bed03e2008449e7230e21,:sparkles: Vero node done,Ricardo Espinoza,RicardoE105,2019-12-17T20:33:28Z
+399c25ad77b0ccedacf37c13610390a27f2d395e,:zap: Change parameter name,Jan Oberhauser,janober,2019-12-17T02:43:46Z
+a7d729842a06a2ab222a948c7560bfbde6811ea5,":bug: Fix that ""getCurrentNodeParameter"" did not resolve expressions",Jan Oberhauser,janober,2019-12-17T02:27:56Z
+ae8988295127b9ae350c797f2dad2073074ac52a,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/coda-node',Jan Oberhauser,janober,2019-12-16T23:52:57Z
+a26ff6362b8a250446a3d2ba2b770779179824c5,:zap: Some changes that Code-Node works identical to other similar nodes,Jan Oberhauser,janober,2019-12-16T23:52:15Z
+a565c69b5db84b6b8676f34ce4757ef53f2f650a,:twisted_rightwards_arrows: Merge branch 'feature/coda-node' of https://github.com/RicardoE105/n8n into RicardoE105-feature/coda-node,Jan Oberhauser,janober,2019-12-16T18:01:59Z
+e07ea137087381d2ba09c07990395ecbfd4b8b21,:bug: fixes,Ricardo Espinoza,RicardoE105,2019-12-16T16:40:44Z
+fcbb708dab57b71e8c9c1e77a19f5752e22ec014,:zap: Update Switch-Node description,Jan Oberhauser,janober,2019-12-16T03:13:27Z
+70728a00b7ae54c17fdd32b056f3c0dadae62947,:sparkles: Add Switch-Node,Jan Oberhauser,janober,2019-12-16T01:46:37Z
+d1eb102de7adc5898dc059c707037fef8f2007b4,:zap: Reuse Github webhook if it exists already,Jan Oberhauser,janober,2019-12-14T20:44:56Z
+9236d3891cbc3db75441f3f527789cad655019ee,:sparkles: coda node done,Ricardo Espinoza,RicardoE105,2019-12-14T16:42:32Z
+7f2fe2504874f55f74f3b6d9336543d8d2fe7e49,done,Ricardo Espinoza,RicardoE105,2019-12-13T21:50:59Z
+4ceeb9bbc003fb8ffd296f6c66e9e49e33038919,:bookmark: Release n8n@0.39.0,Jan Oberhauser,janober,2019-12-13T19:22:44Z
+6f059f9d0e8464b5c93d801719af328bb0fde365,:arrow_up: Set n8n-editor-ui@0.28.0 and n8n-nodes-base@0.34.0 on n8n,Jan Oberhauser,janober,2019-12-13T19:22:17Z
+04708262f978d7e252f2fb675d28da8b312a0dc2,:bookmark: Release n8n-editor-ui@0.28.0,Jan Oberhauser,janober,2019-12-13T19:19:56Z
+8d9a5b49db7194d8eb3e8ade44e1af472a7ca82e,:bookmark: Release n8n-nodes-base@0.34.0,Jan Oberhauser,janober,2019-12-13T19:18:14Z
+1d0a886d8b9c0de9d23a7cc15411ea1e64d2d264,":sparkles: Add ""sendMediaGroup"" functionality to Telegram-Node #135",Jan Oberhauser,janober,2019-12-13T19:05:21Z
+784aa25df888a4183b213f18fa20642f549c89f1,:zap: Make GitLab-Node also work with subgroups #142,Jan Oberhauser,janober,2019-12-13T17:43:01Z
+3da402a8d4c71f374016ccdd11fe475b39e2bdf1,:sparkles: Allow to use built-in modules in Function-Nodes if configured,Jan Oberhauser,janober,2019-12-13T17:23:30Z
+8789e9be3c06090ff51a3cf19f350ec6f79a3268,:sparkles: Add copy-file functionality to GoogleDrive-Node,Jan Oberhauser,janober,2019-12-13T17:04:01Z
+ffba4d9553d501a2abdf1818592b43aec1c4e828,:books: Remove links to no longer existing content,Jan Oberhauser,janober,2019-12-13T14:28:03Z
+e4eefedcbfa5d764e2bb0edb661de1ef84b66b98,Msg91 Integration(node),Priyanka P,walkover101,2019-12-13T11:29:33Z
+d68c6bf195b1844daa0c174d0a38c5eb7a4df6b7,:twisted_rightwards_arrows: Merge branch 'quansenB-xml-body-parser-webhooks',Jan Oberhauser,janober,2019-12-13T05:06:38Z
+b6873e318df7a274aa52babf7706a2f5260b4491,:twisted_rightwards_arrows: Merge branch 'xml-body-parser-webhooks' of https://github.com/quansenB/n8n into quansenB-xml-body-parser-webhooks,Jan Oberhauser,janober,2019-12-13T04:01:48Z
+1d0738e1989445e287d9c812936413ba7771eb21,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/mailchimp--trigger',Jan Oberhauser,janober,2019-12-13T03:36:44Z
+56896cd2e7331857e053459d9bdd1c7e70d3d376,:twisted_rightwards_arrows: Merge branch 'feature/mailchimp--trigger' of https://github.com/RicardoE105/n8n into RicardoE105-feature/mailchimp--trigger,Jan Oberhauser,janober,2019-12-13T02:27:37Z
+62d7f2d82116771795ffea5b1e0db028e1044f95,:twisted_rightwards_arrows: Merge branch 'ericHao22-feature/add-mysql-node',Jan Oberhauser,janober,2019-12-13T02:25:16Z
+b4329c823a54b8b30cd1d646415a452ecd48a6d5,:zap: Rename and fix lint issue,Jan Oberhauser,janober,2019-12-13T02:24:55Z
+1b2c1057884673ab2402e95b0c4b2dcbb4553935,:twisted_rightwards_arrows: Merge branch 'feature/add-mysql-node' of https://github.com/ericHao22/n8n into ericHao22-feature/add-mysql-node,Jan Oberhauser,janober,2019-12-13T01:12:48Z
+82b69070385f8f10c84a20647135a136f103b600,":twisted_rightwards_arrows: Merge pull request #151 from MarkBennett/patch-1
+
+Grammar tweaks.",Jan,janober,2019-12-13T01:11:09Z
+9db449c953012e9e5bc692fdba97158284b69d26,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-12-13T00:19:39Z
+359dc3b48530fb2d003f0557ebe336df20266a09,:sparkles: Add possibility to retry with currently saved workflow,Jan Oberhauser,janober,2019-12-13T00:12:38Z
+b3898540468acaae51aa84e342ac6f177477e210,:sparkles: Add possibility to filter executions by status,Jan Oberhauser,janober,2019-12-12T23:39:56Z
+870961b101587676e803357b9b79531b10e2fd50,:bug: Fix bug that it did load same executions multiple times,Jan Oberhauser,janober,2019-12-12T19:57:11Z
+a78da100f80a9a0b15c66091e5008dc2e83d94f6,feat(node): remove knex dependency from MySQL node,Eric Chang,ericHao22,2019-12-12T15:57:59Z
+c34f4841c28b021204fa19f988e20126d307f721,feat(node): add mysql node,Eric Chang,ericHao22,2019-11-19T08:36:56Z
+040b0a690ce91d12609b65caa02a53ea35cd6a81,feat(credential): add credential of mysql node,Eric Chang,ericHao22,2019-11-14T03:32:26Z
+2e56fabc2808bfe99d03afee5c4216282f2ea004,A few more tweaks.,Mark Bennett,MarkBennett,2019-12-12T07:54:46Z
+d08150371b940c91ddd9a1559cebb7611cba69ba,Grammar tweaks.,Mark Bennett,MarkBennett,2019-12-12T07:50:13Z
+3e7af95856a51f8c0a0fd5359b1bfdc51903a1c8,Merge branch 'master' into feature/mailchimp--trigger,Ricardo Espinoza,RicardoE105,2019-12-11T23:32:30Z
+c3f25a79ec476e00e13425dc2eb88f727884b9f7,registered GET method,Ricardo Espinoza,RicardoE105,2019-12-11T23:31:12Z
+d74f0d9bbd87520dad6c02e8df766fbe2d03b255,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-12-10T19:31:11Z
+5a0d1bf9939ab242b9fa403a02aa0d4edf433944,:bug: Fix variable selector bug with arrays in arrays,Jan Oberhauser,janober,2019-12-10T15:37:22Z
+f31049d454a65cb314a95993f4f1d0a4777a7f7f,:bug: Fix that drop connection and addNodeButton did connect wrong,Jan Oberhauser,janober,2019-12-10T14:39:14Z
+5da4a80d6749de88e9350ff5cdc11023dce11137,:sparkles: Add support for nodes with 4 in- or outputs,Jan Oberhauser,janober,2019-12-10T13:35:27Z
+61bd4b806a0a7bede1c788585ea0528ca96942d8,:bookmark: Release n8n@0.38.0,Jan Oberhauser,janober,2019-12-09T12:10:48Z
+ed2e42a9937768e0458867d5d653436831c0d16f,:arrow_up: Set n8n-nodes-base@0.33.0 on n8n,Jan Oberhauser,janober,2019-12-09T12:09:56Z
+722f71a7c983ab782d52ce70fcdcdf09ca5e4565,:bookmark: Release n8n-nodes-base@0.33.0,Jan Oberhauser,janober,2019-12-09T12:08:32Z
+1c16aba7866326a33b83db88fa9832ccb758b621,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/flow-node',Jan Oberhauser,janober,2019-12-09T11:08:53Z
+b36efd4c9da9a601a0291a511071035c4f7c6555,":zap: Move ""organizationId"" in credentials and fix error messages",Jan Oberhauser,janober,2019-12-09T11:07:48Z
+ca2cc3b0cdc882308f8591d0af7123b8351cc787,add xml2js options,quansenB,quansenB,2019-12-09T00:24:04Z
+a53d111e5635d8e7ed666819abdc25e075aee8e3,add xml body parser for xml webhook support,quansenB,quansenB,2019-12-09T00:07:57Z
+9250163c8c433df7dd4b755a29e1253566a2a1da,:twisted_rightwards_arrows: Merge branch 'feature/flow-node' of https://github.com/RicardoE105/n8n into RicardoE105-feature/flow-node,Jan Oberhauser,janober,2019-12-07T21:24:30Z
+20a90670196bdacec5fbd81ffc1ee4985f26aa07,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/hubspotCRM-node',Jan Oberhauser,janober,2019-12-07T21:22:16Z
+ee4c46dbd3c06a2ff169d61647351c12584e5254,:zap: Rename operations,Jan Oberhauser,janober,2019-12-07T21:21:04Z
+975856a7721cd4b7e2b54bdaf7a5fc036b3ce93a,:twisted_rightwards_arrows: Merge branch 'feature/hubspotCRM-node' of https://github.com/RicardoE105/n8n into RicardoE105-feature/hubspotCRM-node,Jan Oberhauser,janober,2019-12-07T09:28:28Z
+c922c9b509b7ae9c9aada4586c63cdcbbd13ac13,:twisted_rightwards_arrows: Merge branch 'frane-gdrive_corpora',Jan Oberhauser,janober,2019-12-06T22:56:15Z
+fa37cb0762749cd19beafe02b48b359251ea1beb,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-12-06T22:56:00Z
+de14bf018e0b93a2072f8d2aedc794d71558c1c3,:twisted_rightwards_arrows: Merge branch 'gdrive_corpora' of https://github.com/frane/n8n into frane-gdrive_corpora,Jan Oberhauser,janober,2019-12-06T22:53:53Z
+39001f4c25d7fc7ad9283e08b8c9ec7b1eab4a1f,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/shopify-trigger',Jan Oberhauser,janober,2019-12-06T22:47:56Z
+e9b2d6583acfe7fae4393d1d771e23d646104eec,:zap: Renamed credential parameters and capitalized topic names,Jan Oberhauser,janober,2019-12-06T22:47:19Z
+c66a36ed488712b96bd18e7910500e6d98fe21a5,:twisted_rightwards_arrows: Merge branch 'feature/shopify-trigger' of https://github.com/RicardoE105/n8n into RicardoE105-feature/shopify-trigger,Jan Oberhauser,janober,2019-12-06T21:38:46Z
+373bb66ce450fa5937407faae2d8f585ef10fb22,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/mattermost-node',Jan Oberhauser,janober,2019-12-06T21:35:03Z
+731aeca5c5806d3d199f49e5bf808f24efcb892d,:zap: Move Delete Option from Post to Message,Jan Oberhauser,janober,2019-12-06T21:33:26Z
+99c016e31f3caa4596001f614e08146ddb146450,:sparkles: flow node and trigger,Ricardo Espinoza,RicardoE105,2019-12-06T17:04:50Z
+366fe861caa80d80a85683266a00100fbd2ef2ff,"Merge pull request #1 from quansenB/quansenB
+
+ActiveCampaign Deals API Extension",Quansen,quansenB,2019-12-06T11:33:28Z
+0f6b89bce023b592353c0a07a66ccb61279e1b37,Adds corpora and drive scoping to GDrive list,Frane Bandov,frane,2019-12-05T15:21:14Z
+6f2154aaf80d444f731f9fe1675b5fff1ab2990a,:sparkles: extended Mattermost functionality,Ricardo Espinoza,RicardoE105,2019-12-04T20:57:56Z
+6c1b479c81e95697859c1e36ba457389e826f6b0,added hubspot API documentation,Ricardo Espinoza,RicardoE105,2019-12-04T17:34:47Z
+c87da488f6037528a6b59087a9e4e62fd1055f3d,:sparkles: hubspot node done,Ricardo Espinoza,RicardoE105,2019-12-04T17:21:02Z
+67297944dac04487f3108a9f8b28f9fefe31be8c,done,Ricardo Espinoza,RicardoE105,2019-12-04T03:21:52Z
+cb0cfaa7719e5d80821405c34b808ce45a8d9825,done,Ricardo Espinoza,RicardoE105,2019-12-03T21:48:17Z
+b655e835f0f55ddbca8888530e59b6615fc67836,Merge remote-tracking branch 'origin/feature/mailchimp-triggrer' into feature/mailchimp-triggrer,Ricardo Espinoza,RicardoE105,2019-12-03T13:56:34Z
+b838d4c0b59abbebc7cbe55dbd2245d5ec03b78d,":sparkles: Mailchimp trigger done
+
+done
+
+done",Ricardo Espinoza,RicardoE105,2019-12-03T13:54:30Z
+1cecd804881dc3ed7cfad855945a8921547f29ce,"done
+
+done
+
+done",Ricardo Espinoza,RicardoE105,2019-12-03T13:54:30Z
+81b17d43ed6dfcf23a4eea105a6ba75414a0dcf7,:twisted_rightwards_arrows: Merge branch 'RicardoE105-jira-node',Jan Oberhauser,janober,2019-12-02T21:41:06Z
+d7ef2f41f8bd15719e790a1b7c892dd160bb25d2,:zap: Some small adjustments,Jan Oberhauser,janober,2019-12-02T21:40:24Z
+6955109cbd624392207726c4d8cffb02041616bc,:sparkles: Shopify trigger done,Ricardo Espinoza,RicardoE105,2019-12-02T21:21:55Z
+5f389cfa16de75c801d4b8fe701a631f14b69032,:twisted_rightwards_arrows: Merge branch 'jira-node' of https://github.com/RicardoE105/n8n into RicardoE105-jira-node,Jan Oberhauser,janober,2019-12-02T18:36:15Z
+28cb10df3aefd9cebe6e59edbe2b5d865d1416a7,:art: added line breaks,Ricardo Espinoza,RicardoE105,2019-12-02T14:15:03Z
+31af36b8bde129924053049038b8b3dd0d6cc6e9,"Fix #139
+
+Prevent null values from beeing treaded as objects",Romain Dunand,airmoi,2019-12-01T22:08:37Z
+8ca31db0aa00b63d76115206bbcb3562aaedd448,fixes done,Ricardo Espinoza,RicardoE105,2019-12-01T21:47:53Z
+18bf3b571a99bdcdfc9091fcc6ca286ec4cd6395,:bookmark: Release n8n@0.37.0,Jan Oberhauser,janober,2019-12-01T20:08:13Z
+4ba8eef0fbb005c3da1c2f775cc90403af953a06,":arrow_up: Set n8n-core@0.17.0, n8n-editor-ui@0.27.0, n8n-nodes-base@0.32.0 and n8n-workflow@0.17.0 on n8n",Jan Oberhauser,janober,2019-12-01T20:07:35Z
+3bda5cdb06ec7c213a2fdf14ba469cbecb9ee5a7,:bookmark: Release n8n-editor-ui@0.27.0,Jan Oberhauser,janober,2019-12-01T20:05:54Z
+e8854e03c3ac4ffbcaad71bc0ea04b607f9f0dec,:arrow_up: Set n8n-workflow@0.17.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-12-01T20:05:35Z
+038d3df2589834bfceeead134b72bc1b2f762f26,:bookmark: Release n8n-nodes-base@0.32.0,Jan Oberhauser,janober,2019-12-01T20:04:42Z
+b6777e8bbdc3f1660d211be82f4dd37d2a8a574a,:arrow_up: Set n8n-core@0.17.0 and n8n-workflow@0.17.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-12-01T20:04:04Z
+fcdb73f3672270d67ebd97df44c6fc0d0f4465e5,:bookmark: Release n8n-core@0.17.0,Jan Oberhauser,janober,2019-12-01T20:02:09Z
+1c8c49d9ece13fb3d9b568479d6a086130a8334b,:arrow_up: Set n8n-workflow@0.17.0 on n8n-core,Jan Oberhauser,janober,2019-12-01T20:01:13Z
+39d864fd4ecb839cbf63679d87c9c5627e11e4e2,:bookmark: Release n8n-workflow@0.17.0,Jan Oberhauser,janober,2019-12-01T19:59:42Z
+3d005c5b38f9bb03db94a759901ffbdbe2218c44,:twisted_rightwards_arrows: Merge branch 'RicardoE105-fix/rocketchat-node',Jan Oberhauser,janober,2019-12-01T19:51:53Z
+151dbb03468de373d543d52d04f64f25d32b8488,:zap: Add placeholder and breaking-change information,Jan Oberhauser,janober,2019-12-01T19:51:05Z
+e799ecc756febb626c6195365947bbaf2c61751a,:twisted_rightwards_arrows: Merge branch 'fix/rocketchat-node' of https://github.com/RicardoE105/n8n into RicardoE105-fix/rocketchat-node,Jan Oberhauser,janober,2019-12-01T19:25:23Z
+8831c2aee4a6290cb567d908a9634fb90854b3a0,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/paypal-triger',Jan Oberhauser,janober,2019-12-01T19:20:25Z
+ee8d63f34a5f35ebfdb1a7597454671d791c9ef8,:zap: Smaller changes and add wildcard-event,Jan Oberhauser,janober,2019-12-01T19:19:38Z
+3a70c3e33dbeced819f5ee819bfa16ad73bbd8c2,issue with name fixed,Ricardo Espinoza,RicardoE105,2019-12-01T16:13:35Z
+ccbf80bce2a205ad1d6d1a653df9dd445de0ff8e,Changed subdomain for domain,Ricardo Espinoza,RicardoE105,2019-12-01T16:10:11Z
+246429b09d37a82e0542b1c8f8d995c03476ea38,sync upstream,Ricardo Espinoza,RicardoE105,2019-12-01T15:59:11Z
+c1edcc9e56a027a0f330505c6d51676c5e11ff67,sync upstream,Ricardo Espinoza,RicardoE105,2019-12-01T15:51:44Z
+d71459535365a79c4b41640b5155026aa7277fdf,:sparkles: Paypal trigger done,Ricardo Espinoza,RicardoE105,2019-12-01T15:38:54Z
+875169468072ff138e4e8cdf3cf53a94ed127147,":twisted_rightwards_arrows: Merge pull request #136 from airmoi/filemaker-layout-list
+
+Fix FileMaker layout list parsing",Jan,janober,2019-12-01T15:30:27Z
+6214ce57ec54e86a199c16b9c6a161f888f4180a,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/paypal-node',Jan Oberhauser,janober,2019-12-01T15:18:10Z
+20eab17b234840d59a9df33721f9507cbaafd256,:zap: Fixed build and made some smaller changes,Jan Oberhauser,janober,2019-12-01T15:15:02Z
+bf8d779e98e6059a76bf287cb6a0d2697e55451c,Merge remote-tracking branch 'origin/filemaker-layout-list' into filemaker-layout-list,Romain Dunand,airmoi,2019-12-01T12:01:58Z
+7e8ecdd9cc51bc31995c9703b140ebfac8742b59,"Recursively parse layouts inside folders
+
+Sort layouts by name
+Fix credentials",Romain Dunand,airmoi,2019-12-01T12:00:21Z
+1a0bcc0dc981d07731185bba49a64262d721e41a,"Recursively parse layouts inside folders
+
+Sort layouts by name
+Fix credentials",Romain Dunand,airmoi,2019-12-01T12:00:21Z
+beccf379a11f79ea0d37cbdd06993254c9b656f4,:twisted_rightwards_arrows: Merge branch 'feature/paypal-node' of https://github.com/RicardoE105/n8n into RicardoE105-feature/paypal-node,Jan Oberhauser,janober,2019-12-01T11:13:41Z
+b4c3642dcc6575d46b50a22dabf973316420e6f6,:bug: Fix bug that Option with value 0 could not be selected,Jan Oberhauser,janober,2019-11-30T23:24:25Z
+2a802256cab9edf14f58f2fdd83f12c28fa4398b,:sparkles: Add delete operation to GoogleSheets-Node,Jan Oberhauser,janober,2019-11-30T22:55:22Z
+8bf90e6496ceb1d7ded04e6eed7b7f050224d479,":bug: Fix issue that ""Chat ID"" was not visible for some operations",Jan Oberhauser,janober,2019-11-30T20:50:36Z
+6dc1c7c989b14fbea0eca9b235e518eddf45baa4,:twisted_rightwards_arrows: Merge branch 'codejamninja-codejamninja/delete-asana-webhooks',Jan Oberhauser,janober,2019-11-30T17:06:03Z
+f6808f212cb43383856ad962455b40e3eb7339b6,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-11-30T17:05:34Z
+6e4d6a5c1c6648e64b1894df8fb792468969b23f,done,Ricardo Espinoza,RicardoE105,2019-11-30T17:02:30Z
+189f90bf61721f30ef339e8a0d363f388a9d4665,:twisted_rightwards_arrows: Merge branch 'codejamninja/delete-asana-webhooks' of https://github.com/codejamninja/n8n into codejamninja-codejamninja/delete-asana-webhooks,Jan Oberhauser,janober,2019-11-30T16:56:30Z
+a79b618029f6ab12524fb52ca0c90f19391ea13c,:bug: Fix naming of FileMaker credentials #122,Jan Oberhauser,janober,2019-11-29T23:13:06Z
+1dc80e3bddb9d00c89addfc80eb3f3cc1162c785,:bulb: added api links,Ricardo Espinoza,RicardoE105,2019-11-29T22:36:07Z
+9def6cd6ae4331bd098c9f7890989bedb352db19,:sparkles: Issue resource done,Ricardo Espinoza,RicardoE105,2019-11-29T22:30:00Z
+8e5ad3f4b11d273f28d6ea42d929be1848e3f666,:sparkles:  Renamed and added interfaces,Ricardo Espinoza,RicardoE105,2019-11-28T06:10:41Z
+9310d64131de11ee5a2b5a9e9a554d7e7d0fdf43,Delete asana webhooks,Jam Risser,clayrisser,2019-11-28T01:20:15Z
+bb2ba588f55f6346ca6e65ca9f1b7d0f7d07b13f,:sparkles: issue:create done,Ricardo Espinoza,RicardoE105,2019-11-27T22:42:28Z
+c9b26000c83311cbc75703109350b9782cec5fb9,:bug: Fix typo,Jan Oberhauser,janober,2019-11-27T14:07:37Z
+1c9a78e6249539a4e5abe6429be08f59d32ed230,:tada:  node-setup,Ricardo Espinoza,RicardoE105,2019-11-26T20:38:38Z
+eaa33e0a8df439cb5563d05264b114dc9d286d18,:sparkles: payout resource done,Ricardo Espinoza,RicardoE105,2019-11-26T16:59:27Z
+7a06cb9aebbefcd86628d21c1183163764d9f5b4,:rotating_light: Remove placeholder test file from node-dev,Jan Oberhauser,janober,2019-11-25T22:36:06Z
+5ae6a8044a79db75ddf41f1d7afb6e9656dff85b,:heavy_minus_sign: Remove jest as dependency from node-dev,Jan Oberhauser,janober,2019-11-25T22:29:28Z
+3a1b90acb7921ba4fa6ddebd9474293bc918d037,:heavy_plus_sign: Add lodash.get as dependency,Jan Oberhauser,janober,2019-11-25T22:00:48Z
+08c95f989c0bea470c2f8738eb489c01ff1aa8c9,:sparkles: added create a payout batch,Ricardo Espinoza,RicardoE105,2019-11-24T00:36:47Z
+fe18113133243e689a984a873f0070dfee592699,:bookmark: Release n8n@0.36.1,Jan Oberhauser,janober,2019-11-23T22:24:05Z
+a088054602de8f10e8cab10c9cb00e4e1b219169,:bug: Remove internationalization support because of docker build issues,Jan Oberhauser,janober,2019-11-23T22:23:06Z
+93985d381c036f3e73cac96e29e63432f50a563b,:bookmark: Release n8n@0.36.0,Jan Oberhauser,janober,2019-11-23T21:13:05Z
+05b00eb524b7a2f218643906db7b335666f96017,":arrow_up: Set n8n-core@0.16.0, n8n-editor-ui@0.26.0, n8n-nodes-base@0.31.0 and n8n-workflow@0.16.0 on n8n",Jan Oberhauser,janober,2019-11-23T21:12:33Z
+8aeee839d62c109ceb22cd6bb605e617d4d47b50,:bookmark: Release n8n-editor-ui@0.26.0,Jan Oberhauser,janober,2019-11-23T21:10:05Z
+3750c898f27285525a530e4294134fe72560b2d7,:arrow_up: Set n8n-workflow@0.16.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-11-23T21:09:26Z
+44d579e059afb827deb0c1c49915fa94e460155b,:bookmark: Release n8n-nodes-base@0.31.0,Jan Oberhauser,janober,2019-11-23T21:06:42Z
+ada5b0a3a42c255b8ba3895c83eef793f3544e78,:arrow_up: Set n8n-core@0.16.0 and n8n-workflow@0.16.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-11-23T21:05:51Z
+dfe87f8208dcf9ceec48984f3282b39cb1b3a9ec,:bookmark: Release n8n-core@0.16.0,Jan Oberhauser,janober,2019-11-23T21:04:39Z
+b4bbd9133da341cf471068b19b115f64ec6d68d0,:arrow_up: Set n8n-workflow@0.16.0 on n8n-core,Jan Oberhauser,janober,2019-11-23T21:04:03Z
+387b6212f8368c5d17c8bddf8bc2f1c6f5bdfb05,:bookmark: Release n8n-workflow@0.16.0,Jan Oberhauser,janober,2019-11-23T21:02:32Z
+6e70f16c4b23e6e1c111a00db33ec664e879bbce,:zap: Log and display also errors that occur in webhook function,Jan Oberhauser,janober,2019-11-23T20:57:50Z
+60241d3163bb18e2c8c7322a278c0404e1a34970,:zap: Add support for internationalization,Jan Oberhauser,janober,2019-11-23T10:43:00Z
+2cdfe5b100f44544d56865d98089560aee5bc5f9,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-11-23T10:28:05Z
+862b693c0ac090dbabbec7625472d17517485d97,:zap: Fix issue that items got displayed twice in JSON-View,Jan Oberhauser,janober,2019-11-23T09:23:26Z
+ace367478a68bb7145011db6f5438d686e0a0a21,:zap: Fix indentation in package.json file,Jan Oberhauser,janober,2019-11-22T22:16:55Z
+21f236d67d44829bf9b953456cfdd71e965a486a,"twisted_rightwards_arrows: Merge pull request #129 from vuchl/master
+
+Add helpers.request docs",Jan,janober,2019-11-22T22:15:04Z
+62b828495dd93a04423c4938bbd3dfa7460498d2,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/intercom-node',Jan Oberhauser,janober,2019-11-22T22:05:43Z
+9897a156caa5876f212f5acc701ecb96e24b43bf,:zap: Some changes and fixes on Intercom-Node,Jan Oberhauser,janober,2019-11-22T22:04:06Z
+52acbe390a2a0e3c5b84e06d69d021af822092c7,:tada: node-setup,Ricardo Espinoza,RicardoE105,2019-11-22T17:38:08Z
+7b0c44b16c1897cee0f88263dc60018e2c60bddd,Add helpers.request doc links,Sebastian,vuchl,2019-11-22T07:11:58Z
+efb0ce88f152b181925d451b2dbf919b475e8beb,:twisted_rightwards_arrows: Merge branch 'feature/intercom-node' of https://github.com/RicardoE105/n8n into RicardoE105-feature/intercom-node,Jan Oberhauser,janober,2019-11-22T06:13:11Z
+a1973980555068bb68ad78e336c0bce323e27abf,:twisted_rightwards_arrows: Merge branch 'airmoi-FileMakeNode',Jan Oberhauser,janober,2019-11-22T06:09:21Z
+87d1465a9b54f60057487f688a468a4837418219,:zap: Smaller changes before merge,Jan Oberhauser,janober,2019-11-22T06:08:53Z
+b51c707563d0e4a4eb307f4cb0f4b7e6574e6e23,:twisted_rightwards_arrows: Merge branch 'FileMakeNode' of https://github.com/airmoi/n8n into airmoi-FileMakeNode,Jan Oberhauser,janober,2019-11-22T05:52:45Z
+5fae305cf040a7318cc1e33770a77ca54da1676e,Fix code indent style,Romain Dunand,airmoi,2019-11-21T23:42:26Z
+2d409b6535757c468a64f470361fca2c31e9cfcd,:zap: Support also numbers as values in options and multiOptions,Jan Oberhauser,janober,2019-11-21T23:07:38Z
+61d6ecb03d1fcdc49a2a4ffd8682913e14d01417,:lipstick: removed comments,Ricardo Espinoza,RicardoE105,2019-11-21T17:57:37Z
+c91bc5679256e1330ef9684da38e16788756dc80,renamed opeation,Ricardo Espinoza,RicardoE105,2019-11-21T17:52:57Z
+1b111d4abae7ae31bf4806d189aedf1793e532e3,:sparkles: done,Ricardo Espinoza,RicardoE105,2019-11-21T17:39:04Z
+7233f023500b611fb2010f66505c7fff239b3fae,:bug: Fix typo,Jan Oberhauser,janober,2019-11-20T15:23:43Z
+503baf82f7b089ddaf5aabaab809798298495faa,:sparkles: update lead done,Ricardo Espinoza,RicardoE105,2019-11-20T14:45:58Z
+f811094dc5a9dd46e2a0aea6ebc203e2400087ab,:zap: Add placeholder for webDavUrl on NextCloud-Node,Jan Oberhauser,janober,2019-11-20T13:53:30Z
+b281eb511a102ea863019233dccd81fb3b22c52c,:construction: added execute function,Ricardo Espinoza,RicardoE105,2019-11-18T21:41:00Z
+f413d26e8a58f8ad0346785d0668962e9c7c4916,:pencil: Update issue templates to link directly to forum,Jan Oberhauser,janober,2019-11-18T18:51:20Z
+7a203d4ab9101518774e2bf24b0c9090e473ebc5,:twisted_rightwards_arrows: Merge branch 'tcurdt-tcurdt-doc-improvements',Jan Oberhauser,janober,2019-11-17T21:40:19Z
+463a532a0a05f4a36b098015186f05be32e4f616,:zap: Display description also for credential parameters,Jan Oberhauser,janober,2019-11-17T21:38:37Z
+3537cf395b5adc5509eac3cff717cf927f7b4528,:twisted_rightwards_arrows: Merge branch 'tcurdt-doc-improvements' of https://github.com/tcurdt/n8n into tcurdt-tcurdt-doc-improvements,Jan Oberhauser,janober,2019-11-17T14:32:03Z
+af5c7e75fac8ed23ac01e77baed9ecdf09e93055,:books: Add documentation about usage of executeSingle,Jan Oberhauser,janober,2019-11-17T14:30:13Z
+247e4d5c6f13441b44778ebbecdc395592d87077,:bug: Wait also for webhook call if webhook node gets executed directly,Jan Oberhauser,janober,2019-11-17T13:43:54Z
+2e51e224d8b5ff6cf576f175ecbd93007977bdd1,:bug: field name repited,Ricardo Espinoza,RicardoE105,2019-11-16T23:57:06Z
+3cfcbead719c42a13d737acf2d22a0ce60830aa8,:sparkles: Intercom node,Ricardo Espinoza,RicardoE105,2019-11-16T23:47:28Z
+edf216ba246f5b1b5a9030f72d1b01621f93cab9,:lipstick: Display new line in JSON data,Jan Oberhauser,janober,2019-11-16T22:36:50Z
+7a1983783372f28813afee113349db4bee5319b0,:lipstick: create lead UI done,Ricardo Espinoza,RicardoE105,2019-11-16T22:16:11Z
+be701f4b864e7f98957bad44b22ae70836863203,added/updated descriptions to clarify node and credential fields,Torsten Curdt,tcurdt,2019-11-16T21:33:03Z
+959271e4f5c71a41617881ec5f138a0984071847,:bug: Fix typo,Jan Oberhauser,janober,2019-11-16T19:18:52Z
+4e3ea8ea479e616e476f29d17c37119464ec00b5,":twisted_rightwards_arrows: Merge pull request #124 from manojtrek/patch-1
+
+Update CONTRIBUTING.md",Jan,janober,2019-11-16T19:17:05Z
+4f1b292bbd0a5e2ada74341657cea895f1b37dd9,"Update CONTRIBUTING.md
+
+The link is broken, updating it to correct url.",Manoj Talreja,manojtrek,2019-11-16T00:02:14Z
+83ad3342c217a57f4c32cde38aa333bbfc7442a6,:zap: Fix version of @types/request-promise-native to fix build,Jan Oberhauser,janober,2019-11-15T20:46:19Z
+76e92157d415bcd8df17cca591ee87f834e1bb82,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/mailchimp-node',Jan Oberhauser,janober,2019-11-15T20:45:30Z
+b5544cba943096f0eb787e234461d27ecedd8875,:zap: Small adjustments on Mailchimp node,Jan Oberhauser,janober,2019-11-15T20:44:46Z
+8d886e37669419cdf4596448779624d8079e3a27,:tada: node setup,Ricardo Espinoza,RicardoE105,2019-11-15T20:10:51Z
+325fff318e32da0d0a73e2f27515216986f4ee38,fixed description,Ricardo Espinoza,RicardoE105,2019-11-14T23:47:12Z
+10a07d676ab49f2ccb41ee4e49de14e7a1dddf67,sync upstream,Ricardo Espinoza,RicardoE105,2019-11-14T23:45:09Z
+451c87d8a99ebdde41b36d47a94699f91f52f0c0,:sparkles: Done,Ricardo Espinoza,RicardoE105,2019-11-14T23:44:07Z
+894a41e6d9ee025aa52f934a06a32ff8dd391848,Fix code indent style,Romain Dunand,airmoi,2019-11-14T12:02:57Z
+6a96349ed65b243de270658f69b55402ad1fc763,:bookmark: Release n8n@0.35.0,Jan Oberhauser,janober,2019-11-13T22:56:01Z
+b8e6c1c85cb6b11aeda8d2dffa5e628183dab465,:arrow_up: Set n8n-core@0.15.0 and n8n-nodes-base@0.30.0 on n8n,Jan Oberhauser,janober,2019-11-13T22:54:38Z
+d9bf3d825986c2924727f41441fc793079846ced,:bookmark: Release n8n-nodes-base@0.30.0,Jan Oberhauser,janober,2019-11-13T22:53:14Z
+01924ce902523d55c2d428669314d804fba5c16a,:arrow_up: Set n8n-core@0.15.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-11-13T22:52:00Z
+4218b8530cb9532076d8fcab478ebf1ff84e9dd9,:bookmark: Release n8n-core@0.15.0,Jan Oberhauser,janober,2019-11-13T22:51:06Z
+c5b7b7e06d4f20d468da1af170c125dcca5e74fd,:bug: Fix bug that redis node did not set data #121,Jan Oberhauser,janober,2019-11-13T22:41:36Z
+6984f21a34ecb3bfd9a710cc860704765e8b898e,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/rocketchat-node',Jan Oberhauser,janober,2019-11-13T21:30:53Z
+d61fa934f8138a2ec0019f723afe82b422feca69,:zap: Small changes like adding defaults and moving paramters,Jan Oberhauser,janober,2019-11-13T21:29:52Z
+4d59176b625189ac39d9274ae463846fe688fad4,:twisted_rightwards_arrows: Merge branch 'feature/rocketchat-node' of https://github.com/RicardoE105/n8n into RicardoE105-feature/rocketchat-node,Jan Oberhauser,janober,2019-11-13T13:29:47Z
+3b1f77dafb1be4d4af71d9d8609f878b4cfe4c2c,":twisted_rightwards_arrows: Merge pull request #116 from RicardoE105/fix/nextcloud
+
+:bug: fixed issue with UI",Jan,janober,2019-11-13T06:53:57Z
+4ab9e1cf28f9afff81b59aecd2000d12ab804bfe,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/cronnode-every-minute',Jan Oberhauser,janober,2019-11-13T06:47:38Z
+53ff43cb4b0a2b5768169ef26f611c693043360f,":zap: Execute ""everyMinute"" cron at random second",Jan Oberhauser,janober,2019-11-13T06:46:40Z
+925c60982972a879568b5a321437f1e3efc89812,Merge remote-tracking branch 'origin/FileMakeNode' into FileMakeNode,Romain Dunand,airmoi,2019-11-12T23:26:26Z
+78070497cccb5f9b06bc6d413a25da2a8d19dae8,"Handle duplicate/delete actions
+Code cleanup
+Improve error handling",Romain Dunand,airmoi,2019-11-12T23:00:58Z
+bcfb7afe73a28d6339f438c4380fff70edf940a3,"Handle Perform script
+Handle Perform script in queries
+Handle create/edit",Romain Dunand,airmoi,2019-11-12T01:01:43Z
+8c0a7f77cbaab9bb4cca9f7a8ff185a5813988ca,Handle portal selection & improve UX,Romain Dunand,airmoi,2019-11-10T02:14:10Z
+cfa871322692a06fdd9f51ac8b7a3b5945488221,Auth & get records management,Romain Dunand,airmoi,2019-11-10T00:54:25Z
+29bf80c3eb5f0505eaf7857ba397a6c560f9ab7d,"Merge pull request #1 from n8n-io/master
+
+update master",Romain Dunand,airmoi,2019-11-12T23:14:20Z
+44b1f52d4eec320a51dcfa5bb62c171aeb637ebd,"Handle duplicate/delete actions
+Code cleanup
+Improve error handling",Romain Dunand,airmoi,2019-11-12T23:00:58Z
+a3594ae7a2315c65c6ae91eb990821613d7de147,:rocket: node-setup,Ricardo Espinoza,RicardoE105,2019-11-12T20:48:45Z
+7cc8002ea32ff0f4671212dc5eb5bb32f5f87d95,:rocket: added-everyminute-option,Ricardo Espinoza,RicardoE105,2019-11-12T14:09:42Z
+d46dd3c8969b7e685c86ac3dee3274021a8c076d,:bug: fixed issue with UI,Ricardo Espinoza,RicardoE105,2019-11-12T13:12:27Z
+0852a74469f5c5eca9dd844bfeef106de95e9a74,"Handle Perform script
+Handle Perform script in queries
+Handle create/edit",Romain Dunand,airmoi,2019-11-12T01:01:43Z
+05a0bd89efd910b99dccac65a399af6631f8ebb4,Merge branch 'feature/rocketchat-node' of https://github.com/RicardoE105/n8n into feature/rocketchat-node,Ricardo Espinoza,RicardoE105,2019-11-11T05:02:49Z
+11826d6a4e5e9bde52988d48f1feb25e1040223a,fixed tabs issue,Ricardo Espinoza,RicardoE105,2019-11-11T05:00:24Z
+883d0936cb94ac10801dd9802de4c78345ad5ec4,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-11-10T22:14:36Z
+3623828283b2bcd81d23347ed04f55005ee7a060,:zap: Display helpful error message if n8n-config file is not valid JSON,Jan Oberhauser,janober,2019-11-10T21:06:11Z
+8ffa7a2265efd0c689f8f131f090dda4e811ec21,":twisted_rightwards_arrows: Merge pull request #114 from RicardoE105/fix/freshdesk-node
+
+Fix/freshdesk node",Jan,janober,2019-11-10T21:01:07Z
+71aedd7dc9d1d57e511c908feb2ee13f3b30f31f,:bug: fixed source field on Fresdesk node,Ricardo Espinoza,RicardoE105,2019-11-10T13:08:56Z
+ba743f4eb8088776d7e9b03657496bfe7d857682,sync upstream master,Ricardo Espinoza,RicardoE105,2019-11-10T13:05:22Z
+f9969b80cbd577e5d2db7b971c43132ab932e3dd,Merge branch 'master' into feature/rocketchat-node,Ricardo Espinoza,RicardoE105,2019-11-10T12:52:12Z
+0689f4e403043c5e3f13bc393f1164785772cb19,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/freshdesk-node',Jan Oberhauser,janober,2019-11-10T11:35:21Z
+c6cf496f64f528edf94e6cb04a07d2a2dfba89ed,:zap: Fix status issue on Freshdesk-Node and package.json file,Jan Oberhauser,janober,2019-11-10T11:33:23Z
+cc764b8b3234164fea24d04acbef8555400d2540,:twisted_rightwards_arrows: Merge branch 'feature/freshdesk-node' of https://github.com/RicardoE105/n8n into RicardoE105-feature/freshdesk-node,Jan Oberhauser,janober,2019-11-10T09:21:23Z
+3f30572faf5d46d701a950bed19df9618f14ff33,:twisted_rightwards_arrows: Merge branch 'mtahiue-fixes_description_field',Jan Oberhauser,janober,2019-11-10T09:18:22Z
+ae0ee5ca0127d9c8f0ca3ade3cfe243f4959450d,:zap: Fix due_date on Gitlab-Node,Jan Oberhauser,janober,2019-11-10T09:17:56Z
+2234f9f0c70e85be90b17be20220bbb14b067334,:twisted_rightwards_arrows: Merge branch 'fixes_description_field' of https://github.com/mtahiue/n8n into mtahiue-fixes_description_field,Jan Oberhauser,janober,2019-11-10T08:23:17Z
+b30c9bf242bb1c03eb2fca63868b92285551b11f,Handle portal selection & improve UX,Romain Dunand,airmoi,2019-11-10T02:14:10Z
+e9613944db76e5de1b1fd2f8061104e5b1bada81,:sparkles Done,Ricardo Espinoza,RicardoE105,2019-11-10T01:29:05Z
+f18fc9d9102bb6a334c898cb07bacaf2067c6250,Auth & get records management,Romain Dunand,airmoi,2019-11-10T00:54:25Z
+526320f26a814e6a301626ee472654bc7e93f931,UI finished,Ricardo Espinoza,RicardoE105,2019-11-09T16:57:22Z
+3b2e8867a49fb03be631b0a600d1913705fd2d58,:books: Add documentation for some more environment variables,Jan Oberhauser,janober,2019-11-09T12:14:30Z
+edc6651a9b0e79173f3fcf5a1cb3ae5311aa4834,rocketchat-node-setup,Ricardo Espinoza,RicardoE105,2019-11-09T04:11:01Z
+f60b8e33f759678b98acc7f679c87360f46c372b,sync master upstream,Ricardo Espinoza,RicardoE105,2019-11-08T16:26:09Z
+d960882517e29688145498cf219308b634428aaa,Merge branch 'master' into feature/freshdesk-node,Ricardo Espinoza,RicardoE105,2019-11-08T15:42:01Z
+c478fd9ddb1abfc7f2ebf12fc75c8a13b0e92106,done,Ricardo Espinoza,RicardoE105,2019-11-08T15:41:10Z
+2a54958c0f01a3dfc49d56eeec6b0936c380564c,Fixed name of description field for edit,mtahiue,mtahiue,2019-11-08T14:13:48Z
+bea9fd033b944fa2ad9e8a7b8f727b79af16c92f,Fixed name of description field,mtahiue,mtahiue,2019-11-08T14:10:45Z
+021762c74e660969b975aeb297d02dfc39beaa8a,Added due_date to gitlab create and edit issue,mtahiue,mtahiue,2019-11-08T11:41:47Z
+c23b6ed90471f3593afb2ffec647794d6c8dc5c6,:zap: Improve error reporting on expression error,Jan Oberhauser,janober,2019-11-08T06:18:01Z
+1cf21a88588e89f72c12974cde840fd27a82a4c9,:bookmark: Release n8n@0.34.0,Jan Oberhauser,janober,2019-11-07T21:18:27Z
+72f0fcfa87a10263cb12aca21e4ccad0794851b6,":arrow_up: Set n8n-editor-ui@0.25.0, n8n-nodes-base@0.29.0 on n8n",Jan Oberhauser,janober,2019-11-07T21:17:17Z
+72341a425eef4d983c3b2addd5bbb310e6e0463c,:bookmark: Release n8n-editor-ui@0.25.0,Jan Oberhauser,janober,2019-11-07T21:15:17Z
+226e8467f437d87d7bd66a8f9fd65fc465b546be,:bookmark: Release n8n-nodes-base@0.29.0,Jan Oberhauser,janober,2019-11-07T21:13:51Z
+cb5eaa000d86a00249511f77209eee2ba44e7f6a,:twisted_rightwards_arrows: Merge branch 'airmoi-109_column_shift',Jan Oberhauser,janober,2019-11-07T21:09:23Z
+a86caaf3e79013e386cce072051dfc624cf2e705,:twisted_rightwards_arrows: Merge branch '109_column_shift' of https://github.com/airmoi/n8n into airmoi-109_column_shift,Jan Oberhauser,janober,2019-11-07T20:44:42Z
+3338005749879c6c8abf6b693f4229fcf1386c66,:twisted_rightwards_arrows: Merge branch 'quansenB-quansenB',Jan Oberhauser,janober,2019-11-07T20:20:25Z
+98ac7f3cc11112d9ce6e82eb0aa9e045ea9b7001,:zap: Remove not needed import,Jan Oberhauser,janober,2019-11-07T20:20:08Z
+cf6ba78f506232828ec8823125f8624d1603a92e,:twisted_rightwards_arrows: Merge branch 'quansenB' of https://github.com/quansenB/n8n into quansenB-quansenB,Jan Oberhauser,janober,2019-11-07T20:09:11Z
+e4f08382f261792241a7e0b9f54d3183e2708c15,:books: Add documentation for Function-Nodes and about Data Structure,Jan Oberhauser,janober,2019-11-07T20:06:30Z
+fcb4f8554c522ea37befca39f807666eb8150b36,:books: Add links to example docker-compose setup,Jan Oberhauser,janober,2019-11-07T20:05:34Z
+2292cc018c1fe4090de437047ba3cd454a8ec0af,UI finished,Ricardo Espinoza,RicardoE105,2019-11-07T18:07:29Z
+821556e85adb737005db089f94d481d44f9d55d7,Shift column index by startRange instead of keyColumnIndex,Romain Dunand,airmoi,2019-11-07T17:38:38Z
+74d1f249810fc6596c7b49b133ec22d203e63567,change spaces to tabs,quansenB,quansenB,2019-11-07T09:50:02Z
+b013e09f4ab4ffde370980e2826b29c88c24e7f9,:twisted_rightwards_arrows: Merge branch 'master' of github.com:n8n-io/n8n,Jan Oberhauser,janober,2019-11-07T07:41:14Z
+04dfbde7164494f6a90bc97f59addbdc79fa5fda,:twisted_rightwards_arrows: Merge branch 'RicardoE105-feature/todoist-node',Jan Oberhauser,janober,2019-11-07T07:40:34Z
+47856f236e2c994319ce88d1ec9b3ecc64986070,:zap: Fixed some lint and cosmetic issues,Jan Oberhauser,janober,2019-11-07T07:40:12Z
+e014b6374803e2ecdbf43b7996483798ff89f5b8,UI changes,Ricardo Espinoza,RicardoE105,2019-11-07T06:06:19Z
+247954c0fa9ff36d2a14ef1bcc0376bf0bd5b082,freshdesk-node-setup,Ricardo Espinoza,RicardoE105,2019-11-07T00:58:18Z
+98ef334ab02d696d7421a2cff2f233b50a172bfb,:twisted_rightwards_arrows: Merge branch 'feature/todoist-node' of https://github.com/RicardoE105/n8n into RicardoE105-feature/todoist-node,Jan Oberhauser,janober,2019-11-06T22:40:08Z
+419c22d5841f547eb197dcb89d61ab5fb16cfeab,":twisted_rightwards_arrows: Merge pull request #107 from mtahiue/fix_edit_method
+
+Fixes edit method",Jan,janober,2019-11-06T22:39:18Z
+e9b79f53e46e63960678ba1d4e1440f8e308c66c,:lipstick: Add syntax highlighting for yaml in docs,Jan Oberhauser,janober,2019-11-06T20:57:01Z
+e45d51e2c58d15cce00ca44fafdf9cf56761f9b2,:books: Add documentation for docker-compose setup,Jan Oberhauser,janober,2019-11-06T20:51:00Z
+ca05cd6494ae33fb51e84fc7e2a5943911c2469e,Fixes edit method,mtahiue,mtahiue,2019-11-06T07:02:00Z
+4e1ac1eb2f3eccf6d1a487f18defe70bd1007d75,removed console.log,Ricardo Espinoza,RicardoE105,2019-11-05T23:57:04Z
+9d50fb0c3361eceb3ac98a6f75da2c2aaa5db551,done,Ricardo Espinoza,RicardoE105,2019-11-05T23:50:55Z
+c8b62179034d67e43f701027f344d307c9ffa1dc,upstream changes,Ricardo Espinoza,RicardoE105,2019-11-05T23:30:12Z
+39b1af94b99203a3bbe9e84dede9dd9d8f5e9833,done,Ricardo Espinoza,RicardoE105,2019-11-05T20:56:10Z
+c206658f8b99253b3a4b5a18f2db8291d5128ed6,:zap: Make it possible to also load values dynamically for multiOptions,Jan Oberhauser,janober,2019-11-05T19:49:04Z
+f5648fd6e10dd51c33d83b35cf9d66e074eadf4d,node-setup,Ricardo Espinoza,RicardoE105,2019-11-05T15:17:06Z
+7bc7323aabb4d56e895e19d472317d3d39e6144f,:twisted_rightwards_arrows: Merge branch 'RicardoE105-master',Jan Oberhauser,janober,2019-11-04T20:30:15Z
+27783dc0a597dc3770dfa9c2188acb1688c85732,:zap: Fixed some lint and cosmetic issues,Jan Oberhauser,janober,2019-11-04T20:29:36Z
+523f31dc84348a624446ba8433fc03768240b727,:twisted_rightwards_arrows: Merge branch 'master' of https://github.com/RicardoE105/n8n into RicardoE105-master,Jan Oberhauser,janober,2019-11-04T19:57:26Z
+7206bbace0765238a6a4c1ee872d7bb6717f3bee,added changes,Ricardo Espinoza,RicardoE105,2019-11-04T17:29:20Z
+6c1d1ade1458a6516b77030dc481ef873d7aae52,tslint proof allcureencies file,quansenB,quansenB,2019-11-03T23:21:57Z
+baf46f4d89ebb41ae1227dbde4422e0ed91a6d5a,finish connections work,quansenB,quansenB,2019-11-03T23:00:59Z
+63ef7bd00c37b9a9292f7c9d9096f50e29d20f80,:twisted_rightwards_arrows: Merge branch 'master' of github.com:n8n-io/n8n,Jan Oberhauser,janober,2019-11-03T22:20:54Z
+dba4bc25c5d8237575ffbbf9ab56340ee53e18a7,:zap: Fix button text,Jan Oberhauser,janober,2019-11-03T22:19:56Z
+5ca63830482931ec81ab3ff5e824eb026ac2282d,add deepdata integration connection support,quansenB,quansenB,2019-11-03T21:25:45Z
+e02946817103007145617e9df3625c45d81db266,add connection description,quansenB,quansenB,2019-11-03T21:17:43Z
+c14bdc88143c6636ff18d9fab062fab53f38929c,":twisted_rightwards_arrows: Merge pull request #103 from leonardlin/master
+
+EmailSend without username/password",Jan,janober,2019-11-03T21:12:12Z
+4c397ea95865da014f67ad679479888e127852f5,":bug: Fix bug that ""alwaysOpenEditWindow"" did not work for ""json"" type",Jan Oberhauser,janober,2019-11-03T21:06:03Z
+4c2f5c93921d81f347b50f18a485dadcf412a6c6,Final UI,Ricardo Espinoza,RicardoE105,2019-11-03T20:50:37Z
+7da53ad943a4692905889fe8c119f34795f28ea0,more tslint changes,quansenB,quansenB,2019-11-03T20:49:49Z
+bc6acaff7292065df723e1210b2a043cc6a235f9,tslint changes,quansenB,quansenB,2019-11-03T20:47:23Z
+e764748aa11c4502b1a2b4bc8afea0da43686d47,add ecommerce order products functionality,quansenB,quansenB,2019-11-03T20:18:58Z
+1abfc89ab3aba357f6d694dcfa67625e38156c87,Merge branch 'master' of https://github.com/leonardlin/n8n,Leo,leonardlin,2019-11-03T18:17:14Z
+cf1ca8703beff9d2a87da211976cb5258d1adf9b,Merge branch 'raw-for-http-node',Leo,leonardlin,2019-11-03T18:16:52Z
+56dae5f11a61e5f55791e4e4c9cab1f17c2d7282,EmailSend don't set credentials if there are none.,Leo,leonardlin,2019-11-03T18:15:54Z
+9a3a0d150b2572ad29e10fd2dbd0ded42c6cc53d, add ecom order products option decrisption,quansenB,quansenB,2019-11-03T16:58:46Z
+0da9c035874f0d1a160cec50cf4a3e0890b3dda5,add ecom customer functionality,quansenB,quansenB,2019-11-03T15:42:18Z
+7a624fd6a934fc94af4bc14560966554dafc3936,changes on UI,Ricardo Espinoza,RicardoE105,2019-11-03T13:39:03Z
+a7fb4d99ba864ec282cb08035463e266912e21c4,:bookmark: Release n8n@0.33.0,Jan Oberhauser,janober,2019-11-03T12:29:51Z
+2ea10e547f8418833ac2f6a274790c83813c670c,:arrow_up: Set n8n-nodes-base@0.28.0 on n8n,Jan Oberhauser,janober,2019-11-03T12:28:48Z
+3cd4409542e9d25577f64cf8b3215d06086d1fdf,:bookmark: Release n8n-nodes-base@0.28.0,Jan Oberhauser,janober,2019-11-03T12:27:54Z
+532442cdbab11f8361283a4898d3651427c45479,":zap: Add mode ""keepKeyMatches"" and ""removeKeyMatches"" to Merge-Node",Jan Oberhauser,janober,2019-11-03T12:26:18Z
+2c4702d75c152b27b193bab0f4de44f4112b4ea4,format changes,quansenB,quansenB,2019-11-03T11:49:03Z
+09d00fc0d709a898e569003b14aabe0579c34727,refactor node description,quansenB,quansenB,2019-11-03T11:47:36Z
+393c5e8fcfe785c7f8c940bbb1e55b65baf6abdb,"Merge pull request #1 from n8n-io/master
+
+update from original",leonardlin,leonardlin,2019-11-03T11:09:19Z
+6bd391a35e0f85a130262b7c90bbccc4e776ea16,finish ecom order endpoints,quansenB,quansenB,2019-11-02T22:11:55Z
+8d88c64b9d8079c7ab2df6820840610e57963064,:bookmark: Release n8n-nodes-base@0.27.1,Jan Oberhauser,janober,2019-11-02T21:35:29Z
+111d0e277bc06afa9bbac55bc7378f18cafc537e,:bookmark: Release n8n@0.32.0,Jan Oberhauser,janober,2019-11-02T21:33:25Z
+54744cadb4f8e567618c03f89fa43f3c1944525a,:arrow_up: Set n8n-nodes-base@0.27.0 on n8n,Jan Oberhauser,janober,2019-11-02T21:32:49Z
+33fd92f2fd8edb5b25448c1a99056efb3eb6b559,:bookmark: Release n8n-nodes-base@0.27.0,Jan Oberhauser,janober,2019-11-02T21:31:41Z
+ac88d25e1b5a5f100aa2711c9baaa20271bf93d3,:sparkles: Add clear functionality to Google Sheet-Node,Jan Oberhauser,janober,2019-11-02T21:29:52Z
+a69426d6ba3aab2e0a10ef2c93ca10b40f0af4c3,add rest of ecommerce description,quansenB,quansenB,2019-11-02T20:49:45Z
+d6134ec40530a4ee21e552e96d2328d48e61d459,:sparkles: Add Deal.duplicate functionality to Pipedrive-Node,Jan Oberhauser,janober,2019-11-02T20:41:13Z
+b5918c6bfec15fa6bddb2d0cb1636f8f2f5ba152,:zap: Make it possible to define custom file name for spreadsheet files,Jan Oberhauser,janober,2019-11-02T20:33:25Z
+204676d2001c1b875d4459d4d9b1598e3c176fdf,:twisted_rightwards_arrows: Merge branch 'leonardlin-raw-for-http-node',Jan Oberhauser,janober,2019-11-02T20:21:12Z
+5804d908d524e800fee64d7038df714acb01dc6b,:zap: Rename parameter to match others and add dot to descriptions,Jan Oberhauser,janober,2019-11-02T20:20:42Z
+97fd592aa6aba1bc7aceb76169af328205c3ab40,:twisted_rightwards_arrows: Merge branch 'raw-for-http-node' of https://github.com/leonardlin/n8n into leonardlin-raw-for-http-node,Jan Oberhauser,janober,2019-11-02T20:13:25Z
+925586e54311df77e30673e82dc0ef76ba674784,add create ecommerce node description,quansenB,quansenB,2019-11-02T18:48:29Z
+46c737dcf259430bda5a9d820d0eb9df34737240,add all currencies,quansenB,quansenB,2019-11-02T17:29:01Z
+0b20fe3916935243729280a6156be2de4beaaf0e,:twisted_rightwards_arrows: Merge branch 'leonardlin-master',Jan Oberhauser,janober,2019-11-02T11:17:01Z
+ab6cc43a4c1681c062abfe8f8e8105a669c25317,:shirt: Fix lint issues,Jan Oberhauser,janober,2019-11-02T11:16:20Z
+ab3e10db042855dd49f04b515cd490f315faac61,:twisted_rightwards_arrows: Merge branch 'master' of https://github.com/leonardlin/n8n into leonardlin-master,Jan Oberhauser,janober,2019-11-02T10:34:30Z
+644b5455c9b974fc9377202bdfd91e3992071f3e,added ability to post raw/string/xml,Leo,leonardlin,2019-11-02T09:12:59Z
+c31dc77b06f8b84d3b8323b2affb278851276736,added amqp sender,Leo,leonardlin,2019-11-01T12:50:33Z
+1e11953c1c93417aa968e0fc22fa556bc253b9b1,:bookmark: Release n8n@0.31.1,Jan Oberhauser,janober,2019-11-01T10:37:45Z
+6f5418a9ad63979bac283a788b36fe92eaac318f,:arrow_up: Set n8n-nodes-base@0.26.2 on n8n,Jan Oberhauser,janober,2019-11-01T10:36:57Z
+1d61efcd01bb0992d1ee96bf4d31ecd0f27e237e,:bookmark: Release n8n-nodes-base@0.26.2,Jan Oberhauser,janober,2019-11-01T10:35:38Z
+83adecad379176ef84f9f92c2a203625772bd095,:twisted_rightwards_arrows: Merge branch 'master' of https://github.com/vuchl/n8n,Jan Oberhauser,janober,2019-11-01T10:12:55Z
+b16b664afaaf9e4f4c9ff394610419eb8f12a882,:zap: Make JSON.parse of data in MoveBinaryData optional,Jan Oberhauser,janober,2019-11-01T10:07:17Z
+2c45460d9098bc01ce257b2db609a7f122341657,Add encoding Option,Sebastian,vuchl,2019-11-01T09:50:27Z
+230dc33752f93d754df34f5ec5dc485267eeeda3,amqp listener with debug-console output,Leo,leonardlin,2019-11-01T07:42:14Z
+7ebe09cec16ca9c177f0146678904b9836d1d6a3,:bookmark: Release n8n-nodes-base@0.26.1,Jan Oberhauser,janober,2019-10-31T21:34:17Z
+547cd4a9ce3b0063886985935ce8e36a07d01469,:bug: Fix typo,Jan Oberhauser,janober,2019-10-31T21:33:30Z
+7b0b71960d7caf39e2ca04da957a9deb10c8b2b8,:bookmark: Release n8n@0.31.0,Jan Oberhauser,janober,2019-10-31T19:28:09Z
+e2718e3cc391258a6b7e19856ab1c41ecfdf50b3,:arrow_up: Set n8n-editor-ui@0.24.0 and n8n-nodes-base@0.26.0 on n8n,Jan Oberhauser,janober,2019-10-31T19:26:00Z
+729cdedcabb0723c2fab706ca063b6a95d0012aa,:bookmark: Release n8n-editor-ui@0.24.0,Jan Oberhauser,janober,2019-10-31T19:22:09Z
+95aa0590b205eaf0fdce20151843ac75d5a0bc61,:bookmark: Release n8n-nodes-base@0.26.0,Jan Oberhauser,janober,2019-10-31T19:19:55Z
+09b339f01988dde6be314a0ba98c83c75a03053d,:zap: Make it possible to return all matches in with GoogleSheet Lookup,Jan Oberhauser,janober,2019-10-31T19:16:20Z
+78af0362312b4113ba65e93cde363b2c66cbeef6,:zap: Close Postgres-Databank connection once node is done,Jan Oberhauser,janober,2019-10-31T16:43:30Z
+6a88484d467c71b38b87a70fa809713a2a6cb7e9,:zap: Change default parameter value,Jan Oberhauser,janober,2019-10-31T16:26:05Z
+d073204bb0a7b62959e58b91ef49bcb5d6321b33,:sparkles: Add MoveBinaryData-Node to move data between binary an JSON,Jan Oberhauser,janober,2019-10-31T16:24:56Z
+91498b45734433fd371cf12fd72048b21ffd2a7a,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-10-31T12:41:39Z
+1567a260a482de013fa0b59b4bc3c60054a3304b,:twisted_rightwards_arrows: Merge branch 'frane-master',Jan Oberhauser,janober,2019-10-31T10:46:48Z
+d67e77f760a47f38cedab1d3f5f2ee92b84567d7,:zap: Add GraphQL logo and fix lint issues,Jan Oberhauser,janober,2019-10-31T10:45:50Z
+e6186d4553819636c83a2ea3f1516609832a6dee,:twisted_rightwards_arrows: Merge branch 'NeOMakinG-master',Jan Oberhauser,janober,2019-10-30T13:57:27Z
+117cca0505343e5c3b3335d46130628060c213a5,:zap: Remove parameter and improve retry functionality,Jan Oberhauser,janober,2019-10-30T13:56:58Z
+971a134cc42b9d6364d604de064c040b9bad989d,Fix [object Object] issue in interface,Frane Bandov,Unknown,2019-10-30T13:02:14Z
+5f0d222d6fb9f66214c14d4a90b3090d3e676483,:twisted_rightwards_arrows: Merge branch 'master' of https://github.com/NeOMakinG/n8n into NeOMakinG-master,Jan Oberhauser,janober,2019-10-30T12:03:40Z
+8b04f1ff37ea824c6a6179776c20183dfebae341,GraphQL support,Frane Bandov,Unknown,2019-10-30T11:05:52Z
+2e56730fade0647d39dfe4b160dc4702e1c17f1f,delete left over deleteNote code and change defdault currencies,quansenB,quansenB,2019-10-29T22:45:20Z
+51a6b47985296d55e8d4eafaad56546ab9e7f8fa,"display pipeline, owner and stage as default in create deal",quansenB,quansenB,2019-10-29T19:08:23Z
+4cbbdda8c1a80a53e273fb04de8e41da01762afc,add eur as default at update deal,quansenB,quansenB,2019-10-29T18:53:02Z
+3d42a0f0e6bbb13462650c51103c3682beccfba2,add currency dropdown,quansenB,quansenB,2019-10-29T18:51:09Z
+33fad1dc06b3fc4be5d20519f3b0db6320f7d667,:books: Improve documentation,Jan Oberhauser,janober,2019-10-29T08:41:48Z
+1b076a4763d236d78f01e4a31512b5ee952f43ae,:whale: Set n8n and system timezone separately,Jan Oberhauser,janober,2019-10-29T07:27:26Z
+a8b3f383ef687e8728a384546efdd7f6c3868022,revert unneeded changes for PR,quansenB,quansenB,2019-10-28T23:19:02Z
+fbe78e4cb61803ee5d170c4ed14338700a14ed70,revert package.json chanes in editor ui,quansenB,quansenB,2019-10-28T23:15:28Z
+6166e3955b512d8bcd1451b3056ad55b53345851,add -vscode to gitignore,quansenB,quansenB,2019-10-28T23:14:04Z
+0bc77e129265c6a95a429f00b1a3aed64cc96b83,:twisted_rightwards_arrows: Merge branch 'vuchl-master',Jan Oberhauser,janober,2019-10-28T22:10:34Z
+d029c0de17b5e58435874b44f0c09fc96126db1e,done,Ricardo Espinoza,RicardoE105,2019-10-28T21:23:25Z
+0e005675ccff9c2c1fc586e0a0415ee2f5160aaf,Added ca-tools to be able to configure certs from /etc/ssl/certs,Sebastian,vuchl,2019-10-28T08:43:27Z
+83f3363846656e35ea87bff07ed4fdd176ff7c9c,Bumping Node version,Sebastian,vuchl,2019-10-28T08:42:28Z
+99df238f8f812f9ed113e6a370a6c1c6ecc54f11,:books: Fix description of Function-Node,Jan Oberhauser,janober,2019-10-28T07:53:29Z
+9b42ed43e25b8b94d7656e75fb0c175f0677a4d7,:twisted_rightwards_arrows: Merge branch 'lucafaggianelli-mongodb-node',Jan Oberhauser,janober,2019-10-27T21:51:06Z
+fb16f69573ecb997c8e3e26935e346fe262e6bd7,:bookmark: Release n8n@0.30.0,Jan Oberhauser,janober,2019-10-27T21:49:01Z
+95deaef95ae1d350575d49b61acc79db5e342ee1,:arrow_up: Set n8n-nodes-base@0.25.0 on n8n,Jan Oberhauser,janober,2019-10-27T21:48:30Z
+78d3ac2fc9a70e86676df83169e8cd1335545d01,:bookmark: Release n8n-nodes-base@0.25.0,Jan Oberhauser,janober,2019-10-27T21:46:58Z
+a23f3fdbbcac655f45f81a1505707f1014ebedca,:zap: Small fixes and changes to MongoDB-Node,Jan Oberhauser,janober,2019-10-27T21:45:48Z
+75a25431d1beae3be80eef62ba59fececaac615f,:twisted_rightwards_arrows: Merge branch 'mongodb-node' of https://github.com/lucafaggianelli/n8n into lucafaggianelli-mongodb-node,Jan Oberhauser,janober,2019-10-27T20:47:59Z
+a94d289d81a0474c97fa8ef75bb2f0aa2462a86d,:sparkles: Add GoogleDrive-Node,Jan Oberhauser,janober,2019-10-27T20:44:21Z
+713535087f9316ddf83ddc80982200d425a09be0,:twisted_rightwards_arrows: Merge branch 'deurk-patch-1',Jan Oberhauser,janober,2019-10-26T18:47:15Z
+6230cde952a55f5d8470827fc3399cfb7b330088,:twisted_rightwards_arrows: Merge branch 'patch-1' of https://github.com/deurk/n8n into deurk-patch-1,Jan Oberhauser,janober,2019-10-26T18:40:26Z
+9d0d85875e28e5da7132acef3603a24ff8689b42,Added Mandrill support,Ricardo Espinoza,RicardoE105,2019-10-26T16:58:04Z
+97ba03e8b41ebdfdb256decf1f66ebe4f68e1f7f,docker-entrypoint.sh MUST be executable for the container to start correctly,Alexandre Nizoux,deurk,2019-10-26T13:32:10Z
+d7775aa8ede37c431f0793cae8c0071b0e839eac,"Double quotes to calm code autoreview
+
+Should now pass green on code review :)",Alexandre Nizoux,deurk,2019-10-26T11:42:22Z
+cc97cc7b713f5ea2fa3f4f35ba4c7cf18588b63f,"added docker-entrypoint.sh
+
+Just setting timezone for system tools (`date` and others) to match app timezone defined with GENERIC_TIMEZONE env var.",Alexandre Nizoux,deurk,2019-10-26T11:38:46Z
+8861cb17c8f8f16ad8e6786ae55a1fd7c3c26cdc,"Added entrypoint
+
+Setting up TZ and GENERIC_TIMEZONE env vars required to use an entrypoint script",Alexandre Nizoux,deurk,2019-10-26T11:36:15Z
+c2451f291e1e796f0c8f4b4c5d2a26cd45cc3fe4,:books: Add Contributor License Agreement,Jan Oberhauser,janober,2019-10-25T20:21:18Z
+728612b8ca16d3b920a54b82276d5ea43b6ce7e0,:bookmark: Release n8n@0.29.0,Jan Oberhauser,janober,2019-10-25T19:53:05Z
+0f0aaca8e6f26af4fbb5d94730e44b3bde4e5537,:arrow_up: Set n8n-nodes-base@0.24.0 on n8n,Jan Oberhauser,janober,2019-10-25T19:52:22Z
+5c05116ec60551f157b29a80c1cd740443520291,:bookmark: Release n8n-nodes-base@0.24.0,Jan Oberhauser,janober,2019-10-25T19:46:20Z
+547f245947adbefb831414b5009f29c70bb73497,:zap: Make it possible to use email nodes work with unauthorized certs,Jan Oberhauser,janober,2019-10-25T19:38:54Z
+5dcb2a74f2748e881c763717b877e611aa06e3a9,add .env to gitignore,quansenB,quansenB,2019-10-25T16:29:23Z
+9072f9212eaac2d9e2439d6b7f41aa7cc5674a73,remove console.logs,quansenB,quansenB,2019-10-25T16:26:43Z
+ccfcd6fc688a782fa60564825fb4fad63494c9f3,fix deal noe update,quansenB,quansenB,2019-10-25T16:23:34Z
+5b335c1578829155558b3e806cab8cbe14b2c6e2,fix dealNote bug,quansenB,quansenB,2019-10-25T16:18:33Z
+78997ddeac4304f89ee067a66b508ba912251482,rename fields to how they appear in APi to prevent bug,quansenB,quansenB,2019-10-25T15:48:46Z
+12a0592896cfc6156644293d60894c1906cc2df6,exclude unnecessary import,quansenB,quansenB,2019-10-25T14:57:26Z
+a09d6dfbf665817b189ae34c55856efd494abd0b,exclude unnecessary import,quansenB,quansenB,2019-10-25T14:56:15Z
+66a335054fa896fc45eceeab1877073f7a92172f,add dealnote functionality,quansenB,quansenB,2019-10-25T14:48:53Z
+819efc50e5da01c9e545ff35a3f0a74a5ff893a5,add error handling for unknon operations,quansenB,quansenB,2019-10-25T14:30:58Z
+4f1a0961392cd652a64080e2bb5f1c55cd038c51,refactor deal update to take add field format,quansenB,quansenB,2019-10-25T14:25:16Z
+0034a17b17d8975b12d3b3511693affdc05ced31,revert to addition fields design choice,quansenB,quansenB,2019-10-25T14:15:01Z
+f5c585c7be6721e84080f45813cb083a9879e5ef,add not required fields to body.deal obj,quansenB,quansenB,2019-10-25T13:47:43Z
+02491775b611cdaf9138a8b87e18a6ba0b6036b9,:books: Make clear what has to be executed to develope for n8n,Jan Oberhauser,janober,2019-10-25T13:28:39Z
+8b7398bf393893cb2d59dd1ac5f9371c7ff3a2f3,add dealId to update decription,quansenB,quansenB,2019-10-25T12:51:46Z
+16e9c41f2793b5bc2e042a9d668b781d8759806d,fix some small things in node description,quansenB,quansenB,2019-10-25T12:50:15Z
+683c889a14e7318866a2e3d0fe7a528902826e7e, set up functionality layout,quansenB,quansenB,2019-10-25T12:24:24Z
+de3859bbf63d00cff40a05e5eb47e8457f71f2f7,"Add container timezone handling
+
+Allows to change the timezone with the TZ env variable, useful for cron tasks and other things.",Alexandre Nizoux,deurk,2019-10-25T06:34:42Z
+c82c41123abe4487bf2ebda22c70bc5bbf077040,:twisted_rightwards_arrows: Merge branch 'lucafaggianelli-gitlab',Jan Oberhauser,janober,2019-10-25T06:16:29Z
+4ebdffd0dd2a51eb736b9972d7c72b7f6cc7fdf7,:zap: Small fixes to Gitlab node before merge,Jan Oberhauser,janober,2019-10-25T06:15:36Z
+eb2425cc4f3184261ef311030a68e8cbe3fe0203,:twisted_rightwards_arrows: Merge branch 'gitlab' of https://github.com/lucafaggianelli/n8n into lucafaggianelli-gitlab,Jan Oberhauser,janober,2019-10-25T05:38:56Z
+e896c1c319b1b92b7215e0b9d88cef73b8c1fa08,rorder resources,quansenB,quansenB,2019-10-25T00:50:03Z
+cd28bbcbdc0ff472f7547eeb44b40814d318d11f,rename deal id,quansenB,quansenB,2019-10-24T18:50:57Z
+c8bd2d538d3136f3bbbf4d5f03243b3fb2b34d7f,rename misspelled file,quansenB,quansenB,2019-10-24T18:29:45Z
+445384a590d79f0edd1118b462686d14106a6f2f,deal-note-description,quansenB,quansenB,2019-10-24T18:21:28Z
+a1fed27229a15e00ecd3a133c7a728bd9cc45245,add CRUD deal descriptions,quansenB,quansenB,2019-10-24T18:15:57Z
+a2b589880ff52b117601254de78f36084d6de647,:zap: Check for correct Node.js version on start,Jan Oberhauser,janober,2019-10-23T12:03:40Z
+69af5e7490f0cba106dce39e6fd2a68004aeb161,:bookmark: Release n8n@0.28.0,Jan Oberhauser,janober,2019-10-23T09:29:27Z
+77a6dd4303c160cb40842fdf8d6b8885be21f32d,:arrow_up: Set n8n-nodes-base@0.23.0 on n8n,Jan Oberhauser,janober,2019-10-23T09:28:27Z
+ede292707d7302b88cd7e3bd2519b7e76d455ea7,:bookmark: Release n8n-nodes-base@0.23.0,Jan Oberhauser,janober,2019-10-23T09:27:15Z
+6a6252baf1e1028820a5576b27257f76b599a5f3,:bug: Fix issue with wrong default valueRenderMode in Google Sheets,Jan Oberhauser,janober,2019-10-23T09:21:33Z
+6f99c608ae4e265486e1590e73db0f1b25657716,:twisted_rightwards_arrows: Merge branch 'MattermostIntegration',Jan Oberhauser,janober,2019-10-22T19:45:55Z
+60165d5fe2e7bd2c2b518b4ff70efb7dd7ad08a2,:zap: Allow to automatically encode custom values with Pipedrive update,Jan Oberhauser,janober,2019-10-22T09:30:35Z
+6da0cad9cc73307325f345083cda1d32858e5328,:sparkles: Add additional functionality to Mattermost-Node,Jan Oberhauser,janober,2019-10-21T22:12:35Z
+f033e4c886ab5ac102e21d10b364d5e4e15c22d2,Refactored into simple Discord node so it can be extended later,neomaking,NeOMakinG,2019-10-20T21:26:58Z
+bc08c7da2d28ea6fa57b48119df9c3b4564fd5bc,:sparkles: Add basic Mattermost-Node,Jan Oberhauser,janober,2019-10-20T20:57:06Z
+45a21d5ce1a965db5d89efc7d309a534fdf1e6bd,:bookmark: Release n8n@0.27.0,Jan Oberhauser,janober,2019-10-20T20:34:52Z
+6c3cd790b624ad528077befb16d2fb34496356b2,":arrow_up: Set n8n-core@0.14.0, n8n-editor-ui@0.23.0, n8n-nodes-base@0.22.0 and n8n-workflow@0.14.0 on n8n",Jan Oberhauser,janober,2019-10-20T20:34:04Z
+a61b26c640dbf75af769e2d5682afed504a128d9,:bookmark: Release n8n-editor-ui@0.23.0,Jan Oberhauser,janober,2019-10-20T20:32:09Z
+b8ea9efff24afb49b49032d4b7bf0ac38c3fb06d,:arrow_up: Set n8n-workflow@0.15.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-10-20T20:31:40Z
+99166fd3b412f8a251d16ec35c24cfd3b37510c1,:bookmark: Release n8n-nodes-base@0.22.0,Jan Oberhauser,janober,2019-10-20T20:30:20Z
+609329ce7bf1ac26e9fff0ffea0b1f455a0827d3,:arrow_up: Set n8n-core@0.14.0 and n8n-workflow@0.15.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-10-20T20:29:43Z
+d0162b6a42d6de3201e8eedc0c9331f24f2be0e9,:bookmark: Release n8n-core@0.14.0,Jan Oberhauser,janober,2019-10-20T20:22:07Z
+16f9e91f77e648babd27881ee10174a3b3ab24d0,:arrow_up: Set n8n-workflow@0.15.0 on n8n-core,Jan Oberhauser,janober,2019-10-20T20:21:24Z
+3bf94e86c96874c65718bec9d7ed07dd11a76042,:bookmark: Release n8n-workflow@0.15.0,Jan Oberhauser,janober,2019-10-20T20:19:45Z
+f2af8d706dfe7c52438af6aa2b34d04eb3b84ac8,Handling rating limit of Discord Webhook API,neomaking,NeOMakinG,2019-10-20T20:14:42Z
+9a8ad029d8249e5f350d4cfa2ab7d61f5b29913d,:twisted_rightwards_arrows: Merge branch 'BenoitTallandier-CurrentParamtersInLoadingMethod',Jan Oberhauser,janober,2019-10-20T19:43:31Z
+e3b71c2ed4eb8e32257be677c60127f58cfd3d7f,:zap: Rename function and fix styling,Jan Oberhauser,janober,2019-10-20T19:42:34Z
+f0c75ec9b78cfda34c4091752dfa38ee1d8d00ae,:twisted_rightwards_arrows: Merge branch 'CurrentParamtersInLoadingMethod' of https://github.com/BenoitTallandier/n8n into BenoitTallandier-CurrentParamtersInLoadingMethod,Jan Oberhauser,janober,2019-10-20T19:23:55Z
+f82436dc8d81adc3ed3453396cf662f0c6c08de1,:sparkles: Make it possible to define how values should be interpreted,Jan Oberhauser,janober,2019-10-20T19:21:55Z
+02a7d92fc19fddc29b76146261cd83fa0cd8512a,🔃Add unction getCurrentNodeParameters to get currents parameters in loading function,BenoitTallandier,Unknown,2019-10-20T18:55:49Z
+8b1e3d7ba95502c2b756c74db1803f2373537a1b,:bug: Fix bug that no Fields could be added,Jan Oberhauser,janober,2019-10-20T15:38:11Z
+027ce90f896426e84077009a324a3d1922d2250c,Handling error and kicking out unused code,neomaking,NeOMakinG,2019-10-20T11:22:57Z
+ebfdd91b827ea75738a36a90f5453671e3c54c44,:books: Clarify consulting/support amount in docs,Jan Oberhauser,janober,2019-10-19T09:49:08Z
+94d91ff9e8292daa020aaf65cf9e34d694d532ce,:pencil: Update issue templates,Jan,janober,2019-10-17T09:53:00Z
+16e7233fad38feeb5452c048e8288033bd41b657,:pencil: Update issue templates,Jan,janober,2019-10-17T09:15:47Z
+2b554db8f3fc9c124f174cf4d88e746bd4ae4db8,fix gitlab auth and endpoint url,Luca Faggianelli,lucafaggianelli,2019-10-17T01:33:52Z
+34092286bc38e1bac55623c8aeebf8ffeaa925f9,add gitlab to package.json,Luca Faggianelli,lucafaggianelli,2019-10-17T00:54:17Z
+a9a1e2bb367a3b7328ba44517da787bf39d3c49a,gitlab node,Luca Faggianelli,lucafaggianelli,2019-10-17T00:53:15Z
+15bb156e819c7960638adcecf4652f2db449d784,gitlab credentials and triggers,Luca Faggianelli,lucafaggianelli,2019-10-16T23:49:09Z
+b8b5ba4e79cd346205b8b0b89a8a288b0eca9d39,Add Discord Webhook node,neomaking,NeOMakinG,2019-10-16T20:53:30Z
+b8f058518579a9ee0ed41760d21776e348db3bf1,:bookmark: Release n8n@0.26.0,Jan Oberhauser,janober,2019-10-16T12:13:01Z
+6de2687d466faf21d151a5aec01c0f193a011736,":arrow_up: Set n8n-core@0.13.0, n8n-editor-ui@0.22.0, n8n-nodes-base@0.21.0 and n8n-workflow@0.14.0 on n8n",Jan Oberhauser,janober,2019-10-16T12:12:30Z
+5f45f5a011f8a254ca38f3bab5eb21ad22b79464,:bookmark: Release n8n-editor-ui@0.22.0,Jan Oberhauser,janober,2019-10-16T12:10:55Z
+c08c3956805e2d92378287e05f1c0bfd7869c862,:arrow_up: Set n8n-workflow@0.14.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-10-16T12:10:36Z
+04dfbf7703772279959dc6df85b6ff9ed2b031a1,:bookmark: Release n8n-nodes-base@0.21.0,Jan Oberhauser,janober,2019-10-16T12:09:31Z
+50a3a2d142deac78c91c5d8247501e2255decb3c,:arrow_up: Set n8n-core@0.13.0 and n8n-workflow@0.14.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-10-16T12:09:09Z
+025f484aa679f5171c841105a29186a9709566ef,:bookmark: Release n8n-core@0.13.0,Jan Oberhauser,janober,2019-10-16T12:08:00Z
+121398246429357bc9ab36206782e4dfd96d0141,:arrow_up: Set n8n-workflow@0.14.0 on n8n-core,Jan Oberhauser,janober,2019-10-16T12:07:39Z
+08cf0afdb6300499b83f67abfce0b03e22395685,:bookmark: Release n8n-workflow@0.14.0,Jan Oberhauser,janober,2019-10-16T12:05:01Z
+ded2152d6115473be321bea4404b6dc80e0291bf,":sparkles: Make it possible to return custom content-type and data with
+webhook",Jan Oberhauser,janober,2019-10-16T12:01:39Z
+1173c998fc9ac9b9c320b79133a46157c7dcdcb2,:bug: Do not error if expression on text resolves to undefined,Jan Oberhauser,janober,2019-10-16T11:49:08Z
+be8f0b9e3504799b6dffeddab6fafade740d4e58,:sparkles: Make it possible to send Patch-Requests with HttpRequest-Node,Jan Oberhauser,janober,2019-10-16T10:32:15Z
+ea6ec1aa6c91076ee46f83b14dff40295a89ceba,:sparkles: Make it possible to send Form-Data with HttpRequest-Node,Jan Oberhauser,janober,2019-10-16T10:26:47Z
+a0fd9b206530f9744fe8f46ffa6ef942d2820b58,:twisted_rightwards_arrows: Merge branch 'lucafaggianelli-stripe-trigger',Jan Oberhauser,janober,2019-10-16T09:44:24Z
+1b47d19d46f5c158ed0185b1755087499ab62e0f,:shirt: Fix lint issues and naming,Jan Oberhauser,janober,2019-10-16T09:43:34Z
+94b538d344457593a87db9bbaa9cfcb61185f613,:twisted_rightwards_arrows: Merge branch 'stripe-trigger' of https://github.com/lucafaggianelli/n8n into lucafaggianelli-stripe-trigger,Jan Oberhauser,janober,2019-10-16T09:33:53Z
+9785680882c0d141cff5d9444de262bd5cd59565,:twisted_rightwards_arrows: Merge branch 'mscansian-aws',Jan Oberhauser,janober,2019-10-16T09:25:49Z
+c02bf0a7cf8576d61078f55f0464e79f19abd083,:shirt: Fix lint issues and some small bugs,Jan Oberhauser,janober,2019-10-16T09:18:39Z
+2899d5243381c19122a2f8730c224f4d4e7e2305,:twisted_rightwards_arrows: Merge branch 'aws' of https://github.com/mscansian/n8n into mscansian-aws,Jan Oberhauser,janober,2019-10-16T07:46:17Z
+5fc3fd640a4421644012406f8e0d8957d76a1963,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-10-15T21:19:20Z
+152cf194d6b3f01bd85982deb6c0ebb0a5754257,:bookmark: Release n8n-node-dev@0.5.0,Jan Oberhauser,janober,2019-10-15T20:59:12Z
+8453574c0181774db03a022d820f55a13c26379b,":twisted_rightwards_arrows: Merge pull request #81 from lucafaggianelli/fix-mutliselect
+
+fix focus of ParameterInput with type multiOptions",Jan,janober,2019-10-15T19:32:15Z
+007aaab66a262ef697d55b5a29139dac0eb9623d,mongodb update and insert,Luca Faggianelli,lucafaggianelli,2019-10-15T19:14:26Z
+087199798c6ac169109f9b5665a1bddec7e22586,Add operation field to Aws nodes,Matheus Cansian,mscansian,2019-10-15T17:24:45Z
+0fcbe409b6cfb985d52afb807ca9caa8fd3a4b10,Remove aws-sdk dependency,Matheus Cansian,mscansian,2019-10-15T17:21:48Z
+8a8f766b4ac49526e82e6f17463bf6446ba18db2,mongodb credentials and node,Luca Faggianelli,lucafaggianelli,2019-10-15T16:39:00Z
+168d2214a815b3fc3066fc08eaf177b2dbbe0f8f,"fix focus of ParameterInput with type multiOptions
+
+fix #78, fix #2",Luca Faggianelli,lucafaggianelli,2019-10-15T14:44:09Z
+cc09527b44c1f38ee40fa73ec0995520121ecf8a,:bookmark: Release n8n@0.25.1,Jan Oberhauser,janober,2019-10-15T14:11:23Z
+7ff5721ea29050ee257bd9224e5bcd0a95c92118,:bug: Fix bug that it did delete static data when it did not change,Jan Oberhauser,janober,2019-10-15T14:10:28Z
+674dde28ee1590cf3a4499ebb2101925e4d45b7e,auto-creation of webhook via Stripe API,Luca Faggianelli,lucafaggianelli,2019-10-15T12:46:42Z
+99c0063cca201638782297a1cc5b5f7d0bf7b204,:bookmark: Release n8n@0.25.0,Jan Oberhauser,janober,2019-10-15T05:59:27Z
+6324b382fb14bfbd0c022a89118c5e8785b9e1e5,":arrow_up: Set n8n-core@0.12.0, n8n-editor-ui@0.21.0, n8n-nodes-base@0.20.0 and n8n-workflow@0.13.0 on n8n",Jan Oberhauser,janober,2019-10-15T05:59:07Z
+e6d1687e4cb683fdcb9c97a79ef28a82bac4e3e4,:bookmark: Release n8n-editor-ui@0.21.0,Jan Oberhauser,janober,2019-10-15T05:57:38Z
+08bf068b5fd85c9d7c7039b9eccc9b04f0a7a235,:arrow_up: Set n8n-workflow@0.13.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-10-15T05:55:29Z
+dc130084908f8743815765041e879a1b232a5bba,:bookmark: Release n8n-nodes-base@0.20.0,Jan Oberhauser,janober,2019-10-15T05:54:05Z
+8afd7185c59365ffbbcd793902ad2c3aa96dc35e,:arrow_up: Set n8n-core@0.12.0 and n8n-workflow@0.13.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-10-15T05:53:24Z
+b5e7c03c6a8283b4c7de91e163cc63667c320dcd,:bookmark: Release n8n-core@0.12.0,Jan Oberhauser,janober,2019-10-15T05:51:59Z
+64fbdd41acaa4198e6746b13f67bab560408f24a,:arrow_up: Set n8n-workflow@0.13.0 on n8n-core,Jan Oberhauser,janober,2019-10-15T05:51:39Z
+72b134a580605217ddcabeb448540f4164d043f9,:bookmark: Release n8n-workflow@0.13.0,Jan Oberhauser,janober,2019-10-15T05:50:40Z
+1b28825b947108f7545aa51d6c4726e586fc613f,:zap: Make static data available in Function-Nodes,Jan Oberhauser,janober,2019-10-15T05:37:49Z
+542ae1e7859d98e88e0064a78903df51cd47c879,:bug: Fix that static data did not always get load on execution,Jan Oberhauser,janober,2019-10-15T05:36:53Z
+369e8084d3317fc803d2a772362ba59ba7e2c228,:zap: Make it possible to set tunnel subdomain via environment variable,Jan Oberhauser,janober,2019-10-15T05:21:15Z
+a87adc8e5471395a77401481443ff5e4ad8634cc,"stripe trigger
+
+webhook endpoint for stripe events",Luca Faggianelli,lucafaggianelli,2019-10-15T00:43:19Z
+92669bb77a477525a7803d98b820c9b439f0d647,:twisted_rightwards_arrows: Merge pull request #68 from ccakes:jwt-auth,Jan Oberhauser,janober,2019-10-14T20:37:51Z
+6908afa6770392db49476d865f5efe262ffd7385,":twisted_rightwards_arrows: Merge pull request #76 from YoniFei/master
+
+'npm run dev' / 'npm run start' OS fix for CLI",Jan,janober,2019-10-14T19:46:40Z
+76607d70a69bdc114bc7b908e3315e5ca0877390,'npm run dev' / 'npm run start' OS fix for CLI,Yoni Feigelson,YoniFeng,2019-10-14T19:07:17Z
+c09fd103b33983bc35a20a2a45bf32c83fc681e4,:books: Fixed some spelling errors in README.md (thanks @BradyBromley),Jan Oberhauser,janober,2019-10-13T20:46:10Z
+4b1c5ddeddf21c6c7b21f4795acf3985fd71713c,":twisted_rightwards_arrows: Merge pull request #73 from BradyBromley/master
+
+Fixed some spelling errors in README.md",Jan,janober,2019-10-13T20:43:00Z
+20fc1d4869c41e87dfafb01b9a8f6dc4d9fb93ae,:books: Add documentation for some more environment variables,Jan Oberhauser,janober,2019-10-13T20:28:01Z
+dc874ef288f95cadfe3a46fc006eb1545c703338,Fixed some spelling errors in README.md,BradyBromley,BradyBromley,2019-10-13T20:16:31Z
+2e812e1156a7a53fab5b74d3cc8972394a5eb187,":twisted_rightwards_arrows: Merge pull request #69 from wernersmit/fix/withmongo-env-vars-udpate
+
+Use env variable MONGO_NON_ROOT_USERNAME",Jan,janober,2019-10-12T11:58:38Z
+d2b1d7fe6e4048f421369bd9ae8f9450863cc1ab,"Use env variable MONGO_NON_ROOT_USERNAME
+
+MONGO_NON_ROOT_USERNAME specified in .env, but hardcoded n8nuser value used.",Werner Smit,wernersmit,2019-10-12T11:50:37Z
+804f72e95475cf47090075d00c1e04e7d1548de9,":twisted_rightwards_arrows: Merge pull request #66 from YoniFei/master
+
+Fix 'run start' for Windows",Jan,janober,2019-10-12T08:55:44Z
+aa1caa41880b84e9568e7581584caa4c7d5f3e33,"Fix 'npm run start' for Windows, keeping Linux/Mac intact",Yoni Feigelson,YoniFeng,2019-10-12T08:30:06Z
+3155492b4e4bf60caed8c30d504a2f494e370219,:books: Add Typeform-Tutorial link,Jan Oberhauser,janober,2019-10-11T22:07:07Z
+b1d1851842e7e619adc76f2fa638ae80befee387,Fix 'run start' for Windows,Yoni Feigelson,YoniFeng,2019-10-11T15:03:22Z
+291d405a121f3e893a2cff2d0c0f4ccd2c27ba25,":twisted_rightwards_arrows: Merge pull request #65 from jmargeta/fix_typos
+
+Fix typo in IWebhookResonseData",Jan,janober,2019-10-11T12:03:22Z
+50a342b2fbe62f9fcc02070c2f59e630f59bfd54,:shirt: Fix typo: IWebhookResonseData->IWebhookResponseData,Jan Margeta,jmargeta,2019-10-11T11:02:44Z
+6013a22359342ab7408602af1ecf2f26e6cea8ea,":twisted_rightwards_arrows: Merge pull request #63 from vuchl/vuchl-patch-1
+
+Added a tutorial",Jan,janober,2019-10-11T07:35:07Z
+691a4037d5a1124c274f40307377664ddebbc3bf,Fixed indetation,Sebastian,vuchl,2019-10-11T06:31:50Z
+5ed4cc9383fb57bac5b77ca737b71c821695ca40,"Added Google Sheets tutorial
+
+Thanks Sven Janssen for the awesome tutorials!",Sebastian,vuchl,2019-10-11T06:30:06Z
+8fc94b832491002b3510e83322303265ffdd5111,":twisted_rightwards_arrows: Merge pull request #57 from justb81/patch-1
+
+fixed typo on readme",Jan,janober,2019-10-10T13:49:26Z
+98674d74e25c837bce3e1ae80dd627f4f10e277e,fixed typo,Bastian Rang,justb81,2019-10-10T08:22:01Z
+e403d6ec2ef1c6e58c06575a330462c113f9755e,:bookmark: Release n8n@0.24.0,Jan Oberhauser,janober,2019-10-09T20:39:42Z
+cb1f31d438f5426f51bd88912bfb2ad28ecd2e7d,:arrow_up: Set n8n-nodes-base@0.19.0 on n8n,Jan Oberhauser,janober,2019-10-09T20:39:01Z
+ea2e380c308313b0b15cc3324a9cf7d7da4d89bc,:bookmark: Release n8n-nodes-base@0.19.0,Jan Oberhauser,janober,2019-10-09T20:38:08Z
+d5bf00c801efd01376295e3d430ac65f7ff0db99,"Merge pull request #35 from Libermentix/master
+
+:twisted_rightwards_arrows: Add CC property to email",Jan,janober,2019-10-09T19:59:59Z
+3c8946ba7dd30507786bd23b6064cc50c0b5a593,":zap: Add support for dot-notation in mode ""mergeByKey"" for Merge-Node",Jan Oberhauser,janober,2019-10-09T19:52:45Z
+b453c05f7d5b0a5d9f56a3f9d5a9dc1a0681d7f9,Add CC property to email,Felix Plitzko,Unknown,2019-10-08T12:40:47Z
+b7eab083e8b9863830923a3c14bf1a551efb6853,:bookmark: Release n8n@0.23.0,Jan Oberhauser,janober,2019-10-06T09:32:35Z
+2da9e83db2ff4bded5b4978d1a51dbfc0b70f910,":arrow_up: Set n8n-core@0.11.0, n8n-editor-ui@0.20.0, n8n-nodes-base@0.18.0 and n8n-workflow@0.12.0 on n8n",Jan Oberhauser,janober,2019-10-06T09:32:02Z
+6e395bf992ac4a7ceffb31582015def2eb37b0c2,:bookmark: Release n8n-editor-ui@0.20.0,Jan Oberhauser,janober,2019-10-06T09:30:22Z
+68fea77bdd02142611074ced9af917ba5ba2f2ca,:arrow_up: Set n8n-workflow@0.12.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-10-06T09:29:26Z
+5acfb4a2b11a03c8b31eb62fe3e3a73b48d1ce52,:bookmark: Release n8n-nodes-base@0.18.0,Jan Oberhauser,janober,2019-10-06T09:27:40Z
+253d1f13dea491dd29900b9a03e58c80e826ba1a,:arrow_up: Set n8n-core@0.11.0 and n8n-workflow@0.12.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-10-06T09:27:19Z
+794ba3e79bc9d268753a611b8dfd25564b53c3fe,:bookmark: Release n8n-core@0.11.0,Jan Oberhauser,janober,2019-10-06T09:23:02Z
+ac2ba01d3931e0a6ffc3f911762c553aba4331d2,:arrow_up: Set n8n-workflow@0.12.0 on n8n-core,Jan Oberhauser,janober,2019-10-06T09:22:04Z
+3e9ef99e8f2c9c81957f0a3f73dd169490ef110c,:bookmark: Release n8n-workflow@0.12.0,Jan Oberhauser,janober,2019-10-06T09:20:31Z
+e70862f4975616723229c9930151ac31cb73903b,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-10-06T09:18:47Z
+9d01f797786391b303ea1f20bf59042ae95d17b2,:lipstick: Improve slightly display of Executions,Jan Oberhauser,janober,2019-10-06T09:09:01Z
+31cbeae09e3ec46ddc4e2181a64631673909590d,:zap: Make form selectable in TypeformTrigger-Node,Jan Oberhauser,janober,2019-10-06T08:33:50Z
+0207d436553739673e86dcdec4865143a4d5e8a1,":sparkles: Add ""editMessageText"" functionality to Telegram-Node",Jan Oberhauser,janober,2019-10-06T08:07:19Z
+2fd58fd99eaff781613d844f71d5f9e44fc63bf2,":bug: Fix that parameter ""hide"" rule could not overwrite ""show"" rule",Jan Oberhauser,janober,2019-10-06T07:36:05Z
+df6e863925b791ddcce864bd3e8b48285ff95e21,:sparkles: Add TypeformTrigger-Node,Jan Oberhauser,janober,2019-10-05T22:02:40Z
+39c0b08d9db707bd9bd5fc86fd462c64142f2927,Remove aws-sdk dependency from AWS Lambda node,Matheus Cansian,mscansian,2019-10-05T20:17:23Z
+39e2613841a91bb34bcfca5be290ba84b3d82479,:books: Add link to node-list also to other README files,Jan Oberhauser,janober,2019-10-05T17:19:01Z
+22342fa511ba67c77d817922c1fa1ed97ba08e7c,"Merge pull request #34 from mscansian/readme-nodes
+
+Add link to list of nodes in README",Jan,janober,2019-10-05T17:15:26Z
+f6d1bf9ae692be7a367d046143675deb83d1e6f1,Add link to list of nodes in README closes #33,Matheus Cansian,mscansian,2019-10-05T16:54:08Z
+822e12ff35081392d4e70bcfc61f27a6d7ba74c6,Fix identation,Matheus Cansian,mscansian,2019-10-05T15:10:12Z
+d3320e341159446e317787212d2b121e11332059,Remove ResponseMetadata from SNS node results,Matheus Cansian,mscansian,2019-10-05T15:09:03Z
+3e80d742e2b538c7300e5a377234cfaae08dc1c0,Rename amazonSns to awsSns,Matheus Cansian,mscansian,2019-10-05T15:05:58Z
+4bde05f41737ae37ba0e3bc7e74fea82f86a8451,Implement node for AWS Lambda,Matheus Cansian,mscansian,2019-10-05T15:03:18Z
+edb81ef25918c82b61d80a7b1b768fdfa6c71423,Improve code readability Aws node,Matheus Cansian,mscansian,2019-10-05T13:27:19Z
+789f064ed0816086e22bdcd351c1cd20a03989f2,:bug: Add back await that error can get caught,Jan Oberhauser,janober,2019-10-05T11:44:25Z
+82d0c8deeb4daaca6e45769d1c7dea54f7e99d67,:zap: Fix variable naming error,Jan Oberhauser,janober,2019-10-05T11:37:22Z
+ec9d65b2e016299de625b20a364e55bfa6524f25,Implement AWS SNS node,Matheus Cansian,mscansian,2019-10-05T01:06:26Z
+aba7556985e4a337a4e436e695365ce080d46916,:bookmark: Release n8n-nodes-base@0.17.2,Jan Oberhauser,janober,2019-10-04T20:17:50Z
+f59aecb10afb2dc284f32713918483686188a928,:zap: Make update event empty by default on TelegramTrigger-Node,Jan Oberhauser,janober,2019-10-04T20:16:26Z
+f2ceb8aa881bccf62cdbad846db142f5db9fd39c,Add AWS credentials,Matheus Cansian,mscansian,2019-10-04T20:01:25Z
+d589e8a909abb48264092d88e2ee41195d82acf7,:books: Add link to FAQ to license information,Jan Oberhauser,janober,2019-10-04T18:40:23Z
+610270ac657c5e7b896016bbd99249f00bcbe28b,:books: Add FAQ and License information to docs,Jan Oberhauser,janober,2019-10-04T17:14:35Z
+9317d2807e2463832f66f4b9e8f6296c3f03433c,:bookmark: Release n8n-nodes-base@0.17.1,Jan Oberhauser,janober,2019-10-04T13:18:36Z
+161a74f65f4ab7b6937cb50aa6d2809b02039838,:bug: Add missing function and remove debug messages from Telegram-Node,Jan Oberhauser,janober,2019-10-04T13:17:24Z
+7ce760f9daf34d492dd49632a6da361b921d9d9e,:sparkles: Add missing Telegram-Credentials,Jan Oberhauser,janober,2019-10-04T12:18:43Z
+94d06557407b8bcdb7e6f3fb2cd8b6b17e6d2858,:bookmark: Release n8n@0.22.0,Jan Oberhauser,janober,2019-10-04T12:16:59Z
+70d1cbb7d22794231d5c5178cfb1321802141386,:arrow_up: Set n8n-editor-ui@0.19.0 and n8n-nodes-base@0.17.0 on n8n,Jan Oberhauser,janober,2019-10-04T12:16:19Z
+000f24dd4ec857ab78b311e97720f1401741af7f,:bookmark: Release n8n-editor-ui@0.19.0,Jan Oberhauser,janober,2019-10-04T11:48:16Z
+a7a1ddbb892ede4fb8e4b12731b409c6163235b8,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-10-04T11:45:41Z
+03c68645c53ba1f0ef3c90d25e4ef9a45f557fc2,:bookmark: Release n8n-nodes-base@0.17.0,Jan Oberhauser,janober,2019-10-04T11:41:33Z
+9b7aee23cc2b6fd1f2e0f0d1cd404efd22afebb2,:zap: Do not add large amounts of data to variable selector,Jan Oberhauser,janober,2019-10-04T11:34:05Z
+199e7a7a2cef2c89e2a4504afed4602b30a1280d,:zap: Improve hiding of large data,Jan Oberhauser,janober,2019-10-04T11:27:50Z
+1ab8896c37fef0c6acc2722813d511177c2773f0,:bug: Fix warning on save,Jan Oberhauser,janober,2019-10-04T10:43:48Z
+5829ed2e3dff6de5ce9b7133082d1937f42cc8a7,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-10-04T10:36:42Z
+6173149646daaa38d8c36002def404f4173fb5ad,:sparkles: Add Telegram-Nodes,Jan Oberhauser,janober,2019-10-04T10:35:06Z
+295bd212cee2bf28184bda657a54cd268ec12653,:bug: Fix issue that JSON view could not be selected anymore,Jan Oberhauser,janober,2019-10-04T10:34:09Z
+888f01b343937c02a7e2b941b801d371829927b8,:bug: Fix issue with FixedCollection,Jan Oberhauser,janober,2019-10-04T10:33:23Z
+3ed6acd58a2f942ced0c794c524262c5ceb1840e,:zap: Fix issue that two finger swipe on mac did change page,Jan Oberhauser,janober,2019-10-03T09:42:16Z
+11db481df468b9748520bb93d989f1df982cb40b,:books: Add docs about how to create own n8n-nodes-module,Jan Oberhauser,janober,2019-10-03T07:42:18Z
+6ee8638d7cc509abb0e813372302e6d8c1cd6a92,:books: Add to CONTRIBUTING guide how to develope new node for n8n,Jan Oberhauser,janober,2019-10-02T16:01:59Z
+50b23f1fc462c58d1260a98133023af3f10f311b,:zap: If node contains large amount of data hide it first by default,Jan Oberhauser,janober,2019-10-02T13:30:51Z
+b041952ba40d0f555bc61364783721f5c36da56b,:books: Remove links with broken images from sidebar,Jan Oberhauser,janober,2019-10-02T08:02:41Z
+83cde819fe957d785056a7a9fe84738ef34d9211,:books: Add documentation about how to extend documentation,Jan Oberhauser,janober,2019-10-02T08:00:28Z
+3501d4bdadd6fba81dacd5cb17b0b489a033d3d4,:books: Improve Create-Node documentation,Jan Oberhauser,janober,2019-09-27T05:29:15Z
+9615542ff8075b66292e6cc662a12e09ba34bfd1,:whale: Add login to example docker-compose setup,Jan Oberhauser,janober,2019-09-26T14:12:04Z
+85e8714c057a1b2cc64c28dac3007d9170912ed6,:zap: Do not call Error-Workflow in manual-mode,Jan Oberhauser,janober,2019-09-23T20:05:09Z
+9c2e19d953ec4dd8370c799cc444915784b35345,:bookmark: Release n8n@0.21.1,Jan Oberhauser,janober,2019-09-22T20:14:12Z
+4ac75817b673b2f9d6ae128b3a6c22c05a02b599,:arrow_up: Set n8n-editor-ui@0.18.0 on n8n,Jan Oberhauser,janober,2019-09-22T20:13:21Z
+2727c0f8f18d47d3bb1d8af50f9ecbd3f1887046,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-09-22T20:03:58Z
+05a27a16585f0b4f93970fb7461a89e742bad42a,:bookmark: Release n8n-editor-ui@0.18.0,Jan Oberhauser,janober,2019-09-22T20:00:17Z
+8328d7ad9adf32c813d245c4eaca63194b320e69,:zap: Add Help-Menu,Jan Oberhauser,janober,2019-09-22T19:59:45Z
+37bf2f02b72d429c1e962743de5e0928c8ae5c73,:bug: Fix display of version,Jan Oberhauser,janober,2019-09-22T18:56:16Z
+7edbd681082740322e09b19305f22cae8e966478,:rocket: Create CNAME for docs.n8n.io,Jan,janober,2019-09-22T16:31:10Z
+a5b5b60a57542990e373edc0d505a5d5a601a67e,:books: Add n8n documentation page,Jan Oberhauser,janober,2019-09-22T16:29:03Z
+9dbf2ee1480232df641663c306adced0190bc33b,:bookmark: Release n8n-node-dev@0.4.0,Jan Oberhauser,janober,2019-09-22T09:34:55Z
+e0322162a7567a87b704dea200dc1a707e4f059b,:sparkles: Copy also images on node build,Jan Oberhauser,janober,2019-09-22T09:33:53Z
+1d54f2d62c904b248eb768abd550518d95658abe,:heavy_minus_sign: Remove no longer needed dependency,Jan Oberhauser,janober,2019-09-21T18:10:52Z
+d7d40ffd2e4ea2e5d9af31df35b631c6ac627cca,:bookmark: Release n8n@0.21.0,Jan Oberhauser,janober,2019-09-20T12:11:29Z
+ce6f77badf61db88f96c79a812dc06a34b602e5c,:arrow_up: Set n8n-editor-ui@0.17.0 and n8n-nodes-base@0.16.0 on n8n,Jan Oberhauser,janober,2019-09-20T12:09:25Z
+a595434cd0cf29d9770074f4a94cc05b22403012,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-09-20T12:07:02Z
+4c71ed22cdbf04647af1382d48785e1fd2551725,:bookmark: Release n8n-editor-ui@0.17.0,Jan Oberhauser,janober,2019-09-20T11:58:47Z
+bdab5725adfc7eab1da76c452e91dc4fd44c18c1,:bookmark: Release n8n-nodes-base@0.16.0,Jan Oberhauser,janober,2019-09-20T11:57:15Z
+676cecec6680c2dd3dce6481631b045e6a8e9c1f,:bug: Fix bug that page did load white after version update,Jan Oberhauser,janober,2019-09-20T11:54:06Z
+a5344a0998323e94b173f89d3e882a5452352216,:zap: Do not add cors headers in production mode,Jan Oberhauser,janober,2019-09-20T11:06:06Z
+0f67177bf6d4be2441c9ddf16dd6ff9ba8cb96c2,:bookmark: Release n8n-node-dev@0.3.6,Jan Oberhauser,janober,2019-09-20T05:59:25Z
+5c7a6320cb4de1c302f8169a7e01f94c47de2001,:bug: Add missing templates to n8n-node-dev npm package,Jan Oberhauser,janober,2019-09-20T05:58:56Z
+37626056107b8e279fb297f83fca409c1a5dee39,:bug: Fix issue that errors in n8n-node-dev did not get displayed,Jan Oberhauser,janober,2019-09-20T05:54:13Z
+c1a609d358b011c4c989d2257eaf0c843fa7d0d0,:lipstick: Make sure that parameter help icon gets always displayed,Jan Oberhauser,janober,2019-09-19T21:59:25Z
+419af0a5fd10af17fc0e065500adc926193cfe10,:bug: Fix bug that array elements larger than 10 could not be removed,Jan Oberhauser,janober,2019-09-19T21:19:34Z
+3580ea0e2e073d0def056545e613ce24d91d2bb4,":sparkles: Add additional options to ""HTTP Request"" node",Jan Oberhauser,janober,2019-09-19T19:56:04Z
+7a98291110bd0f242215244236337ead84a42b41,:zap: Add body support for PUT requests,Jan Oberhauser,janober,2019-09-19T14:43:38Z
+93cb56792dd6ba8e2ef63b516d03891a151d2f01,:bookmark: Release n8n-node-dev@0.3.5,Jan Oberhauser,janober,2019-09-19T14:07:49Z
+65155d20ed6313c0df77b90f101564825b7013df,:bug: Fix issue that it still did not build correctly,Jan Oberhauser,janober,2019-09-19T14:06:38Z
+e9e00c17e00692a4860ad43dc1c4901781794c92,:bookmark: Release n8n-node-dev@0.3.4,Jan Oberhauser,janober,2019-09-19T13:39:50Z
+bc04136c678a7df33e4c51ec91d786096e52772f,":zap: Make ""n8n-node-dev build"" work without n8n-modules in folder",Jan Oberhauser,janober,2019-09-19T13:38:08Z
+cac46c7839016f19f5090a7df7dabb8f0c1e69a9,:bookmark: Release n8n-node-dev@0.3.3,Jan Oberhauser,janober,2019-09-19T13:25:07Z
+efc16dbc7368c7bba8fec5a5b30434a90a2cdacd,:bug: Fix that n8n-node-dev did not build correctly,Jan Oberhauser,janober,2019-09-19T13:22:22Z
+d337cbd805fad506c5a9321697c26dc755fac1ca,:shirt: Replace some double quotes with single ones,Jan Oberhauser,janober,2019-09-19T12:14:37Z
+e19bdbf6d7ee7ecaee1ae5bdf8a3f6c9ebec1c54,:rocket: Include DB check in health-check,Jan Oberhauser,janober,2019-09-19T12:00:14Z
+52808ea460fb585609996b613c36c7779bfbdd50,:bug: Fix issue that reading version caused problems with build,Jan Oberhauser,janober,2019-09-19T11:21:10Z
+291320f817df69c41c1634f91f6bcf8095948869,:zap: Add source header to link.fish node,Jan Oberhauser,janober,2019-09-18T21:42:21Z
+40732d39d5085a6debfe1106dad88d50b411fb37,:bookmark: Release n8n-node-dev@0.3.2,Jan Oberhauser,janober,2019-09-17T20:41:11Z
+4ebe6dd7f1654f9b92320e607f0f57c6ca3bf2dd,:rocket: Add missing file to npm package,Jan Oberhauser,janober,2019-09-17T20:40:35Z
+db22635333cd3d73717acbe5e829d5c73ab8bb88,:bookmark: Release n8n-node-dev@0.3.1,Jan Oberhauser,janober,2019-09-17T20:31:32Z
+f34ddc9d855cce52d0b4bc35905ef42859695bc1,:arrow_up: Set n8n-core@0.10.0 and n8n-workflow@0.11.0 on n8n-node-dev,Jan Oberhauser,janober,2019-09-17T20:30:41Z
+312860c51cb431b99438806ef3a3d0c74878987e,:heavy_plus_sign: Add request as dependency,Jan Oberhauser,janober,2019-09-17T19:55:13Z
+34e65d2c5f5b08937a5363b2ebfa99c5b32b58a5,:bookmark: Release n8n@0.20.2,Jan Oberhauser,janober,2019-09-17T14:40:46Z
+e7bdaa65d4ab97592af744bc740cebdd6e31d397,:bug: Do not check for basic auth on Kubernetes /healthz endpoint,Jan Oberhauser,janober,2019-09-17T14:39:52Z
+68823f8b6f75bf11f5e175ee5c78ced80ffd6a96,:bookmark: Release n8n@0.20.1,Jan Oberhauser,janober,2019-09-17T13:31:46Z
+0214b44d513d47758ab677bd4a3a2efedb912110,:rocket: Add Kubernetes /healthz endpoint,Jan Oberhauser,janober,2019-09-17T13:30:49Z
+039d4efafa53f6264d5dd9b8aba569d178602178,:books: Add information about how to pan view,Jan Oberhauser,janober,2019-09-15T20:09:39Z
+0ee7b7d79a5d8410dc5670db7bac372e6e7e2480,:sparkles: Add get repository data to Github-Node,Jan Oberhauser,janober,2019-09-11T21:46:17Z
+57958aebc280519b6bebc4f090bffc735b8e5b7f,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-09-11T21:44:19Z
+90040a31eda3b66455d3ddf702e18274f1617d4f,:bookmark: Release n8n@0.20.0,Jan Oberhauser,janober,2019-09-11T20:33:59Z
+b793b2ca5cfcea7cdd721f9159bb22807b5ed94f,:arrow_up: Set n8n-editor-ui@0.16.0 and n8n-nodes-base@0.15.0 on n8n,Jan Oberhauser,janober,2019-09-11T20:32:36Z
+bf0e528ff48fbe40f43a07fecea03c51f1f6da6b,:bookmark: Release n8n-editor-ui@0.16.0,Jan Oberhauser,janober,2019-09-11T20:29:35Z
+077a9fcde246105e4be600b2ce2fc30ea4bd8758,:bookmark: Release n8n-nodes-base@0.15.0,Jan Oberhauser,janober,2019-09-11T20:28:24Z
+9b95072be8e6eeb1f819ce679ac58ad72040cbd3,:rewind: Revert commit,Jan Oberhauser,janober,2019-09-11T19:56:45Z
+90f2dcb4c9e1818f340793eb5a5a0671c6477c1a,:bug: Fix bug that page did load white after version update,Jan Oberhauser,janober,2019-09-11T18:14:59Z
+d6b8b9544f22c8c7fc0b0d45568b39dc1c05bd1d,:zap: Display currently installed version in editor-ui,Jan Oberhauser,janober,2019-09-11T16:40:22Z
+52bd08fae0576c99c4eb714487babf5f7f1a03f2,:zap: Add additional data to Error Workflow Trigger,Jan Oberhauser,janober,2019-09-11T15:48:14Z
+9bd5d4bec1b7dd84f31fc75bb5a83161019873c2,First try to get custom properties to work with v1,Jan Oberhauser,janober,2019-09-11T15:15:42Z
+6e81abef3c3bb92d8a3364c88cfbe5c9d519ea3b,:lipstick: Fix display issue of select fields,Jan Oberhauser,janober,2019-09-11T09:06:43Z
+132ac3737ded2e3feb3731ba5434b2f375c9cf07,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-09-11T08:59:50Z
+bcc3ab263b52d0cc343e5367c17ba0293687c248,:books: Add link to community forum,Jan Oberhauser,janober,2019-09-09T19:46:42Z
+9f4ed7a0c8bc98c74cae4e8994deeec31a412b46,:bookmark: Release n8n-nodes-base@0.14.3,Jan Oberhauser,janober,2019-09-07T07:38:03Z
+c9d284f52c14b8656e23bc47e72ecb06b5aa0d10,:bug: Fix bug that EmailReadImap-Node could not be tested,Jan Oberhauser,janober,2019-09-07T07:36:57Z
+62d7e6d6ed42a379701bc1fbe83be406836e05d4,:bug: Fix bug with data-property on EmailReadImap-Node,Jan Oberhauser,janober,2019-09-07T07:11:23Z
+2d0d3f7ce1181c8b60e27805d6bbf36a446e820d,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-09-07T07:01:27Z
+37202910465ce8f29f281559403b0f903547401f,:books: Link to new YouTube video,Jan Oberhauser,janober,2019-09-06T06:30:30Z
+5f705dbaff66028035f3421e6aad528b84ec5f1a,:bookmark: Release n8n-editor-ui@0.15.1,Jan Oberhauser,janober,2019-09-05T17:05:25Z
+fc2b3d15c08d6f7aa7f15f31b88fdf50889b3f1e,:lipstick: Fix issue that it did display scroll bars next to selects,Jan Oberhauser,janober,2019-09-05T17:04:02Z
+bb476ae99fa25681e54c87279addfe1818ed5339,:bookmark: Release n8n-nodes-base@0.14.2,Jan Oberhauser,janober,2019-09-04T20:41:53Z
+5a8c2c9912e1a521bc7b4c40f285ed51456d44bc,:bug: Fix bug that HTTP Request node did process data incorrectly,Jan Oberhauser,janober,2019-09-04T20:41:17Z
+fe91e6d85b96adcc73f3b9934556cdd11822ffa7,:bookmark: Release n8n-nodes-base@0.14.1,Jan Oberhauser,janober,2019-09-04T20:03:37Z
+699cd25615b1bad10045c03c20892f9ae9481781,:bug: Fix bug that HTTP Request node did process JSON incorrectly,Jan Oberhauser,janober,2019-09-04T20:02:10Z
+904ecc31e31680e2abe5bc1866cf91829b737be3,:books: Add upgrade information also to Docker readme,Jan Oberhauser,janober,2019-09-04T17:10:59Z
+830dd950260e5d46f37ff0dd1265ce1a78be69c9,:bookmark: Release n8n@0.19.0,Jan Oberhauser,janober,2019-09-04T17:02:30Z
+25e805c6a278d4a84c47b710b1dcc380be4caed1,":arrow_up: Set n8n-core@0.10.0, n8n-editor-ui@0.15.0, n8n-nodes-base@0.14.0 and n8n-workflow@0.11.0 on n8n",Jan Oberhauser,janober,2019-09-04T17:01:49Z
+15eb9189bbf2b509f2e1893cc2e31f95dc312fe2,:bookmark: Release n8n-editor-ui@0.15.0,Jan Oberhauser,janober,2019-09-04T16:59:02Z
+cebb0de9af9f44e3cd1bb6a4273cfff9740d3dc0,:arrow_up: Set n8n-workflow@0.11.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-09-04T16:57:38Z
+a884951a9779fe3ad34da9a6cb24847d71600c11,:bookmark: Release n8n-nodes-base@0.14.0,Jan Oberhauser,janober,2019-09-04T16:56:20Z
+17b4e2abd546981b4ba3ff91228ec27b7639be89,:arrow_up: Set n8n-core@0.10.0 and n8n-workflow@0.11.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-09-04T16:56:03Z
+5d7b6608a3f2cfaecd37c7a870c108082faa2dc4,:bookmark: Release n8n-core@0.10.0,Jan Oberhauser,janober,2019-09-04T16:54:24Z
+04121cbfaeacbd4ec7fe40b5e8d66764c8a826ed,:arrow_up: Set n8n-workflow@0.11.0 on n8n-core,Jan Oberhauser,janober,2019-09-04T16:53:45Z
+f9e15873efe39ea1cb6f6de36842e877303cf6d8,:bookmark: Release n8n-workflow@0.11.0,Jan Oberhauser,janober,2019-09-04T16:52:32Z
+296fbbc26c81470402cd06098719dc719941b441,:sparkles: Add possiblity to define custom fields on ActiveCampaign-Node,Jan Oberhauser,janober,2019-09-04T16:50:02Z
+dfb52a51efa8a599cc10ad38a0536a6f3fd36880,:books: Add warning about using Mongo as database,Jan Oberhauser,janober,2019-09-04T16:37:20Z
+2b2113433f57f6b2b929989a9bbbd13a522d0667,:sparkles: Improve Code-Editor in Function-Nodes,Jan Oberhauser,janober,2019-09-04T16:22:06Z
+48ccb36536dc6ae14eb8626b2a2a755e6414d7ba,":sparkles: Make special variables like $node, $parameter, ... accessible
+in Function Nodes",Jan Oberhauser,janober,2019-09-04T12:53:39Z
+c1e753e9d1eb8ad09050431a8ec8a13c2c758119,":sparkles: Remove ""Read File From Url"" node and add functionality to
+""HTTP Request"" node",Jan Oberhauser,janober,2019-09-04T11:24:44Z
+710832029755f251442a6b5a44032d0eead4cd5d,:sparkles: Add XML-Node,Jan Oberhauser,janober,2019-09-04T10:18:21Z
+74c2d9a36607010403e6a26775fd4a2439d1dee6,:sparkles: Add digestAuth support to HTTP Request-Node,Jan Oberhauser,janober,2019-09-04T05:37:48Z
+a24918021ce9019214a09dfb87d68e217fd0176b,":sparkles: Add resource ""files"" to Pipedrive-Node",Jan Oberhauser,janober,2019-09-03T21:06:03Z
+014972a0c0724f434ce51cac178be95950229776,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-09-03T14:15:32Z
+047167f80b7d6570ebf00dd357a43b4ea2d1e456,:bookmark: Release n8n@0.18.2,Jan Oberhauser,janober,2019-09-03T11:45:31Z
+d53ab0bb6e94eff5588529718dbdb386424ce366,:zap: Remove no longer needed restriction about process id 1,Jan Oberhauser,janober,2019-09-03T11:42:43Z
+83826000d3e91de37a23b20b86fbba2aab501bff,":sparkles: Add resource ""notes"" to Pipedrive-Node",Jan Oberhauser,janober,2019-09-02T20:26:42Z
+c85b77d3af66a129f64d8eac0361e5e32cff783b,:books: Small fix in sensitive data documentation,Jan Oberhauser,janober,2019-09-02T05:26:48Z
+eb7b516f9d5d2537b568800301d86c597dd8bffa,:zap: Link n8n.io node directory to nodeType help,Jan Oberhauser,janober,2019-09-01T20:25:54Z
+c1777f3c588b588b8656ff5c21e6c101ff7ed81b,:whale: Change Dockerfile to use official node image,Jan Oberhauser,janober,2019-09-01T16:37:55Z
+3614a9e9b6302648a4230df56911135fa0807751,:books: Add homepage to package.json files,Jan Oberhauser,janober,2019-08-31T11:06:24Z
+11d2a5a2073f931aa33027e18832d5120e2d3130,:books: Fix documentation for save execution data environment variables,Jan Oberhauser,janober,2019-08-29T08:53:11Z
+602f0f6db1c3e8930779dfaf5c1b633f48c5c8e1,:books: Add information about another breaking change,Jan Oberhauser,janober,2019-08-29T05:41:52Z
+d0633bea4cc97b95d1eaba92105c1ecd11305efd,:bookmark: Release n8n-node-dev@0.3.0,Jan Oberhauser,janober,2019-08-28T17:10:05Z
+9636ddc7b358dd09348abf53b16ed438449e5f3d,:arrow_up: Set n8n-core@0.9.0 and n8n-workflow@0.10.0 on n8n-node-dev,Jan Oberhauser,janober,2019-08-28T17:09:47Z
+fcafda2510b6eea7c92b6be20188fb3eb0e19981,:bug: Fix bug with build for new cli library with node-dev,Jan Oberhauser,janober,2019-08-28T17:08:24Z
+b5330e8f37a7f36977cb0ea19a63bbb9fc03edd5,:heavy_plus_sign: Add missing dependency for build with new cli library,Jan Oberhauser,janober,2019-08-28T16:40:36Z
+013d8011d138132b65ca819c63ca06133f070e7f,:bookmark: Release n8n@0.18.1,Jan Oberhauser,janober,2019-08-28T16:35:33Z
+5d3f4183c47dfbf95a92eaa72a8ba24726deec43,:bug: Fix bug with build for new cli library,Jan Oberhauser,janober,2019-08-28T16:34:46Z
+53b1cf18c8f83288d00284dcbff0312013d10523,:bookmark: Release n8n@0.18.0,Jan Oberhauser,janober,2019-08-28T16:10:37Z
+4dfa181711591225f5f983ac4e5d75c99e760001,:books: Add information about breaking changes,Jan Oberhauser,janober,2019-08-28T16:09:29Z
+5c63d022481f89e7be80bd3494aa3d3da4f97420,":arrow_up: Set n8n-core@0.9.0, n8n-editor-ui@0.14.0, n8n-nodes-base@0.13.0 and n8n-workflow@0.10.0 on n8n",Jan Oberhauser,janober,2019-08-28T15:55:29Z
+35811d01779b86573fb7e2471a88f02e58616112,:bookmark: Release n8n-editor-ui@0.14.0,Jan Oberhauser,janober,2019-08-28T15:52:51Z
+81c89ed4a08582b36911827b17365642387933a6,:arrow_up: Set n8n-workflow@0.10.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-08-28T15:52:20Z
+59dc6e99bc7e2db449a3e7cacf6b62b5033f6aa6,:bookmark: Release n8n-nodes-base@0.13.0,Jan Oberhauser,janober,2019-08-28T15:50:50Z
+f1461f436da5def2e367d9d2ae2b920da5f44dd6,:arrow_up: Set n8n-core@0.9.0 and n8n-workflow@0.10.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-08-28T15:50:23Z
+d2f3b1891ceadd11f8cd57350fcda42a2a2562e7,:shirt: Fix TypeScript issue,Jan Oberhauser,janober,2019-08-28T15:49:56Z
+65d2aba7c1231b65968708fcc931be1400d45809,:bookmark: Release n8n-core@0.9.0,Jan Oberhauser,janober,2019-08-28T15:45:47Z
+d8cdced03713c9fa4fa3b088bb324b151c7d1b92,:arrow_up: Set n8n-workflow@0.10.0 on n8n-core,Jan Oberhauser,janober,2019-08-28T15:45:30Z
+c4ae0482e6dc48b8b91a91455fab3d56546f218d,:bookmark: Release n8n-workflow@0.10.0,Jan Oberhauser,janober,2019-08-28T15:43:59Z
+cc9a5774707d16ec6a39919f906285a16cd2e6e0,":bug: Fix ""npm run start"" command",Jan Oberhauser,janober,2019-08-28T15:39:10Z
+d8eaeab85cbe0b1eb64ab73f1d0613520d917f3e,:zap: Remove debug messages,Jan Oberhauser,janober,2019-08-28T15:27:33Z
+5386391189a3fbc7fd0344871ed12769066dee0b,:zap: Return response code 500 in case workflow fails,Jan Oberhauser,janober,2019-08-28T15:25:19Z
+4d6e25c28e40dd5d62ed21b3630fdb9382650a38,:boom: Fix typo reponse => response,Jan Oberhauser,janober,2019-08-28T15:16:09Z
+1ff456d77ca5f632f5fce43c6928c6272de15791,:sparkles: Allow to set HTTP response code on Webhook-Node,Jan Oberhauser,janober,2019-08-28T15:03:35Z
+1ff038b563386b1b40110672b75491c68ccdcf20,:arrow_up: Set jest@24.x.x on all packages,Jan Oberhauser,janober,2019-08-28T13:42:45Z
+67afc883dbc487c74a95456773f38300bcda570c,:zap: Replace vorpal with oclif in cli,Jan Oberhauser,janober,2019-08-28T13:28:47Z
+01a873edbd12108b063db1c89ab4845e67ec4836,:zap: Rename n8n-node-dev cli command file,Jan Oberhauser,janober,2019-08-28T10:34:25Z
+88e70e9f917efbf03217b09f07c02dbc63e9a379,:arrow_up: Set inquirer@7.0.0 on node-dev,Jan Oberhauser,janober,2019-08-28T09:11:24Z
+cd75c63f83e4c1320c3e733c773565550f9a9777,:zap: Replace vorpal with oclif in node-dev,Jan Oberhauser,janober,2019-08-28T09:03:01Z
+be3177a101823294cdec713fa37f9a3deea9032a,":sparkles: Add option to resolve custom values and add getAll option for
+activities and deals to Pipedrive-Node",Jan Oberhauser,janober,2019-08-28T06:20:53Z
+d9c7a8ee0417ef3f71d7c728a26306c374faaf88,:sparkles: Add lookup operation to GoogleSheets-Node,Jan Oberhauser,janober,2019-08-27T18:27:00Z
+27e52254b12f07fb47d6b8d75a4b0c399c327b8e,:books: Improve README text,Jan Oberhauser,janober,2019-08-26T20:09:31Z
+d0b2bc12371fdea8403d21888019d0ddb57dd159,:pencil: Improve text on Airtable node,Jan Oberhauser,janober,2019-08-26T20:05:20Z
+47500957a3fd3a6ee5329cbdfeadc04e97f69491,:arrow_up: Set googleapis@42.0.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-08-26T20:04:03Z
+45721c20cacfd5895ee012b234059031816117ca,:books: Make clear that tunnel is only for testing&development #13,Jan Oberhauser,janober,2019-08-22T14:45:00Z
+9e390a3995100a8aeb2292b60f98d63519d61966,:books: Fix links in Docker documentation to also work on Dockerhub,Jan Oberhauser,janober,2019-08-22T06:46:32Z
+376270c94ca9341279fce35a9f4a107f972b7ac9,"Merge pull request #11 from thomasleveil/awesome-n8n-workflows
+
+:books: add an awesome collection of n8n workflows",Jan,janober,2019-08-22T05:11:34Z
+890afd0cd104518285f648e4ba82a638433775ae,"Merge pull request #12 from thomasleveil/doc-contents
+
+add tables of contents to most of the README files",Jan,janober,2019-08-22T05:09:18Z
+400728cad94f5b6109453f810d87f6a5b238fd5e,node-dev README : add TOC,Thomas LEVEIL,thomasleveil,2019-08-21T21:30:19Z
+ba8ca7476d738c0471fa63557008b2a6ad55bdf2,Docker README : add TOC,Thomas LEVEIL,thomasleveil,2019-08-21T21:21:35Z
+2f0874d0dabd60b3413ac1f469d6225de573b482,Docker README : demo,Thomas LEVEIL,thomasleveil,2019-08-21T21:19:43Z
+27727ecd788ea3487ab03e5d4fe19d84d126ce21,CONTRIBUTING : add TOC,Thomas LEVEIL,thomasleveil,2019-08-21T21:18:09Z
+f08cd16c3686d2f456cfa3a63798e8b39c0efacc,CONTRIBUTING : add Create custom nodes,Thomas LEVEIL,thomasleveil,2019-08-21T21:15:22Z
+09215f03136f62e4adb725ac0bf4155c4ac75ea0,cli README : add toc,Thomas LEVEIL,thomasleveil,2019-08-21T21:14:08Z
+bb41ad97ba13647131daf9f081d26e2142c5f4dd,:books: wording and layout on the main README,Thomas LEVEIL,thomasleveil,2019-08-21T21:01:42Z
+92b4988fded8aff1c6e9242e6befe496489ae58a,:books: add an awesome collection of n8n workflows,Thomas LEVEIL,thomasleveil,2019-08-21T20:43:17Z
+eaf17a1af871e6f38b2dcfec38056baa85884085,"Merge pull request #10 from thomasleveil/composeWithPostgres
+
+:books: Add :whale: Docker Compose example for :elephant: PostgresQL",Jan,janober,2019-08-21T20:13:25Z
+53c82c1e9047c62d41a50e042ee1e36b11bf2983,:books: Add :whale: Docker Compose example for :elephant: PostgresQL,Thomas LEVEIL,thomasleveil,2019-08-21T19:56:23Z
+c339dfd5d6c599f459952823bdada8e9015e0811,:bookmark: Release n8n@0.17.0,Jan Oberhauser,janober,2019-08-21T16:48:17Z
+e1773034de886982c80ee424a7e739723e05ca87,:arrow_up: Set n8n-nodes-base@0.12.0 on n8n,Jan Oberhauser,janober,2019-08-21T16:47:51Z
+9660c3dbf2b22a59c57cf049e0b371511476db18,:bookmark: Release n8n-nodes-base@0.12.0,Jan Oberhauser,janober,2019-08-21T16:45:16Z
+3088a358f7d9ac30b181ab4c29304a1f0b8ec2b5,:sparkles: Add Postgres-Node,Jan Oberhauser,janober,2019-08-21T16:44:10Z
+937e4248069321d25741f1c3dc027e43d0eea8fb,:sparkles: Add ActiveCampaign-Node,Jan Oberhauser,janober,2019-08-21T06:45:03Z
+0edeab600da36c72f9c4521e6ec346cb61ff9c03,:bookmark: Release n8n@0.16.1,Jan Oberhauser,janober,2019-08-19T18:46:15Z
+1d77c9a5855946960ef5c46fc95878ae726afb64,:arrow_up: Set n8n-editor-ui@0.13.1 on n8n,Jan Oberhauser,janober,2019-08-19T18:45:44Z
+54cf08ebbfc01f46c0cc94067fbc1e5217c26a34,:bookmark: Release n8n-editor-ui@0.13.1,Jan Oberhauser,janober,2019-08-19T18:43:41Z
+6208125ac0c2d6f43f4e43228bcab676b6833a04,:sparkles: Serve editor-ui correctly also when installed as package,Jan Oberhauser,janober,2019-08-19T18:41:10Z
+a3a11caa189d4eabcbe3d9599cf38609bcea7be8,:books: Fix typo also in other location,Jan Oberhauser,janober,2019-08-19T06:46:43Z
+f6f8a6e03292dc8d5ab9d7411d09fc9b7c2fb696,"Merge pull request #8 from mikementor/typo-fix
+
+small typo fix",Jan,janober,2019-08-19T06:42:46Z
+432f00e0e2595e5f92f5958e4ad2a14ae2314af3,"small typo fix
+
+buy -> but",mikementor,mikementor,2019-08-19T06:40:03Z
+d1a8ee9a7c3ff9402fd54cc63de2617e90452347,:bookmark: Release n8n@0.16.0,Jan Oberhauser,janober,2019-08-14T12:52:42Z
+3bce9a71f8b0a37ebd3ddcb6a54be7edd8437399,:arrow_up: Set n8n-nodes-base@0.11.0 on n8n,Jan Oberhauser,janober,2019-08-14T12:52:08Z
+35b87a98d4c5be6bca79960ff4b408f5f7836b38,:bookmark: Release n8n-nodes-base@0.11.0,Jan Oberhauser,janober,2019-08-14T12:49:49Z
+89f9aeda1e994cfacc75b186ce704be4d5a22087,:zap: Add missing nodemon.json file for easy development,Jan Oberhauser,janober,2019-08-14T12:47:27Z
+a1b95918de6245d665280ab0b26d7538ba72aa4a,:bug: Fix bug that it did display running workflows as unsaved,Jan Oberhauser,janober,2019-08-14T12:30:20Z
+f8db495e0f599600ed2fd875b3063fad71ae2aa5,Merge branch 'thomasleveil-patch-2',Jan Oberhauser,janober,2019-08-14T11:46:14Z
+97893fed1bd1a227d0b12ac1448eb864e033ead8,:books: Update development cycle documentation and add placeholder tests,Jan Oberhauser,janober,2019-08-14T11:45:18Z
+9630615fc71051d40363b55f031b224f7bcf2605,Merge branch 'patch-2' of https://github.com/thomasleveil/n8n into thomasleveil-patch-2,Jan Oberhauser,janober,2019-08-14T10:15:55Z
+a9f6e7fb60c02320483dc877aeeaafae1ceee720,Merge branch 'master' of github.com:n8n-io/n8n,Jan Oberhauser,janober,2019-08-14T10:14:23Z
+84ba4dec06619fef6c0f37f074f9c32e29a2e344,:zap: Make it easier to start n8n in development mode,Jan Oberhauser,janober,2019-08-14T10:13:43Z
+d73622b35d2c28e1ed75f14912707df8091a98f3,[doc] add Development Cycle,Thomas LÉVEIL,thomasleveil,2019-08-14T07:14:24Z
+3b72f044abb8b0752731dede01f1494cc1259d8f,"Merge pull request #5 from thomasleveil/patch-1
+
+[DOC] wording in contributing",Jan,janober,2019-08-14T07:13:13Z
+ad6adb6a91a88d8991c2bf9a6fdac29820784a24,[DOC] wording in contributing,Thomas LÉVEIL,thomasleveil,2019-08-14T07:08:55Z
+7cd563183a1a5db47e424781db9a4de222c07ac9,:books: Improve documentation about how to contribute to n8n,Jan Oberhauser,janober,2019-08-14T06:30:54Z
+a66235cadbb1f514fd5a322629c0a0b7e15a3fb0,"Merge pull request #4 from thomasleveil/httprequest-ignore-ssl
+
+:sparkles: Add option ""allowUnauthorizedCerts""  to HttpRequest-Node",Jan,janober,2019-08-14T05:12:24Z
+36e93c15dec40d850de55147e25f2611d9eff895,":sparkles: Add option ""allowUnauthorizedCerts""  to HttpRequest-Node",Thomas LEVEIL,thomasleveil,2019-08-13T22:08:45Z
+86e1c4a04fa76bddd258f88c112314ba45c337a0,":zap: Make tsconfig.json files ""fully"" valid JSON files",Jan Oberhauser,janober,2019-08-13T17:42:03Z
+2591e983335ee3ab1bd0e7b86cde609ea953ce10,:zap: Add missing dependency and fix some types,Jan Oberhauser,janober,2019-08-13T17:01:14Z
+131823a14d061c7258d2a6d1c23ed62eef0e45cd,:heavy_plus_sign: Change n8n-core dependency from dev to regular,Jan Oberhauser,janober,2019-08-10T16:19:21Z
+b0294f93946d4405563b0051eb20524b50253f40,:zap: Remove old external request code from Chargebee-Node,Jan Oberhauser,janober,2019-08-10T16:14:34Z
+8f9a27ed10328fca73cb601008cb33d16ea1b89b,:bookmark: Release n8n@0.15.0,Jan Oberhauser,janober,2019-08-10T08:59:21Z
+a43c9392b4bcb01d9df9690139920f2ee803390f,:arrow_up: Set n8n-editor-ui@0.13.0 on n8n,Jan Oberhauser,janober,2019-08-10T08:58:08Z
+7bde0b759c6d147438e0fa78e1bb802ae78c8c09,:bookmark: Release n8n-editor-ui@0.13.0,Jan Oberhauser,janober,2019-08-10T08:56:16Z
+1903a25bd6a560a9138d1c0336952ee8e6e4e003,:art: Clean up some code,Jan Oberhauser,janober,2019-08-10T08:27:27Z
+6d1be05f56d2a7799b4060a5f5995616eee5eb77,:lipstick: Improve display of node input-/output-labels,Jan Oberhauser,janober,2019-08-10T07:59:15Z
+ce69b349cfde70003eed5b8270e4dc8caf618dfd,:whale: Improve automatic docker build,Jan Oberhauser,janober,2019-08-09T22:07:01Z
+135431ebcd5bb42a8d6ee57516d99e73f11d787e,:zap: Simplify code and fix issue with stopping process,Jan Oberhauser,janober,2019-08-09T19:05:15Z
+fcb0982401972b0edaa296a1a38cfefa7b233de2,":sparkles: Rename also expressions on pasted nodes and fix unique naming
+issue",Jan Oberhauser,janober,2019-08-09T16:47:33Z
+b5b959fe0882bf2b9505012598236b41ddc2e1e1,:books: Add n8n name explanation,Jan Oberhauser,janober,2019-08-09T15:11:41Z
+777f8ae3d862fc358ce290d99ca203a50daf934c,:bookmark: Release n8n@0.14.1,Jan Oberhauser,janober,2019-08-09T11:12:42Z
+49a817b0bb65a2a92b328cb361ff4f66edab1f1b,:bug: Fix bug when executing n8n from different folder,Jan Oberhauser,janober,2019-08-09T11:12:00Z
+f3d5b136ba0eca34bde4cf96fbd5d450092a0269,:bookmark: Release n8n@0.14.0,Jan Oberhauser,janober,2019-08-09T10:57:40Z
+ff06fa61f0c07ee9cf87a47e5d81bb29b4687bcb,":arrow_up: Set n8n-core@0.8.0, n8n-editor-ui@0.12.0, n8n-nodes-base@0.10.0 and n8n-workflow@0.9.0 on n8n",Jan Oberhauser,janober,2019-08-09T10:57:10Z
+a3123c682d7eb90a506a4eec6da84a0083282a8c,:bookmark: Release n8n-editor-ui@0.12.0,Jan Oberhauser,janober,2019-08-09T10:54:28Z
+e66c259407460496c0c2ff84490832c135a27ae1,:bug: Fix code to work with new n8n-workflow,Jan Oberhauser,janober,2019-08-09T10:51:45Z
+281e943dcce5bfa1ffffe5dec6b1285ade5ec977,:heavy_check_mark: Fix tests,Jan Oberhauser,janober,2019-08-09T10:19:28Z
+14f3d2f9c7a9df66da9a64f173985735e5134ce5,:arrow_up: Set n8n-workflow@0.9.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-08-09T09:24:17Z
+32b3f6b9e952e0c2c65d52c8828958eac265aa10,:bookmark: Release n8n-nodes-base@0.10.0,Jan Oberhauser,janober,2019-08-09T09:23:31Z
+d60a4b9d6a22614071b7163595e1fb04e7460a48,:arrow_up: Set n8n-core@0.8.0 and n8n-workflow@0.9.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-08-09T09:23:13Z
+dd7ca289caba82aa7c569b48773a8fc15b65141b,:bookmark: Release n8n-core@0.8.0,Jan Oberhauser,janober,2019-08-09T09:22:19Z
+902916578e35839464f62641b07c1ecd6b8363da,:arrow_up: Set n8n-workflow@0.9.0 on n8n-core,Jan Oberhauser,janober,2019-08-09T09:22:01Z
+3ad66974abf38fe863350ace8fba77a294b811d9,:bookmark: Release n8n-workflow@0.9.0,Jan Oberhauser,janober,2019-08-09T09:21:12Z
+e1797f8d30d423fbd7ebe82b92ed6a644339f62b,:books: Add information about hosted n8n,Jan Oberhauser,janober,2019-08-09T09:19:36Z
+e1a9d21254494718ebf97720924bc8f9dc4e6bff,:bug: Fix bug that child process did exit before message got sent,Jan Oberhauser,janober,2019-08-09T09:07:54Z
+62e8a69f78afb63329373f8489fb5e54674cc99a,:books: Add documentation about configuring n8n,Jan Oberhauser,janober,2019-08-09T07:54:57Z
+886100eeefd49bbe7542a5d466b61d0f1aa64002,:zap: Improve workflow retry,Jan Oberhauser,janober,2019-08-09T05:37:10Z
+d59a043e3f4155631969d39272ab7a6fb5ccc912,:sparkles: Run workflows in own independent subprocess,Jan Oberhauser,janober,2019-08-08T18:38:25Z
+abb0a52b08093b1b79a9f9f0dccd52be13a4feb4,:zip: Improve display of retry,Jan Oberhauser,janober,2019-08-08T18:24:37Z
+193dd210ff9eed5c82184524e5eb6d91432a8995,:zap: Make Github webhook create error message clearer,Jan Oberhauser,janober,2019-08-08T16:43:35Z
+f97dbf795adcc143e362f926b04ff007a47b654c,:bug: Fix issue with missing parameter on GoogleSheets-Node,Jan Oberhauser,janober,2019-08-08T04:43:26Z
+879b045c446a432572d16f18b77f90cae95b5838,:bookmark: Release n8n@0.13.4,Jan Oberhauser,janober,2019-08-06T18:45:43Z
+573c0e77c5a4d59224f43791ee5e2b3f13a6e9d4,:bug: Fix bug with slow push messages,Jan Oberhauser,janober,2019-08-06T18:44:36Z
+b395eddd66ff3f1645f6cca95322ef9309ec62bd,:bookmark: Release n8n@0.13.3,Jan Oberhauser,janober,2019-08-05T17:14:56Z
+78bf3a5a281509e39bee58abd03c519742ac41a5,:bug: Fix bug that old executions did get displayed as running,Jan Oberhauser,janober,2019-08-05T17:13:18Z
+e82deba47b0153cdb61d761ebb2c7add90d0a5b3,:bookmark: Release n8n@0.13.2,Jan Oberhauser,janober,2019-08-04T19:00:09Z
+c8f339ed8e4fa28b6659e2419a023379fe0e7c36,:bug: Fix issue that in production mode database did not get initialized,Jan Oberhauser,janober,2019-08-04T18:59:10Z
+a9d49f60b9d0fb072be51c077cb1f26bf0bd67d4,:bookmark: Release n8n@0.13.1,Jan Oberhauser,janober,2019-08-04T12:46:49Z
+e7328cd0d924eadc408a186db2a464cc16c8809d,:bug: Deactivate database-synchronize in production mode,Jan Oberhauser,janober,2019-08-04T12:45:56Z
+fbb4d1bdc0af2749c9b8634e9263d6bf56cfa394,:bookmark: Release n8n@0.13.0,Jan Oberhauser,janober,2019-08-04T12:25:45Z
+f3d84fc29ee969659b4cc7f7f64ec9c327ea4ebc,:sparkles: Make it possible to secure n8n via basic auth,Jan Oberhauser,janober,2019-08-04T12:24:48Z
+a8b2829e8405c96ea6829cf1d566fbbec4d744b4,:bookmark: Release n8n@0.12.0,Jan Oberhauser,janober,2019-08-03T12:22:39Z
+13c5f99a7e68786b517b84b4bfd15fe5d10fe041,":sparkles: Add support for ""_FILE"" environment variables",Jan Oberhauser,janober,2019-08-03T12:06:11Z
+1fff6e4d548fabc8dac07c1143eb3eaab75ce8ce,:zap: Compress server responses,Jan Oberhauser,janober,2019-08-03T10:15:08Z
+64e9b52f88b8d2857cfd4bbbeab842a59883d3cc,:heavy_minus_sign: Remove not needed dependency,Jan Oberhauser,janober,2019-08-03T09:22:52Z
+0cf6ac6b47c8ed8073de215c5a4dd7084c7f87b3,:bookmark: Release n8n@0.11.0,Jan Oberhauser,janober,2019-08-02T15:15:06Z
+a5d367666989d24607b2c0a1f8b47067cfbaf85e,":arrow_up: Set n8n-core@0.7.0, n8n-editor-ui@0.11.0, n8n-nodes-base@0.9.0 and n8n-workflow@0.8.0 on n8n",Jan Oberhauser,janober,2019-08-02T15:14:43Z
+daa7ab7be743216d79becd92d2b10806bc8f4129,:bookmark: Release n8n-editor-ui@0.11.0,Jan Oberhauser,janober,2019-08-02T15:13:27Z
+dd2920c29e569961ad6014402424268539ed8ee9,:arrow_up: Set n8n-workflow@0.8.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-08-02T15:12:58Z
+af5694f88781812d277a8bf36e162b8bf0df716e,:bookmark: Release n8n-nodes-base@0.9.0,Jan Oberhauser,janober,2019-08-02T15:12:02Z
+0d524de8b9f4eb85e8677e99515af1d30cd0468d,:arrow_up: Set n8n-core@0.7.0 and n8n-workflow@0.8.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-08-02T15:11:39Z
+a57b179dabc184d091002c0f3b15b824dc802647,:bookmark: Release n8n-core@0.7.0,Jan Oberhauser,janober,2019-08-02T15:10:24Z
+cf205c24547d4de61e7a0ffb9daade68e2b8b062,:arrow_up: Set n8n-workflow@0.8.0 on n8n-core,Jan Oberhauser,janober,2019-08-02T15:09:59Z
+b55e46d58748d80f5502611d7453a9609c9f8cda,:bookmark: Release n8n-workflow@0.8.0,Jan Oberhauser,janober,2019-08-02T15:08:57Z
+983ef13db9a74147f6cd4ca63e202c0a1ca02128,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-08-02T15:06:06Z
+72bd291efb35385c2547af6624b3158de06bd43e,":bug: Fix bug that it does always move to beginning of line after
+entering first character in expression input",Jan Oberhauser,janober,2019-08-02T14:53:02Z
+a0b7abed206e5290d812e9e6181d9512cb143345,:sparkles: Add support for input labels,Jan Oberhauser,janober,2019-08-02T13:56:05Z
+f568122e3a911ff21e50736daa01b8f9c2785ad1,:zap: Improve selection of start node for manual execution,Jan Oberhauser,janober,2019-08-02T10:26:51Z
+b38623fa92bb5a7b480e50bf5832d9fa17ee3bd8,:bug: Fix bug that highest nodes did not get found when one was disabled,Jan Oberhauser,janober,2019-08-02T09:58:57Z
+88a82efe07a21eebba2ba204c553eb2c7f336f3e,":sparkles: Add ""mergeByIndex"" option to Merge-Node",Jan Oberhauser,janober,2019-08-02T08:26:05Z
+1b59d7b8860e308ac03c0b0bbd06c14ebd09fb4f,:sparkles: Copy data on execution only if needed,Jan Oberhauser,janober,2019-08-01T20:55:33Z
+a8f1f9c0bad408e21fb2b01f3119f8a3a7dbfc3b,:zap: Small fixes and fix that some nodes changed incoming data,Jan Oberhauser,janober,2019-08-01T16:22:48Z
+fc4952f0224420deab81286472b5004757380358,:bug: Fix reference to Mailgun-Node,Jan Oberhauser,janober,2019-08-01T10:36:23Z
+6672a62a6260cc7efaaf4a01075cde475af98499,:zap: Improve node locations,Jan Oberhauser,janober,2019-08-01T06:26:43Z
+d0289e88b379ea4573f6bb3b46b1dc0df1c68ff4,:books: Add additional documentation for keyboard shortcuts,Jan Oberhauser,janober,2019-08-01T06:10:33Z
+f1f2deb1d413b5814c15ebfc26880501a32e0d14,:zap: Select only the data we need to speed up requests,Jan Oberhauser,janober,2019-07-31T12:16:55Z
+9022ca09231ca2c4d3cb216336000dd8a14b2180,:bookmark: Release n8n@0.10.0,Jan Oberhauser,janober,2019-07-26T12:49:20Z
+1b25348e1a5149172f59519a9cf518a2e1ee3a83,:arrow_up: Set n8n-editor-ui@0.10.0 on n8n,Jan Oberhauser,janober,2019-07-26T12:48:32Z
+aa6914f92e44372a2983db4a7cea2014033197d7,:bookmark: Release n8n-editor-ui@0.10.0,Jan Oberhauser,janober,2019-07-26T12:46:07Z
+20d5cd7166815ce562fba611c8ef3b96793a3e05,:books: Update screenshot,Jan Oberhauser,janober,2019-07-26T12:29:27Z
+f2102f8ea095031c92def0f50c47323a2f6e0f80,:bug: Fix bug that webhooks could not be tested anymore,Jan Oberhauser,janober,2019-07-26T12:17:00Z
+7e4066ddb358e3fa12a1accb4be05211723995f5,:lipstick: Add subtitle to GithubTrigger-Node,Jan Oberhauser,janober,2019-07-26T11:20:28Z
+6246d0a08cace5958863edca4b94693a17afeb9f,:lipstick: Add subtitle to Slack-Node,Jan Oberhauser,janober,2019-07-26T11:13:01Z
+862433497cf4fa491549bc100fc629521a966755,:books: Add logo and update refrences for logo and screenshot,Jan Oberhauser,janober,2019-07-26T11:11:21Z
+678912cad72f0071e469eabfa36a8696b857917a,:books: Add basics for n8n wiki,Jan Oberhauser,janober,2019-07-26T11:06:31Z
+c078cda7cbf0ce25e11c7625cd10815a4bfc1316,:lipstick: Add icon for Mailgun-Node,Jan Oberhauser,janober,2019-07-26T09:50:57Z
+e3fafc85e6446f00607d945064308a84c6f74ffb,:zap: Use color for icons in node creator and update colors,Jan Oberhauser,janober,2019-07-26T09:41:08Z
+84154843c21d0722c820e0bed43cdcf208361e80,:lipstick: Add icons to all nodes which did not have any,Jan Oberhauser,janober,2019-07-26T09:27:46Z
+df38e87992ce81d5bef8d5931767847e975420b0,:white_check_mark: Add first basic tests for workflow execution,Jan Oberhauser,janober,2019-07-26T08:21:31Z
+dae2aa3d5d0405f7ea89f2a486d4ae88cc2fb221,:lipstick: Improve position of node options,Jan Oberhauser,janober,2019-07-26T05:49:00Z
+4bbc7edad259146212c345c75521be1a86f3f15c,:sparkles: Make it possible to move workflow with mouse-wheel/two-finger,Jan Oberhauser,janober,2019-07-26T05:41:09Z
+d00610e62953213ea2b158ee1f7b929ecdf09b29,:zap: Create duplicated node underneath the existing one,Jan Oberhauser,janober,2019-07-26T05:17:40Z
+0ac97c65232798a2c3c32e249a5358185e014ce2,:lipstick: Improve editor-ui connection creation and deletion,Jan Oberhauser,janober,2019-07-25T19:57:27Z
+6c2887e6086adc17c06291949c2a17a0b5a43693,:zap: Improve position of node output labels,Jan Oberhauser,janober,2019-07-25T17:27:58Z
+fd2da9d4b6a75f0249aea93540722b48eca0f4f7,:zap: Fix inital position of Start-Node for now horizontal flows,Jan Oberhauser,janober,2019-07-25T17:23:27Z
+1a41db8a759e80b15030f1a1066b8b8bc47818b7,:bookmark: Release n8n-editor-ui@0.9.1,Jan Oberhauser,janober,2019-07-25T17:16:03Z
+0ace7ca423814acabce789c6589203e8c5960045,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-07-25T17:15:41Z
+6a1857af16a76ff8b3360183a446d64602675e25,:bookmark: Release n8n-editor-ui@0.9.0,Jan Oberhauser,janober,2019-07-25T17:12:32Z
+0510824c2467616cf6a52d07d3c39e4e7e13b0f5,:bug: Fix issue that push messages received before the REST API did,Jan Oberhauser,janober,2019-07-25T17:08:19Z
+8482e1b363e51c8b4252a9b7afff64ab08277227,:lipstick: Improve editor-ui by displaying clearer what each node does,Jan Oberhauser,janober,2019-07-25T16:50:45Z
+0c8944568277dbb69f2fb94ee7f1d75bd8e52066,:bug: Fix bug that workflow names could have spaces in beginning and end,Jan Oberhauser,janober,2019-07-25T13:21:57Z
+7aff08cc8a387332991a7cefc9c1a76969ec77e9,:books: Add documentation about n8n in Docker with PostgresDB,Jan Oberhauser,janober,2019-07-25T10:54:16Z
+892cf40429784344575b1f8fd2caf15df43f1e2d,:bookmark: Release n8n@0.9.0,Jan Oberhauser,janober,2019-07-25T06:39:10Z
+24cf3a54b9b86dd3865fbf3454a854d8947ef662,":arrow_up: Set n8n-core@0.6.0, n8n-editor-ui@0.8.0, n8n-nodes-base@0.8.0 and n8n-workflow@0.7.0 on n8n",Jan Oberhauser,janober,2019-07-25T06:38:51Z
+68696fab32fc70a3e287630cdae440c9cb85f71f,:bookmark: Release n8n-editor-ui@0.8.0,Jan Oberhauser,janober,2019-07-25T06:37:30Z
+7b3ebc92e6d8927663f64fef2dd1931d3f1e0e95,:arrow_up: Set n8n-workflow@0.7.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-07-25T06:37:09Z
+21ff7e3e9bf73cbf826e3eb9e3ea9e9731c3b737,:bookmark: Release n8n-nodes-base@0.8.0,Jan Oberhauser,janober,2019-07-25T06:36:29Z
+875f4fc1f153da6b87ff366e56bdc6f045b74bf4,:arrow_up: Set n8n-core@0.6.0 and n8n-workflow@0.7.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-07-25T06:36:09Z
+2815ed3fddcb8f9f3c62b3407c9cd41d58b5c3ce,:bookmark: Release n8n-core@0.6.0,Jan Oberhauser,janober,2019-07-25T06:35:01Z
+a12a4eb633b777a63cfccc15c0b90e8533d22a26,:arrow_up: Set n8n-workflow@0.7.0 on n8n-core,Jan Oberhauser,janober,2019-07-25T06:34:43Z
+31916d3ecf8abeea6f363eade3119ee90d7d49e7,:bookmark: Release n8n-workflow@0.7.0,Jan Oberhauser,janober,2019-07-25T06:33:33Z
+bf174a40999411de5809b6a4e156d090446ea7a0,:bug: Fix bug that some nodes got executed twice,Jan Oberhauser,janober,2019-07-25T06:30:37Z
+132f32132a513d63f5005e6d46044c80a5f07452,:sparkles: Automatically select text in rename-prompt,Jan Oberhauser,janober,2019-07-24T13:21:44Z
+117630fb68bd5dd3e0035e8a03350d6446d3f1bb,:bug: Fix bug that node was not selected after rename,Jan Oberhauser,janober,2019-07-24T13:04:24Z
+2d8038669a014340016dbb31ff54377feca8dd0f,:sparkles: Push active executions to clients to remove manual reload,Jan Oberhauser,janober,2019-07-24T12:25:30Z
+a9453806b8cc7aa35a65f4fda303b919a6a7519c,:sparkles: Add support for PostgresDB and save date as Date,Jan Oberhauser,janober,2019-07-22T18:29:06Z
+d0275459865117782eb0f4801feb7bffc13e7139,:sparkles: Use convict for configuration to make n8n easier to configure,Jan Oberhauser,janober,2019-07-21T17:47:41Z
+fbaf445bf88347d14ace006333567bf0cd104264,:zap: Check again if workflow should be stopped after retry wait,Jan Oberhauser,janober,2019-07-19T07:47:41Z
+4f4feb8bafaab9e46e571208e0a6004ce0242573,:bookmark: Release n8n-nodes-base@0.7.1,Jan Oberhauser,janober,2019-07-18T18:49:07Z
+5a109af7eac4177d823d9d34094c05517921a260,:zap: Remove wrong properties from some parameters,Jan Oberhauser,janober,2019-07-18T18:48:23Z
+f1b1493514b4da4192b95bb2d1cc9b28e481607e,:bookmark: Release n8n@0.8.0,Jan Oberhauser,janober,2019-07-18T18:05:59Z
+39a7f0368e65eda2d97f6c4b2093ff2b4ba4a2a6,":arrow_up: Set n8n-core@0.5.0, n8n-editor-ui@0.7.0, n8n-nodes-base@0.7.0 and n8n-workflow@0.6.0 on n8n",Jan Oberhauser,janober,2019-07-18T18:05:43Z
+926d87fea99a7d2389d3c350e0982f035bb91b5b,:bookmark: Release n8n-editor-ui@0.7.0,Jan Oberhauser,janober,2019-07-18T18:04:41Z
+990a5cdbf018b4bf358faffb29464d5b8e168efa,:arrow_up: Set n8n-workflow@0.6.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-07-18T18:04:23Z
+d97c7c212caa8c981181ef4054a08e6808d4da56,:bookmark: Release n8n-nodes-base@0.7.0,Jan Oberhauser,janober,2019-07-18T18:03:07Z
+1b899940adb5e75204601e9a469ae079fc0bebbc,:arrow_up: Set n8n-core@0.5.0 and n8n-workflow@0.6.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-07-18T18:02:46Z
+927cd690e1b5353ada451306dd842b35a8a69240,:bookmark: Release n8n-core@0.5.0,Jan Oberhauser,janober,2019-07-18T18:00:34Z
+813a3aa15827f51074e942cabbce355870d16588,:arrow_up: Set n8n-workflow@0.6.0 on n8n-core,Jan Oberhauser,janober,2019-07-18T18:00:19Z
+36b237eac546cab2f334482b48def826a7dc6010,:bookmark: Release n8n-workflow@0.6.0,Jan Oberhauser,janober,2019-07-18T17:59:36Z
+95c721b08f9dfaed89e85b0ae4d62415321efca0,:bug: Fix issue that data got send out to all connected clients,Jan Oberhauser,janober,2019-07-18T17:53:18Z
+32204d35d1110deb496c7909b010010e83606e7e,:sparkles: Make it possible to retry node on error,Jan Oberhauser,janober,2019-07-18T17:26:16Z
+9c0b1a9cece25f3a6bcd1a5eb0e787ef1ab5521f,:bug: Fix issue that properties on node root level could not be changed,Jan Oberhauser,janober,2019-07-18T15:41:53Z
+17768e0dd8a9463dfcf4a2e0505a18fbb24efd2a,:bookmark: Release n8n@0.7.0,Jan Oberhauser,janober,2019-07-17T18:40:38Z
+a9714e5ce5f3c2bb3a8c7a0a46c17d4ea42417e3,":arrow_up: Set n8n-core@0.4.0, n8n-editor-ui@0.6.0, n8n-nodes-base@0.6.0 and n8n-workflow@0.5.0 on n8n",Jan Oberhauser,janober,2019-07-17T18:35:03Z
+a4ad9baa84cdb0fa4ed871065ff0e45490b4e829,:bookmark: Release n8n-editor-ui@0.6.0,Jan Oberhauser,janober,2019-07-17T18:33:46Z
+0e03ab15f9406c996880423740e797541bfaf639,:arrow_up: Set n8n-workflow@0.5.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-07-17T18:33:30Z
+b73352bf8472835eac70b4addd3cd32f6cd32ce2,:bookmark: Release n8n-nodes-base@0.6.0,Jan Oberhauser,janober,2019-07-17T18:32:31Z
+24888e02ec486d8bf364388dc4123646cfad9dec,:arrow_up: Set n8n-core@0.4.0 and n8n-workflow@0.5.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-07-17T18:32:11Z
+f1dd579561741a2d47336dfba21608a000a1d11f,:bookmark: Release n8n-core@0.4.0,Jan Oberhauser,janober,2019-07-17T18:30:40Z
+540536c22f30f2a594a58dc9ebfc838aef7996ee,:arrow_up: Set n8n-workflow@0.5.0 on n8n-core,Jan Oberhauser,janober,2019-07-17T18:30:22Z
+e17c3c9961578be9f3f13df97e60d7c68248802b,:bookmark: Release n8n-workflow@0.5.0,Jan Oberhauser,janober,2019-07-17T18:29:33Z
+6fc02a50240cfd592175c3599b86456062812d2d,:zap: Improve naming of created names,Jan Oberhauser,janober,2019-07-17T17:58:54Z
+5054c7054dafbe88457a422764bc2b17a289c2cc,:zap: Implement that nodes can also be deselected with ctrl+click,Jan Oberhauser,janober,2019-07-17T17:05:03Z
+416eb81a6efd62482403da8ac063482ffeeb5bb7,:sparkles: Make it easily possible to select up/downstream nodes,Jan Oberhauser,janober,2019-07-17T16:44:05Z
+4bc21dfef5a47f6e5f6184c238b42bd16dc8e286,:zap: Make sure that paste does not get executed multiple times,Jan Oberhauser,janober,2019-07-17T16:14:03Z
+f3d77412a660d0cbe0bac7a546e8c52c3c3f5960,":bug: Fix bug that it did not execute upstream nodes of nodes with
+multiple inputs",Jan Oberhauser,janober,2019-07-17T15:45:05Z
+26381de92b08c59ffb1d52786f733a63360e1232,:zap: Automatically adjust position of pasted nodes,Jan Oberhauser,janober,2019-07-17T14:05:01Z
+bcb314107d1cd8cff9834a9f6ec96e3ba8d116d5,:bug: Fix lastClickPosition init as it is offscreen,Jan Oberhauser,janober,2019-07-17T10:47:20Z
+de3c52b355b52eb23e225cf7358e25694f95c4c4,:bug: Fix issue that lastClickPosition ignored node view offset position,Jan Oberhauser,janober,2019-07-17T10:44:00Z
+34c2975a9fc0c906b59cd2c1998fa544b17f2bd5,:zap: Deactivate workflow when saved under a new name,Jan Oberhauser,janober,2019-07-17T10:20:26Z
+40b17c59f682bb6c6c06cf7c4cfab8e8956223e6,:bug: Fix issue that it starts select mode when mac users try to move workflow,Jan Oberhauser,janober,2019-07-17T10:03:55Z
+85d9cc4eb86299f5714bb5e0079febc6bfeffdf4,:zap: Add lastNodeExecuted example data to ErrorTrigger-Node,Jan Oberhauser,janober,2019-07-17T09:55:26Z
+ce79d8063dea038758c3be64267be4224c05082d,:bookmark: Release n8n-editor-ui@0.5.2,Jan Oberhauser,janober,2019-07-17T07:23:40Z
+79383ffa847d92121881fb059f3e0bc3329642f1,:bug: Fix delete button display bug in compiled version,Jan Oberhauser,janober,2019-07-17T07:23:12Z
+b6b386dc95376bfd0dead005350000385bf9b97a,:bookmark: Release n8n-editor-ui@0.5.1,Jan Oberhauser,janober,2019-07-17T05:57:40Z
+009cc6c1e94549bffcadd5e4707b27461cad32f7,:bug: Fix issue that it is almost impossible to delete item,Jan Oberhauser,janober,2019-07-17T05:42:45Z
+3b6013f6f42d0a86481e5193c95e8db301a493d9,:bug: Fix issue that mac users can not move workflow,Jan Oberhauser,janober,2019-07-17T05:26:44Z
+5dd9544b1e8b496e02660a267e76fe67fa76348d,:bookmark: Release n8n-nodes-base@0.5.1,Jan Oberhauser,janober,2019-07-15T16:00:19Z
+8eb537fa96f04191dd50349f2f7d0bb41ec90c7d,:bug: Fix bug that Google Sheet data got always copied as string,Jan Oberhauser,janober,2019-07-15T14:24:53Z
+8363be2620ced62fbcb2c574a8361ed686b18b22,:bookmark: Release n8n@0.6.0,Jan Oberhauser,janober,2019-07-14T17:12:05Z
+2206afff38748daef72f2d639c4c3ef4fb5d8f64,":arrow_up: Set n8n-core@0.3.0, n8n-editor-ui@0.5.0, n8n-nodes-base@0.5.0 and n8n-workflow@0.4.0 on n8n",Jan Oberhauser,janober,2019-07-14T17:09:57Z
+bf1526e77a7c15833dc1beef6967e9c76a30bbf9,:bookmark: Release n8n-editor-ui@0.5.0,Jan Oberhauser,janober,2019-07-14T17:06:12Z
+13a71256e1ea8d94d9b293156b3d25fea3c35cee,:arrow_up: Set n8n-workflow@0.4.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-07-14T17:05:50Z
+fb82427fe2981ef65a7fa4454d1473da31ac3d90,:bookmark: Release n8n-nodes-base@0.5.0,Jan Oberhauser,janober,2019-07-14T17:04:50Z
+5d3ee146d389e50ba1c798b06ec45ee8395a55c5,:arrow_up: Set n8n-workflow@0.4.0 and n8n-core@0.4.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-07-14T17:04:30Z
+d76b670422a58e2b3b7ca4c484b045cbfb542662,:bookmark: Release n8n-core@0.3.0,Jan Oberhauser,janober,2019-07-14T17:02:18Z
+8fc075c1ef18eee2cba3f11ad55ad08391fa36ad,:arrow_up: Set n8n-workflow@0.4.0 on n8n-core,Jan Oberhauser,janober,2019-07-14T17:01:55Z
+a9febba0aa06f3af652a5067be23def64a71eddf,:bookmark: Release n8n-workflow@0.4.0,Jan Oberhauser,janober,2019-07-14T16:59:57Z
+a0aea3000e1144b1d10a273f8bf76f1603bfbd32,:lipstick: Add subtitle to NextCloud and Pipedrive-Node,Jan Oberhauser,janober,2019-07-14T16:55:04Z
+1851ce0dbbcfba80de5b998701036e83978e7e83,:sparkles: Update operation selection on Twilio-Node,Jan Oberhauser,janober,2019-07-14T16:53:17Z
+c6a55113e3c1971f30a6eeee27c06ec7f2307e50,:sparkles: Update operation selection on Slack-Node,Jan Oberhauser,janober,2019-07-14T16:43:58Z
+d4a408870328920d065f34577e4d8ff15911b451,:bug: Add missing comma,Jan Oberhauser,janober,2019-07-14T16:40:37Z
+1217fcf5ffc3dc49bf3c21e9fc47731f1cd72047,:sparkles: Update operation selection on Pipedrive-Node,Jan Oberhauser,janober,2019-07-14T15:57:08Z
+6bfba38330183b5b054c5d5305b555ad8161e170,:sparkles: Update operation selection on NextCloud-Node,Jan Oberhauser,janober,2019-07-14T15:16:56Z
+a651fb3b7dde3e3a3ef7b9a0fe7a5f664d78d573,:bug: Fix folder-list bug on Dropbox-Node,Jan Oberhauser,janober,2019-07-14T15:15:48Z
+b35612e571a6ef6d7f07c4fc01d338b30d31319f,:sparkles: Update operation selection on Github-Node,Jan Oberhauser,janober,2019-07-14T14:50:26Z
+77ebf636caa727ed0d410f2924eed48878ba0893,:sparkles: Update operation selection on Dropbox-Node,Jan Oberhauser,janober,2019-07-14T12:26:09Z
+91bff6e4f6bee251b42450324eff62584f6be0dd,:bug: Fix parameter update bug with identically named parameters,Jan Oberhauser,janober,2019-07-14T12:10:16Z
+0c28799dacdeb7d8907a0e97618cc94b49cf54f0,":sparkles: Set subtitle on Chargebee-Node and fix issue with wrong
+default value",Jan Oberhauser,janober,2019-07-14T10:59:26Z
+be1da6d9e1578353331fd3399447a547ebf70f63,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-07-13T18:03:28Z
+549a30c267c0c61923792174b5451edd600ef603,":bug: Fix display bug with identically named parameters with
+dependencies",Jan Oberhauser,janober,2019-07-13T17:50:41Z
+784df3e39397e7344fe051e663210a93ce330447,:bug: Fix display bug with identically named parameters,Jan Oberhauser,janober,2019-07-12T18:58:52Z
+77d9ff08cf900642d655761fc7a22547f12f36b7,:sparkles: Update operation selection on Chargebee-Node,Jan Oberhauser,janober,2019-07-12T17:04:04Z
+ccac2597f044c9f451ac8ae006327050204156e6,":sparkles: Add functionality to Asana-Node and update operation
+selection",Jan Oberhauser,janober,2019-07-12T16:35:35Z
+4de2319a5a47ad5bacdd0ccb4e88043b458000d1,:sparkles: Add Trello-Nodes,Jan Oberhauser,janober,2019-07-12T15:54:15Z
+be9c5622accca998c8a179ca81639ba6a0ffba48,":sparkles: Add possibility to define custom node-subtitle for nodes in
+UI",Jan Oberhauser,janober,2019-07-12T12:14:36Z
+1e0d2cbf1eab0bd5a6aa023639dd9360647602e3,:sparkles: Add additional helper functions to webhook functionality,Jan Oberhauser,janober,2019-07-12T09:33:18Z
+5f471c2ab3ee0aace8d5a8127ac6b1471d35bd49,":bug: Fix issue that when test webhook got called to fast it was not
+available yet",Jan Oberhauser,janober,2019-07-12T09:31:54Z
+45c448b979a3894cf8ffb4f215e566977c0fd91b,:bookmark: Release n8n@0.5.0,Jan Oberhauser,janober,2019-07-11T13:15:15Z
+2dfe3d18c244cea4942a9c63fd924b90f467a8bf,:arrow_up: Set n8n-nodes-base@0.4.0 and n8n-editor-ui@0.4.0 on n8n,Jan Oberhauser,janober,2019-07-11T13:14:03Z
+66b9203e140529244a01db4f9eee9b55b201ae44,:bookmark: Release n8n-editor-ui@0.4.0,Jan Oberhauser,janober,2019-07-11T13:09:35Z
+85d314c08b3b9343d6b8ab304eedaba4d70fc6a3,:bookmark: Release n8n-nodes-base@0.4.0,Jan Oberhauser,janober,2019-07-11T13:07:42Z
+2d20a4b6c128c4fdb50a3d0cd9f6c7d90e5e73d6,:lipstick: Display node-description in node-settings,Jan Oberhauser,janober,2019-07-11T13:05:12Z
+afb078a62ab86ab0d2307ae37ee79444197f8296,":sparkles: Add options ""passThrough"" and ""wait"" to Merge-Node",Jan Oberhauser,janober,2019-07-11T12:54:18Z
+71ca59e3a86577f54ac55581155e9beedc5a22b9,:bug: Fix bug that it overwrote default functionality in some input-fields,Jan Oberhauser,janober,2019-07-11T10:58:07Z
+97fea5938709ff6969a7422b01d28521fa0ab6f9,:books: Add documentation for keyboard shortcuts,Jan Oberhauser,janober,2019-07-11T10:42:03Z
+31e511c8504077633fff39d08c793e9f973315cf,:bookmark: Release n8n@0.4.0,Jan Oberhauser,janober,2019-07-11T07:23:05Z
+fc994b9e2da6f68dfa2ab85bfc2df1e1b6a0f3c2,":arrow_up: Set n8n-workflow@0.3.0, n8n-core@0.2.0, n8n-nodes-base@0.3.0 and n8n-editor-ui@0.3.0 on n8n",Jan Oberhauser,janober,2019-07-11T07:22:40Z
+7d36ef7e2286f975d64958a954f12d6392c8d284,:bookmark: Release n8n-editor-ui@0.3.0,Jan Oberhauser,janober,2019-07-11T07:21:08Z
+aaa8f42593b06f7b69203dbcff0813292864c81f,:arrow_up: Set n8n-workflow@0.3.0 on n8n-editor-ui,Jan Oberhauser,janober,2019-07-11T07:20:20Z
+c7e002b87d83abdd9f594ccf69892d54df1dd6e6,:bookmark: Release n8n-nodes-base@0.3.0,Jan Oberhauser,janober,2019-07-11T07:02:55Z
+35d2859d117533b8c96cfef39321270022d7f437,:arrow_up: Set n8n-workflow@0.3.0 and n8n-core@0.2.0 on n8n-nodes-base,Jan Oberhauser,janober,2019-07-11T07:02:34Z
+96907b8b27135e1bcea0418a39fdaea88726895e,:bookmark: Release n8n-node-dev@0.2.0,Jan Oberhauser,janober,2019-07-11T06:55:51Z
+8d1a445b90956e212760e003a97c7f5e332e0da3,:arrow_up: Set n8n-workflow@0.3.0 and n8n-core@0.2.0 on n8n-node-dev,Jan Oberhauser,janober,2019-07-11T06:54:58Z
+403749c2a6f796e5a4317c0826d473d37964cd49,:bookmark: Release n8n-core@0.2.0,Jan Oberhauser,janober,2019-07-11T06:14:10Z
+cdcdfbe6f6f5d5204fbaadea09699db3f0327374,:arrow_up: Set n8n-workflow@0.3.0 on n8n-core,Jan Oberhauser,janober,2019-07-11T06:12:12Z
+008a68c2393474ccdda8a80133ad118ae8d956bd,:bookmark: Release n8n-workflow@0.3.0,Jan Oberhauser,janober,2019-07-11T06:09:55Z
+60162d5c466eba8187c1ccf0df9981e50d0a4c1a,":sparkles: Make it possible to use custom cron-expressions and add
+""Every Hour"" option to Cron-Node",Jan Oberhauser,janober,2019-07-11T06:00:57Z
+cc3f2c42d1daf4aa719e0daf01a17faacc02e387,":arrow_up: Set identical tslint version in all packages and fix lint
+issues",Jan Oberhauser,janober,2019-07-10T19:01:22Z
+a17a376d130f94db01461f93e22079066cba2465,":sparkles: Make it possible to define if workflow executions should be
+saved or not",Jan Oberhauser,janober,2019-07-10T18:53:13Z
+e00bc83f1b2abc11693edcce7014d585b22982e7,":art: Rename setting ""saveManualRuns"" to ""saveManualExecutions""",Jan Oberhauser,janober,2019-07-10T16:06:26Z
+a56f477833ff8c6c31bab3e99d007fbf74f44002,:sparkles: Add RAW data mode to GoogleSheet-Node,Jan Oberhauser,janober,2019-07-10T14:14:55Z
+bba3154ed53f6aec87066faca8a9d7da5ae58380,":bug: Fix issue that parameters did not always get set correctly from
+external windows",Jan Oberhauser,janober,2019-07-10T09:46:59Z
+d80b703dfd391978bb19d88d8fd3fcd8729495f6,:sparkles: Add more functionality to Pipedrive-Node,Jan Oberhauser,janober,2019-07-10T08:16:48Z
+1cc00d910158898f2a3786cdc0f2c3d55c2ef3af,:sparkles: Add more functionality to Pipedrive-Node,Jan Oberhauser,janober,2019-07-10T06:40:59Z
+f74a067c177c700869a1852a62f99f4672bf3ccd,:zap: Improve display of errors of Pipedrive-Node,Jan Oberhauser,janober,2019-07-10T06:39:58Z
+c6345bad19574e40ef19ad67f1a8f7201fbfda53,:sparkles: Add Pipedrive-Trigger-Node,Jan Oberhauser,janober,2019-07-10T06:14:40Z
+1ad78f05c2fc7b01932a36c4c1cd66b8a35678cb,:zap: Fix typo,Jan Oberhauser,janober,2019-07-09T18:31:44Z
+646e1fc841415ebe0f99bec31ac94b9881baadb6,:books: Add first basic documentation how to create an own node,Jan Oberhauser,janober,2019-07-07T17:22:22Z
+13ac18afa88591f52f2797156a98918251ead57f,:sparkles: Add missing Airtable-Node-Credentials,Jan Oberhauser,janober,2019-07-07T17:19:07Z
+16ba7e6ed7fb915b6fe37318a87b513b956e744f,:bug: Fix bug with displaying node-issues,Jan Oberhauser,janober,2019-07-07T17:17:34Z
+bcaddecdd65a78a6c1863ee1e8d574373e33a37e,:lipstick: Add description to field on Pipedrive-Node,Jan Oberhauser,janober,2019-07-07T17:01:05Z
+2ba03345f6203e813f8fd7023ccb1a0c467f766e,:sparkles: Add Airtable-Node,Jan Oberhauser,janober,2019-07-07T17:00:05Z
+1f79353397ebee7a6aa8e0b376200ddc741cd3a5,:lipstick: Give delete button more space,Jan Oberhauser,janober,2019-07-07T14:32:28Z
+91c7f52c37b708e040877d3a0c6915849c47e886,:shirt: Fix lint issue,Jan Oberhauser,janober,2019-07-01T12:52:14Z
+3282acbcf126db80981a0d7432b4abf5a2a9ddeb,":zap: Before credentials get created or updated check if one with same type and
+name already exist",Jan Oberhauser,janober,2019-06-30T17:09:08Z
+ea82fd36c2e9e7559605333e54a2f4332f656e78,:books: Add demo video and improve project description for docker,Jan Oberhauser,janober,2019-06-28T04:57:32Z
+ddafea73206981db61e2df35c432e45462fad5b5,:bookmark: Release n8n@0.3.0,Jan Oberhauser,janober,2019-06-27T17:20:22Z
+381e9e98420cd9988242243ac8a9326e2fe51bfb,:bookmark: n8n-editor-ui@0.2.0,Jan Oberhauser,janober,2019-06-27T17:19:24Z
+0997087ca5ca56409b93e83f9585483b1de012a7,:bookmark: Release n8n-workflow@0.2.0,Jan Oberhauser,janober,2019-06-27T17:18:33Z
+f38f6b2f16b7fe642b68c165acf57253ef0489ca,:books: Add demo video and improve project description,Jan Oberhauser,janober,2019-06-27T16:45:28Z
+00f00f9cbe88f34a418c15561920c9e5d185629f,":bug: Fix issue that expressions always read from output with index 0 even
+when the nodes with the expression were connected to a different one",Jan Oberhauser,janober,2019-06-27T14:46:26Z
+3d80d9602efce7b64d9cc72b47761cd582bfb90b,:lipstick: Improve display of output- and execution-selection,Jan Oberhauser,janober,2019-06-27T12:07:45Z
+bbab4fc6e10a5d1e794c4ef11ada04ed82035510,:bug: Fix bug,Jan Oberhauser,janober,2019-06-27T11:00:52Z
+6cc6c6f13832c5756fa361360bf5ebef1d645c77,Fix scrollbars and dialogs on lower resolutions,Jan Oberhauser,janober,2019-06-27T10:44:59Z
+a7cd27d745ae5d7315eca41aac6996f5f0280439,Display output names on connections if there are any,Jan Oberhauser,janober,2019-06-27T09:27:02Z
+5cbd16e28607ee032daaea6446876576248e343d,Fix display of tags in select field,Jan Oberhauser,janober,2019-06-27T06:27:18Z
+3095e5728ae446c4f1a249c4cc952811d7e7fc7c,"Fix issue that it opened the webhook urls every time credentials got
+selected",Jan Oberhauser,janober,2019-06-27T06:11:38Z
+d031ae312a6c40c239e07e5fc37ed2063e990f94,"Fix issue that expressions did not resolve correctly in
+expression-editor",Jan Oberhauser,janober,2019-06-27T05:31:18Z
+d6db85caf99f2d62098ac8b1fd0a7c3c3ac81de0,":lipstick: Add ""ellipsis"" overflow to inputs to make clear when there is
+more text",Jan Oberhauser,janober,2019-06-24T12:50:22Z
+6da4c60060abf2e455f41c8502d97a5fdb71a805,:lipstick: Make clearer in credentials what data is for,Jan Oberhauser,janober,2019-06-24T12:45:03Z
+e9eb18759c6a1a8ae960529f36b5c8388b3f2e9c,":lipstick: Move ""Delete Current Execution Data"" button next to ""Execute
+Workflow"" button",Jan Oberhauser,janober,2019-06-24T11:52:03Z
+289770357a18a2123034de5e0b63644b70739679,:books: Improve documentation about how MongoDB can be used,Jan Oberhauser,janober,2019-06-24T11:33:54Z
+92252bfa99e295153b023aba6e77f9831cb024d2,Add link to n8n-node-dev cli,Jan Oberhauser,janober,2019-06-24T11:21:58Z
+cc405f0c1af3c112aa8bf7f4e756bc30bd997076,Improve documentation,Jan Oberhauser,janober,2019-06-24T11:21:07Z
+2175477b8edc53ef9385e0e3f2c56bb468a96ed7,Release n8n@0.2.2,Jan Oberhauser,janober,2019-06-24T10:52:39Z
+63c5ec50362a0aced2d74cecfafacee5f4e20bba,"Set new minor version of n8n-nodes-base because else lerna does not link
+it anymore",Jan Oberhauser,janober,2019-06-24T10:52:06Z
+074ec4478a1f3d9cbe24282ef7f9241c7b0170ae,Release n8n-nodes-base@0.2.1,Jan Oberhauser,janober,2019-06-24T10:48:59Z
+034c70f6abf93f105b4d06cabdbebe2e21db8c93,Make n8n work with older node versions (<10),Jan Oberhauser,janober,2019-06-24T10:47:44Z
+b53d4c56ae7676bee6f6ed7c268e2dfe6d766617,Release n8n@0.2.1,Jan Oberhauser,janober,2019-06-24T08:31:36Z
+bce2ef34ed1648da4523a7dd3b39ce7172e6be97,Rename folder to fix problems on MacOS and windows,Jan Oberhauser,janober,2019-06-24T08:30:46Z
+1d86a2a7733cd960dcb38b5fe3b4670736585810,Update to TypeScript 3.5.x,Jan Oberhauser,janober,2019-06-24T08:28:18Z
+9427aedf441e1fb2420823a2351b102c5b01ba1a,Release n8n@0.2.0,Jan Oberhauser,janober,2019-06-24T07:33:25Z
+b90c7019079edc94e5e361127023a67f811b34ea,Release n8n-nodes-base@0.2.0,Jan Oberhauser,janober,2019-06-24T07:30:15Z
+d26299c9fea059bd444872263c4155fbf11e4439,Add Pipedrive node to be loaded,Jan Oberhauser,janober,2019-06-24T07:29:06Z
+2b7382cd63a0d157178a84d76d5a8b008fb494a5,"Rename cli command ""run"" to ""execute""",Jan Oberhauser,janober,2019-06-24T06:28:24Z
+b776bd8bd770f3ed236f8c0104632acd1771669e,"Add documentation for ""n8n run"" command",Jan Oberhauser,janober,2019-06-24T06:17:14Z
+9fdbf2c9eefd5ea13ab049d7ac63450aee7a184e,"Fix bug in ""run"" command",Jan Oberhauser,janober,2019-06-24T06:12:49Z
+4664ed12097e3b9ef95f75448c4a6304481911bb,"Execute commands of ""ExecuteCommand"" node by default in folder the
+process got started from",Jan Oberhauser,janober,2019-06-24T05:51:07Z
+15e3481b4005ed82e0ff83e7efabf389b20e798b,Add additional explanations to default configuration,Jan Oberhauser,janober,2019-06-24T05:45:12Z
+4e6d9caa71502542426e55a1960acb79245acb1d,Fix Pipedrive description,Jan Oberhauser,janober,2019-06-24T05:24:47Z
+f26199f69000788048cc57b285341554ca182386,Add first basic support for Pipedrive,Jan Oberhauser,janober,2019-06-23T19:21:44Z
+cbe115c07f9fa6b9ec55981eae77bb724bad7034,Add screenshot to README,Jan Oberhauser,janober,2019-06-23T18:56:42Z
+28262fdb7969a3728b2a9248cd50aeb5567ff7cd,Add information about how to use MongoDB as database,Jan Oberhauser,janober,2019-06-23T18:45:39Z
+1c956f326f53f4459836d8b3cf5b694d01e5a160,Add example to config how to exclude a file,Jan Oberhauser,janober,2019-06-23T18:44:41Z
+8ec557d7cbf84391f1b453aa7a46c17c76ec2288,Rename LICENSE files to LICENSE.md,Jan Oberhauser,janober,2019-06-23T15:55:43Z
+24f14c6e090d84d310a87572479059875690cd9e,Create CODE_OF_CONDUCT.md,Jan,janober,2019-06-23T15:48:38Z
+08cc01551cd7b533829e20d954de40897c7552c2,Add repository entry to package.json files,Jan Oberhauser,janober,2019-06-23T10:50:36Z
+0f99d169a1e390cb9533fb97730f6cfe0b99345c,Fix indentation in docker-compose file,Jan Oberhauser,janober,2019-06-23T10:45:36Z
+40ed3f62f3407f94e7b150deedbf6efbf7bd68ff,Fix link to README,Jan Oberhauser,janober,2019-06-23T10:45:15Z
+9cb9804eeec1576d935817ecda6bd345480b97fa,Initial commit to release,Jan Oberhauser,janober,2019-06-23T10:35:23Z

@@ -1,0 +1,1015 @@
+SHA,Message,Author,Username,Date
+4d05f84325070c3f6fe2ed6096138757675469a4,"[PalcoMP3] Conform to new linter rule
+* no space after @ in decorator",dirkf,dirkf,2024-06-20T02:22:02Z
+e0094e63c3bce919841b6e3634c877fcef8772a1,"[jsinterp] Various tweaks
+* treat Infinity like NaN
+* cache operator list",dirkf,dirkf,2024-06-20T01:57:52Z
+fd8242e3efd3c0e2ba9a45c662d6983c00b21d6d,"[jsinterp] Fix and improve expression parsing
+* improve BODMAS (fixes https://github.com/ytdl-org/youtube-dl/issues/32815)
+* support more weird expressions with multiple unary ops",dirkf,dirkf,2024-06-20T01:36:54Z
+ad01fa6ccadd1ecade8002e937492a141d3b8f25,"[jsinterp] Add Debugger from yt-dlp
+* https://github.com/yt-dlp/yt-dlp/commit/8f53dc4
+* thx pukkandan",dirkf,dirkf,2024-06-19T20:44:27Z
+2eac0fa3799b3d027148341186a52fb5a6288473,[utils] Save `orig_msg` in `ExtractorError`,dirkf,dirkf,2024-06-19T18:04:47Z
+0153b387e57e0bb8e580f1869f85596d2767fb0d,"[VidLii] Add 720p support (#30924)
+
+* [VidLii] Add HD support  (yt-dlp backport-ish)
+
+* Also fix a bug with the view count
+
+---------
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Paper,mrpapersonic,2024-06-11T12:21:39Z
+a48fe7491df1ef9c1d10689e852f0e8e5f48253c,[ORF] Skip tests with limited availability,dirkf,dirkf,2024-06-11T11:32:07Z
+e20ca543f037bd3a8e38507b870ed3a3de3c32e7,"[ORF] Re-factor and update`ORFFM4StoryIE`
+* fix getting media via DASH instead of inaccessible mp4
+* also get in-page YT media",dirkf,dirkf,2024-06-01T12:43:37Z
+e39466051f01411944bd657fe826b658a0df5af1,"[ORF] Support sound.orf.at, updating `ORFRadioIE`
+* maintain support for xx.orf.at/player/... URLs
+* add `ORFRadioCollectionIE` to support playlists in ORF Sound
+* back-port and re-work `ORFPodcastIE` from https://github.com/yt-dlp/yt-dlp/pull/8486, thx Esokrates",dirkf,dirkf,2024-06-01T12:29:26Z
+d95c0d203fa74c806a806806f7c5286ca532b936,"[ORF] Support on.orf.at, replacing `ORFTVthekIE`
+* add `ORFONIE`, back-porting yt-dlp PR https://github.com/yt-dlp/yt-dlp/pull/9113 and friends: thx HobbyistDev, TuxCoder, seproDev
+* re-factor to support livestreams via new `ORFONliveIE`",dirkf,dirkf,2024-06-01T11:56:41Z
+3bde6a5752591f824096469fb9617be9d470df2c,"[test] Improve download test
+* skip reason can't be unicode in Py2
+* remove duplicate assert...Equal functions",dirkf,dirkf,2024-06-11T00:20:42Z
+50f6c5668ac28a435a5c09e3d5ee7c13a50999f3,[core] Re-factor with `_fill_common_fields()` as used in yt-dlp,dirkf,dirkf,2024-06-01T02:25:06Z
+b4ff08bd2d12b6c91f4d8c83a7820fc6db31033d,[core] Safer handling of nested playlist data,dirkf,dirkf,2024-06-01T02:23:37Z
+88bd8b9f87f6f4956f11d32f3a7f23f20283357b,"[mixcloud] updated mixcloud API server address (#32557)
+
+* updated mixcloud API server address
+* fix tests
+* etc
+
+---------
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",kmnx,kmnx,2024-06-11T11:38:24Z
+21924742f79ccbd62d16ef4120518c6a5da8614e,"[InfoExtractor] Misc yt-dlp back-ports, etc
+* add _yes_playlist() method
+* avoid crash using _NETRC_MACHINE
+* use _search_json() in _search_nextjs_data()
+* _search_nextjs_data() default is JSON, not text
+* test for above",dirkf,dirkf,2024-04-26T17:57:44Z
+768ccccd9b18bc48d129b12d14eace4ebb3655d8,"[compat] Avoid type comparison in `compat_ord`
+NB This isn't actually a compat fn; it should be utils.int_from_int_or_char",dirkf,dirkf,2024-05-28T14:59:34Z
+eee9a247eb3ef876ce6d9f5e34275e46a2d06d10,[utils] Split out traversal.py dummy and traversal tests,dirkf,dirkf,2024-05-28T16:16:58Z
+34484e49f5cd91a830f5459a5b673b7c05a22e24,"[compat] Improve compat_etree_iterfind for Py2.6
+Adapted from https://raw.githubusercontent.com/python/cpython/2.7/Lib/xml/etree/ElementPath.py",dirkf,dirkf,2024-05-28T15:38:20Z
+06da64ee51cd405b9392ba484cf7d3d31a88ee30,"[utils] Update traverse_obj() from yt-dlp
+* remove `is_user_input` option per https://github.com/yt-dlp/yt-dlp/pull/8673
+* support traversal of compat_xml_etree_ElementTree_Element per https://github.com/yt-dlp/yt-dlp/pull/8911
+* allow un/branching using all and any per https://github.com/yt-dlp/yt-dlp/pull/9571
+* support traversal of compat_cookies.Morsel and multiple types in `set()` keys per https://github.com/yt-dlp/yt-dlp/pull/9577
+thx Grub4k for these
+* also, move traversal tests to a separate class
+* allow for unordered dicts in tests for Py<3.7",dirkf,dirkf,2024-04-21T22:42:08Z
+a08f2b7e4567cdc50c0614ee0a4ffdff49b8b6e6,"[workflows/ci.yml] Temporary workaround for Python 3.5 _pip_ failures
+
+https://github.com/actions/setup-python/issues/866",dirkf,dirkf,2024-05-15T15:57:59Z
+668332b9733023ca2e927eeb2208725022248af8,"[YouPorn] Add playlist extractors
+* YouPornCategoryIE
+* YouPornChannelIE
+* YouPornCollectionIE
+* YouPornStarIE
+* YouPornTagIE
+* YouPornVideosIE,",dirkf,dirkf,2024-04-11T12:06:25Z
+0b2ce3685e02ea1a3ccee1026572e081b8f6ac83,"[YouPorn] Improve extraction
+* detect unwatchable videos
+* improve duration extraction
+* fix count extraction and support large values
+* detect and remove SEO spam boilerplate description",dirkf,dirkf,2024-03-01T15:07:30Z
+c2766cb80ee9add4d2d2d94b1878e7884c63ceaf,"[test/test_download] Support 'playlist_maxcount:count' expected value
+* parallel to `playlist_mincount'
+* specify both for a range of playlist lengths
+* if max < min the test will always fail!",dirkf,dirkf,2024-04-11T11:47:05Z
+eb3866543810c7be96f40ec94e0c00df19b93861,"[YouPorn] Incorporate yt-dlp PR 8827
+* from https://github.com/yt-dlp/yt-dlp/pull/8827
+* extract from webpage instead of broken API URL
+* thx The-MAGI",dirkf,dirkf,2024-03-01T14:48:30Z
+e0727e4ab61b6e45f7792546b8b5ff52a0ea22b5,"[postprocessor/ffmpeg] Fix finding ffprobe (bug in 21792b8)
+Fixes https://github.com/ytdl-org/youtube-dl/commit/21792b88b791b16e3ab0a0fb2e26e5bb8a4e2ff3#commitcomment-140705274, thx: vonProteus",dirkf,dirkf,2024-04-07T14:26:12Z
+4ea59c6107d63bbabe1de74569ceb984b1646426,"[utils] Fix crash in _report_ignoring_subs from c58b655  (#32762)
+
+Align `utils.bug_reports_message()` with yt-dlp https://github.com/yt-dlp/yt-dlp/commit/5873d4ccdd, thanks fstirlitz
+
+---------
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Ori Avtalion,salty-horse,2024-04-05T14:25:29Z
+21792b88b791b16e3ab0a0fb2e26e5bb8a4e2ff3,"[external/FFmpeg] Fix and improve --ffmpeg-location handling
+* pass YoutubeDL (FileDownloader) to FFmpegPostProcessor constructor
+* consolidate path search in FFmpegPostProcessor
+* make availability of FFmpegFD depend on existence of FFmpegPostProcessor
+* detect ffmpeg executable on instantiation of FFmpegFD
+* resolves #32735",dirkf,dirkf,2024-03-03T12:38:00Z
+d8f134a664d7be2c10aba44fc2d54a8f7b0542ff,"[downloader/external] Fix ""Resource Warning"" in downloader test
+* add compat_subprocess_Popen context manager
+* apply context manager in FFmpegFD._call_downloader()",dirkf,dirkf,2024-03-02T15:17:09Z
+31a15a7c8dfc618e5090948e6b44d27911383d4b,[compat] Simplify/fix compat_html_parser_HTMLParseError,dirkf,dirkf,2024-03-10T19:06:57Z
+19dc10b986eeda47975a0e77e84df20ad3b59062,[utils] Apply compat_contextlib_suppress,dirkf,dirkf,2024-03-01T19:53:58Z
+182f63e82a390e138f4a133d3ccb9c838222b02d,"[compat] Add compat_contextlib_suppress
+
+with compat_contextlib_suppress(*Exceptions):
+    # code that fails silently for any of Exceptions",dirkf,dirkf,2024-03-01T15:25:44Z
+71211e7db7243377f862dfdea9a9c3a511df66c2,"[Youtube] Fix unwanted private method __ie_msg in f8b0135850
+
+Fixes `AttributeError no attribute '_YoutubeIE__ie_msg'` if unable to decode n-parameter",gy-chen,gy-chen,2024-03-23T15:30:13Z
+a96a45b2cdcfa5f20ae4264bed268cce93fbc521,"[Vimeo] Improve `config` extraction (#32742)
+
+* update for more robust json parsing",Zizheng Guo,gzz2000,2024-03-12T11:44:13Z
+820fae3b3a8587a6f57afbe803b4f91de7d4e086,"[Videa] Fix extraction
+* update API URL
+* from https://github.com/yt-dlp/yt-dlp/pull/8003
+* thanks to the authors!
+
+Closes yt-dlp/7427
+Authored by: hatsomatt, aky-01",hatsomatt,hatsomatt,2023-09-16T14:02:37Z
+aef24d97e9c50cd9db06349b2b25c7f623baf932,[Videa] Align with yt-dlp,dirkf,dirkf,2024-02-29T14:12:37Z
+f7b30e3f73f56aa4765212cd04eb48743e03dfcd,"[XFileShare] Update extractor for 2024
+* simplify aa_decode()
+* review and update supported sites and tests
+* in above, include FileMoon.sx, and remove separate module
+* incorporate changes from yt-dlp
+* allow for decoding multiple scripts (eg, FileMoon)
+* use new JWPlayer extraction",dirkf,dirkf,2024-02-21T00:18:17Z
+f66372403fd9e1661199fea100ba2600fa9697b2,"[InfoExtractor] Rework and improve JWPlayer extraction
+* use traverse_obj() and _search_json()
+* support playlist `.load({**video1},{**video2}, ...)`
+* support transform_source=... for _extract_jwplayer_data()",dirkf,dirkf,2024-02-21T00:09:48Z
+7216fa2ac4706e099ea2ad9a04fe7bf4300bc745,"[InfoExtractor] Add `_search_json()`
+* uses the error diagnostic to truncate the JSON string
+* may be confused by non-C-Pythons",dirkf,dirkf,2024-02-21T00:03:17Z
+acc383b9e3c2d454121c22570c901dd2c689dc26,"[utils] Let int_or_none() accept a base, like int()",dirkf,dirkf,2024-03-04T20:52:58Z
+f0812d784836d18fd25ea32f9b5a0c9c6e92425b,"[utils] Handle user:pass in URLs (#28801)
+
+* Handle user:pass in URLs
+
+Fixes ""nonnumeric port"" errors when youtube-dl is given URLs with
+usernames and passwords such as:
+
+    http://username:password@example.com/myvideo.mp4
+
+Refs:
+- https://en.wikipedia.org/wiki/Basic_access_authentication
+- https://tools.ietf.org/html/rfc1738#section-3.1
+- https://docs.python.org/3.8/library/urllib.parse.html#urllib.parse.urlsplit
+
+Fixes #18276 (point 4)
+Fixes #20258
+Fixes #26211 (see comment)
+
+* Align code with yt-dlp
+
+---------
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Hubert Hirtz,hhirtz,2024-03-04T01:27:55Z
+40bd5c18153afe765caa6726302ee1dd8a9a2ce6,"[caffeine.tv] Add new extractor (#32514)
+
+* Add CaffeineTVIE info extractor to support site caffeine.tv
+
+---------
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Aaron Tan,aaron-tan,2024-02-22T12:54:07Z
+70f230f9cf28e948662599b6257cb7d1262870e3,"[GBNews]Add new extractor for GB News TV channel (#29432)
+
+* Add extractor for GB News TV channel
+
+* Support more GBNews URL formats
+Allow alphanumeric and _ in place of `shows`, which redirect to site's preferred URL
+
+* Update for 2024",dirkf,dirkf,2024-02-22T12:44:00Z
+48ddab1f3a616d40480818ec9b73eaa27e3a55fa,"[downloader/external] Fix WgetFD proxy (rev 2) 
+
+From PR (defunct source), closes #29343.
+Matches https://github.com/yt-dlp/yt-dlp/pull/3152
+Thx former user kikuyan.",dirkf,dirkf,2024-02-21T16:29:08Z
+7687389f08a5c7c49e57d1b7f7b11b1c87b47b68,"[Vbox7] Improve extraction, adding features from yt-dlp PR #9100
+
+* changes from https://github.com/yt-dlp/yt-dlp/pull/9100 (thx
+seproDev):
+  - attempt HLS extraction
+  - re-enable XFF
+  - test `view_count`, `duration` extraction
+* improve commenting, error checks",dirkf,dirkf,2024-02-18T20:55:01Z
+4416f82c809a81737d68875dcb201e366d58dabd,"[Vbox7IE] Sanitise ld+json containing unexpected characters
+* based on PR #29680
+* added hack to force invoking `transform_source`
+* fixes #26218",dirkf,dirkf,2024-01-27T18:17:09Z
+bdda6b81df61f52eed2502c8ae624d297d918488,"[Vbox7IE] Improve extraction
+* DASH extraction no longer fails with new range support
+* but always find combined formats if available
+* suppress ineffective XFF geo-bypass (causes time-outs)
+* adapted from https://github.com/ytdl-org/youtube-dl/pull/29680
+* thx former GH user kikuyan",dirkf,dirkf,2024-01-27T15:57:25Z
+1fd8f802b836cc1e8bf87b2dbe02decd6a980cb6,"[InfoExtractor] Correctly resolve BaseURL in DASH manifest
+Specs:
+* ISO/IEC 23009-1:2012 section 5.6
+* RFC 3986 section 5.",dirkf,dirkf,2024-01-27T15:45:43Z
+4eaeb9b2c680ed097770ce976c3b37a1b05c0800,"[InfoExtractor] Support byte range for DASH
+* adapted from https://github.com/ytdl-org/youtube-dl/pull/30279
+* thx former GH user kikuyan",dirkf,dirkf,2024-01-27T15:37:08Z
+bec9180e8904a12c55cfa838b0541879d16bf20f,"[downloader/dash] Support `range` in fragment (format f'{start}-{end}')
+ * adapted from https://github.com/ytdl-org/youtube-dl/pull/30279
+ * thx former GH user kikuyan",dirkf,dirkf,2024-01-27T00:07:14Z
+c58b655a9ef255eb9d02b4d57706c46cfdf35975,[InfoExtractor] Support DASH subtitle extraction (yt-dlp back-port),dirkf,dirkf,2024-01-27T15:29:25Z
+dc512e3a8a26a8e3fc7f1f67e5ee5e7699db8659,"[YouTube] Fix `like_count` extraction using `likeButtonViewModel`
+* also fix various tests
+* TODO: check against yt-dlp tests",dirkf,dirkf,2024-01-15T18:38:43Z
+f8b0135850f39609f72002f5426883859579fc51,"[YouTube] Rework n-sig processing, realigning with yt-dlp
+* apply n-sig before chunked fragments, fixes #32692",dirkf,dirkf,2024-01-15T18:34:21Z
+640d39f03ae80a0b8d0605a711d97c10f6edbd3f,[InfoExtractor] Support some warning and `._downloader` shortcut methods from yt-dlp,dirkf,dirkf,2024-01-15T18:32:06Z
+66518714169185195a359e173cef73fba31d76b8,"[compat] Rework compat for `method` parameter of `compat_urllib_request.Request` constructor
+* fixes #32573
+* does not break `utils.HEADrequest` (eg)",dirkf,dirkf,2024-01-20T18:28:52Z
+be008e657d79832642e2158557c899249c9e31cd,[core] Fix format string injection for metadata JSON filename message.,mk-pmb,mk-pmb,2023-09-13T18:57:05Z
+b1bbc1e50277e240419eb1308e444ac8a5da4320,"[Epidemic Sound] Add new extractor (#32628)
+
+* Add simple extractor
+* Support separate tracks
+* Use index as id instead of slug
+
+---------
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Robotix,realRobotix,2023-12-06T01:17:57Z
+55a442adaea1eb3dae332fe00179f6dbd437b398,"[Imgur] Overhaul extractor module (#32612)
+
+Revise extractors for new API and page formats",dirkf,dirkf,2023-12-05T20:02:30Z
+c62936a5f20d941e67d566e74a7c3fc8d8188f7a,"[telewebion] Fix extraction (#32634)
+
+* [telewebion] fix extraction
+
+Resolves https://github.com/ytdl-org/youtube-dl/issues/5135#issuecomment-932952119
+
+---------
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",mimvahedi,mimvahedi,2023-12-02T15:25:09Z
+427472351ce6b2fcf5bb35dde32bf9ee5beddd89,"[utils] Make restricted filenames ignore characters in Unicode categories Mark, Other
+
+Resolves #32629",dirkf,dirkf,2023-11-28T17:26:37Z
+c6538ed323409707fc73e81fb7c93bc62ad11ac1,[workflows/ci.yml] Use setup-python for now released Python 3.12,dirkf,dirkf,2023-11-28T18:06:40Z
+8d227cb97b00a36fa9389bcba2a63ef6db3dbff7,[workflows/ci.yml] Actually use default values for push and pull_request,dirkf,dirkf,2023-11-28T16:17:07Z
+4e115e18cbb02ecde30edb736a030cf84bf813e9,[workflows/ci.yml] Run apt-get update before installing,dirkf,dirkf,2023-10-18T13:28:10Z
+b7fca0fab36c71fee02d6ecf81acbbaa46942be4,"[Youtube] Update consent cookie handling to match site
+
+Apologies for force push!
+[skip ci]",ReenigneArcher,ReenigneArcher,2023-11-15T23:54:31Z
+00ef748cc0e35ee60efd0f7a00e373ab8d1af86b,[downloader] Fix baa6c5e: show ETA of http download as ETA instead of total d/l time,dirkf,dirkf,2023-09-24T21:00:13Z
+66ab0814c4baa2dc79c2dd5287bc0ad61a37c5b9,"[utils] Revert bbd3e7e, updating docstring, test instead",dirkf,dirkf,2023-09-03T22:15:19Z
+bbd3e7e9999877104e1e47a8ed49f3b90257f083,"[utils] Properly handle list values in update_url()
+
+An actual list value in a query update could have been treated
+as a list of values because of the key:list parse_qs format.",dirkf,dirkf,2023-09-03T00:18:22Z
+21caaf23800c95451cec27dfac56df2c0f8de85a,[test] Remove redundancy from lambda expected value regex,dirkf,dirkf,2023-09-03T00:13:40Z
+31f50c8194f12c27ac6fbfe336f1d515aa8677ae,"[S4C] Add thumbnail extraction, extract series as playlist
+
+Based on https://github.com/yt-dlp/yt-dlp/pull/7776: thx ifan-t, bashonly",dirkf,dirkf,2023-08-27T18:08:28Z
+7d58f0769a8f08e46ea77432041577cef94c07e2,[ci.yml] Improve conditions for nosetest installations,dirkf,dirkf,2023-08-31T16:16:47Z
+86e3cf5e5849aefcc540c19bb5fa5ab7f470d1c1,"[S4C] Add extractor for Sianel Pedwar Cymru
+
+* from https://github.com/yt-dlp/yt-dlp/pull/7730, thx ifan-t, bashonly",dirkf,dirkf,2023-08-04T21:54:12Z
+2efc8de4d2299e08e0c84d674d7fc7f3fa669487,[utils] Advertise optional supported `Content-Encoding`s,dirkf,dirkf,2023-07-30T20:50:52Z
+e4178b5af3428f29feca622d531090f10f54af35,[utils] Add and use `filter_dict()` from yt-dlp,dirkf,dirkf,2023-07-30T20:49:58Z
+2d2a4bc8324fc4bc5a235cbd1ee0b0769912bfd1,[utils] Revise `isinstance()` tests (especially for str/unicode/bytes) to complete Linter fix,dirkf,dirkf,2023-07-30T20:47:48Z
+7d965e6b65655f2a5fbae34219fc87359a3d7061,"[utils] Avoid comparing `type(var)`, etc, to pass new Linter rules",dirkf,dirkf,2023-07-30T20:45:57Z
+abef53466da1f7d2e79f5644718a2cf7524abc49,"[utils] Rework URL path munging for ., .. components
+
+* move processing to YoutubeDLHandler
+* also process `Location` header for redirect
+* use tests from https://github.com/yt-dlp/yt-dlp/pull/7662",dirkf,dirkf,2023-07-28T05:19:15Z
+e7926ae9f4e5fa258696551a39295402819280c9,"[utils] Rework decoding of `Content-Encoding`s
+
+* support nested encodings
+* support optional `br` encoding, if brotli package is installed
+* support optional 'compress' encoding, if ncompress package is installed
+* response `Content-Encoding` has only unprocessed encodings, or removed
+* response `Content-Length` is decoded length (usable for filesize metadata)
+* use zlib for both deflate and gzip decompression
+* some elements taken from yt-dlp: thx especially coletdjnz",dirkf,dirkf,2023-07-28T05:03:14Z
+87e578c9b891b29ab6559ac81ed391897b1e1ace,"[workflows/ci.yml] Update to setup-java@v3
+
+* avoid Node 12 deprecation",dirkf,dirkf,2023-07-28T09:52:04Z
+0861812d7208310a03909502b1610f5e89d04401,[build] Fix typo in `devscripts/fish-completion.py` (fix 2285605),dirkf,dirkf,2023-07-25T14:11:15Z
+b87018122995acb7e6a1be3f2464605259b93611,[build] Extend use of `devscripts/utils`,dirkf,dirkf,2023-07-24T23:22:54Z
+a25e9f3c84a34d43f78a4e5a6f6c2e98e2a0ade3,[compat] Use `compat_open()`,dirkf,dirkf,2023-07-24T23:17:15Z
+aac33155e40af3da96a2467dd05faea201815989,[build] Add and use `devscripts/utils`,dirkf,dirkf,2023-07-24T22:43:36Z
+2b7dd3b2a2d7c6e228a42d1000a6f3296739ff1c,[utils] Fix update_Request() with empty data (not None),dirkf,dirkf,2023-07-24T02:30:28Z
+44faa71b19c866b836e4433ddd3e4722ac6d282f,[test/test_execution.py] Use `compat_subprocess_get_DEVNULL()`,dirkf,dirkf,2023-07-20T18:32:29Z
+7bce2ad441b874e7a1cf8cc81059c5601d832697,[build] Fix various Jython CI and test issues,dirkf,dirkf,2023-07-20T17:49:48Z
+ca71e56c481c6d5ce69b4756f8f8c0aff97d79b5,[workflows/ci.yml] Build 3.12 with pyenv,dirkf,dirkf,2023-07-20T15:36:54Z
+2a4e9faa773cce60e82453cb32f13e48513c4a46,"[doc] Update developer guidance
+* mention pynose
+* mention traverse_obj and add/revise examples
+
+[skip ci]",dirkf,dirkf,2023-07-20T14:49:46Z
+74eef6bb5e6b88d042aa13caec667aa3df84ba73,"[workflows/ci.yml] Extend Python versions
+* add 3.10 - 3.12
+* use https://pypi.org/project/pynose/ for Py >= 3.9
+* test Windows with 3.4
+* set defaults (main, both) except push: (all, core)",dirkf,dirkf,2023-07-20T11:42:46Z
+1fa8b86f0b95f2e1488042ceeda8f356ea2a5448,[utils] Remove stray undocumented Host header in redirect (fix 46fde7c),dirkf,dirkf,2023-07-20T04:29:59Z
+b2ba24bb026904f3503db71f65d2b1627f08edf1,"[InfoExtractor] Add `_match_valid_url()` class method and refactor
+
+* API compatible with yt-dlp
+* also support Sequence of patterns in _VALID_URL
+* one place to compile _VALID_URL
+* TODO: remove existing extractor shims",dirkf,dirkf,2023-07-19T13:14:50Z
+a190b559640ce1b5fe67e5a4843dc58328503f3c,"[utils] Fix broken Py 3.11+ compat in `traverse_obj()`
+
+* inspect.getargspec is missing despite doc claiming backward compat
+* replace with emulation of `Signature.bind()`",dirkf,dirkf,2023-07-19T12:01:02Z
+b2741f2654e6ddfebc1771b5d5fadb5fd6fe3863,"[InfoExtractor] Add search methods for Next/Nuxt.js from yt-dlp
+* add _search_nextjs_data(), from https://github.com/yt-dlp/yt-dlp/pull/1386
+  thanks selfisekai
+* add _search_nuxt_data(), from https://github.com/yt-dlp/yt-dlp/pull/1921,
+  thanks Lesmiscore, pukkandan
+* add tests for the above
+* also fix HTML5 type recognition and tests, from
+  https://github.com/yt-dlp/yt-dlp/commit/222a230871fe4fe63f35c49590379c9a77116819,
+  thanks Lesmiscore
+* update extractors in PR using above, fix tests.",dirkf,dirkf,2023-05-05T18:25:42Z
+846522204104e3078c597fa1872465024a684ad6,[Clipchamp] Add new extractor back-ported from yt-dlp,dirkf,dirkf,2023-05-03T23:08:26Z
+4339910df3fe97a054069cb98da594dd1b50c13a,"[DLF] Add site extractors back-ported from yt-dlp
+
+* from https://github.com/yt-dlp/yt-dlp/pull/6697, thanks nick-cd",dirkf,dirkf,2023-05-03T09:07:35Z
+eaaf4c6736b98e20a1923162ae05952c8cb51ee1,"[Whyp] Add extractor back-ported from yt-dlp
+
+* from https://github.com/yt-dlp/yt-dlp/pull/6803, thanks CoryTibbettsDev",dirkf,dirkf,2023-05-03T09:04:46Z
+4566e6e53ebd87c6c548a8414ab5bd742c14c2b0,"[GlobalPlayer] Add site extractors back-ported from yt-dlp
+
+* from https://github.com/yt-dlp/yt-dlp/pull/6903, thanks garret1317",dirkf,dirkf,2023-05-03T09:02:25Z
+1e8ccdd2eb77901e18feb8a9d48e62d11651cd1e,"[InfoExtractor] Support groups in _`search_regex()`, etc",dirkf,dirkf,2023-05-03T12:08:58Z
+cb9366eda584fde2421140adf994eadc5bb6b943,"[utils] Minor updates (merge_dicts, T)
+
+A couple of mods to ease yt-dlp back-ports:
+* add kwargs to merge_dicts:
+  `unblank=True` (disallow empty string), `rev=False` (reverse the merge list)
+* add `T(x)` shortcut for `{x}`, unsupported in Py2.6",dirkf,dirkf,2023-05-03T09:54:52Z
+d9d07a95815a992bf5f876a62f25c831eb3f32ac,"[utils] Improve js_to_json, align with yt-dlp
+* support variable substitution, from https://github.com/yt-dlp/yt-dlp/pull/#521 etc,
+  thanks ChillingPepper, Grub4k, pukkandan
+* improve escape handling, from https://github.com/yt-dlp/yt-dlp/pull/#521
+  thanks Grub4k
+* support template strings from https://github.com/yt-dlp/yt-dlp/pull/6623
+  thanks Grub4k
+* add limited `!` evaluation (eg, !!0 -> false, see tests)",dirkf,dirkf,2023-05-03T11:06:34Z
+825a40744bf9aeb743452db24e43d3eb61feb6c2,"[utils] Align traverse_obj() with yt-dlp
+
+Thanks Grub4k for these:
+* traverse `Iterable`s, from https://github.com/yt-dlp/yt-dlp/pull/6902, etc
+* traverse `set` key for transformations/filters, `re.Match` group names, from
+  https://github.com/yt-dlp/yt-dlp/commit/776995bc109c5cd1aa56b684fada2ce718a386ec, etc
+* traverse `re.Match`es, from https://github.com/yt-dlp/yt-dlp/pull/5174
+* always return list when branching, from https://github.com/yt-dlp/yt-dlp/pull/5170",dirkf,dirkf,2023-05-03T11:40:09Z
+47214e46d852e9d7ddf81d69a8e70806e2396c6c,"[compat] Fix old Pythons broken loading of valueless cookie attributes
+
+Cookie string parsing in Py 2.6.9, probably earlier, requires `=`.
+Also 3.2, though the CPython code appears to be OK: 3.1 was also wrong.",dirkf,dirkf,2023-07-17T19:39:11Z
+1d8d5a93f7187438587c3a754b53fdf30322cef0,[test] Fixes for old Pythons,dirkf,dirkf,2023-07-13T19:14:50Z
+1634b1d61efa36c31c86b8c64c88dc297a7af28a,[doc] Warn against setting cookies with --add-header,dirkf,dirkf,2023-07-11T20:51:32Z
+21438a4194376c3a9b1e5c322c825d43a1b03d6e,[downloader/external] Fix cookie support,bashonly,bashonly,2023-07-04T21:40:56Z
+8334ec961b802ad7ef8571b776c5fc727206dc9b,[core] Process header cookies on loading,Simon Sawicki,Grub4K,2023-07-04T19:41:04Z
+3801d36416d6e3e6031dc4fcac01891ce7ddb55b,[utils] `YoutubeDLCookieJar`: Add `get_cookie_header` and `get_cookies_for_url` methods,bashonly,bashonly,2023-07-04T19:03:39Z
+b383be98874d4dded67ee8a679fae30340722709,"[core] Remove `Cookie` header on redirect to prevent leaks
+
+Adated from yt-dlp/yt-dlp-ghsa-v8mc-9377-rwjj/pull/1/commits/101caac
+Thx coletdjnz",dirkf,dirkf,2023-06-07T18:38:54Z
+46fde7caeeab13a6277aab22a0e8a29e10c30cc3,"[core] Update redirect handling from yt-dlp
+
+* Thx coletdjnz: https://github.com/yt-dlp/yt-dlp/pull/7094
+* add test that redirected `POST` loses its `Content-Type`",dirkf,dirkf,2023-06-07T13:51:50Z
+648dc5304cb2476592ff142988b8c62675011fcc,"[compat] Add Request and HTTPClient compat for redirect
+
+* support `method` parameter of `Request.__init__`  (Py 2 and old Py 3)
+* support `getcode` method of compat_http_client.HTTPResponse (Py 2)",dirkf,dirkf,2023-07-07T17:51:38Z
+1720c04dc56fa0d2caa0a455b1acbd569347482e,[test] Make skipped tests in test_execution work with Py 2.6,dirkf,dirkf,2023-07-17T19:47:58Z
+d5ef405c5d533c85cebd205a5b7958614c7013f3,[core] Align error reporting methods with yt-dlp,dirkf,dirkf,2023-07-07T17:45:31Z
+f47fdb9564d3ca1c0fa70ed6031148ec908fdc7b,[utils] Add {expected_type} and Iterable support to traverse_obj(),dirkf,dirkf,2023-07-06T14:46:22Z
+b6dff4073d469cceadb099c00ccbf3bd6fc515a6,[core] Revert version display from b8a86dc,dirkf,dirkf,2023-07-07T17:41:32Z
+f24bc9272e9b74efc4c4af87c862f5f78921d424,[Misc] Fixes for 2.6 compatibility,dirkf,dirkf,2023-07-04T15:06:21Z
+b08a58090635777f1001d5cde2cd141a5565177c,[workflows/ci.yml] Fix test support for Py 2.6,dirkf,dirkf,2023-06-30T02:52:39Z
+2500300c2a5986ace34390aa473a8bd51f83622c,[workflows/ci.yml] Restore test support for Py 3.2,dirkf,dirkf,2023-06-29T14:27:12Z
+58fc5bde47215d9e7c60647dd21202a254b3b066,"[workflows/ci.yml] Restore test support for Py 3.3, 3.4, and add 2.6",dirkf,dirkf,2023-06-22T23:15:06Z
+fa7f0effbe4e14fcf70e1dc4496371c9862b64b9,[YouTube] Avoid crash in author extraction,dirkf,dirkf,2023-06-22T22:10:04Z
+ebdc82c58684b4e202fabc046f9a40fc73cccde5,"[workflows/ci.yml] Replace actions/setup-python for legacy Pythons
+
+Thanks MatteoH2O1999: https://github.com/MatteoH2O1999/setup-python",dirkf,dirkf,2023-06-22T16:24:48Z
+9112e668a5ea6376017718db9ff13b369d53ad7a,"[YouTube] Improve nsig function name extraction
+
+Fixes player b7910ca8, using `,` vs `;`
+See https://github.com/ytdl-org/youtube-dl/issues/32292#issuecomment-1602231170
+
+Co-authored-by: dirkf",pukkandan,pukkandan,2023-06-22T07:53:31Z
+07af47960f3bb262ead02490ce65c8c45c01741e,"[YouTube] Improve fix for ae8ba2c
+Thx: https://github.com/yt-dlp/yt-dlp/commit/01aba25",dirkf,dirkf,2023-06-17T23:52:18Z
+ae8ba2c31977b68b75221f80c488c0b12385269c,"[YouTube] Fix `KeyError QV` in signature extraction failed
+* temporarily force missing global definition into sig JS
+* improve test: thanks https://github.com/yt-dlp/yt-dlp/issues/7327#issuecomment-1595274615
+* resolves #32314",dirkf,dirkf,2023-06-17T14:36:39Z
+d6433cbb2c4440056a38846e35bb5a3efa9bcac2,[jsinterp] Don't find unrelated objects,dirkf,dirkf,2023-06-17T14:43:10Z
+ff75c300f52321dc7322e28d1df153cf0ea65a6d,[jsinterp] Fix test for failed match in extract_object(),dirkf,dirkf,2023-06-17T14:34:11Z
+a2534f7b888416e872d5afd1862eb3e30fc69fc7,"[jsinterp] Fix div bug breaking player 8c7583ff
+
+Thx bashonly: https://github.com/ytdl-org/youtube-dl/issues/32292#issuecomment-1585639223
+Fixes #32292",dirkf,dirkf,2023-06-11T12:33:50Z
+b8a86dcf1aa837577178ae25357d8241ab4ba6c1,[core] Revise 1f7c6f8 to help downstream merger (possibly),dirkf,dirkf,2023-05-26T19:25:25Z
+2389c7cbd30813435c50848a9b276bcfe2a810db,[compat] Fix casefold import __all__ syntax in a19855f,dirkf,dirkf,2023-05-23T16:11:22Z
+ee731f3d00064f446faa9ffb4c21ce4ca388bf5d,[ITV] Fix UA capitalisation in 384f632,dirkf,dirkf,2023-05-23T15:19:55Z
+1f7c6f8b2ba5bedc9b4da279659688fbbf06a059,"[core] Further improve platform debug log
+* see d1c6c5c",dirkf,dirkf,2023-05-19T12:12:59Z
+d89c2137ba4c1def185358a9ff48642e05ac65a2,"[jsinterp] Small updates for a85a875
+* update signature tests
+* clarify NaN handling",dirkf,dirkf,2023-05-19T12:09:18Z
+d1c6c5c4d618fa950813c0c71aede34a5ac851e9,"[core] Improve platform debug log, based on yt-dlp",dirkf,dirkf,2023-05-11T20:17:31Z
+6ed34338285f722d0da312ce0af3a15a077a3e2a,"[jsinterp] Add short-cut evaluation for common expression
+* special handling for (d%e.length+e.length)%e.length speeds up ~6%",dirkf,dirkf,2023-05-11T20:02:01Z
+a85a875fef2e9b097c3f6f93f1d0cead06f84e43,"[jsinterp] Handle NaN in bitwise operators
+* also add _NaN
+* also pull function naming from yt-dlp",dirkf,dirkf,2023-05-11T19:59:30Z
+11cc3f3ad03a88d6cb1eab18a8e5dd6bf148ac54,[utils] Fix `compiled_regex_type` in 249f2b6,dirkf,dirkf,2023-05-11T19:53:07Z
+64d6dd64c8b7a35a87655d27fc83f2e98ef6ce13,[YouTube] Support Releases tab,dirkf,dirkf,2023-04-23T21:58:35Z
+211cbfd5d46025a8e4d8f9f3d424aaada4698974,"[jsinterp] Minimally handle arithmetic operator precedence
+
+Resolves #32066",dirkf,dirkf,2023-04-21T13:04:30Z
+26035bde46c0acc30dc053618451d9aeca4b7709,"[DashSegmentsFD] Correctly detect errors when `fragment_retries` == 0
+
+* use the success flag instead of the retry count
+* establish the fragment_url outside the retry loop
+* only report skipping a fragment once.
+* resolves #32033",dirkf,dirkf,2023-04-12T23:15:07Z
+2da3fa04a68ff0652f49d6874d82b7a0edb85ea3,[YouTube] Simplify signature patterns,dirkf,dirkf,2023-04-11T16:36:27Z
+735e87adfc44b284dcdb4d9a0155ce0616e3af97,"[core] Sanitize info dict before dumping JSON (fixes fe7e130)  (#32032)
+
+* follow up to fe7e130 which didn't fix everything.
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Gabriel Nagy,GabrielNagy,2023-04-12T22:40:38Z
+fe7e13066c20b10fe48bc154431440da36baec53,[core] Add and use sanitize_info() method from yt-dlp,dirkf,dirkf,2023-04-10T16:12:31Z
+213d1d91bfc4a00fefc72fa2730555d51060b42d,[core] No longer importing copy,dirkf,dirkf,2023-04-06T18:49:46Z
+f8253a528935f78e1a3b724db8c1f0089f99314a,[core] Avoid deepcopy of ctx dict (fix f35b757) (Pt 2),dirkf,dirkf,2023-04-06T18:42:36Z
+d6ae3b77cd50083ef245c28f904ee0b70a77d5c6,"[core] Avoid deepcopy of ctx dict (fix f35b757)
+
+* may now contain `LazyList`s
+* resolves #31999",dirkf,dirkf,2023-04-06T13:11:18Z
+9f4d83ff4255d8840c0fa9b367722c129ebecdb2,"[options] Add --mtime option, unsets default --no-mtime
+
+* resolves #1709 (!)",dirkf,dirkf,2023-04-05T17:50:25Z
+25124bd640acf2fbae71b2a52738ee41da548fb1,"[devscripts] Improve hack to convert command-line options to API options
+
+* define equality for DateRange
+* don't show default DateRange",dirkf,dirkf,2023-04-05T17:47:49Z
+78da22489b483988e198a8352893df9c6cf34032,"[compat] Add and use `compat_open()` like Py3 `open()`
+
+* resolves FIXME: ytdl-org/youtube-dl/commit/dfe5fa4",dirkf,dirkf,2023-04-05T17:39:54Z
+557dbac173c30a51acd284b46f2d5460e539f51a,"[FragmentFD] Fix iteration with infinite limit
+
+* fixes ytdl-org/youtube-dl/baa6c5e
+* resolves #31885",dirkf,dirkf,2023-04-05T17:29:24Z
+cdf40b6aa651d949ce01e9bec1a11f792e8af899,"[test] Update tests for Ubuntu 20.04
+* 18.04 test runner was withdrawn
+* for now, disable Py 3.3/3.4 tests",dirkf,dirkf,2023-04-03T20:07:10Z
+3f6d2bd76f3393eef90896dfabc2d8dde37c2009,"[extractor/youtube] Bypass throttling for `-f17`
+
+and related cleanup
+
+Thanks @AudricV for the finding
+
+Ref: yt-dlp/yt-dlp/commit/c9abebb",pukkandan,pukkandan,2023-03-09T16:39:23Z
+88f28f620bcae7ba7302f8b049b74f0f8a12831f,"[extractor/youtube] Construct fragment list lazily
+
+Ref: yt-dlp/yt-dlp/commit/e389d17
+See: yt-dlp/yt-dlp#6517",pukkandan,pukkandan,2023-03-12T09:16:09Z
+f35b757c826027ab5263d431bbe363c6403bd66d,[utils] Ensure `allow_types` for `variadic()` is a tuple,dirkf,dirkf,2023-03-19T02:27:46Z
+45495228b7a6728b7e764bbcf1f38490cd3d8697,[downloader/http] Only check for resumability when actually resuming,dirkf,dirkf,2023-03-19T00:51:44Z
+6fece0a96b3cd8677f5c1185a57c6e21403fcb44,[AENetworksBaseIE] Report missing show data instead of crash,dirkf,dirkf,2023-03-14T13:01:32Z
+70ff01391068c98b4377c5cc17a8d00d5645e734,[devscripts] Add a hack to convert command-line options to API options,dirkf,dirkf,2023-03-14T00:58:59Z
+e8de54bce50f6f77a4d7e8e80675f7003d5bf630,"[core] Handle `/../` sequences in HTTP URLs
+
+* use Python's RFC implementation for embedded sequences
+* hack: strip unbalanced leading `../` from path, like eg Firefox
+
+See https://github.com/yt-dlp/yt-dlp/issues/3355",dirkf,dirkf,2023-03-13T19:45:54Z
+baa6c5e95cb307e7d716645780ff8aef22de6aca,"[FragmentFD] Respect `--no-continue`
+
+* discard partial fragment on `--no-continue`
+* continue with correct progress display otherwise
+
+Resolves #21467",dirkf,dirkf,2023-03-11T12:17:00Z
+5c985d4f81a43ada75dafb23233e7fe39913907a,"[downloader] Let _ffmpeg_ handle DASH segments
+
+Fixes https://github.com/ytdl-org/youtube-dl/issues/31792 after 3da1783.",dirkf,dirkf,2023-03-11T12:09:55Z
+8c86fd33dca48ebb505ed04150d9e35993b9fe7e,"[doc] Improve ""guidance"" on bug reporting",dirkf,dirkf,2023-03-09T16:40:30Z
+27d41d73655b8fbf2dedf88cac96220520d526b5,"[doc] Recommend ""Get cookies.txt LOCALLY"" extension in README.md (#31763)
+
+* remove link to suspect ""Get cookies.txt"" extension, dropped from Chrome store
+* link to new Manifest V3-compatible open-source ""Get cookies.txt LOCALLY"" extension.
+
+Fixes #31465.",Sophira,Sophira,2023-03-07T15:49:31Z
+040271022709c4d20d33c604d1dbc72dc2da472d,"[jsinterp] Fix regexp parsing and .replace[All] method
+
+ * For performance, make regexp object instantiation lazy
+ * Other small performance improvements",dirkf,dirkf,2023-03-05T23:07:07Z
+3e92c60fcd94c37428d57153dbdd14cd0a1f9226,"[jsinterp] Handle `Date` at epoch 0
+
+See yt-dlp/yt_dlp#6400",pukkandan,pukkandan,2023-03-03T11:18:54Z
+3da17834a49fad2a97c308fdd89aa26781ef4d60,"[Youtube] Construct dash formats with `range` query
+
+See yt-dlp/yt_dlp#6369",pukkandan,pukkandan,2023-02-28T17:33:44Z
+f7ce98a21e15cb094c772e9082796d009c61578b,"[YouTube] Support @owner format in uploader_id etc
+
+* implement https://github.com/ytdl-org/youtube-dl/issues/31530#issuecomment-1435734719
+* update affected tests
+* misc clean-ups",dirkf,dirkf,2023-02-24T02:48:37Z
+e67e52a8f8fd7e76253e416da76570af8da200d0,"[test] Support test-case with volatile ID (eg live show)
+
+Signalled by regexp ID value, eg: `'id': r're:[\da-zA-Z_-]{8,}'`",dirkf,dirkf,2023-02-24T02:32:40Z
+1d3751c3fe50b203d3e2bff71d866c8c500f8288,"Escape URLs in `sanitized_Request`, not `sanitize_url` d2558234cf5dd12d6896eed5427b7dcdb3ab7b5a added escaping of URLs while sanitizing. However, `sanitize_url` may not always receive an actual URL. Eg: When using `youtube-dl ""search query"" --default-search ytsearch`, `search query` gets escaped to `search%20query` before being prefixed with `ytsearch:` which is not the intended behavior. So the escaping is moved to `sanitized_Request` instead.",pukkandan,pukkandan,2021-06-01T12:35:41Z
+6067451e432fb65d487a8a67bb5cff52efb9ccf4,"[Vimeo] Fix e19ec52 for tween-age Pythons
+
+* a check in older Pythons in the 2.7 and earlier, 3.3, 3.4 series caused ""sre_constants.error: nothing to repeat""
+* satisfy the check by avoiding nested qualifiers that can match empty string
+
+Resolves #31597",df,dirkf,2023-02-20T01:41:46Z
+57802e632f5a741df6fd9b30a455c32632944489,"[jsinterp] Fix dict comprehension for Py2.6
+
+Resolves #31600",dirkf,dirkf,2023-02-19T13:47:49Z
+2dd6c6edd8e0fc5e45865b8e6d865e35147de772,"[YouTube] Avoid crash if uploader_id extraction fails
+
+See #31530.",dirkf,dirkf,2023-02-17T11:16:54Z
+dd9aa74beefc179f943051c4e19eecad87ab1124,"[test] Avoid name TestIE which causes a pytest warning
+
+See: https://github.com/yt-dlp/yt-dlp/commit/060ac76257a8c1f7370a8a571821c1d73377701f",dirkf,dirkf,2023-02-14T16:33:01Z
+42b098dd79e91295376ca98f394876555481a3eb,[InfoExtractor] Handle unquoted values in OpenGraph searches,dirkf,dirkf,2023-02-14T02:47:09Z
+6f8c2635a573c84ef66c02f73b4aeff1cc36ae4e,"[StreamsbIE] Add extractor for streamsb.com (viewsb.com) (#31517)
+
+* Add extractor for streamsb.com (viewsb.com)
+
+* make data url using app.js version
+
+---------
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",fonkap,fonkap,2023-02-11T02:54:45Z
+de48105dd870e353af468bfb8d49b14d9894e649,"[KommunetvIE] Add extractor for kommunetv.no (#31516)
+
+* Add extractor for kommunetv.no
+* Using utils.update_url instead of regex
+
+---------
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",fonkap,fonkap,2023-02-11T02:47:43Z
+822f19f05d0ab1a4a945a85f691f2079f7cb3bbb,"[FileMoonIE] Add extractor for filemoon.sx (#31515)
+
+
+---------
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",fonkap,fonkap,2023-02-11T02:37:45Z
+33db85c571304bbd6863e3407ad8d08764c9e53b,"[feat]: Add support to external downloader aria2p (#31500)
+
+* feat: add class Aria2pFD
+
+* feat: create call_downloader function
+
+* feat: a colorful download interface to aria2pFD
+
+* feat: change value name
+
+* Apply suggestions from code review
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>
+
+* Typo in suggestion
+
+* fix: remove unused value
+
+* fix: add not function to return value(0 is normal); add total_seconds to download.eta(timedelta object); add waiting status when hook progress
+
+* fix: remove unuse method ..utils.format_bytes
+
+* fix: be up to flake8
+
+* fix: be up to flake8
+
+* Apply suggestions from code review
+
+* [feat] test external downloader aria2p
+
+* [feat] test external downloader aria2p
+
+* [fix] test_external_downloader.py
+
+* Apply suggestions from code review
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>
+
+* Apply suggestions from code review
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>
+
+* Update test/test_external_downloader.py
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>
+
+* Update test/test_external_downloader.py
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>
+
+* Update youtube_dl/downloader/external.py
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>
+
+* refactoring code and fix bugs
+
+* Apply suggestions from code review
+
+* Rename test_external_downloader.py to test_downloader_external.py
+
+---------
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",teddy171,teddy171,2023-02-09T20:19:27Z
+f33923cba7670ea2e82f233c1f88210eb41f7c3b,"[rbgtum] Add new extractor (#31305)
+
+* [rbgtum] Add new extractor
+
+* Small update, force CI
+
+---------
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Valentin Metz,Valentin-Metz,2023-02-09T11:25:28Z
+e8198c517b70301dd5a459927b5d5976304d6482,[YouTube] Fix tests,dirkf,dirkf,2023-02-08T18:16:51Z
+bafb6dec72865cc494feb35ecc94481c30a81069,"[YouTube] Refresh compat/utils usage
+* import parse_qs()
+* import parse_qs in lazy_extractors (clears old TODO)
+* clean up old compiled lazy_extractors for Py2
+* use update_url()",dirkf,dirkf,2023-02-06T16:19:21Z
+4e04f104994c5dac2cb74b64ba7725716ce939d7,"[compat] Update test_compat
+
+[skip ci]",dirkf,dirkf,2023-02-06T15:50:28Z
+90c9f789d94fc2c0b4c28c57ba2e0b2f09ef95e3,"[utils] Add parse_qs, update_url
+
+[skip ci]",dirkf,dirkf,2023-02-05T13:46:43Z
+249f2b631629471af5cfee2993e62de58c8f5990,"[compat] Systematise compat_ naming
+
+[skip ci]",dirkf,dirkf,2023-02-05T15:43:43Z
+d6b14ba3163b255d0dd8d3b9ddf25d977b8262e7,"[test] Fix TestAgeRestriction
+
+* age restriction may cause DownloadError
+* update obsolete test URLs
+[skip ci]",dirkf,dirkf,2023-02-04T23:18:24Z
+30e986b83493f68bd4c2405b5f4d801891c9bdde,[YouTube] Add `signatureTimestamp` for age-gate bypass,dirkf,dirkf,2022-06-20T22:15:20Z
+58988c1421b88875a33015b08e4d2ada43021e09,"[YouTube] Bypass age-gating for certain restricted videos
+
+* Use TVHTML5_SIMPLY_EMBEDDED_PLAYER client
+
+* Also add and fix tests
+
+* Introduce and use new utility function `update_url()`",dirkf,dirkf,2022-01-31T04:28:54Z
+e19ec5232216fd801ded88728df5b50bfb05c1cc,[Vimeo] Support /user{video_id}/{slug} URL format,dirkf,dirkf,2023-02-11T03:25:14Z
+f2f90887ca7a452dfafa7ca221fe981a4ec56707,"[Vimeo] Fix `Unable to extract info section` redux
+* as reported in yt-dlp/yt-dlp#6149
+* also allow newline in target JSON object",dirkf,dirkf,2023-02-04T00:21:35Z
+cd987e6fca336cf6570b4938442c23cd0bdf7256,[jsinterp] Nits,dirkf,dirkf,2023-02-04T01:53:47Z
+d947ffe8e385a541f44c6125b4cbc269de6055a4,"[IGN] Overhaul extractor to avoid URL redirection loop
+
+Consequently/also:
+* centralise video data extraction
+* detect 404 and 503 expected errors
+* handle the test video in IGNVideo
+* handle two additional page formats for the tests in IGNArticle",dirkf,dirkf,2023-02-04T00:19:48Z
+384f632e8a9b61e864a26678d85b2b39933b9bae,"[ITV] Overhaul ITV extractor (#30266)
+
+* support ITVX URLs (thanks Vangelis66)
+* support legacy ITV Hub URLs
+* include extraction fix 4c57dd2 from sleaux-meaux 3 May 2021
+* include extraction fix 6fbcc16, fix by staubichsauger & pukkandan
+* work-around duration parsing pending fix to utils.parse_duration
+* apply default vanilla UA for pages and media to avoid site blocking
+* also detect and report `Episode not found` instead of generic 404
+* rework ITVBTCCIE with geo-block detection, best effort geo-restriction handling, news article support
+* fix tests",dirkf,dirkf,2023-02-03T21:10:07Z
+9d17948b5a1cc48bd526b1163292415577131c31,"[myvideoge] Add new extractor (#31360)
+
+NB download tests on CI servers blocked 
+
+Co-authored-by: Alfonso Solbes <fonk666@gmail.com>",dirkf,dirkf,2023-02-02T23:25:44Z
+f316f5d4e391ca40273bce65c67bedc16ae99172,[xhamster] add support for new domain xhvid.com (#31370),afterdelight,afterdelight,2023-02-02T23:20:14Z
+bc6f94e459694f541a2a1078fad59b02f2fc9d4c,[FIFA] Back-port extractor from yt-dlp (#31385),dirkf,dirkf,2023-02-02T23:19:03Z
+be3392a0d491af81f353b4372d47d589fda54b0c,"[Blerp] Add new extractor (#31398)
+
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Epsilonator,clueless-skywatcher,2023-02-02T17:33:09Z
+6d829d811932b24be4d3cc8b6c1e0d46c2b1566c,"[YouTube] Fix not finding videos listed under a channel's ""shorts"" subpage.  (#31409)
+
+Resolves #31336
+
+Co-authored-by: Jouni Järvinen <rautamiekka@users.noreply.github.com>
+Co-authored-by: dirkf <fieldhouse@gmx.net>",zhangeric-15,zhangeric-15,2023-02-02T17:26:31Z
+98b0cf1cd05c493eae0f37aaa599d25d2848c0b0,"[Callin] Add new extractor (#31414)
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Ruowang Sun,JohnnySunUmich,2023-02-02T17:21:05Z
+e9611a2a3603ee201d0c1ba99e8bfd8ec1e697cd,"[pr0gramm] implement InfoExtractor, Resolves #31433 (#31434)
+
+* [pr0gramm] implement infoextractor
+
+* [pr0gramm] remove misplaced comment, uncapture regex-group
+
+* [pr0gramm]: specify utf-8 coding
+
+* [pr0gramm]: add trailing comma to lists for maintainability
+
+* [pr0gramm]: ie only sets upload_date attribute
+
+* [pr0gramm]: add video_id to title
+
+* [pr0gramm]: more forgiving _valid_url regex
+
+* [pr0gramm]: add uploader to title, if set
+
+* Discriminate URL pattern
+
+---------
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Leon Etienne,Leonetienne,2023-02-02T17:13:39Z
+807e593a32a1ace8fa0be8129fc5071d86516c99,"[cammodels] fix and improve extractor (#31453)
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",JChris246,JChris246,2023-02-02T17:12:36Z
+297fbff23b347612a5f6002b40adba9dfad85413,"[doc] Fixed typo appearing to promise an example (#31489)
+
+Resolves #31425 
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Rodrigo Dias,roycocup,2023-02-02T17:10:09Z
+37cbdfa0e7c9d00d450af32dc9cdaf93cbfc4576,"[americastestkitchen] Add support for downloading entire series (#31493)
+
+Also
+* support new sites and URL patterns
+* back-port from yt-dlp
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Brian Marks,bm1549,2023-02-02T16:58:21Z
+295736c9cba714fb5de7d1c3dd31d86e50091cf8,"[jsinterp] Improve parsing
+* support subset `... else if ...`
+* support `while`
+* add `RegExp` class
+* generalise `new` support
+* limited more debug strings
+* matching test changes",dirkf,dirkf,2023-02-02T14:28:32Z
+14ef89a8dab4f6ba6185d6f5bf0317a705d7b842,"Support `if` statements
+
+Fix for yt-dlp/yt_dlp#6131
+Closes #31509",pukkandan,pukkandan,2023-02-01T04:09:49Z
+195f22f679330549882a8234e7234942893a4902,[generic] Improve KVS (etc) extraction,dirkf,dirkf,2022-11-13T15:09:29Z
+fc2beab0e701c497a003f11fef5c0df54fba1da3,"[generic] Improve KVS (etc) extraction
+
+* detect kt_player('kt_player', 'https://.../kt_player.swf?v=5...
+* detect age limit if 18 USC 2257 is mentioned
+* test with shooshtime.com
+
+Partially resolves #31332.",dirkf,dirkf,2022-11-13T14:59:30Z
+1a4fbe8462f5e531a891aeac7db6c0bde49c5536,"Added ThisVid.com support (#29187)
+
+* add ThisVidIE, ThisVidMemberIE, ThisVidPlaylistIE
+* redirect embed to main page for more metadata
+* use KVS extraction newly added to GenericIE and remove duplicate tests
+* also add MrDeepFake etc compat to GenericIE
+(closes #22390)
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",FraFraFra-LongD,FraFraFra-LongD,2022-11-13T13:22:04Z
+c2f9be3e63a000cf20e9e4ad789a4f5453d00eb7,[generic] Add KVS player extraction,dirkf,dirkf,2022-11-12T11:55:05Z
+604762a9f8fa21de3f7349bd612c4f34941a5d20,"[common:jwplayer] Improve jwplayer extraction and parsing (#31000)
+
+* don't crash parser if jwplayer_data is invalid (empty, or no formats)
+* use `label` in `sources[n]` as `format_id`
+* relax `jwplayer().setup(...)` RE (also rework PR #27274 enhancement)
+* detect more manifest formats in _parse_jwplayer_formats() (from PR #29596)
+* improve metadata extraction (from PR #25433)
+* remember URLs in a set
+* use parse_resolution() in format
+* extract filesize in format (from yt-dlp)
+
+Co-authored-by: kikuyan <kikuyan@users.noreply.github.com>
+Co-authored-by: martin54 <martin54@users.noreply.github.com>",dirkf,dirkf,2022-11-11T00:49:13Z
+47e70fff8ba3de769a31fab0b3572162094733f7,"[PeekVids, PlayVids] Add new extractor (#29765)
+
+* Merge back-port from yt-dlp
+* Merge features from PR #29798
+* Improve metadata extraction
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>
+Co-authored by: AXDOOMER",Moises Lima,mozlima,2022-11-09T20:26:30Z
+de39d1281cea499cb1adfce5ff7e0a56f1bad5fe,"[extractor/ceskatelevize] Back-port extractor from yt-dlp, etc (#30713)
+
+* back-port extractor, removing CeskaTelevizePoradyIE
+* follow redirect URL
+* support liveBroadcast and videobonusDetail in __NEXT__ data
+* return single video for singleton playlist
+* fix/add tests",dirkf,dirkf,2022-11-04T10:13:07Z
+27ed77aabba8c9eb08d66f34092b1bfcc22c482e,"[utils] Backport traverse_obj (etc) from yt-dlp (#31156)
+
+* Backport traverse_obj and closely related function from yt-dlp (code by pukkandan)
+* Backport LazyList, variadic(), try_call (code by pukkandan)
+* Recast using yt-dlp's newer traverse_obj() implementation and tests (code by grub4k)
+* Add tests for Unicode case folding support matching Py3.5+ (requires f102e3d)
+* Improve/add tests for variadic, try_call, join_nonempty
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Andrei Lebedev,lebdron,2022-11-03T10:09:37Z
+c4b19a88169fa76c5eb665d274e7270a0fe452c4,"[compat] Work around in case folding for narrow Python build
+
+Resolves #31324.",dirkf,dirkf,2022-11-02T11:56:26Z
+087ddc237132103859cc00183d8d70bd75c0e44e,[compat] Add test for compat_casefold(),dirkf,dirkf,2022-11-01T22:47:02Z
+65ccb0dd4eb52cced7d0e11af021c09dbe2aed4a,[compat] Add test for compat_casefold(),dirkf,dirkf,2022-11-01T21:33:39Z
+a874871801b8b05d06e8ffe52bed94fdfc26611e,[compat] Reformat casefold.py for easier updating,dirkf,dirkf,2022-11-01T19:25:59Z
+b7c25959f0f76aad4ee24e254f82e6c5cca2c1ff,[compat] Unify unicode/str compat and move up,dirkf,dirkf,2022-11-01T12:40:23Z
+f102e3dc4efe27e6c8697d6d117f05d1bb6d1b91,"[compat] Add compat_casefold and compat_re_Match, for traverse_obj() port",dirkf,dirkf,2022-10-31T21:27:14Z
+a19855f0f50fe7a6eb05a1d8fee554897e4dbdda,[compat] Add Python 2 Unicode casefold using a trivial wrapper around icu/CaseFolding.txt,dirkf,dirkf,2022-10-31T21:18:36Z
+ce5d36486ea95b8961c639d118bad262c8d7a067,"[netease] Support urls shared from mobile app (#31304)
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Xie Yanbo,xyb,2022-10-30T11:48:44Z
+d25cf62086443d86a633b8176b5c7e79f4cc569e,"[netease] Impove error handling (#31303)
+
+* add warnings for users outside of China
+* skip empty song urls
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Xie Yanbo,xyb,2022-10-30T11:46:46Z
+502cefa41f1d24057b6158748b2072dc911af682,"[Vimeo] Update variable name in hydration JSON pattern
+
+Fixes #31311",dirkf,dirkf,2022-10-27T14:33:00Z
+0faa45d6c08f518b73d20e341944ea7292f9f2b2,"[BongaCams] Support new .net domain
+
+Resolves #31262.",dirkf,dirkf,2022-10-20T11:06:44Z
+447edc48e63f5f21797ea0d9ee84e37ed1547035,"Fix ADN extractor (#31275)
+
+* Rename Anime Digital Network to Animation Digital Network, animationdigitalnetwork.fr
+* Update the test to an available video
+* Update the decoding key of subtitles
+* Keep the support of old URLs
+* Add a test to match the old URL
+* Reduce redundancy of the URL name
+* Fix md5 ^^""
+* Fix undefined _BASE
+* Process HTTP error text (eg geo-block) correctly and uniformly in Py3, Py2
+* Skip test for CI since geo-blocked
+
+Signed-off-by: ache <ache@ache.one>
+Co-authored-by: dirkf <fieldhouse@gmx.net>",ache,arobase-che,2022-10-18T15:06:27Z
+ee8560d01eec511587f8207c3d84219ec620a9a6,[ManyVids] Support new single-page app structure,dirkf,dirkf,2022-10-13T02:42:49Z
+7135277fec497bd7649c31087aba52daa7897484,"[ManyVids] Support new single-page app structure
+
+See https://github.com/yt-dlp/yt-dlp/issues/5210#issuecomment-1276919962.",dirkf,dirkf,2022-10-13T01:59:01Z
+7bbd5b13d4c6cfc3e24f56413ff1a1eace8472b8,"[Motherless] Pull from yt-dlp, etc
+
+* use username field
+* loosen regexes
+* warn on page count 0 in group
+* avoid reloading group page 1
+Closes #29626",dirkf,dirkf,2022-10-12T00:09:55Z
+c91cbf60729af93c4677864aa6c8b74b576146ca,"[netease] Get netease music download url through player api (#31235)
+
+* remove unplayable song from test
+* compatible with python 2
+* using standard User_Agent, fix imports
+* use hash instead of long description
+* fix lint
+* fix hash",Xie Yanbo,xyb,2022-10-11T12:55:09Z
+11b284c81fe2988813c817918536fc3a5630870a,"[Common:JWPlayer] Fix x1000 scaling error
+
+See https://github.com/yt-dlp/yt-dlp/issues/5106#issuecomment-1264625161",dirkf,dirkf,2022-10-11T12:36:44Z
+c94a459a248352fd97dccc79ed6604a558459bfd,"[utils] Sanitize look-alike Unicode glyphs in non-ID filename fields when --restrict-filenames
+
+Implements https://github.com/ytdl-org/youtube-dl/issues/31216#issuecomment-1236102822, which has a test.",dirkf,dirkf,2022-10-11T12:18:12Z
+6e2626f092c63a5fa22a31df409610b5deaf3968,"[JSInterp] Improve separation logic
+
+Based on https://github.com/yt-dlp/yt-dlp/commit/0468a3b3253957bfbeb98b4a7c71542ff80e9e06",dirkf,dirkf,2022-10-11T04:58:10Z
+c282e5f8d723763ba88c521221e4535f46453949,"[ZDF] Overhaul ZDF extractors
+* pull some yt-dlp changes into ZDFBaseIE._extract_format()
+* add test cases from yt-dlp to ZDFIE
+* fix crash in ZDFIE._extract_mobile() when object had no `formitaeten`
+* improve title extraction in ZDFChannelIE (remove trailing station ident)
+* avoid extracting non-video playlist items (fixes #31149)",dirkf,dirkf,2022-08-09T18:37:58Z
+2ced5a79128f53faad94dc494d05925eb957c414,"[test] Implement string ""lambda x: condition(x)"" as an expected value
+
+Semantics equivalent to `assert condition(got)`",dirkf,dirkf,2022-08-09T18:34:34Z
+82e4eca711a128138ed0b84ddb4321e403d56340,"[motherless] Fixed the broken uploader_id in the extractor (#31243)
+
+* Fixed the broken uploader_id in the extractor.
+* Make uploader_id RE looser
+* Fix uploader_id in test Motherless_3
+* Fix group pagination
+* # coding: utf-8
+
+Co-authored-by: Andy Xuming <xuminic@gmail.com>
+Co-authored-by: dirkf <fieldhouse@gmx.net>",Xiyue,xiyue077,2022-10-10T22:52:48Z
+1b1442887e67b63545453e10816904e2b4c561c1,"[manyvids] Improve extraction (#31172)
+
+* extract all formats from page
+* extract description, uploader, views, likes
+* downrate previews
+* fix tests
+* use txt_or_none()",dirkf,dirkf,2022-10-10T18:26:32Z
+22127b271c8f3e9266840bc5a2fb994d6248e369,"[NRK] Remove explicit Accept-Encoding header that invites Brotli
+
+Fixes #31285",dirkf,dirkf,2022-10-10T17:41:40Z
+d35557a75d943865e40410d51bfcc18276e98532,"[Telegraaf] Use mobile GraphQL API endpoint
+
+Workaround for Cloudflare 403
+Fixes https://github.com/yt-dlp/yt-dlp/issues/5000
+Authored by: coletdjnz",coletdjnz,coletdjnz,2022-09-23T00:10:35Z
+9493ffdb8b690732e995422621bad3ed6c9041f5,"[test] Use windows-2019 for tests
+(At least for now) resolves #31249",dirkf,dirkf,2022-10-03T23:42:15Z
+7009bb9f3182449ae8cc05cc28b768b63030a485,"[jsinterp] Workaround operator associativity issue
+* temporary fix for player 5a3b6271 [1]
+
+1. https://github.com/yt-dlp/yt-dlp/issues/4635#issuecomment-1235384480",pukkandan,pukkandan,2022-09-02T15:11:39Z
+218c423bc042674a8834ffc09520a94fbbe7b138,"[cache] Add cache validation by program version, based on yt-dlp",dirkf,dirkf,2022-09-01T12:28:30Z
+55c823634db890a328ffc23588fcd6f35d9b3ddf,"[jsinterp] Handle new YT players 113ca41c, c57c113c
+* add NaN
+* allow any white-space character for `after_op`
+* align with yt-dlp f26af78a8ac11d9d617ed31ea5282cfaa5bcbcfa (charcodeAt and bitwise overflow)
+* allow escaping in regex, fixing player c57c113c",dirkf,dirkf,2022-08-31T22:22:48Z
+4050e10a4c3445c5399239567eb074acb2f65c18,"[options] Document that postprocessing is not forced by --postprocessor-args
+
+Resolves #30307",dirkf,dirkf,2022-08-29T12:02:17Z
+ed5c44e7b74ac77f87ca5ed6cb5e964a0c6a0678,"[compat] Replace deficient ChainMap class in Py3.3 and earlier
+* fix version check",dirkf,dirkf,2022-08-26T11:22:01Z
+0f6422590e44e99e9b81cf2367666efe89fae3aa,[compat] Replace deficient ChainMap class in Py3.3 and earlier,dirkf,dirkf,2022-08-26T09:17:56Z
+4c6fba37650d60acbd32a9f2d6e2468a730d0f1c,[jsinterp] Improve try/catch/finally support,dirkf,dirkf,2022-08-26T07:17:54Z
+d619dd712f63aab1964f8fdde9ceea514a5e581d,"[jsinterp] Fix bug in operator precedence
+* from https://github.com/yt-dlp/yt-dlp/commit/164b03c4864b0d44cfee5e7702f7c2317164a6cf
+* added tests",dirkf,dirkf,2022-08-25T11:16:10Z
+573b13410e5c2f939676116e2700ec8efd9cf97b,[YouTube] Improve error check for n-sig processing,dirkf,dirkf,2022-08-25T11:14:59Z
+66e58dccc29de65cc95ee97915987d785b2b4b31,"[core] Avoid processing empty format list after removing bad formats
+* also ensure compat encoding of error strings",dirkf,dirkf,2022-08-20T23:21:02Z
+556862bc911bb54435b7b0b01451789b884b0390,[utils] Ensure RFC3986 encoding result is unicode,dirkf,dirkf,2022-08-20T23:19:19Z
+a8d5316aaf3dc740aad486b8c394b2f3e70f5a58,"[infoq] Avoid crash if the page has no `mp3Form`
+
+* proposed fix for issue #31131, aligns with yt-dlp
+
+Co-authored-by: dirkf <fieldhouse@gmx.net>",gudata,gudata,2022-08-19T20:00:21Z
+fd3f3bebd0699f4b782a24a503093c965c4f4f5e,[uktvplay] Support domain without .uktv,dirkf,dirkf,2022-08-19T18:11:08Z
+46b8ae2f520c17aaa756082676788c6287b6809e,"[jsinterp] Clean up and pull yt-dlp style
+* add compat_re_Pattern
+* improve compat_collections_chain_map
+* use class JS_Undefined
+* remove unused code",dirkf,dirkf,2022-08-19T14:34:33Z
+538ec65ba7634bb9ad9f8eb4ce72713c673969dc,"[jsinterp] Handle regexp literals and throw/catch execution (#31182)
+
+* based on https://github.com/yt-dlp/yt-dlp/commit/f6ca640b122239d5ab215f8c2564efb7ac3e8c65, thanks pukkandan
+* adds parse support for regexp flags",dirkf,dirkf,2022-08-19T10:45:04Z
+b0a60ce2032172aeaaf27fe3866ab72768f10cb2,"[jsinterp] Improve JS language support (#31175)
+
+* operator ??
+* operator ?.
+* operator **
+* accurate operator functions
+* `undefined` handling
+* object literals {a: 1, ""b"": expr}
+* more tests for weird JS comparisons: see https://github.com/ytdl-org/youtube-dl/issues/31173#issuecomment-1217854397.",dirkf,dirkf,2022-08-17T13:22:02Z
+e52e8b8111cf7ca27daef184bacd926865e951b1,[postprocessor] Don't replace existing value with null metadata parsed from title,dirkf,dirkf,2022-08-15T15:45:04Z
+d231b56717c73ee597d2e077d11b69ed48a1b02d,"[jsinterp] Overhaul JSInterp to handle new YT players 4c3f79c5, 324f67b9 (#31170)
+
+* back-port from yt-dlp 8f53dc44a0cc1c2d98c35740b9293462c080f5d0, thanks pukkandan
+* also support void, improve <</>> precedence, improve expressions in comma-list
+* add more tests",dirkf,dirkf,2022-08-14T17:45:45Z
+e6a836d54ca1d3cd02f3ee45ef707a46f23e8291,"[core] Make `--max-downloads ...` stop immediately on reaching the limit
+
+Based on and closes #26638.",dirkf,dirkf,2022-08-10T14:37:59Z
+deee741fb145360576ceae9d69b1b43db082c404,"[test, etc] Improve download test logs; also clean up some new flake8 issues (#31153)
+
+* [test] Identify testcase errors better
+* [test] Identify download errors better
+* [extractor/minds] Linter
+* [extractor/aes] Linter",dirkf,dirkf,2022-08-09T20:05:00Z
+adb5294177265ba35b45746dbb600965076ed150,"[aenetworks] Update _THEPLATFORM_KEY and _THEPLATFORM_SECRET (#29749)
+
+Fixes ytdl-org/youtube-dl#29300",Wes,wesnm,2022-07-30T01:10:00Z
+5f5c127ece74e52aa5b49b6d2941cc0f848d3c36,"[VVVVID] Support video/dash types (#31060)
+
+Resolves #31030.",Kyraminol Endyeran,Kyraminol,2022-07-11T23:35:40Z
+090acd58c1d810fbef1bac08d70bbfad9c0a7504,"[options] Improve be35e53 (--match-/reject-title parameter value)
+
+Resolves #31064.",dirkf,dirkf,2022-07-03T19:05:21Z
+a03b9775d544b06a5b4f2aa630214c7c22fc2229,"[Mediaset] Support player version number in URL pattern
+
+Ref: https://github.com/yt-dlp/yt-dlp/issues/4141",dirkf,dirkf,2022-06-26T13:18:33Z
+8a158a936c8b002ef536e9e2b778ded02c09c0fa,[NHK] Use new API URL,dirkf,dirkf,2022-06-14T18:45:34Z
+11665dd2367a2eefd1ad090828f987fef11226e4,[test] Fix linter for 3aa94d7945dfaa0e04acf2700ffe0e43b00db498,dirkf,dirkf,2022-06-15T17:26:54Z
+cc179df346abf34c8f77dbb221b839092007f20c,"[XHamster] Support xhday.com alias, extract `uploader_id`
+* support xhday.com alias for xhamster.com (resolves #31023)
+  Authored by: dirkf
+* extract `uploader_id`:
+  from https://github.com/yt-dlp/yt-dlp/commit/908b56eaf7872149706dbd7fa071f838d0c786b7
+  (PR https://github.com/yt-dlp/yt-dlp/pull/844)
+  Authored by: octotherp",dirkf,dirkf,2022-06-12T13:10:38Z
+0700fde6403aa9eec1ff02bff7323696a205900c,"[utils, etc] Kill child processes when yt-dl is killed
+
+* derived from PR #26592, closes #26592
+
+Authored by: Unrud",pukkandan,pukkandan,2021-01-09T12:26:12Z
+811c480f7b6c25ca510a033e6365d00174135392,"[YouTube] Support JSON3 subtitle format
+* subtitle tests updated to match",dirkf,dirkf,2022-06-09T14:25:23Z
+3aa94d7945dfaa0e04acf2700ffe0e43b00db498,"[test] Fix workable subtitle tests (except YT) and mark others as skip, broken
+
+* broken tests need to be fixed when fixing the respective IE",dirkf,dirkf,2022-06-08T22:11:33Z
+ef044be34bb64c489558dd07818616b514d2e2ad,[test] Skip not _WORKING IE in subtitle tests; use unittest.skipTest throughout,dirkf,dirkf,2022-06-08T14:52:21Z
+530f4582d011cd94986cf4d233f9fb9263f72150,"[HRFernsehen] Back-port new extractor from yt-dlp
+Closes #26445, where this was originally proposed.",dirkf,dirkf,2022-06-06T18:29:48Z
+1baa0f5f6678c047624785dc9a3ab3cb44a72809,"[utils] Escape URL while sanitizing
+Closes #31008, #yt-dlp/263
+
+While this fixes the issue in question, it does not try to address the root-cause of the problem
+Refer: 915f911e365736227e134ad654601443dbfd7ccb, f5fa042c82300218a2d07b95dd6b9c0756745db3",pukkandan,pukkandan,2021-04-28T23:26:09Z
