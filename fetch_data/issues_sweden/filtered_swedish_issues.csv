@@ -1,0 +1,58 @@
+Time Frame,Repository,Issue Number,Issue Title,Author,Opened by Swedish,Total Comments,Commented by Swedish,Resolution Time (Days)
+2022_2024,electron,37053,[Bug]: System tray fails in sandboxed Linux environment. Fixed in Chromium 9585757f9,TingPing,YES,5,YES,301
+2018_2019,vue,8112,Autofocus is lost once vue is loaded,alfonsobries,NO,15,YES,1167
+2018_2019,vue,7367,`v-model` did not handle CompositionEvent on Android,LeuisKen,YES,3,YES,63
+2018_2019,vue,7361,Why using isAndroid check when adding composition event listener in v-model?,LeuisKen,YES,2,YES,0
+2022_2024,kubernetes,123760,"[Flaking Test] [sig-network] Networking Granular Checks: Services should update endpoints: http (gce-ubuntu-master-containerd,master-blocking)",SubhasmitaSw,NO,5,YES,378
+2022_2024,kubernetes,113006,Not possible to load an ephemeral container in a POD with runAsNonRoot:true,uablrek,YES,13,YES,463
+2022_2024,kubernetes,122174,ClusterIP connections Reset (RST) after SYN-ACK,andreas-ibm,NO,6,YES,2
+2022_2024,kubernetes,119131,No ICMP is received when connecting to a node without local PODs when externalTrafficPolicy:Local is used,Sunnatillo,NO,9,YES,525
+2022_2024,kubernetes,112185,kube-proxy IPVS - Uncertain behavior on NodePort Entries,harshanarayana,NO,6,YES,298
+2022_2024,kubernetes,115526,kube-proxy IPVS mode configured with method SourceHash and Maglev should evenly distribute connections to all endpoints,sondinht,NO,3,YES,9
+2022_2024,kubernetes,121042,"kube-proxy ipvs: ""Failed to add IPVS service"" err=""no such file or directory""",chymy,NO,7,YES,387
+2022_2024,kubernetes,111840,"kube-proxy modes ipvs and userspace do not serve requests to localhost, while mode iptables does",dilyanpalauzov,NO,8,YES,770
+2022_2024,kubernetes,116419,NodeSelectorAsSelector needs to be fixed,aojea,NO,8,YES,546
+2022_2024,kubernetes,124636,service.spec.externalIPs is unnecessarily limited (enhancement request),jan-g,NO,6,YES,104
+2022_2024,kubernetes,123501,Allow admin to set the default bandwidth limit per port (network interface) for a container in a pod.,kundan2707,NO,4,YES,160
+2022_2024,kubernetes,124290,long living TCP connections hang when pod behind a ClusterIP service is restart,RoadRunnr,NO,8,YES,111
+2022_2024,kubernetes,122740,UDP connections of Services are not preserved after restarting kube-proxy,tnqn,NO,6,YES,187
+2022_2024,kubernetes,122743,figure out / document nftables version requirements,danwinship,NO,3,YES,177
+2022_2024,kubernetes,121371,Requests to a service with no local endpoints are dropped rather than ICMP rejected,chenlin2001,NO,9,YES,260
+2022_2024,kubernetes,116895,A K8s POD using mmap(2) can cause oom-kills on the K8s node,uablrek,YES,9,YES,447
+2022_2024,kubernetes,120979,"We might benefit from a ""network should continue working in cases that resemble syn_cookie or syn_flood"" test...",jayunit100,NO,7,YES,233
+2022_2024,kubernetes,124587,Selector-less service with secondary IPs not working properly on Rocky 8/9 with latest kube-proxy,fengye87,NO,3,YES,2
+2022_2024,kubernetes,117924,"""Connection reset by peer"" due to invalid conntrack packets",diandian2023,NO,8,YES,117
+2022_2024,kubernetes,123948,Internal dns (svc.cluster.local) doesn't work after applying ipvs mode.,Ryu0n,NO,4,YES,46
+2022_2024,kubernetes,123120,K8s can't live without a default route,uablrek,YES,6,YES,79
+2022_2024,kubernetes,122899,kube-proxy healthcheck all zero listening,chymy,NO,4,YES,87
+2022_2024,kubernetes,111863,"Service NodePorts can be accessed via LB IPs (iptables, at least)",thockin,NO,6,YES,611
+2022_2024,kubernetes,124260,"Broken connectivity while using IPVS, ExternalIP and externalTrafficPolicy: Local",NottyRu,NO,5,YES,1
+2022_2024,kubernetes,120659,Garbage collector for container images is unpredictable and inconsistent,mfranzil,NO,7,YES,197
+2022_2024,kubernetes,123810,Default ipFamilyPolicy value,maxpain,NO,5,YES,21
+2022_2024,kubernetes,123992,strictARP Configuration in kube-proxy (IPVS Mode) Does Not Revert sysctl Parameters on Setting to false,magicsong,NO,5,YES,9
+2022_2024,kubernetes,118233,IPVS flaky test gce,aroradaman,NO,8,YES,285
+2022_2024,kubernetes,122381,can't remove NodePorts from LoadBalancer type Service with AllocateLoadBalancerNodePorts=false ,armstrongli,NO,5,YES,76
+2022_2024,kubernetes,121035,how to get netnspath of container after k8s 1.24?,lelvisl,NO,7,YES,107
+2022_2024,kubernetes,123059,Customizing the manifest for the allocate device plugin,R-285,NO,3,YES,11
+2022_2024,kubernetes,122611,`--proxy-mode=nftables` fails if non-canonical (but standardized) IPv6 addresses are used,uablrek,YES,4,YES,4
+2022_2024,kubernetes,121362,endpoints not configured with MinimizeIPTablesRestore,juliantaylor,NO,5,YES,62
+2022_2024,kubernetes,121933,Minimize ensuring kube chains and jump rules,aroradaman,NO,4,YES,30
+2022_2024,kubernetes,121909,Trafic to externalIps of service with externalTrafficPolicy=Local and type=LoadBalancer is rejected from local pods.,jonasasx,NO,4,YES,28
+2022_2024,kubernetes,122015,One service manages multiple deployment instances. Service uses nodePort type. Upstream traffic is distributed unevenly through different deployment through nodePort.,Ljohn001,NO,6,YES,19
+2022_2024,kubernetes,119920,Cannot connect to service of it's own from inside pod or from other pods on Kubernetes ,Vivekdjango,NO,9,YES,116
+2022_2024,kubernetes,121991,"Kubernetes: failed creating expose service 'clabernetes/cicd-lab-core1' error: Service ""cicd-lab-core1"" is invalid: spec.ports: Invalid value",bharmarsameer,NO,3,YES,0
+2022_2024,kubernetes,121794,Kube-proxy/iptables: unit tests fails for count>1,uablrek,YES,2,YES,4
+2022_2024,kubernetes,121590,Kube-Proxy IPVS mode support port hash and fallback in sh schedule ,bamboo12366,NO,4,YES,8
+2022_2024,kubernetes,121750,flaky test k8s.io/kubernetes/pkg/proxy: ipvs (different tests),neolit123,NO,4,YES,0
+2022_2024,kubernetes,121591,Allowed configure IPVS scheduler per service,bamboo12366,NO,7,YES,7
+2022_2024,kubernetes,121530,Can’t connect from Pods on one server to Pods on different server using VXLAN,hawk2111,NO,5,YES,10
+2022_2024,kubernetes,121550,IPv6 and dual stack Azure tests failing to pull image with k8s HEAD ,CecileRobertMichon,NO,3,YES,5
+2022_2024,kubernetes,112171,Document and test minimum privileges to needed run kube-proxy,ialidzhikov,NO,7,YES,419
+2022_2024,kubernetes,121272,kube-proxy bug in ipvs mode,ivanovpavel1983,NO,3,YES,2
+2022_2024,kubernetes,118962,NET_RAW isn't added to ephemeral container via netadmin debugging profile,tonyaw,NO,9,YES,112
+2022_2024,kubernetes,121066,kube-proxy SNAT policy for nodeport should only be performed on traffic originating from the pod on the current host,lidajia,NO,5,YES,4
+2022_2024,kubernetes,119656,Can't restrict access from K8s nodes with loadBalancerSourceRanges for proxy-mode=ipvs,uablrek,YES,4,YES,74
+2022_2024,kubernetes,120837,"kubelet won't started  : Failed to update stats for container ""/"": openat2 /sys/fs/cgroup/memory/memory.kmem.limit_in_bytes: no such file or directory, continuing to push stats",JokerDevops,NO,6,YES,4
+2022_2024,kubernetes,120849,Check for bridge-nf-call-iptables=1 incorrect,uablrek,YES,6,YES,0
+2022_2024,kubernetes,120076,Kube-proxy setting (with proxy-mode being ipvs) ipvs.udpTimeout doesn't work,Drugoy,NO,6,YES,26
+2022_2024,kubernetes,119524,The nodeIP passed to kube proxiers is invalid,uablrek,YES,2,YES,50
