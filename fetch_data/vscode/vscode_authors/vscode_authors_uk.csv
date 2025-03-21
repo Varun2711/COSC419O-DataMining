@@ -1,78 +1,76 @@
-Time Frame,Username,Location
-2018_2019,jzyrobert,London
-2018_2019,orta,London / Huddersfield / NYC / Dublin / RDJ
-2018_2019,frobinsonj,England
-2018_2019,u-ways,United Kingdom
-2018_2019,callummr,"London, UK"
-2018_2019,MarcusNoble,Oxford
-2018_2019,asztal,United Kingdom
-2018_2019,babakks,United Kingdom
-2018_2019,dmolin,UK
-2018_2019,mutn3ja,London
-2018_2019,whittlec,UK
-2018_2019,flexiondotorg,"Hampshire, UK."
-2018_2019,penx,"Brighton, UK"
-2018_2019,Kedstar99,Cambridge
-2018_2019,padamczewski,London
-2018_2019,johnbillion,"Norwich, UK"
-2018_2019,DanTup,"England, UK"
-2018_2019,vtenfys,United Kingdom
-2018_2019,leonm1,"Cambridge, MA"
-2018_2019,zimbo73,"Reading, UK"
-2018_2019,krider2010,"Berkshire, UK"
-2018_2019,nesheroj,London
-2018_2019,DJMcNab,United Kingdom
-2018_2019,andyli,"Brighton, UK"
-2018_2019,gep13,"Aberdeen, UK"
-2018_2019,beauallison,"London, United Kingdom"
-2018_2019,callumisitt,"Hull, England"
-2018_2019,dwilliamson,"Brighton, UK / San Gabriel, US"
-2018_2019,pradeepmurugesan,"London, United Kingdom"
-2018_2019,sriram-dev,"London, United Kingdom"
-2018_2019,sergey-kintsel,"Cambridge, UK"
-2020_2022,babakks,United Kingdom
-2020_2022,thegecko,"Cambridge, UK"
-2020_2022,Lazyuki,London
-2020_2022,pksunkara,London
-2020_2022,jasonwilliams,"London, England"
-2020_2022,jzyrobert,London
-2020_2022,timretout,"Bedford, UK"
-2020_2022,galexite,"Exeter, United Kingdom"
-2020_2022,CanadaHonk,UK
-2020_2022,pauladams8,"London, GB"
-2020_2022,Daniel-Knights,UK
-2020_2022,smorimoto,"Cambridge, UK / Tokyo, Japan"
-2020_2022,habibkarim,London
-2020_2022,ItzLevvie,"London, England, United Kingdom"
-2020_2022,mjcrouch,"Surrey, UK"
-2020_2022,MarcelloTheArcane,United Kingdom
-2020_2022,edjeffreys,"Southampton, UK"
-2020_2022,johnbillion,"Norwich, UK"
-2020_2022,penx,"Brighton, UK"
-2020_2022,badsyntax,"North Yorkshire, UK"
-2020_2022,richard-townsend-arm,"Cambridge, UK"
-2020_2022,Helloimbob,"London, UK"
-2022_2024,grgar,UK
-2022_2024,CareyJWilliams,Cambridge
-2022_2024,thegecko,"Cambridge, UK"
-2022_2024,hickford,"Cambridge, United Kingdom"
-2022_2024,AndreasBackx,"London, United Kingdom"
-2022_2024,tomqwpl,"Romsey, UK"
-2022_2024,sparxooo,"West Midlands, United Kingdom"
-2022_2024,arvid220u,"Cambridge, MA"
-2022_2024,rebeccadee,"Bristol, UK"
-2022_2024,greenie,"London, England"
-2022_2024,colombod,UK
-2022_2024,dyedgreen,London
-2022_2024,tomheaton,United Kingdom
-2022_2024,fabiospampinato,"London, UK"
-2022_2024,scarletcs,United Kingdom
-2022_2024,NWilson,"Cambridge, CB4"
-2022_2024,mikemikhaylov,London
-2022_2024,babakks,United Kingdom
-2022_2024,pokey,"London, United Kingdom"
-2022_2024,jasonwilliams,"London, England"
-2022_2024,Sean1708,"London, UK"
-2022_2024,jzyrobert,London
-2022_2024,SphinxKnight,Edinburgh
-2022_2024,errietta,"London, UK"
+Time Frame,Username,Location,Email
+2018_2019,jzyrobert,London,Unknown
+2018_2019,orta,London / Huddersfield / NYC / Dublin / RDJ,git@orta.io
+2018_2019,frobinsonj,England,Unknown
+2018_2019,u-ways,United Kingdom,Unknown
+2018_2019,callummr,"London, UK",me@callummr.com
+2018_2019,MarcusNoble,Oxford,Unknown
+2018_2019,asztal,United Kingdom,Unknown
+2018_2019,babakks,United Kingdom,babakks@github.com
+2018_2019,dmolin,UK,davide@davidemolin.com
+2018_2019,mutn3ja,London,Unknown
+2018_2019,whittlec,UK,Unknown
+2018_2019,flexiondotorg,"Hampshire, UK.",Unknown
+2018_2019,penx,"Brighton, UK",Unknown
+2018_2019,Kedstar99,Cambridge,krish-github@kedstar99.xyz
+2018_2019,padamczewski,London,Unknown
+2018_2019,johnbillion,"Norwich, UK",Unknown
+2018_2019,DanTup,"England, UK",danny@tuppeny.com
+2018_2019,vtenfys,United Kingdom,Unknown
+2018_2019,zimbo73,"Reading, UK",rich@allyandrich.co.uk
+2018_2019,krider2010,"Berkshire, UK",Unknown
+2018_2019,nesheroj,London,nesheroj@gmail.com
+2018_2019,DJMcNab,United Kingdom,Unknown
+2018_2019,andyli,"Brighton, UK",andy@onthewings.net
+2018_2019,gep13,"Aberdeen, UK",Unknown
+2018_2019,beauallison,"London, United Kingdom",Unknown
+2018_2019,callumisitt,"Hull, England",Unknown
+2018_2019,dwilliamson,"Brighton, UK / San Gabriel, US",Unknown
+2018_2019,pradeepmurugesan,"London, United Kingdom",peeps35@gmail.com
+2018_2019,sriram-dev,"London, United Kingdom",Unknown
+2018_2019,sergey-kintsel,"Cambridge, UK",Unknown
+2020_2022,babakks,United Kingdom,babakks@github.com
+2020_2022,thegecko,"Cambridge, UK",github@thegecko.org
+2020_2022,Lazyuki,London,Unknown
+2020_2022,pksunkara,London,pavan.sss1991@gmail.com
+2020_2022,jasonwilliams,"London, England",Unknown
+2020_2022,jzyrobert,London,Unknown
+2020_2022,timretout,"Bedford, UK",tim@retout.co.uk
+2020_2022,galexite,"Exeter, United Kingdom",Unknown
+2020_2022,CanadaHonk,UK,honk@goose.icu
+2020_2022,pauladams8,"London, GB",paul+github@thecoderszone.com
+2020_2022,Daniel-Knights,UK,Unknown
+2020_2022,smorimoto,"Cambridge, UK / Tokyo, Japan",sora@morimoto.io
+2020_2022,habibkarim,London,Unknown
+2020_2022,ItzLevvie,"London, England, United Kingdom",Unknown
+2020_2022,mjcrouch,"Surrey, UK",Unknown
+2020_2022,MarcelloTheArcane,United Kingdom,Unknown
+2020_2022,edjeffreys,"Southampton, UK",ed@edjeffreys.com
+2020_2022,johnbillion,"Norwich, UK",Unknown
+2020_2022,penx,"Brighton, UK",Unknown
+2020_2022,badsyntax,"North Yorkshire, UK",willis.rh@gmail.com
+2020_2022,richard-townsend-arm,"Cambridge, UK",Richard.Townsend@arm.com
+2020_2022,Helloimbob,"London, UK",Unknown
+2022_2024,grgar,UK,Unknown
+2022_2024,CareyJWilliams,Cambridge,Unknown
+2022_2024,thegecko,"Cambridge, UK",github@thegecko.org
+2022_2024,hickford,"Cambridge, United Kingdom",mirth.hickford@gmail.com
+2022_2024,AndreasBackx,"London, United Kingdom",Unknown
+2022_2024,tomqwpl,"Romsey, UK",Unknown
+2022_2024,sparxooo,"West Midlands, United Kingdom",Unknown
+2022_2024,rebeccadee,"Bristol, UK",Unknown
+2022_2024,greenie,"London, England",Unknown
+2022_2024,colombod,UK,dicolomb@microsoft.com
+2022_2024,dyedgreen,London,Unknown
+2022_2024,tomheaton,United Kingdom,Unknown
+2022_2024,fabiospampinato,"London, UK",fabio@notable.app
+2022_2024,scarletcs,United Kingdom,Unknown
+2022_2024,NWilson,"Cambridge, CB4",nicholas@nicholaswilson.me.uk
+2022_2024,mikemikhaylov,London,Unknown
+2022_2024,babakks,United Kingdom,babakks@github.com
+2022_2024,pokey,"London, United Kingdom",Unknown
+2022_2024,jasonwilliams,"London, England",Unknown
+2022_2024,Sean1708,"London, UK",srm.1708@gmail.com
+2022_2024,jzyrobert,London,Unknown
+2022_2024,SphinxKnight,Edinburgh,Unknown
+2022_2024,errietta,"London, UK",Unknown

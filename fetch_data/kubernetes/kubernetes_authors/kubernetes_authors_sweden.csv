@@ -1,10 +1,10 @@
-Time Frame,Username,Location
-2018_2019,anderseknert,"Stockholm, Sweden"
-2018_2019,zegl,"Stockholm, Sweden"
-2020_2022,joakimr-axis,"Lund, Sweden"
-2020_2022,Mattias-,"Stockholm, Sweden"
-2020_2022,HerrNaN,Sweden
-2020_2022,amimof,Sweden
-2020_2022,anderseknert,"Stockholm, Sweden"
-2022_2024,flavianmissi,Sweden
-2022_2024,uablrek,Sweden
+Time Frame,Username,Location,Email
+2018_2019,anderseknert,"Stockholm, Sweden",anders@eknert.com
+2018_2019,zegl,"Stockholm, Sweden",gustav@westling.dev
+2020_2022,joakimr-axis,"Lund, Sweden",joakim.roubert@axis.com
+2020_2022,Mattias-,"Stockholm, Sweden",Unknown
+2020_2022,HerrNaN,Sweden,Unknown
+2020_2022,amimof,Sweden,Unknown
+2020_2022,anderseknert,"Stockholm, Sweden",anders@eknert.com
+2022_2024,flavianmissi,Sweden,Unknown
+2022_2024,uablrek,Sweden,Unknown

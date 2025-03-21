@@ -2,8 +2,10 @@ import os
 import pandas as pd
 
 repo_folders = {
-    "kubernetes": "kubernetes_results",
-    "tensorflow": "tensorflow_results",
+    "electron": "electron/electron_results",
+    "n8n": "n8n/n8n_results",
+    "superset": "superset/superset_results",
+    "youtube": "youtube/youtube_results",
 }
 
 time_frames = [
@@ -38,7 +40,7 @@ for repo, folder in repo_folders.items():
             print(f"❌ File not found: {filename}")
 
 # Save results 
-output_file = "commit_users_3.csv"
+output_file = "commit_users_2.csv"
 with open(output_file, "w", newline="", encoding="utf-8") as file:
     file.write("Repository,Time Frame,Username\n")
     for (repo, label), users in unique_users.items():
