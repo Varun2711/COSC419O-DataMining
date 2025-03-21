@@ -1,29 +1,28 @@
-Time Frame,Username,Location
-2018_2019,jryans,"London, UK"
-2018_2019,richard-townsend-arm,"Cambridge, UK"
-2018_2019,louismrose,"York, UK"
-2018_2019,Thomas101,"Wales, UK"
-2018_2019,alexgreenland,London
-2018_2019,jwheare,UK
-2018_2019,TechnicalSoup,"Newcastle, Australia"
-2020_2022,CanadaHonk,UK
-2020_2022,Harry-Hopkinson,"Hertfordshire, England"
-2020_2022,kevinhartman,"Cambridge, MA"
-2020_2022,robin-fowler,London
-2020_2022,germain-gg,"London, United Kingdom"
-2020_2022,gniezen,"Swansea, Wales, United Kingdom"
-2020_2022,efsiatras,"London, UK"
-2020_2022,scottrobertson,"Newcastle, UK"
-2020_2022,jameshfisher,"London, UK"
-2020_2022,markwylde,"London, UK"
-2020_2022,foxt,United Kingdom
-2020_2022,fabiospampinato,"London, UK"
-2020_2022,ascorbic,UK
-2020_2022,MehediH,London
-2020_2022,rtpHarry,"Lincoln, UK"
-2022_2024,IsmaelMartinez,Edinburgh
-2022_2024,gecko19,"London, United Kingdom"
-2022_2024,hughjdavey,United Kingdom
-2022_2024,daniel-koc,London
-2022_2024,CanadaHonk,UK
-2022_2024,UppaJung,"Cambridge, MA"
+Time Frame,Username,Location,Email
+2018_2019,jryans,"London, UK",jryans@gmail.com
+2018_2019,richard-townsend-arm,"Cambridge, UK",Richard.Townsend@arm.com
+2018_2019,louismrose,"York, UK",mail@louismrose.com
+2018_2019,Thomas101,"Wales, UK",Unknown
+2018_2019,alexgreenland,London,Unknown
+2018_2019,jwheare,UK,james@wheare.org
+2020_2022,CanadaHonk,UK,honk@goose.icu
+2020_2022,Harry-Hopkinson,"Hertfordshire, England",Unknown
+2020_2022,kevinhartman,"Cambridge, MA",kevin@hart.mn
+2020_2022,robin-fowler,London,Unknown
+2020_2022,germain-gg,"London, United Kingdom",Unknown
+2020_2022,gniezen,"Swansea, Wales, United Kingdom",Unknown
+2020_2022,efsiatras,"London, UK",Unknown
+2020_2022,scottrobertson,"Newcastle, UK",Unknown
+2020_2022,jameshfisher,"London, UK",jameshfisher@gmail.com
+2020_2022,markwylde,"London, UK",Unknown
+2020_2022,foxt,United Kingdom,me@foxt.dev
+2020_2022,fabiospampinato,"London, UK",fabio@notable.app
+2020_2022,ascorbic,UK,Unknown
+2020_2022,MehediH,London,Unknown
+2020_2022,rtpHarry,"Lincoln, UK",Unknown
+2022_2024,IsmaelMartinez,Edinburgh,ISMAELMARTINEZ@GMAIL.COM
+2022_2024,gecko19,"London, United Kingdom",kottackal.george@gmail.com
+2022_2024,hughjdavey,United Kingdom,Unknown
+2022_2024,daniel-koc,London,Unknown
+2022_2024,CanadaHonk,UK,honk@goose.icu
+

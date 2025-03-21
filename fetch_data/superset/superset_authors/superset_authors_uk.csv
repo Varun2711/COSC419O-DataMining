@@ -1,19 +1,16 @@
-Time Frame,Username,Location
-2018_2019,kaxil,United Kingdom
-2020_2022,EBoisseauSierra,"Cambridge, UK"
-2020_2022,srinify,"Cambridge, MA"
-2020_2022,kaapstorm,"Edinburgh, Scotland"
-2020_2022,PApostol,"London, UK"
-2020_2022,ancasarb,"London, UK"
-2020_2022,Reslan-Tinawi,"Coventry, UK"
-2020_2022,koszti,London United Kingdom
-2020_2022,TColl,"Sheffield, UK"
-2020_2022,aklin,"London, UK"
-2022_2024,skion,"London, UK"
-2022_2024,giftig,London
-2022_2024,codek,London
-2022_2024,arjundevarajan,"Cambridge, MA"
-2022_2024,Stanhoucke,"Edinburgh, United Kingdom"
-2022_2024,koszti,London United Kingdom
-2022_2024,srinify,"Cambridge, MA"
-2022_2024,EBoisseauSierra,"Cambridge, UK"
+Time Frame,Username,Location,Email
+2018_2019,kaxil,United Kingdom,Unknown
+2020_2022,EBoisseauSierra,"Cambridge, UK",Unknown
+2020_2022,kaapstorm,"Edinburgh, Scotland",Unknown
+2020_2022,PApostol,"London, UK",Unknown
+2020_2022,ancasarb,"London, UK",Anca.Sarb@thomsonreuters.com
+2020_2022,Reslan-Tinawi,"Coventry, UK",reslan3121@gmail.com
+2020_2022,koszti,London United Kingdom,peter.kosztolanyi@gmail.com
+2020_2022,TColl,"Sheffield, UK",Unknown
+2020_2022,aklin,"London, UK",Unknown
+2022_2024,skion,"London, UK",Unknown
+2022_2024,giftig,London,Unknown
+2022_2024,codek,London,Unknown
+2022_2024,Stanhoucke,"Edinburgh, United Kingdom",Unknown
+2022_2024,koszti,London United Kingdom,peter.kosztolanyi@gmail.com
+2022_2024,EBoisseauSierra,"Cambridge, UK",Unknown

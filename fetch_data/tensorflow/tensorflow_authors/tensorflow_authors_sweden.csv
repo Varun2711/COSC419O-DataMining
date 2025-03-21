@@ -1,20 +1,21 @@
-Time Frame,Username,Location
-2018_2019,freddan80,"Malmö, Sweden"
-2018_2019,johang,"Lund, Sweden"
-2018_2019,silfverstrom,Sweden
-2018_2019,andhus,"Stockholm, Sweden"
-2018_2019,steven-chien,Stockholm
-2018_2019,carlthome,"Stockholm, Sweden"
-2018_2019,RohinMohanadas,"Stockholm, Sweden"
-2020_2022,freddan80,"Malmö, Sweden"
-2020_2022,johang,"Lund, Sweden"
-2020_2022,annietllnd,Lund
-2020_2022,JonasOhlsson,"Malmö, Sweden"
-2020_2022,shlmregev,"Stockholm, Sweden"
-2020_2022,tcwalther,Stockholm
-2020_2022,oskarflordal,Sverige
-2020_2022,Ricardicus,Sweden
-2020_2022,hwaxxer,Stockholm
-2020_2022,jvistrand,Sweden
-2022_2024,talyz,Stockholm
-2022_2024,Ricardicus,Sweden
+Time Frame,Username,Location,Email
+2018_2019,DoumanAsh,夢,douman@gmx.se
+2018_2019,freddan80,"Malmö, Sweden",fredrik.knutsson@arm.com
+2018_2019,johang,"Lund, Sweden",johan.gunnarsson@gmail.com
+2018_2019,silfverstrom,Sweden,niklas@silfverstrom.com
+2018_2019,andhus,"Stockholm, Sweden",Unknown
+2018_2019,steven-chien,Stockholm,Unknown
+2018_2019,carlthome,"Stockholm, Sweden",Unknown
+2018_2019,RohinMohanadas,"Stockholm, Sweden",Unknown
+2020_2022,freddan80,"Malmö, Sweden",fredrik.knutsson@arm.com
+2020_2022,johang,"Lund, Sweden",johan.gunnarsson@gmail.com
+2020_2022,annietllnd,Lund,Unknown
+2020_2022,JonasOhlsson,"Malmö, Sweden",Unknown
+2020_2022,shlmregev,"Stockholm, Sweden",Unknown
+2020_2022,tcwalther,Stockholm,earthnail@gmail.com
+2020_2022,oskarflordal,Sverige,Unknown
+2020_2022,Ricardicus,Sweden,rickard.hallerback@gmail.com
+2020_2022,hwaxxer,Stockholm,Unknown
+2020_2022,jvistrand,Sweden,jonas.skog@arm.com
+2022_2024,talyz,Stockholm,Unknown
+2022_2024,Ricardicus,Sweden,rickard.hallerback@gmail.com
