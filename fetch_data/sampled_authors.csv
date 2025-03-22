@@ -1,0 +1,48 @@
+Time Frame,Username,Location,Email,repository,pre_pandemic_commits,pandemic_commits,post_pandemic_commits,total_commits,primary_timeframe
+2020_2022,tamasarm,"Cambridge, UK",Unknown,tensorflow,0,17,0,17,2020_2022
+2022_2024,raditotev,London,Unknown,freecodecamp,0,11,11,22,2020_2022
+2022_2024,bboreham,"London, UK",bjboreham@gmail.com,kubernetes,1,5,1,7,2020_2022
+2022_2024,lhutton1,Cambridge,Unknown,tensorflow,0,0,10,10,2022_2024
+2020_2022,gniezen,"Swansea, Wales, United Kingdom",Unknown,electron,0,2,0,2,2020_2022
+2018_2019,mohamednourarm,Cambridge,Unknown,tensorflow,1,3,0,4,2020_2022
+2018_2019,flexiondotorg,"Hampshire, UK.",Unknown,vscode,12,0,0,12,2018_2019
+2018_2019,ml4711,"London, UK",markus.lanser@gmail.com,freecodecamp,4,0,0,4,2018_2019
+2022_2024,saran-t,"London, UK",stun@google.com,tensorflow,3,0,1,4,2018_2019
+2018_2019,andyljones,London,me@andyljones.com,pytorch,1,2,0,3,2020_2022
+2018_2019,rspdev,UK,Unknown,freecodecamp,3,0,0,3,2018_2019
+2018_2019,jonathan-grah,United Kingdom,jonathan@jgraham.dev,freecodecamp,7,0,0,7,2018_2019
+2020_2022,michael-k,"North Ayrshire, Scotland",Unknown,tensorflow,2,1,0,3,2018_2019
+2020_2022,starfallprojects,"West Yorkshire, UK",deborah@deborahwrites.com,n8n,0,1,37,38,2022_2024
+2022_2024,tessil,"Cambridge, UK - Brussels, Belgium",Unknown,tensorflow,0,120,40,160,2020_2022
+2018_2019,alanpaulprice,"Wales, United Kingdom",Unknown,freecodecamp,6,0,0,6,2018_2019
+2018_2019,samueltommzy,London,samueloluwatommzy@gmail.com,freecodecamp,2,0,0,2,2018_2019
+2022_2024,renato-arantes,"Manchester, UK",Unknown,tensorflow,0,0,2,2,2022_2024
+2018_2019,weihungchin,United Kingdom,Unknown,freecodecamp,4,0,0,4,2018_2019
+2018_2019,tomhennigan,"London, UK",tomhennigan@gmail.com,tensorflow,103,25,7,135,2018_2019
+2018_2019,asmitapoddar,"Oxford, United Kingdom",asmita.poddar@cs.ox.ac.uk,tensorflow,3,0,0,3,2018_2019
+2020_2022,vmoens,London,vincentmoens@gmail.com,pytorch,0,1,1,2,2020_2022
+2020_2022,ezgicicek,London,ezgicicekk@gmail.com,pytorch,0,3,2,5,2020_2022
+2022_2024,jamaliki,"Cambridge, UK",kjamali@mrc-lmb.cam.ac.uk,pytorch,0,1,2,3,2022_2024
+2018_2019,carlmungazi,United Kingdom,Unknown,react,3,0,0,3,2018_2019
+2020_2022,threepointone,"London, England",Unknown,react,8,9,0,17,2020_2022
+2022_2024,vmoens,London,vincentmoens@gmail.com,pytorch,0,1,1,2,2020_2022
+2018_2019,rofergs,United Kingdom,Unknown,freecodecamp,3,0,0,3,2018_2019
+2018_2019,jonmoon74,United Kingdom,Unknown,freecodecamp,4,0,0,4,2018_2019
+2020_2022,adamhillier,"London, UK",Unknown,tensorflow,0,12,0,12,2020_2022
+2018_2019,orta,London / Huddersfield / NYC / Dublin / RDJ,git@orta.io,vscode,6,0,0,6,2018_2019
+2022_2024,bartchr808,"London, United Kingdom",Unknown,tensorflow,0,0,7,7,2022_2024
+2018_2019,errordeveloper,"London, UK",errordeveloper@gmail.com,kubernetes,2,0,0,2,2018_2019
+2018_2019,girving,London,irving@naml.us,tensorflow,15,0,0,15,2018_2019
+2020_2022,nsircombe,UK,Unknown,tensorflow,0,9,9,18,2020_2022
+2018_2019,jamestrick,"London, United Kingdom",jcallinicos@gmail.com,pytorch,2,0,0,2,2018_2019
+2020_2022,datumbox,United Kingdom,Unknown,pytorch,0,5,3,8,2020_2022
+2018_2019,glenjamin,"Sheffield, United Kingdom",glen@stainlessed.co.uk,pytorch,2,0,0,2,2018_2019
+2018_2019,richard-townsend-arm,"Cambridge, UK",Richard.Townsend@arm.com,electron,7,0,0,7,2018_2019
+2018_2019,davidnorman,Bristol,Unknown,tensorflow,47,0,0,47,2018_2019
+2020_2022,babakks,United Kingdom,babakks@github.com,vscode,2,17,69,88,2022_2024
+2018_2019,djmcnab,United Kingdom,Unknown,vscode,2,0,0,2,2018_2019
+2018_2019,bouncey,Northern Ireland,staylor1012@gmail.com,freecodecamp,562,1,0,563,2018_2019
+2022_2024,hickford,"Cambridge, United Kingdom",mirth.hickford@gmail.com,vscode,0,0,4,4,2022_2024
+2020_2022,mucahitkurt,"London, UK",Unknown,kubernetes,4,1,0,5,2018_2019
+2022_2024,nsircombe,UK,Unknown,tensorflow,0,9,9,18,2020_2022
+2020_2022,richard-townsend-arm,"Cambridge, UK",Richard.Townsend@arm.com,vscode,0,7,0,7,2020_2022

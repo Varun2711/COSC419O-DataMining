@@ -1,0 +1,31 @@
+Time Frame,Author,Location,Email,repository,pre_pandemic_commits,pandemic_commits,post_pandemic_commits,total_commits
+2020_2022,CanadaHonk,UK,honk@goose.icu,electron,0,1,1,2
+2022_2024,CanadaHonk,UK,honk@goose.icu,electron,0,1,1,2
+2018_2019,Bouncey,Northern Ireland,staylor1012@gmail.com,freecodecamp,239,1,0,240
+2018_2019,GregRush,"All over the place... currently in Italy, heading to England!",Unknown,freecodecamp,3,0,0,3
+2018_2019,nikrb,UK,nik_rb@yahoo.com,freecodecamp,3,0,0,3
+2018_2019,jonmoon74,United Kingdom,Unknown,freecodecamp,4,0,0,4
+2020_2022,piouson,"Manchester, UK",Unknown,freecodecamp,0,2,0,2
+2020_2022,Bouncey,Northern Ireland,staylor1012@gmail.com,freecodecamp,239,1,0,240
+2020_2022,ahrtr,"London, UK",Unknown,kubernetes,0,8,0,8
+2022_2024,ah8ad3,London,ah8ad3@gmail.com,kubernetes,0,0,8,8
+2020_2022,pemontto,London,Unknown,n8n,0,14,14,28
+2020_2022,ajmeredith1200,York - UK ,Unknown,n8n,0,2,0,2
+2022_2024,pemontto,London,Unknown,n8n,0,14,14,28
+2020_2022,pejato,"Cambridge, MA",pejato@umich.edu,pytorch,0,2,0,2
+2022_2024,yhl48,"London, England. Penang, Malaysia.",limjohnyh@gmail.com,pytorch,0,0,3,3
+2022_2024,jacdebug,London,Unknown,react,0,0,2,2
+2020_2022,PApostol,"London, UK",Unknown,superset,0,5,0,5
+2018_2019,DavidNorman,Bristol,Unknown,tensorflow,9,0,0,9
+2018_2019,dmitrievanthony,"London, United Kingdom",dmitrievanthony@gmail.com,tensorflow,9,0,0,9
+2018_2019,krantideep95,London,Unknown,tensorflow,2,0,0,2
+2020_2022,cfRod,"Manchester, UK",Unknown,tensorflow,0,3,1,4
+2020_2022,Michael137,United Kingdom,michaelbuch12@gmail.com,tensorflow,0,3,0,3
+2022_2024,cfRod,"Manchester, UK",Unknown,tensorflow,0,3,1,4
+2018_2019,frobinsonj,England,Unknown,vscode,2,0,0,2
+2020_2022,CanadaHonk,UK,honk@goose.icu,vscode,0,3,0,3
+2020_2022,mjcrouch,"Surrey, UK",Unknown,vscode,0,5,0,5
+2020_2022,Helloimbob,"London, UK",Unknown,vscode,0,3,0,3
+2022_2024,sparxooo,"West Midlands, United Kingdom",Unknown,vscode,0,0,10,10
+2018_2019,pikax,London,carlos@hypermob.co.uk,vue,0,20,0,20
+2020_2022,pikax,London,carlos@hypermob.co.uk,vue,0,20,0,20
